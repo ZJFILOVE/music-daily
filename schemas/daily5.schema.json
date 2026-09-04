@@ -29,15 +29,14 @@
             "properties": {
               "url": {
                 "type": "string",
-                "pattern": "^https://music\\.apple\\.com/[a-z]{2}/song/(?:[^/]+/)?[0-9]+(?:[?].*)?$"
+                "pattern": "^https://music\\.apple\\.com/cn/song/(?:[^/]+/)?[0-9]+(?:[?].*)?$"
               },
               "song_id": {
                 "type": "string",
                 "pattern": "^[0-9]+$"
               },
               "storefront": {
-                "type": "string",
-                "pattern": "^[a-z]{2}$"
+                "const": "cn"
               }
             },
             "additionalProperties": false
