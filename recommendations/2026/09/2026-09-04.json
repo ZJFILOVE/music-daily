@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-04",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-04.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "暧昧",
+      "artist": "王菲",
+      "album": null,
+      "canonical_id": "王菲::暧昧",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/search?term=%E7%8E%8B%E8%8F%B2%20%E6%9A%A7%E6%98%A7",
+        "song_id": null
+      },
+      "analysis_summary": "用轻盈人声与混响尾音检查中心定位、空气感和高频是否自然。",
+      "listening_cue": "注意句尾气息、齿音与混响尾音能否彼此分离。"
+    },
+    {
+      "position": 2,
+      "title": "流沙",
+      "artist": "陶喆",
+      "album": null,
+      "canonical_id": "陶喆::流沙",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/search?term=%E9%99%B6%E5%96%86%20%E6%B5%81%E6%B2%99",
+        "song_id": null
+      },
+      "analysis_summary": "用 R&B 的鼓、贝斯与人声切分检查低频弹性和 groove。",
+      "listening_cue": "区分底鼓与贝斯的起音，并听主唱句尾小幅转音是否自然。"
+    },
+    {
+      "position": 3,
+      "title": "我怀念的",
+      "artist": "孙燕姿",
+      "album": null,
+      "canonical_id": "孙燕姿::我怀念的",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/search?term=%E5%AD%99%E7%87%95%E5%A7%BF%20%E6%88%91%E6%80%80%E5%BF%B5%E7%9A%84",
+        "song_id": null
+      },
+      "analysis_summary": "通过由弱到强的编曲检查动态增长时的人声质地和声场层次。",
+      "listening_cue": "高潮处确认人声仍稳定居中，而伴奏是向两侧与后方扩展而非糊成一墙。"
+    },
+    {
+      "position": 4,
+      "title": "陌生人",
+      "artist": "蔡健雅",
+      "album": null,
+      "canonical_id": "蔡健雅::陌生人",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/search?term=%E8%94%A1%E5%81%A5%E9%9B%85%20%E9%99%8C%E7%94%9F%E4%BA%BA",
+        "song_id": null
+      },
+      "analysis_summary": "偏厚的中低音人声适合检查中频密度、实体感和背景安静度。",
+      "listening_cue": "听低音区人声是否有厚度但不闷，以及伴奏尾音能否自然消失。"
+    },
+    {
+      "position": 5,
+      "title": "单车",
+      "artist": "陈奕迅",
+      "album": null,
+      "canonical_id": "陈奕迅::单车",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/search?term=%E9%99%88%E5%A5%95%E8%BF%85%20%E5%8D%95%E8%BD%A6",
+        "song_id": null
+      },
+      "analysis_summary": "用逐步增强的演唱和编曲检查中频动态、前后层次以及高能量段是否变硬。",
+      "listening_cue": "保持固定音量，从安静段听到情绪抬升，观察人声是否自然增加力度而不刺耳。"
+    }
+  ]
+}
