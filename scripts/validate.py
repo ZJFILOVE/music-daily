@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REC = ROOT / "recommendations"
 STATE = ROOT / "state" / "tracks.json"
 SONG_URL_RE = re.compile(
-    r"^https://music\.apple\.com/[A-Za-z]{2}/song/(?:[^/]+/)?([0-9]+)(?:\?.*)?$"
+    r"^https://music\.apple\.com/([a-z]{2})/song/(?:[^/]+/)?([0-9]+)(?:\?.*)?$"
 )
 
 
@@ -41,6 +41,7 @@ def validate_manifest(path):
             fail(f"{path}: apple_music must be an object")
         url = am.get("url")
         song_id = am.get("song_id")
+        storefront = am.get("storefront")
         if not isinstance(url, str):
             fail(f"{path}: apple_music.url is required")
         match = SONG_URL_RE.fullmatch(url)
@@ -51,9 +52,16 @@ def validate_manifest(path):
             )
         if not isinstance(song_id, str) or not song_id.isdigit():
             fail(f"{path}: apple_music.song_id must be a numeric string")
-        if match.group(1) != song_id:
+        if not isinstance(storefront, str) or not re.fullmatch(r"[a-z]{2}", storefront):
+            fail(f"{path}: apple_music.storefront must be a lowercase 2-letter storefront")
+        if match.group(2) != song_id:
             fail(
                 f"{path}: apple_music.song_id {song_id} does not match URL id "
+                f"{match.group(2)}"
+            )
+        if match.group(1) != storefront:
+            fail(
+                f"{path}: apple_music.storefront {storefront} does not match URL storefront "
                 f"{match.group(1)}"
             )
         ids.append(t["canonical_id"])
