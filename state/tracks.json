@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "recommended": {
+    "王菲::暧昧": {"first_recommended": "2026-09-04", "last_recommended": "2026-09-04", "count": 1},
+    "陶喆::流沙": {"first_recommended": "2026-09-04", "last_recommended": "2026-09-04", "count": 1},
+    "孙燕姿::我怀念的": {"first_recommended": "2026-09-04", "last_recommended": "2026-09-04", "count": 1},
+    "蔡健雅::陌生人": {"first_recommended": "2026-09-04", "last_recommended": "2026-09-04", "count": 1},
+    "陈奕迅::单车": {"first_recommended": "2026-09-04", "last_recommended": "2026-09-04", "count": 1}
+  }
+}
