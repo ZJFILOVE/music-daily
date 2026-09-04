@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REC = ROOT / "recommendations"
 STATE = ROOT / "state" / "tracks.json"
 SONG_URL_RE = re.compile(
-    r"^https://music\.apple\.com/([a-z]{2})/song/(?:[^/]+/)?([0-9]+)(?:\?.*)?$"
+    r"^https://music\.apple\.com/cn/song/(?:[^/]+/)?([0-9]+)(?:\?.*)?$"
 )
 
 
@@ -47,21 +47,16 @@ def validate_manifest(path):
         match = SONG_URL_RE.fullmatch(url)
         if not match:
             fail(
-                f"{path}: apple_music.url must be a direct Apple Music song URL, "
-                "not a search/album/artist/playlist URL"
+                f"{path}: apple_music.url must be a direct China Apple Music song URL "
+                "under https://music.apple.com/cn/song/..."
             )
         if not isinstance(song_id, str) or not song_id.isdigit():
             fail(f"{path}: apple_music.song_id must be a numeric string")
-        if not isinstance(storefront, str) or not re.fullmatch(r"[a-z]{2}", storefront):
-            fail(f"{path}: apple_music.storefront must be a lowercase 2-letter storefront")
-        if match.group(2) != song_id:
+        if storefront != "cn":
+            fail(f"{path}: apple_music.storefront must be cn")
+        if match.group(1) != song_id:
             fail(
                 f"{path}: apple_music.song_id {song_id} does not match URL id "
-                f"{match.group(2)}"
-            )
-        if match.group(1) != storefront:
-            fail(
-                f"{path}: apple_music.storefront {storefront} does not match URL storefront "
                 f"{match.group(1)}"
             )
         ids.append(t["canonical_id"])
@@ -91,7 +86,7 @@ def main():
         if missing:
             fail(f"state/tracks.json missing manifest ids: {sorted(missing)}")
 
-    print(f"OK: {len(seen)} unique recommended tracks validated")
+    print(f"OK: {len(seen)} unique recommended tracks validated for China storefront")
 
 
 if __name__ == "__main__":
