@@ -25,15 +25,19 @@
           "canonical_id": {"type": "string", "minLength": 1},
           "apple_music": {
             "type": "object",
-            "required": ["url", "song_id"],
+            "required": ["url", "song_id", "storefront"],
             "properties": {
               "url": {
                 "type": "string",
-                "pattern": "^https://music\\.apple\\.com/[A-Za-z]{2}/song/(?:[^/]+/)?[0-9]+(?:[?].*)?$"
+                "pattern": "^https://music\\.apple\\.com/[a-z]{2}/song/(?:[^/]+/)?[0-9]+(?:[?].*)?$"
               },
               "song_id": {
                 "type": "string",
                 "pattern": "^[0-9]+$"
+              },
+              "storefront": {
+                "type": "string",
+                "pattern": "^[a-z]{2}$"
               }
             },
             "additionalProperties": false
