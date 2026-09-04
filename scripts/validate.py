@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 import json
+import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REC = ROOT / "recommendations"
 STATE = ROOT / "state" / "tracks.json"
+SONG_URL_RE = re.compile(
+    r"^https://music\.apple\.com/[A-Za-z]{2}/song/(?:[^/]+/)?([0-9]+)(?:\?.*)?$"
+)
 
 
 def fail(msg):
@@ -33,8 +37,25 @@ def validate_manifest(path):
             if k not in t:
                 fail(f"{path}: missing track field {k}")
         am = t["apple_music"]
-        if not isinstance(am, dict) or not am.get("url"):
+        if not isinstance(am, dict):
+            fail(f"{path}: apple_music must be an object")
+        url = am.get("url")
+        song_id = am.get("song_id")
+        if not isinstance(url, str):
             fail(f"{path}: apple_music.url is required")
+        match = SONG_URL_RE.fullmatch(url)
+        if not match:
+            fail(
+                f"{path}: apple_music.url must be a direct Apple Music song URL, "
+                "not a search/album/artist/playlist URL"
+            )
+        if not isinstance(song_id, str) or not song_id.isdigit():
+            fail(f"{path}: apple_music.song_id must be a numeric string")
+        if match.group(1) != song_id:
+            fail(
+                f"{path}: apple_music.song_id {song_id} does not match URL id "
+                f"{match.group(1)}"
+            )
         ids.append(t["canonical_id"])
         positions.append(t["position"])
     if len(ids) != len(set(ids)):
