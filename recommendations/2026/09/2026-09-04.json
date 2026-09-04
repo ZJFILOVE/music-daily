@@ -13,7 +13,8 @@
       "canonical_id": "王菲::暧昧",
       "apple_music": {
         "url": "https://music.apple.com/us/song/1463501518",
-        "song_id": "1463501518"
+        "song_id": "1463501518",
+        "storefront": "us"
       },
       "analysis_summary": "用轻盈人声与混响尾音检查中心定位、空气感和高频是否自然。",
       "listening_cue": "注意句尾气息、齿音与混响尾音能否彼此分离。"
@@ -26,7 +27,8 @@
       "canonical_id": "陶喆::流沙",
       "apple_music": {
         "url": "https://music.apple.com/us/song/1416149940",
-        "song_id": "1416149940"
+        "song_id": "1416149940",
+        "storefront": "us"
       },
       "analysis_summary": "用 R&B 的鼓、贝斯与人声切分检查低频弹性和 groove。",
       "listening_cue": "区分底鼓与贝斯的起音，并听主唱句尾小幅转音是否自然。"
@@ -39,7 +41,8 @@
       "canonical_id": "孙燕姿::我怀念的",
       "apple_music": {
         "url": "https://music.apple.com/us/song/905226305",
-        "song_id": "905226305"
+        "song_id": "905226305",
+        "storefront": "us"
       },
       "analysis_summary": "通过由弱到强的编曲检查动态增长时的人声质地和声场层次。",
       "listening_cue": "高潮处确认人声仍稳定居中，而伴奏是向两侧与后方扩展而非糊成一墙。"
@@ -52,7 +55,8 @@
       "canonical_id": "蔡健雅::陌生人",
       "apple_music": {
         "url": "https://music.apple.com/us/song/1785870257",
-        "song_id": "1785870257"
+        "song_id": "1785870257",
+        "storefront": "us"
       },
       "analysis_summary": "偏厚的中低音人声适合检查中频密度、实体感和背景安静度。",
       "listening_cue": "听低音区人声是否有厚度但不闷，以及伴奏尾音能否自然消失。"
@@ -65,7 +69,8 @@
       "canonical_id": "陈奕迅::单车",
       "apple_music": {
         "url": "https://music.apple.com/hk/song/542580755",
-        "song_id": "542580755"
+        "song_id": "542580755",
+        "storefront": "hk"
       },
       "analysis_summary": "用逐步增强的演唱和编曲检查中频动态、前后层次以及高能量段是否变硬。",
       "listening_cue": "保持固定音量，从安静段听到情绪抬升，观察人声是否自然增加力度而不刺耳。"
