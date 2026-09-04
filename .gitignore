@@ -1,0 +1,30 @@
+# Credentials / secrets
+*.env
+.env*
+*.secret
+*.token
+*.cookies
+cookies.txt
+secrets/
+
+# Audio / media
+*.flac
+*.m4a
+*.mp3
+*.wav
+*.aiff
+*.aif
+*.ogg
+*.opus
+*.aac
+*.alac
+*.mp4
+
+# Local state / temp
+.local/
+.cache/
+.tmp/
+tmp/
+__pycache__/
+*.pyc
+.DS_Store
