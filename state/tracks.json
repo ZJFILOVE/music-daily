@@ -2,15 +2,15 @@
   "schema_version": 1,
   "provider": "apple_music",
   "recommended": {
-    "王菲::暧昧": {"first_recommended": "2026-09-04", "last_recommended": "2026-09-04", "count": 1},
-    "陶喆::流沙": {"first_recommended": "2026-09-04", "last_recommended": "2026-09-04", "count": 1},
-    "孙燕姿::我怀念的": {"first_recommended": "2026-09-04", "last_recommended": "2026-09-04", "count": 1},
-    "蔡健雅::陌生人": {"first_recommended": "2026-09-04", "last_recommended": "2026-09-04", "count": 1},
-    "陈奕迅::单车": {"first_recommended": "2026-09-04", "last_recommended": "2026-09-04", "count": 1},
-    "Billie Eilish::bad guy": {"first_recommended": "2026-09-05", "last_recommended": "2026-09-05", "count": 1},
-    "Daft Punk & Julian Casablancas::Instant Crush": {"first_recommended": "2026-09-05", "last_recommended": "2026-09-05", "count": 1},
-    "Laufey::From The Start": {"first_recommended": "2026-09-05", "last_recommended": "2026-09-05", "count": 1},
-    "Eagles::Hotel California": {"first_recommended": "2026-09-05", "last_recommended": "2026-09-05", "count": 1},
-    "费玉清::苏州夜曲": {"first_recommended": "2026-09-05", "last_recommended": "2026-09-05", "count": 1}
+    "王菲::暧昧": {"first_recommended":"2026-09-04","last_recommended":"2026-09-04","count":1},
+    "陶喆::流沙": {"first_recommended":"2026-09-04","last_recommended":"2026-09-04","count":1},
+    "孙燕姿::我怀念的": {"first_recommended":"2026-09-04","last_recommended":"2026-09-04","count":1},
+    "蔡健雅::陌生人": {"first_recommended":"2026-09-04","last_recommended":"2026-09-04","count":1},
+    "陈奕迅::单车": {"first_recommended":"2026-09-04","last_recommended":"2026-09-04","count":1},
+    "Billie Eilish::bad guy": {"first_recommended":"2026-09-05","last_recommended":"2026-09-05","count":1},
+    "Daft Punk & Julian Casablancas::Instant Crush": {"first_recommended":"2026-09-05","last_recommended":"2026-09-05","count":1},
+    "Laufey::From The Start": {"first_recommended":"2026-09-05","last_recommended":"2026-09-05","count":1},
+    "Eagles::Hotel California": {"first_recommended":"2026-09-05","last_recommended":"2026-09-05","count":1},
+    "王菲::梦游": {"first_recommended":"2026-09-05","last_recommended":"2026-09-05","count":1}
   }
 }
