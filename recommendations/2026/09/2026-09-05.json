@@ -5,75 +5,10 @@
   "generated_by": "ChatGPT",
   "obsidian_note": "Music/Daily/2026-09-05.md",
   "tracks": [
-    {
-      "position": 1,
-      "title": "bad guy",
-      "artist": "Billie Eilish",
-      "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
-      "canonical_id": "Billie Eilish::bad guy",
-      "apple_music": {
-        "url": "https://music.apple.com/cn/song/1450695739",
-        "song_id": "1450695739",
-        "storefront": "cn"
-      },
-      "analysis_summary": "极简低频、贴耳人声和大量留白让这首歌特别适合听瞬态、底噪与低频控制力；制作并不靠复杂堆叠，而靠微小音色变化维持张力。",
-      "listening_cue": "注意低频脉冲起落是否干净，同时听近距离人声中的气息、叠轨与细小效果声能否保持分离。"
-    },
-    {
-      "position": 2,
-      "title": "Instant Crush",
-      "artist": "Daft Punk & Julian Casablancas",
-      "album": "Random Access Memories (10th Anniversary Edition)",
-      "canonical_id": "Daft Punk & Julian Casablancas::Instant Crush",
-      "apple_music": {
-        "url": "https://music.apple.com/cn/song/1673536436",
-        "song_id": "1673536436",
-        "storefront": "cn"
-      },
-      "analysis_summary": "电子制作与真实乐器质感交叠得很自然，经过处理的人声并没有失去情绪；吉他、鼓与合成音色共同形成一种复古而精密的层次。",
-      "listening_cue": "从主歌听到副歌时，留意人声效果器的质地与吉他、鼓组之间的前后关系，而不是只追着最亮的高频听。"
-    },
-    {
-      "position": 3,
-      "title": "From The Start",
-      "artist": "Laufey",
-      "album": "From The Start - Single",
-      "canonical_id": "Laufey::From The Start",
-      "apple_music": {
-        "url": "https://music.apple.com/cn/song/1682357121",
-        "song_id": "1682357121",
-        "storefront": "cn"
-      },
-      "analysis_summary": "把 bossa nova / jazz-pop 的和声语汇放进非常现代的流行制作里，轻巧的节奏和近距离声线形成鲜明对照，适合听中频质感与节奏摆动。",
-      "listening_cue": "注意吉他与轻打击乐如何持续提供摇摆感，再听主唱在弱声处的气息和辅音是否自然、不过分锐化。"
-    },
-    {
-      "position": 4,
-      "title": "Hotel California",
-      "artist": "Eagles",
-      "album": "加州旅馆",
-      "canonical_id": "Eagles::Hotel California",
-      "apple_music": {
-        "url": "https://music.apple.com/cn/song/635770202",
-        "song_id": "635770202",
-        "storefront": "cn"
-      },
-      "analysis_summary": "经典摇滚录音里极有代表性的声场和双吉他编排，层次并不靠夸张压缩，而靠乐器位置、音色和动态推进建立。",
-      "listening_cue": "尾段双吉他进入后，不要只听旋律本身，重点分辨两把吉他的左右位置、音色差异以及彼此交错时是否仍有清晰边界。"
-    },
-    {
-      "position": 5,
-      "title": "苏州夜曲",
-      "artist": "费玉清",
-      "album": "国语歌曲精华3",
-      "canonical_id": "费玉清::苏州夜曲",
-      "apple_music": {
-        "url": "https://music.apple.com/cn/song/1638985049",
-        "song_id": "1638985049",
-        "storefront": "cn"
-      },
-      "analysis_summary": "老派华语歌唱的咬字、气息和旋律线与今天前四首形成完全不同的审美坐标，适合把注意力从频响刺激转回到人声连贯性与旋律表达。",
-      "listening_cue": "听长句的气息是否连续、胸声到较轻声区的过渡是否自然，同时观察伴奏是否给主唱留下足够空间而不显得拥挤。"
-    }
+    {"position":1,"title":"bad guy","artist":"Billie Eilish","album":"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?","canonical_id":"Billie Eilish::bad guy","apple_music":{"url":"https://music.apple.com/cn/song/1450695739","song_id":"1450695739","storefront":"cn"},"analysis_summary":"极简低频、贴耳人声和大量留白让这首歌特别适合听瞬态、底噪与低频控制力；制作并不靠复杂堆叠，而靠微小音色变化维持张力。","listening_cue":"注意低频脉冲起落是否干净，同时听近距离人声中的气息、叠轨与细小效果声能否保持分离。"},
+    {"position":2,"title":"Instant Crush","artist":"Daft Punk & Julian Casablancas","album":"Random Access Memories (10th Anniversary Edition)","canonical_id":"Daft Punk & Julian Casablancas::Instant Crush","apple_music":{"url":"https://music.apple.com/cn/song/1673536436","song_id":"1673536436","storefront":"cn"},"analysis_summary":"电子制作与真实乐器质感交叠得很自然，经过处理的人声并没有失去情绪；吉他、鼓与合成音色共同形成一种复古而精密的层次。","listening_cue":"从主歌听到副歌时，留意人声效果器的质地与吉他、鼓组之间的前后关系，而不是只追着最亮的高频听。"},
+    {"position":3,"title":"From The Start","artist":"Laufey","album":"From The Start - Single","canonical_id":"Laufey::From The Start","apple_music":{"url":"https://music.apple.com/cn/song/1682357121","song_id":"1682357121","storefront":"cn"},"analysis_summary":"把 bossa nova / jazz-pop 的和声语汇放进非常现代的流行制作里，轻巧的节奏和近距离声线形成鲜明对照，适合听中频质感与节奏摆动。","listening_cue":"注意吉他与轻打击乐如何持续提供摇摆感，再听主唱在弱声处的气息和辅音是否自然、不过分锐化。"},
+    {"position":4,"title":"Hotel California","artist":"Eagles","album":"加州旅馆","canonical_id":"Eagles::Hotel California","apple_music":{"url":"https://music.apple.com/cn/song/635770202","song_id":"635770202","storefront":"cn"},"analysis_summary":"经典摇滚录音里极有代表性的声场和双吉他编排，层次并不靠夸张压缩，而靠乐器位置、音色和动态推进建立。","listening_cue":"尾段双吉他进入后，不要只听旋律本身，重点分辨两把吉他的左右位置、音色差异以及彼此交错时是否仍有清晰边界。"},
+    {"position":5,"title":"梦游","artist":"王菲","album":"记忆中的粤语经典","canonical_id":"王菲::梦游","apple_music":{"url":"https://music.apple.com/cn/song/1693929589","song_id":"1693929589","storefront":"cn"},"analysis_summary":"用王菲早期带另类流行气质的《梦游》替换原曲。它的价值在于漂浮的人声、具有空间感的编曲与略带迷幻色彩的音色组织，和前四首形成另一种华语制作坐标。","listening_cue":"重点听人声与伴奏之间若即若离的距离感：不要只追主旋律，留意背景声部和空间效果如何让整首歌产生悬浮、游移的感觉。"}
   ]
 }
