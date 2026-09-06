@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-06",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-06.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Don't Know Why",
+      "artist": "Norah Jones",
+      "album": "Come Away with Me (Remastered)",
+      "canonical_id": "Norah Jones::Don't Know Why",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1624173757",
+        "song_id": "1624173757",
+        "storefront": "cn"
+      },
+      "analysis_summary": "爵士流行与近距离录音结合得极其克制，钢琴、吉他、贝斯和鼓刷都给人声留下大量呼吸空间，适合检查中频自然度与微动态。",
+      "listening_cue": "注意主唱弱声和尾音的气息是否连贯，同时分辨钢琴与轻打击乐是否有清楚的前后距离，而不是糊在同一平面。"
+    },
+    {
+      "position": 2,
+      "title": "Close To You",
+      "artist": "莫文蔚",
+      "album": "人海中遇见你-最佳婚礼歌曲",
+      "canonical_id": "莫文蔚::Close To You",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/826688388",
+        "song_id": "826688388",
+        "storefront": "cn"
+      },
+      "analysis_summary": "柔和的华语流行编配与莫文蔚偏低、带颗粒感的声线形成对照，适合判断中频厚度、口型感与伴奏留白是否自然。",
+      "listening_cue": "把注意力放在人声的胸腔共鸣和齿音比例上，再听伴奏是否始终退在后方而没有挤压主唱。"
+    },
+    {
+      "position": 3,
+      "title": "Love Song (Live)",
+      "artist": "方大同",
+      "album": "唱游天下 第2期 - EP",
+      "canonical_id": "方大同::Love Song (Live)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1621705408",
+        "song_id": "1621705408",
+        "storefront": "cn"
+      },
+      "analysis_summary": "现场版本更能听出方大同 R&B 演唱中的节奏弹性与转音控制，人声、乐队和现场空间感同时存在，适合检查层次和动态。",
+      "listening_cue": "听主唱转音与鼓组拍点之间的咬合，再观察情绪推高时人声是否仍保持柔韧，而不是变薄或变刺。"
+    },
+    {
+      "position": 4,
+      "title": "怕安静",
+      "artist": "罗志祥",
+      "album": "独一无二",
+      "canonical_id": "罗志祥::怕安静",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1546974811",
+        "song_id": "1546974811",
+        "storefront": "cn"
+      },
+      "analysis_summary": "典型 2010 年代华语流行制作，合成器、节奏组和主唱层层叠加，能用来检查较密集编曲中的分离度和高频控制。",
+      "listening_cue": "在副歌密度增加时，留意主唱是否仍稳定居中，并确认亮部合成器不会把齿音和镲片推得过于尖锐。"
+    },
+    {
+      "position": 5,
+      "title": "忽然之间 (滚石40 滚石撞乐队 40团拚经典 (原唱:莫文蔚))",
+      "artist": "逃走鲍伯",
+      "album": "滚石40 滚石撞乐队 40团拚经典 - 忽然之间 - Single",
+      "canonical_id": "逃走鲍伯::忽然之间 (滚石40 滚石撞乐队 40团拚经典 (原唱:莫文蔚))",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1600639972",
+        "song_id": "1600639972",
+        "storefront": "cn"
+      },
+      "analysis_summary": "用独立乐队的方式重构熟悉旋律，吉他与鼓组的质地更直接，适合比较现代乐队编制与传统华语抒情歌在空间和动态上的差异。",
+      "listening_cue": "注意吉他失真边缘是否有纹理但不毛躁，同时听鼓组与主唱在高能量段是否还能保持各自轮廓。"
+    }
+  ]
+}
