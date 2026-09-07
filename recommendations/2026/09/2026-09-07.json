@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-07",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-07.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Smooth Operator",
+      "artist": "Sade",
+      "album": "Diamond Life",
+      "canonical_id": "Sade::Smooth Operator",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1524651263",
+        "song_id": "1524651263",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这首把 sophisti-pop、soul 与爵士化配器压缩进非常克制的都市质感里。Sade 的中低声区、萨克斯与节奏组彼此留有空间，适合判断中频密度、低频弹性以及混响是否自然。",
+      "listening_cue": "重点听主唱与萨克斯之间的前后距离，再留意贝斯是否有形体但不拖尾；如果中低频过厚，两者会很容易黏在一起。"
+    },
+    {
+      "position": 2,
+      "title": "No Surprises",
+      "artist": "Radiohead",
+      "album": "OK Computer",
+      "canonical_id": "Radiohead::No Surprises",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1097861842",
+        "song_id": "1097861842",
+        "storefront": "cn"
+      },
+      "analysis_summary": "钟琴般的吉他音色、平稳鼓点与 Thom Yorke 克制的人声形成近乎童谣式的表层，但编曲内部有持续的压抑张力。它很适合听高频是否通透却不尖锐，以及重复织体里微小动态是否还保留。",
+      "listening_cue": "盯住开头持续重复的明亮音型：好的重放应该有清楚起音和空气感，但不会刺耳；同时主唱应保持稳定居中，不被高频纹理挤薄。"
+    },
+    {
+      "position": 3,
+      "title": "寂寞难耐",
+      "artist": "李宗盛",
+      "album": "听丰的歌",
+      "canonical_id": "李宗盛::寂寞难耐",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1070817874",
+        "song_id": "1070817874",
+        "storefront": "cn"
+      },
+      "analysis_summary": "李宗盛的演唱不靠华丽声线，而靠口语化节奏、咬字和句间停顿建立叙事感。编曲相对朴素，反而很适合检查人声实体感、齿音控制和伴奏是否能自然退到后方。",
+      "listening_cue": "听每句开头与收尾的力度变化，确认咬字清楚但没有被系统放大成尖锐齿音；伴奏应托住人声，而不是和主唱抢同一个平面。"
+    },
+    {
+      "position": 4,
+      "title": "Take Five",
+      "artist": "Dave Brubeck",
+      "album": "Take Five (Jazz Collection) [Remastered]",
+      "canonical_id": "Dave Brubeck::Take Five",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/498945944",
+        "song_id": "498945944",
+        "storefront": "cn"
+      },
+      "analysis_summary": "5/4 拍的律动是这首最醒目的结构特征，但真正值得听的是萨克斯、钢琴、贝斯和鼓在不对称节拍里仍然保持极强的摆动感。它能同时检验瞬态、声像定位与鼓组动态。",
+      "listening_cue": "先跟住鼓组的五拍循环，再把注意力移到萨克斯的进入位置；镲片、军鼓和萨克斯应该各有边界，不能因为节奏密度增加就挤成一团。"
+    },
+    {
+      "position": 5,
+      "title": "Suite bergamasque, L. 75: III. Clair de lune",
+      "artist": "Daniel Barenboim",
+      "album": "Claude Debussy: Music for Piano",
+      "canonical_id": "Daniel Barenboim::Suite bergamasque, L. 75: III. Clair de lune",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1452661660",
+        "song_id": "1452661660",
+        "storefront": "cn"
+      },
+      "analysis_summary": "用德彪西《月光》结束今天的序列，可以把注意力从节奏和制作重新拉回钢琴触键、延音与空间衰减。Barenboim 的处理重视长线条与和声色彩，很适合判断系统是否能保留弱音层次。",
+      "listening_cue": "在最弱的段落不要调大音量，听单个琴音从起音到衰减是否连续，并观察踏板形成的和声雾气有没有层次，而不是糊成一片。"
+    }
+  ]
+}
