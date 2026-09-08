@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-08",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-08.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Fast Car",
+      "artist": "Tracy Chapman",
+      "album": "Tracy Chapman",
+      "canonical_id": "Tracy Chapman::Fast Car",
+      "apple_music": {"url": "https://music.apple.com/cn/song/79565507", "song_id": "79565507", "storefront": "cn"},
+      "analysis_summary": "极简的木吉他、低频与克制鼓组把叙事空间留给人声，适合听中频质感、拨弦瞬态和录音中的动态余量。",
+      "listening_cue": "注意木吉他反复型的起音是否清楚却不尖，同时听主唱从低声叙述到力度增加时，声音厚度是否自然增长。"
+    },
+    {
+      "position": 2,
+      "title": "Come Together (2019 Mix)",
+      "artist": "The Beatles",
+      "album": "Abbey Road (Super Deluxe Edition) [2019 Remix & Remaster]",
+      "canonical_id": "The Beatles::Come Together (2019 Mix)",
+      "apple_music": {"url": "https://music.apple.com/cn/song/1474833784", "song_id": "1474833784", "storefront": "cn"},
+      "analysis_summary": "低沉贝斯、干脆鼓击与大量空间细节构成极有辨识度的摇滚录音，2019 混音尤其适合观察低频轮廓和左右声场。",
+      "listening_cue": "先锁定贝斯与底鼓的分离，再留意零散打击声和吉他如何从声场两侧进入，而不会把中心人声挤散。"
+    },
+    {
+      "position": 3,
+      "title": "平凡之路",
+      "artist": "朴树",
+      "album": "猎户星座",
+      "canonical_id": "朴树::平凡之路",
+      "apple_music": {"url": "https://music.apple.com/cn/song/1438422297", "song_id": "1438422297", "storefront": "cn"},
+      "analysis_summary": "从克制的循环织体逐渐扩展到更开阔的乐队编制，情绪推进主要依靠层次累积而不是突然提高响度，适合观察中频和动态展开。",
+      "listening_cue": "从前段一直听到编曲变厚的位置，注意主唱是否始终稳定居中，同时吉他和节奏层逐步向两侧展开。"
+    },
+    {
+      "position": 4,
+      "title": "Attention",
+      "artist": "Charlie Puth",
+      "album": "Voicenotes",
+      "canonical_id": "Charlie Puth::Attention",
+      "apple_music": {"url": "https://music.apple.com/cn/song/1293229677", "song_id": "1293229677", "storefront": "cn"},
+      "analysis_summary": "现代流行制作里非常漂亮的贝斯主导型编曲，节奏的弹性、近距离人声与精细的层叠和声让它适合检查低频速度和声像定位。",
+      "listening_cue": "重点跟住贝斯线与底鼓之间的空隙；副歌叠轨增加后，人声主体仍应清楚，不能被亮部细节推得发硬。"
+    },
+    {
+      "position": 5,
+      "title": "Faded",
+      "artist": "Alan Walker",
+      "album": "Faded - EP",
+      "canonical_id": "Alan Walker::Faded",
+      "apple_music": {"url": "https://music.apple.com/cn/song/1196294581", "song_id": "1196294581", "storefront": "cn"},
+      "analysis_summary": "用电子音乐收尾，合成器主旋律、女声和宽阔低频形成明显的纵深与能量对比，适合检查系统在密集电子层次下是否仍保持控制力。",
+      "listening_cue": "进入高能量段后不要只听低频量感，比较主旋律、女声与低频基底是否仍处于三个可辨认的层次。"
+    }
+  ]
+}
