@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-09",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-09.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Royals",
+      "artist": "Lorde",
+      "album": "Pure Heroine",
+      "canonical_id": "Lorde::Royals",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440818664",
+        "song_id": "1440818664",
+        "storefront": "cn"
+      },
+      "analysis_summary": "极简电子鼓、手拍与多层人声把大量空间留给节奏和音色本身，低频并不追求持续厚重，而是靠短促的脉冲建立张力；这种克制制作很适合检查系统的底噪、瞬态和人声叠层。",
+      "listening_cue": "注意主唱与和声叠轨之间的前后距离，再听低频每次落下后是否迅速收净，而不是在声场里留下拖尾。"
+    },
+    {
+      "position": 2,
+      "title": "So What",
+      "artist": "Miles Davis",
+      "album": "Kind of Blue",
+      "canonical_id": "Miles Davis::So What",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/268443097",
+        "song_id": "268443097",
+        "storefront": "cn"
+      },
+      "analysis_summary": "modal jazz 的开放和声让乐手之间的呼吸格外清楚；低音提琴的主题、钢琴和声、铜管进入与鼓组的轻重变化不是堆叠，而是在同一空间里互相让位。它适合训练对动态、定位与音色差异的敏感度。",
+      "listening_cue": "从低音提琴开场开始锁定声场位置，随后比较小号与萨克斯进入时的质地和距离，观察镲片是否细而有延伸却不抢前。"
+    },
+    {
+      "position": 3,
+      "title": "Roads",
+      "artist": "Portishead",
+      "album": "Dummy",
+      "canonical_id": "Portishead::Roads",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440653203",
+        "song_id": "1440653203",
+        "storefront": "cn"
+      },
+      "analysis_summary": "trip-hop 的慢速节拍、阴影感键盘和 Beth Gibbons 近乎脆弱的声线形成巨大留白；声音的价值不在于元素多，而在于每个元素的残响和情绪重量。适合听中频密度与空间衰减。",
+      "listening_cue": "在主唱拉长音时不要追求齿音细节，改听声音尾部如何融入背景，同时确认鼓点仍有清楚的轮廓而不会把氛围压扁。"
+    },
+    {
+      "position": 4,
+      "title": "Redbone",
+      "artist": "Childish Gambino",
+      "album": "\"Awaken, My Love!\"",
+      "canonical_id": "Childish Gambino::Redbone",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1771719595",
+        "song_id": "1771719595",
+        "storefront": "cn"
+      },
+      "analysis_summary": "70 年代 psychedelic funk 的语汇被现代制作重新包装：肥厚贝斯、松弛鼓组、Falsetto 人声和带颗粒的键盘共同制造黏稠 groove。它特别适合检查低频是否有弹性而不是只有量感。",
+      "listening_cue": "跟住贝斯与底鼓的咬合，听两者是否能分成不同起音；同时留意高音人声即使非常靠前，背景键盘和打击乐仍应保有层次。"
+    },
+    {
+      "position": 5,
+      "title": "月亮代表我的心",
+      "artist": "邓丽君",
+      "album": "Uncle Ray 70th Anniversary – Always On My Mind",
+      "canonical_id": "邓丽君::月亮代表我的心",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1489305925",
+        "song_id": "1489305925",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后回到经典华语人声：旋律简单、伴奏克制，因此呼吸、咬字、声线厚薄和句子连贯性都会被放大。它不是用大动态取胜，而是靠非常稳定的气息与自然的情感递进。",
+      "listening_cue": "固定音量听完整段落，注意轻声处的人声是否仍有实体感，以及字尾与伴奏残响是否自然消失，而不是被系统突出成尖锐细节。"
+    }
+  ]
+}
