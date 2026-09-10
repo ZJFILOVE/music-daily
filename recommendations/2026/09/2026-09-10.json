@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-10",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-10.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Aruarian Dance",
+      "artist": "Nujabes",
+      "album": "Samurai Champloo Music Record Departure",
+      "canonical_id": "Nujabes::Aruarian Dance",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1721843001","song_id":"1721843001","storefront":"cn"},
+      "analysis_summary": "爵士采样、松弛鼓点与循环吉他构成非常通透的 lo-fi hip-hop 空间，情绪克制却有持续流动感。",
+      "listening_cue": "重点听吉他循环的尾音与鼓点之间是否留有空气，同时观察低频是否柔和但仍有清楚轮廓。"
+    },
+    {
+      "position": 2,
+      "title": "我的地盘",
+      "artist": "周杰伦",
+      "album": "七里香",
+      "canonical_id": "周杰伦::我的地盘",
+      "apple_music": {"url":"https://music.apple.com/cn/song/536115194","song_id":"536115194","storefront":"cn"},
+      "analysis_summary": "密集节奏、说唱式 phrasing 与层层电子音色体现 2000 年代华语流行制作的鲜明质感，适合听复杂编曲中的分离度。",
+      "listening_cue": "副歌和节奏最密的位置，确认主体人声仍能稳定居中，鼓、合成器与背景声部不会糊成一层。"
+    },
+    {
+      "position": 3,
+      "title": "你的眼神 (Live)",
+      "artist": "蔡琴",
+      "album": "一起走来 – 2001香港红磡演唱会 (Live)",
+      "canonical_id": "蔡琴::你的眼神 (Live)",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1579655815","song_id":"1579655815","storefront":"cn"},
+      "analysis_summary": "现场版本把蔡琴厚实、低沉的人声与场馆残响放在同一空间里，很适合判断中频实体感和现场纵深。",
+      "listening_cue": "听低音区人声是否厚而不闷，并留意句尾之后场馆残响能否自然向后延伸。"
+    },
+    {
+      "position": 4,
+      "title": "Merry Christmas Mr. Lawrence",
+      "artist": "坂本龙一",
+      "album": "Merry Christmas, Mr. Lawrence",
+      "canonical_id": "坂本龙一::Merry Christmas Mr. Lawrence",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1500818105","song_id":"1500818105","storefront":"cn"},
+      "analysis_summary": "钢琴、数字钟声般音色与稀疏打击乐形成冷暖并存的空间，旋律简洁却依赖音色衰减和和声色彩建立情绪。",
+      "listening_cue": "不要追求大音量，听主旋律每个音的起音、延音与背景电子音色之间是否能保持独立层次。"
+    },
+    {
+      "position": 5,
+      "title": "最爱",
+      "artist": "张国荣",
+      "album": "最热",
+      "canonical_id": "张国荣::最爱",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1442379766","song_id":"1442379766","storefront":"cn"},
+      "analysis_summary": "经典粤语流行的人声表达与较传统的编曲审美能把注意力重新拉回旋律、咬字和中频情绪，而不是现代制作的低频刺激。",
+      "listening_cue": "重点听张国荣中低音区的胸声质地，以及情绪增强时人声是否仍然圆润、不发硬。"
+    }
+  ]
+}
