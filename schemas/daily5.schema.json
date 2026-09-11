@@ -16,12 +16,12 @@
       "maxItems": 5,
       "items": {
         "type": "object",
-        "required": ["position", "title", "artist", "canonical_id", "apple_music"],
+        "required": ["position", "title", "artist", "album", "canonical_id", "apple_music", "analysis_summary", "listening_cue"],
         "properties": {
           "position": {"type": "integer", "minimum": 1, "maximum": 5},
           "title": {"type": "string", "minLength": 1},
           "artist": {"type": "string", "minLength": 1},
-          "album": {"type": ["string", "null"]},
+          "album": {"type": "string", "minLength": 1},
           "canonical_id": {"type": "string", "minLength": 1},
           "apple_music": {
             "type": "object",
@@ -31,18 +31,13 @@
                 "type": "string",
                 "pattern": "^https://music\\.apple\\.com/cn/song/(?:[^/]+/)?[0-9]+(?:[?].*)?$"
               },
-              "song_id": {
-                "type": "string",
-                "pattern": "^[0-9]+$"
-              },
-              "storefront": {
-                "const": "cn"
-              }
+              "song_id": {"type": "string", "pattern": "^[0-9]+$"},
+              "storefront": {"const": "cn"}
             },
             "additionalProperties": false
           },
-          "analysis_summary": {"type": "string"},
-          "listening_cue": {"type": "string"}
+          "analysis_summary": {"type": "string", "minLength": 35},
+          "listening_cue": {"type": "string", "minLength": 20}
         },
         "additionalProperties": true
       }
