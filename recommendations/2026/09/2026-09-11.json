@@ -5,10 +5,55 @@
   "generated_by": "ChatGPT",
   "obsidian_note": "Music/Daily/2026-09-11.md",
   "tracks": [
-    {"position":1,"title":"Bitter Sweet Symphony","artist":"The Verve","album":"Urban Hymns (Remastered 2016)","canonical_id":"The Verve::Bitter Sweet Symphony","apple_music":{"url":"https://music.apple.com/cn/song/1440885120","song_id":"1440885120","storefront":"cn"},"analysis_summary":"弦乐采样、持续推进的鼓组和略带疏离感的人声构成英伦摇滚的长线条张力。","listening_cue":"听弦乐循环与底鼓的层次，观察高潮时人声是否仍位于中心。"},
-    {"position":2,"title":"What A Wonderful World","artist":"LOUIS ARMSTRONG","album":"Calming Music for Kids","canonical_id":"LOUIS ARMSTRONG::What A Wonderful World","apple_music":{"url":"https://music.apple.com/cn/song/1586918412","song_id":"1586918412","storefront":"cn"},"analysis_summary":"温暖铜管、松弛节奏和沙哑音色形成亲密而开阔的经典流行爵士质感。","listening_cue":"注意主唱气息与铜管尾音的衔接，听背景空间是否自然展开。"},
-    {"position":3,"title":"My Heart Will Go On (Love Theme from \"Titanic\")","artist":"Céline Dion","album":"All the Way... A Decade of Song","canonical_id":"Céline Dion::My Heart Will Go On (Love Theme from \"Titanic\")","apple_music":{"url":"https://music.apple.com/cn/song/361307939","song_id":"361307939","storefront":"cn"},"analysis_summary":"电影配乐式弦乐、渐进式动态和强力主唱适合检验大编制下的声场规模与人声控制。","listening_cue":"从主歌听到高潮，确认弦乐扩张时主唱仍保持稳定、不过分刺耳。"},
-    {"position":4,"title":"妹妹","artist":"光良","album":"十光年精选辑","canonical_id":"光良::妹妹","apple_music":{"url":"https://music.apple.com/cn/song/615959569","song_id":"615959569","storefront":"cn"},"analysis_summary":"华语抒情编曲克制，木吉他与人声承担主要叙事，适合听中频实体感和句尾情绪。","listening_cue":"听木吉他拨弦起音与人声之间的距离，留意弱声是否仍保有厚度。"},
-    {"position":5,"title":"旅行的意义","artist":"苏嘉妍","album":"公主太子","canonical_id":"苏嘉妍::旅行的意义","apple_music":{"url":"https://music.apple.com/cn/song/1693531573","song_id":"1693531573","storefront":"cn"},"analysis_summary":"轻量化华语流行编曲带有清晰的旋律线和柔和的节奏推进，作为今天的收束曲更偏向自然与松弛。","listening_cue":"听副歌旋律展开时伴奏如何向两侧扩展，同时保持主唱口型清楚。"}
+    {
+      "position": 1,
+      "title": "夜太黑",
+      "artist": "林忆莲",
+      "album": "超级星光PK宝典, Vol. 2",
+      "canonical_id": "林忆莲::夜太黑",
+      "apple_music": {"url":"https://music.apple.com/cn/song/619736938","song_id":"619736938","storefront":"cn"},
+      "analysis_summary": "暗色中频、克制的人声和较深的伴奏空间让这首歌非常适合听人声轮廓、气息与低中频层次，而不是追求单纯亮度。",
+      "listening_cue": "听较轻的句尾能否从伴奏中自然浮现，并确认低频增加重量时不会吞掉人声口型。"
+    },
+    {
+      "position": 2,
+      "title": "Dreams",
+      "artist": "The Cranberries",
+      "album": "红心安利-欧美广告BGM Vol.2",
+      "canonical_id": "The Cranberries::Dreams",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1616582807","song_id":"1616582807","storefront":"cn"},
+      "analysis_summary": "闪烁的吉他、持续推进的 bass 与鼓组为轻盈的人声留下大量空气，是观察 90 年代 alternative rock 空间感的经典材料。",
+      "listening_cue": "从主歌进入副歌时听整体能量如何上升，同时确认吉他、bass 与人声仍保持清楚的前后和左右层次。"
+    },
+    {
+      "position": 3,
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album": "No.1",
+      "canonical_id": "Michael Jackson::Billie Jean",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1460198338","song_id":"1460198338","storefront":"cn"},
+      "analysis_summary": "bass line 与 kick 建立强烈 groove，其他声部通过精准进入和留白逐层展开，是理解低频分离度与经典流行制作结构的好参考。",
+      "listening_cue": "先只听底鼓与 bass 是否各自有轮廓，再听人声、hi-hat 和高频打击乐如何准确落在同一节奏框架上。"
+    },
+    {
+      "position": 4,
+      "title": "Wish You Were Here (Live at Knebworth, 1990) [2019 Mix]",
+      "artist": "Pink Floyd",
+      "album": "The Later Years, 1987-2019",
+      "canonical_id": "Pink Floyd::Wish You Were Here (Live at Knebworth, 1990) [2019 Mix]",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1477855081","song_id":"1477855081","storefront":"cn"},
+      "analysis_summary": "熟悉旋律被放进大型现场后，acoustic guitar、人声与场馆残响产生明确纵深，适合听直接声和空间衰减之间的关系。",
+      "listening_cue": "专门听一个吉他音或一句人声结束以后余响如何向后消失，判断空间是否有方向与距离而不只是混响量大。"
+    },
+    {
+      "position": 5,
+      "title": "Hyperballad",
+      "artist": "kotoringo",
+      "album": "picnic album 2",
+      "canonical_id": "kotoringo::Hyperballad",
+      "apple_music": {"url":"https://music.apple.com/cn/song/411629005","song_id":"411629005","storefront":"cn"},
+      "analysis_summary": "对 Björk 原作的轻量化重编曲把电子推进转化为更亲密、有机的空间，让同一旋律在新的 phrasing 与音色组织下呈现不同情绪中心。",
+      "listening_cue": "听伴奏密度降低以后人声的停顿、进入和尾音怎样改变情绪，再回听原作比较编曲语言带来的差异。"
+    }
   ]
 }
