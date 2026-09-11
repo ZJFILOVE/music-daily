@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-11",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-11.md",
+  "tracks": [
+    {"position":1,"title":"Bitter Sweet Symphony","artist":"The Verve","album":"Urban Hymns (Remastered 2016)","canonical_id":"The Verve::Bitter Sweet Symphony","apple_music":{"url":"https://music.apple.com/cn/song/1440885120","song_id":"1440885120","storefront":"cn"},"analysis_summary":"弦乐采样、持续推进的鼓组和略带疏离感的人声构成英伦摇滚的长线条张力。","listening_cue":"听弦乐循环与底鼓的层次，观察高潮时人声是否仍位于中心。"},
+    {"position":2,"title":"What A Wonderful World","artist":"LOUIS ARMSTRONG","album":"Calming Music for Kids","canonical_id":"LOUIS ARMSTRONG::What A Wonderful World","apple_music":{"url":"https://music.apple.com/cn/song/1586918412","song_id":"1586918412","storefront":"cn"},"analysis_summary":"温暖铜管、松弛节奏和沙哑音色形成亲密而开阔的经典流行爵士质感。","listening_cue":"注意主唱气息与铜管尾音的衔接，听背景空间是否自然展开。"},
+    {"position":3,"title":"My Heart Will Go On (Love Theme from \"Titanic\")","artist":"Céline Dion","album":"All the Way... A Decade of Song","canonical_id":"Céline Dion::My Heart Will Go On (Love Theme from \"Titanic\")","apple_music":{"url":"https://music.apple.com/cn/song/361307939","song_id":"361307939","storefront":"cn"},"analysis_summary":"电影配乐式弦乐、渐进式动态和强力主唱适合检验大编制下的声场规模与人声控制。","listening_cue":"从主歌听到高潮，确认弦乐扩张时主唱仍保持稳定、不过分刺耳。"},
+    {"position":4,"title":"妹妹","artist":"光良","album":"十光年精选辑","canonical_id":"光良::妹妹","apple_music":{"url":"https://music.apple.com/cn/song/615959569","song_id":"615959569","storefront":"cn"},"analysis_summary":"华语抒情编曲克制，木吉他与人声承担主要叙事，适合听中频实体感和句尾情绪。","listening_cue":"听木吉他拨弦起音与人声之间的距离，留意弱声是否仍保有厚度。"},
+    {"position":5,"title":"旅行的意义","artist":"苏嘉妍","album":"公主太子","canonical_id":"苏嘉妍::旅行的意义","apple_music":{"url":"https://music.apple.com/cn/song/1693531573","song_id":"1693531573","storefront":"cn"},"analysis_summary":"轻量化华语流行编曲带有清晰的旋律线和柔和的节奏推进，作为今天的收束曲更偏向自然与松弛。","listening_cue":"听副歌旋律展开时伴奏如何向两侧扩展，同时保持主唱口型清楚。"}
+  ]
+}
