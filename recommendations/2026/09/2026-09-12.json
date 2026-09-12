@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-12",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-12.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Let's Start from Here",
+      "artist": "王若琳",
+      "album": "Start from Here",
+      "canonical_id": "王若琳::Let's Start from Here",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/307678080",
+        "song_id": "307678080",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用王若琳早期的《Let's Start from Here》建立一条温暖、松弛的中频基准。偏爵士流行的和声语汇、克制的节奏组和低沉近距离人声没有依赖夸张动态取胜，真正迷人的是声线、伴奏留白和微小的节奏摆动如何共同形成慵懒质感。",
+      "listening_cue": "先固定音量听主唱低声区的厚度，再把注意力移到鼓点与伴奏之间的空隙；人声应有实体感，却不应该把后方的乐器和残响全部盖住。"
+    },
+    {
+      "position": 2,
+      "title": "一场雨落下来要用多久",
+      "artist": "鹿先森乐队",
+      "album": "华年",
+      "canonical_id": "鹿先森乐队::一场雨落下来要用多久",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1411900456",
+        "song_id": "1411900456",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这首把独立民谣的叙事感与完整乐队编制结合起来，情绪不是靠突然放大音量，而是靠吉他、节奏组与背景声部逐步增加密度。它和第一首的室内感形成对照，适合听一首歌如何从较轻的质地自然扩展成更开阔的声场。",
+      "listening_cue": "从较稀疏的段落一路听到编曲变厚的位置，观察主唱是否仍稳定在中心，同时吉他和鼓组能否向左右展开，而不是在高潮一起压成一堵声墙。"
+    },
+    {
+      "position": 3,
+      "title": "愛在今宵",
+      "artist": "陈百强",
+      "album": "Love In L.A.",
+      "canonical_id": "陈百强::愛在今宵",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/71951943",
+        "song_id": "71951943",
+        "storefront": "cn"
+      },
+      "analysis_summary": "把时间拨回 1985 年，用陈百强的粤语流行审美检查另一种制作尺度：旋律线条和歌手的从容 phrasing 比现代低频冲击更重要，键盘化的色彩与节奏伴奏共同营造出典型的八十年代都市感。旧录音的价值不在于追求极端解析，而在于音色比例与情绪是否自然。",
+      "listening_cue": "重点听陈百强句尾的收放与伴奏之间的距离；如果系统中频过薄，人声会失去温润感，如果低中频过量，键盘和节奏层又会黏在人声周围。"
+    },
+    {
+      "position": 4,
+      "title": "Diamonds And Rust",
+      "artist": "齐豫",
+      "album": "英文个人声音自传:敢梦",
+      "canonical_id": "齐豫::Diamonds And Rust",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1546706890",
+        "song_id": "1546706890",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这里明确选择的是齐豫 1987 年录制的《Diamonds And Rust》版本，它翻唱自 Joan Baez 创作并在 1975 年发表的作品。齐豫清澈而有穿透力的高声区把这首民谣的回望感转换成更空灵的表达，因此很适合比较人声泛音、吉他与柔和伴奏之间的层次，而不是把翻唱当作原唱替代品。",
+      "listening_cue": "先听高声区是否通透却不尖，再追踪一句唱完以后人声与伴奏的衰减；好的重放应让嗓音浮在前方，同时保留后面的空气和和声支撑。"
+    },
+    {
+      "position": 5,
+      "title": "奇林",
+      "artist": "林强",
+      "album": "别境",
+      "canonical_id": "林强::奇林",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1758716200",
+        "song_id": "1758716200",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 留给林强 2024 年《别境》中的《奇林》。相较前四首以歌唱和传统乐队关系为核心，这一选择更偏向声音场景和电子质地：林强长期从流行创作转向电子音乐与电影配乐，使这里值得关注的不是熟悉的主歌副歌套路，而是音色层、脉冲、残响与空间如何组织时间。",
+      "listening_cue": "不要急着寻找主旋律，先听不同电子声部从哪里进入、停留多久、怎样退到背景；尤其注意低频脉冲和高频纹理之间是否留有可感知的纵深。"
+    }
+  ]
+}
