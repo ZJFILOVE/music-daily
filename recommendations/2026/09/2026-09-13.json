@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-13",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-13.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "奇妙能力歌",
+      "artist": "陈粒",
+      "album": "如也",
+      "canonical_id": "陈粒::奇妙能力歌",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1413542882",
+        "song_id": "1413542882",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先从《奇妙能力歌》开始，是为了把注意力拉回到歌曲最基本的骨架：人声、木吉他式的重复织体与克制的层次推进。陈粒早期作品的魅力不在于大编制或强烈低频，而在于独特的咬字、旋律转折和略带疏离感的叙述方式；越是简单的编配，越容易听见声音比例是否自然。",
+      "listening_cue": "先锁定开头拨弦的起音与衰减，再听主唱进入后两者是否各有边界；当后段伴奏逐渐增加时，人声应继续保持清楚的口型和自然厚度，而不是被高频细节推薄。"
+    },
+    {
+      "position": 2,
+      "title": "Intro",
+      "artist": "The xx",
+      "album": "xx",
+      "canonical_id": "The xx::Intro",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1850810463",
+        "song_id": "1850810463",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首故意选一首几乎不依赖文字叙事的器乐作品。《Intro》靠极少的素材建立完整张力：互相咬合的吉他动机、克制的节拍与低频，以及大量有意义的留白。它提醒人注意“没有声音的地方”同样属于编曲，空间感来自元素如何出现、停顿和退场，而不是单纯靠混响做大。",
+      "listening_cue": "从前一分钟开始跟踪吉他动机的左右位置与尾音，再注意低频和节拍进入后是否仍保持分离；每次停顿都应干净，不能被拖尾或过量低频填满。"
+    },
+    {
+      "position": 3,
+      "title": "Ref:rain",
+      "artist": "Aimer",
+      "album": "Ref:rain / 眩いばかり - EP",
+      "canonical_id": "Aimer::Ref:rain",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1538260334",
+        "song_id": "1538260334",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Aimer 的《Ref:rain》把今天从极简空间带到更浓郁的现代日语流行抒情。她带颗粒感、略显沙哑的声线被放在很靠前的位置，背后则是持续铺开的键盘与长音色层、鼓组和逐步扩张的和声密度；情绪并非只靠音量，而是靠音色的宽度与持续感一点点放大。",
+      "listening_cue": "重点听较饱满段落展开时的三个层次：前方主唱、中层和声/持续音色、后方鼓与空间尾音；即使密度增加，Aimer 的声线也不应变成刺耳的高中过量。"
+    },
+    {
+      "position": 4,
+      "title": "Water No Get Enemy",
+      "artist": "Fela Kuti",
+      "album": "The Best of The Black President",
+      "canonical_id": "Fela Kuti::Water No Get Enemy",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1783205879",
+        "song_id": "1783205879",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Fela Kuti《Water No Get Enemy》。这首把聆听逻辑从三四分钟的流行结构切换到 Afrobeat 的长线 groove：鼓与打击乐、贝斯、吉他/键盘和铜管不是轮流“出场”，而是在持续重复中通过微小位移和叠加建立推进感。本次对应 Apple Music 中国区《The Best of The Black President》所收录的歌曲资源，值得把它当作一整段不断演化的节奏系统来听。",
+      "listening_cue": "先连续跟住贝斯与鼓/打击乐几分钟，不急着追铜管；等铜管和更多声部叠入后，再检查每一层是否仍有独立起音和节奏位置，而不是密度一高就糊成整体。"
+    },
+    {
+      "position": 5,
+      "title": "Only Time",
+      "artist": "Enya",
+      "album": "A Day Without Rain",
+      "canonical_id": "Enya::Only Time",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/96216872",
+        "song_id": "96216872",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用 Enya《Only Time》收束，是为了从 Fela Kuti 的强节奏回到几乎悬浮的声音空间。Enya 的制作核心并不是突出单一主唱，而是让多层人声、合成器垫底与柔和节奏共同形成连续的声学雾面；这种高度平滑的制作很考验系统能否在长混响和持续音之间保留细微层次。",
+      "listening_cue": "听一句人声结束后的尾音如何向外扩散：中心声像应仍然清楚，而外围的人声叠层与合成器应形成可辨认的光晕；如果所有长音都粘成一片，空间纵深会明显缩小。"
+    }
+  ]
+}
