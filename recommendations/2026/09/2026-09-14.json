@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-14",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-14.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "高级动物",
+      "artist": "窦唯",
+      "album": "黑梦",
+      "canonical_id": "窦唯::高级动物",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/158799064",
+        "song_id": "158799064",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用《高级动物》把听感切到九十年代中国另类摇滚的暗色语境。它不是靠巨大低频或华丽编配制造冲击，而是让重复性的节奏骨架、带压迫感的吉他/键盘质地和窦唯近乎冷静的声线共同形成持续张力；这种编曲尤其适合观察中频密度、节奏推进与人声距离如何互相制约。",
+      "listening_cue": "先跟住节奏骨架和低频脉冲，再注意主唱进入后是否仍保持独立轮廓；当声部逐渐堆叠时，重点判断吉他、键盘与人声是否只是变响，还是仍能分辨各自的纹理和空间位置。"
+    },
+    {
+      "position": 2,
+      "title": "Ain't No Sunshine",
+      "artist": "Bill Withers",
+      "album": "Just As I Am",
+      "canonical_id": "Bill Withers::Ain't No Sunshine",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/293521573",
+        "song_id": "293521573",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首故意把制作规模缩小到灵魂乐最直接的表达：短促的节奏组、留白很多的伴奏和 Bill Withers 朴素而有重量的声线。它的力量来自克制而不是堆叠，尤其适合听鼓、贝斯与人声之间的微动态，以及录音里那种不刻意抛光的自然质感。",
+      "listening_cue": "固定音量听主唱从轻声到更有力度的变化，同时注意鼓点和贝斯并没有同步膨胀成一团；理想状态是人声重量增加，但节奏组仍保有清楚的起音和停顿。"
+    },
+    {
+      "position": 3,
+      "title": "Teardrop (Remastered 2018)",
+      "artist": "Massive Attack",
+      "album": "Mezzanine (Deluxe)",
+      "canonical_id": "Massive Attack::Teardrop (Remastered 2018)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1428688265",
+        "song_id": "1428688265",
+        "storefront": "cn"
+      },
+      "analysis_summary": "《Teardrop》的 2018 remaster 把今天从自然灵魂乐带入精密的 trip-hop 声场。规律而克制的电子节拍、深而不臃肿的低频、Elizabeth Fraser 飘忽的人声与细碎高频纹理共同构成近乎悬浮的空间；这版值得单独听，是因为它既保留原录音的阴影感，又让层次边缘更加容易被捕捉。",
+      "listening_cue": "先锁定循环节拍与低频的中心位置，再把注意力移到人声外围的呼吸、残响和细碎电子纹理；即使低频很深，人声也不应被推远或变成模糊的光晕。"
+    },
+    {
+      "position": 4,
+      "title": "Northern Sky",
+      "artist": "Nick Drake",
+      "album": "A Treasury",
+      "canonical_id": "Nick Drake::Northern Sky",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440822868",
+        "song_id": "1440822868",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首把密集电子空间重新拉回到温暖、亲密的英式民谣。Nick Drake 的木吉他并不追求夸张瞬态，而是和柔和键盘、低调节奏一起托住近距离声线；这首真正迷人的地方是每个声部都很轻，却能通过音色与和声关系形成柔软而稳定的重心。",
+      "listening_cue": "听木吉他拨弦后的衰减是否连续，再比较主唱与键盘的前后距离；如果系统高频过亮，吉他会显得干而薄，如果低中频过厚，整首歌的轻盈感又会被抹掉。"
+    },
+    {
+      "position": 5,
+      "title": "On the Nature of Daylight",
+      "artist": "马克思・李希特, 路易莎・富勒, Natalia Bonner, 约翰・梅特卡夫, Philip Sheppard & 克里斯・沃西",
+      "album": "Richter: The Blue Notebooks (20 Year Edition)",
+      "canonical_id": "马克思・李希特, 路易莎・富勒, Natalia Bonner, 约翰・梅特卡夫, Philip Sheppard & 克里斯・沃西::On the Nature of Daylight",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1775435315",
+        "song_id": "1775435315",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 留给 Max Richter《The Blue Notebooks》20 周年版本中的《On the Nature of Daylight》。和前四首以节拍或歌唱为中心的作品不同，这里几乎完全依赖弦乐声部的持续、叠加与和声摩擦来组织时间；情绪不是靠突然爆发，而是靠重复材料不断改变重量与密度。",
+      "listening_cue": "不要把注意力只放在最响的旋律线，试着追踪内声部弦乐怎样逐渐叠入、延长和退出；在最饱满的段落里，各弦乐层仍应有方向感，而不是被长混响压成一整块。"
+    }
+  ]
+}
