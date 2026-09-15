@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-15",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-15.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "病态",
+      "artist": "林宥嘉",
+      "album": "神秘嘉宾",
+      "canonical_id": "林宥嘉::病态",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/547536995",
+        "song_id": "547536995",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用《病态》把听感切到 2000 年代后期华语流行中更偏角色化、戏剧化的一面。林宥嘉的演唱不是追求绝对圆润，而是利用近距离咬字、轻微的紧张感和句子重心制造心理色彩；编曲也不是一味铺满，而是在较收束的段落与更密的节奏、键盘/电声层之间制造压迫与释放。它值得今天听，是因为这种“故意不舒服”的声音设计能把注意力从单纯好听拉到表达与制作如何共同塑造人物感。",
+      "listening_cue": "从较克制的前段一路听到编曲明显增厚的位置，锁定中央人声的口型和气息，再比较两侧电声层、节奏组与背景声部如何扩张；重点判断密度上升后人声是否变硬、齿音是否被放大，以及中频是否仍保留层次。"
+    },
+    {
+      "position": 2,
+      "title": "The Chain",
+      "artist": "Fleetwood Mac",
+      "album": "Rumours",
+      "canonical_id": "Fleetwood Mac::The Chain",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/594061861",
+        "song_id": "594061861",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首转到《Rumours》中的《The Chain》，不是因为它只是经典摇滚名曲，而是因为整首歌的结构非常适合听“克制怎样变成推进力”。前段的木/电吉他、节奏组与多人和声保持相当多的空间，后段则由著名的低音型重新组织重心，逐步把鼓与吉他推向更强的集体张力。它的戏剧性来自声部关系和动态积累，而不是现代制作常见的整体响度抬升。",
+      "listening_cue": "尤其留意后段低音型单独凸显、再逐层加入鼓和吉他的过程：低频应结实而有弹性，不能拖成一团；多人和声进入时，也要能听出中央主体与左右叠层的边界，最终高潮仍应保持节奏线条。"
+    },
+    {
+      "position": 3,
+      "title": "Says",
+      "artist": "尼尔斯・弗拉姆",
+      "album": "Spaces",
+      "canonical_id": "尼尔斯・弗拉姆::Says",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1451166669",
+        "song_id": "1451166669",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是尼尔斯・弗拉姆《Spaces》里的《Says》。它把聆听逻辑从“歌手—主歌—副歌”彻底移开：持续重复的合成器脉冲像一个稳定坐标，和声色彩、滤波质感与空间残响在很长的时间尺度上慢慢改变，钢琴/键盘性声部的进入则让原本机械的循环逐渐获得呼吸。选它是为了扩大今天的时间感与音色尺度——耐心追踪微小变化，本身就是作品的核心。",
+      "listening_cue": "前几分钟不要急着等高潮，只跟住脉冲的质地和残响边缘；之后注意高频纹理、低频重量和键盘声部如何逐层增加。真正值得听的是每一次变化都很小，但声场的高度、宽度和情绪张力却在持续移动。"
+    },
+    {
+      "position": 4,
+      "title": "You Look Good To Me (Live At The Salle Pleyel, Paris, France / June 25, 1996)",
+      "artist": "Oscar Peterson",
+      "album": "Oscar In Paris (Live At The Salle Pleyel, Paris, France / June 25, 1996)",
+      "canonical_id": "Oscar Peterson::You Look Good To Me (Live At The Salle Pleyel, Paris, France / June 25, 1996)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1639284372",
+        "song_id": "1639284372",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这里明确推荐 1996 年 6 月 25 日巴黎 Salle Pleyel 的现场版本，而不是用同名录音互相替代。Oscar Peterson 的魅力在现场尤其明显：触键速度、重音位置和句间弹性会不断改变乐句的重量，厅堂残响又把这些瞬态放进真实空间。与前一首电子音乐依靠缓慢叠层建立张力不同，这里更多靠演奏者即时的力度、速度与留白让音乐前进。",
+      "listening_cue": "选一段较快的钢琴跑句，先听每个音的起音是否仍清楚，再把注意力移到低音区重量和厅堂尾音；随后比较强奏与轻触之间的动态跨度。现场感不应只是“有混响”，而应能感觉直接声在前、空间衰减在后。"
+    },
+    {
+      "position": 5,
+      "title": "雨水一盒",
+      "artist": "陈绮贞",
+      "album": "时间的歌",
+      "canonical_id": "陈绮贞::雨水一盒",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1598248092",
+        "song_id": "1598248092",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用《雨水一盒》把今天收回到更亲密的华语独立创作。陈绮贞在《时间的歌》时期的声音仍保留轻、薄、近距离的辨识度，但整体制作比早期单纯的木吉他框架更成熟：吉他与柔和的持续声部、节奏和空间处理共同托住人声，情绪不是骤然爆发，而是靠音色和句子之间的空隙缓慢积累。它很适合作为前面摇滚、电子和现场爵士之后的“减压”收束。",
+      "listening_cue": "固定音量听较安静段落的人声气息与吉他/背景持续音之间的距离，再留意编曲展开时中央声像是否仍然完整；如果高频太亮，人声会显得脆薄，如果低中频太厚，作品原本的透明和留白又会被吃掉。"
+    }
+  ]
+}
