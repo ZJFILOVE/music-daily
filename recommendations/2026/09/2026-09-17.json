@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-17",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-17.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "触景生情",
+      "artist": "万芳",
+      "album": "一切如新",
+      "canonical_id": "万芳::触景生情",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/159835554",
+        "song_id": "159835554",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用万芳《触景生情》把听感放回九十年代华语流行更重视旋律、句法与人声情绪的制作尺度。它没有靠夸张低频或密集电子层制造存在感，而是让主唱的叙述性、弦乐/键盘色彩和节奏伴奏共同托住情绪；万芳略带沙质却不失柔软的中频尤其适合观察老派流行录音里“人声在前、伴奏在后”的比例是否自然。",
+      "listening_cue": "从较克制的段落听到情绪逐渐抬升的位置，先锁定万芳的咬字和气息，再听后方伴奏怎样增加重量；重点判断人声是否仍有实体感和前后距离，而不是随着编曲变厚一起被推硬。"
+    },
+    {
+      "position": 2,
+      "title": "No Ordinary Love",
+      "artist": "Sade",
+      "album": "Sunday Morning Songs II",
+      "canonical_id": "Sade::No Ordinary Love",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1215424074",
+        "song_id": "1215424074",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首选择 Sade《No Ordinary Love》，并按 Apple Music 中国区当前直达歌曲资源记录其所在合集《Sunday Morning Songs II》，不把它误写成另一个专辑资源。这首的核心是深沉而有弹性的低频、极度克制的鼓机/打击乐、缓慢铺开的吉他与合成器，以及 Sade Adu 冷静近距离的声线；它把性感和疏离同时保留下来，很适合和第一首的传统华语抒情比较两种完全不同的“克制”。",
+      "listening_cue": "先只跟住低频线条和鼓点，确认低频下潜时仍有清楚收尾；随后把注意力移到主唱与背景吉他/合成器的距离，理想状态是人声稳定悬在中央，外围声部有雾感却不糊。"
+    },
+    {
+      "position": 3,
+      "title": "我不想失去你",
+      "artist": "新裤子乐队",
+      "album": "Go East",
+      "canonical_id": "新裤子乐队::我不想失去你",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1808898128",
+        "song_id": "1808898128",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首把今天从低速、内敛的氛围拉到更直接的中国独立摇滚/新浪潮语境。《我不想失去你》在《Go East》时期的制作把清晰的节拍、带合成器色彩的乐队编配与较直白的旋律推进结合起来，情绪不是靠精致打磨，而是靠持续向前的节奏和略带粗粝的乐队质感成立。它值得放在今天，是因为它能打破连续抒情曲带来的听感惯性。",
+      "listening_cue": "副歌或编曲最满的位置不要只听整体响度，刻意分辨鼓组瞬态、吉他/合成器的中高频纹理与主唱的位置；如果层次良好，能量上升时节拍边缘仍应清楚，而不是糊成一整块。"
+    },
+    {
+      "position": 4,
+      "title": "Préludes, Book 1: VIII. La fille aux cheveux de lin",
+      "artist": "皮埃尔 · 洛朗 · 艾马尔",
+      "album": "Debussy: Préludes, Books 1 & 2",
+      "canonical_id": "皮埃尔 · 洛朗 · 艾马尔::Préludes, Book 1: VIII. La fille aux cheveux de lin",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1452374025",
+        "song_id": "1452374025",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首把全部人声和节拍拿掉，选皮埃尔 · 洛朗 · 艾马尔演奏德彪西《前奏曲》第一册第八首《亚麻色头发的少女》。这首小品真正迷人的不是炫技，而是触键重量、和声色彩与踏板残响之间极细微的平衡；艾马尔的演奏线条清楚，不把印象主义钢琴简单处理成一团朦胧，因此特别适合听单个音如何在空间里出生、重叠和消失。",
+      "listening_cue": "不要提高音量追求细节，固定较舒适的音量听右手旋律每个音的起音与尾部，再注意左手和声进入时踏板是否把声部粘住；理想状态是残响连续，但不同音之间仍能感到方向和层次。"
+    },
+    {
+      "position": 5,
+      "title": "Computer Love / Formenverwandler (Mixed)",
+      "artist": "Kraftwerk & Der Zyklus",
+      "album": "Tresor 30 x Brunson (DJ Mix)",
+      "canonical_id": "Kraftwerk & Der Zyklus::Computer Love / Formenverwandler (Mixed)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1687563654",
+        "song_id": "1687563654",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是《Tresor 30 x Brunson (DJ Mix)》里的《Computer Love / Formenverwandler (Mixed)》，明确推荐这个 DJ mix 中把 Kraftwerk 与 Der Zyklus 材料并置的具体版本，而不是把它当作 Kraftwerk 原专辑版《Computer Love》的替代。它把机械脉冲、早期电子流行的旋律感和更偏 electro/techno 的节拍逻辑压进连续混音环境，适合听“歌曲”如何在 DJ set 里被重新定义为节奏与音色模块。",
+      "listening_cue": "先锁定最稳定的机械脉冲，再观察旋律性素材与更硬的电子节拍如何交接；重点听过渡处低频是否保持清楚边界、合成器层是否有前后深度，以及混音的连续性有没有吞掉原本的旋律辨识度。"
+    }
+  ]
+}
