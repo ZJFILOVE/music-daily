@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-18",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-18.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "爱我别走",
+      "artist": "张震岳",
+      "album": "情感万花筒",
+      "canonical_id": "张震岳::爱我别走",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1080244092",
+        "song_id": "1080244092",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用张震岳《爱我别走》把听感放回九十年代末华语流行摇滚最有效率的表达：旋律、人声与吉他/节奏骨架不靠密集叠轨取胜，而是在略带松弛的速度感里把失落和克制同时留下。它值得今天听，是因为熟悉的旋律背后其实很考验中频比例——一旦吉他、军鼓与主唱挤在同一平面，作品原有的自然呼吸就会消失。",
+      "listening_cue": "从相对稀疏的段落听到副歌增厚处，先锁定吉他的拨弦/扫弦起音，再比较军鼓与人声的前后位置；重点听主唱是否仍松弛居中，低中频有没有在情绪上扬时变成浑浊的一团。"
+    },
+    {
+      "position": 2,
+      "title": "A Change Is Gonna Come",
+      "artist": "SAM COOKE",
+      "album": "Ain't That Good News",
+      "canonical_id": "SAM COOKE::A Change Is Gonna Come",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440762757",
+        "song_id": "1440762757",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首转到 SAM COOKE《A Change Is Gonna Come》，把今天从华语摇滚的直接感拉到 1964 年灵魂乐更宽阔的情绪尺度。弦乐化的开场、克制的节奏组与 Cooke 极有弹性的声线共同推动动态，强烈之处不是简单变得更响，而是句子重量、背景编配与空间一起向前移动；这类老录音尤其适合判断重放是否能同时保留温度和轮廓。",
+      "listening_cue": "先听开场弦乐的纵深与尾音，再等主唱进入后比较两者的距离；情绪逐步抬升时，注意人声的胸腔重量是否增加但不发硬，同时后方编配仍有层次而不是被压成一堵声墙。"
+    },
+    {
+      "position": 3,
+      "title": "Summer",
+      "artist": "久石让",
+      "album": "Kikujiro (Original Motion Picture Soundtrack)",
+      "canonical_id": "久石让::Summer",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1498700482",
+        "song_id": "1498700482",
+        "storefront": "cn"
+      },
+      "analysis_summary": "《Summer》来自久石让《菊次郎的夏天》原声，是今天最轻盈的一首：钢琴主导的明亮动机、稳定的节奏推进与随后展开的配器，让重复主题不断换一种光线。它不以炫技取胜，而是靠触键、音符间距和配器层层接力制造前进感，正好把前两首的人声叙事转换成纯器乐的运动感。",
+      "listening_cue": "先只跟住钢琴主旋律，听每个音的起音是否清楚、重音是否自然；主题再次出现时，再观察弦乐与节奏层怎样加入而不遮住钢琴，尤其注意低频是否保持轻快而不是拖慢整体步伐。"
+    },
+    {
+      "position": 4,
+      "title": "一起",
+      "artist": "范晓萱",
+      "album": "赤子",
+      "canonical_id": "范晓萱::一起",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1861300688",
+        "song_id": "1861300688",
+        "storefront": "cn"
+      },
+      "analysis_summary": "范晓萱《一起》放在第四首，是为了把华语流行带到 2009 年更成熟、偏乐队化和独立取向的质地。相比典型大编制情歌，它更重视声线的个性、节奏骨架与电声/键盘层之间的关系，情绪不是一次性冲到高潮，而是在较克制的段落与更饱满的声部之间来回呼吸；这种制作很适合听中频纹理是否既有颗粒又保持透明。",
+      "listening_cue": "从较轻的段落一路听到编曲增加重量的位置，先记住主唱的口型与距离，再分辨节奏组、吉他/键盘化音色如何向两侧展开；重点听密度变高后主唱是否仍有实体感，不被中高频推薄。"
+    },
+    {
+      "position": 5,
+      "title": "Opening",
+      "artist": "菲利普・格拉斯, 格拉斯合奏团 & 迈克尔・里斯曼",
+      "album": "Glassworks (Expanded Edition)",
+      "canonical_id": "菲利普・格拉斯, 格拉斯合奏团 & 迈克尔・里斯曼::Opening",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/203258554",
+        "song_id": "203258554",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是菲利普・格拉斯、格拉斯合奏团与迈克尔・里斯曼的《Opening》。它把主歌、副歌、歌手和传统叙事全部拿掉，只用持续重复的键盘型、缓慢移动的和声与微小的重音变化组织时间；如果只等旋律发展会觉得几乎没变，但把注意力放到循环内部，就会发现张力来自极细的音色、力度和和声位移。",
+      "listening_cue": "挑一个反复出现的键盘音型持续跟住一分钟，不要追求下一段；注意同一循环中重音、和声色彩和残响怎样逐渐改变，同时检查每个音的起音与衰减是否能保持连续而不互相糊住。"
+    }
+  ]
+}
