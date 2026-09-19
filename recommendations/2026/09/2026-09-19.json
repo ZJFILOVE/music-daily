@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-19",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-19.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "富士山下",
+      "artist": "陈奕迅",
+      "album": "What's Going On...? (2nd Edition)",
+      "canonical_id": "陈奕迅::富士山下",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1720091290",
+        "song_id": "1720091290",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用《富士山下》把听感放在粤语流行最擅长的“克制叙事”上。它不是靠夸张的鼓组或巨大的低频来制造重量，而是让陈奕迅较近、略带沙感的人声与钢琴/键盘、弦乐化铺陈和节奏骨架逐层推进。选它的理由不是单纯因为经典，而是它能很好地检验一首成熟流行制作如何在情绪不断增加时仍保持中频比例、句子呼吸与编曲层次。",
+      "listening_cue": "从较安静的前段一路听到编曲明显变厚的位置，先记住主唱的口型与距离，再分辨后方持续声部和节奏层怎样加入；重点听情绪升高后人声是否仍自然居中，弦乐/键盘是否向后展开而不是把中频挤成一团。"
+    },
+    {
+      "position": 2,
+      "title": "Day Dreaming",
+      "artist": "Aretha Franklin",
+      "album": "Young, Gifted and Black",
+      "canonical_id": "Aretha Franklin::Day Dreaming",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/934216882",
+        "song_id": "934216882",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首转到 1972 年的 soul，把第一首较精密的流行叙事换成更松弛、更依赖 groove 的身体感。《Day Dreaming》里 Aretha Franklin 的声线并不急着炫技，而是在柔软节奏、温暖电钢琴、贝斯与轻盈木管色彩之间游走；这种编排的魅力在于每个声部都不抢，却共同形成极有弹性的摆动。今天选它，是为了听“松”并不等于失去控制，反而更考验节奏微差与音色比例。",
+      "listening_cue": "先别追主唱，花半分钟只跟贝斯与鼓的落点，感受它们如何留出空气；随后把注意力移到电钢琴、木管色彩与人声之间，重点听 Aretha 加重一句时节奏是否仍保持松弛，低频是否有弹性而不拖尾。"
+    },
+    {
+      "position": 3,
+      "title": "Nothing Else Matters (Live)",
+      "artist": "Metallica",
+      "album": "S&M (Live)",
+      "canonical_id": "Metallica::Nothing Else Matters (Live)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440875870",
+        "song_id": "1440875870",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这里明确推荐《S&M (Live)》中的现场版本，而不是用录音室版互换。Metallica 的电吉他、鼓与 James Hetfield 的声线本来就有很强的硬边缘，交响声部加入后却不是简单“加厚”，而是在持续音、内声部与动态规模上重新组织歌曲。它放在今天第三首，正好从前两首的克制与松弛跳到大尺度现场动态，听摇滚乐队和管弦乐如何共享同一个声场而不彼此吞没。",
+      "listening_cue": "从较安静的开头记住吉他与主唱的位置，等管弦声部和鼓逐层进入后，刻意分辨电吉他的中频边缘、鼓的瞬态与弦乐持续音；高潮处不要只听“更响”，而要判断乐队仍在前景、管弦层仍有纵深，现场残响没有把轮廓抹平。"
+    },
+    {
+      "position": 4,
+      "title": "NEO GEO",
+      "artist": "坂本龙一",
+      "album": "NEO GEO",
+      "canonical_id": "坂本龙一::NEO GEO",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1539160973",
+        "song_id": "1539160973",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首把声音从摇滚现场切到坂本龙一 1987 年更外向、更强调跨文化节奏与电子音色的阶段。《NEO GEO》值得今天听，是因为它不适合用单一的“电子”“世界音乐”或“流行”标签概括：合成器、打击乐与切分律动不断互相咬合，声部的趣味更多来自音色碰撞和节奏网格，而不是传统主歌—副歌的情绪曲线。它也是今天从熟悉歌曲结构走向更开放听法的过渡。",
+      "listening_cue": "第一遍只抓最稳定的节奏脉冲，观察不同打击与电子音色怎样错开起音；第二遍再听中高频的短促纹理和持续声部如何进出。具体注意低频是否保持清楚边界，以及密集切分出现时每一层仍能否被单独追踪。"
+    },
+    {
+      "position": 5,
+      "title": "Shahbaaz Qalandar",
+      "artist": "Nusrat Fateh Ali Khan",
+      "album": "Live at WOMAD 1985",
+      "canonical_id": "Nusrat Fateh Ali Khan::Shahbaaz Qalandar",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1653591757",
+        "song_id": "1653591757",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Nusrat Fateh Ali Khan《Live at WOMAD 1985》中的《Shahbaaz Qalandar》，明确推荐这一现场版本。Qawwali 的张力不是靠现代制作里预设好的 drop 或副歌，而是由领唱、合唱应答、拍手与持续循环的伴奏在长时间尺度上不断累积；Nusrat 的声线会在重复框架里通过力度、音高和即兴逐步把群体能量推高。把它放在最后，是为了把今天的“聆听时间感”从几分钟的流行结构彻底扩展出去。",
+      "listening_cue": "先锁住拍手与循环伴奏，不要急着追每个声乐转折；当领唱和合唱开始交替加速、加重时，听各声部是否仍有清楚前后关系。重点感受重复如何一点点改变群体张力，而不是只等某个传统意义上的高潮。"
+    }
+  ]
+}
