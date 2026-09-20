@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-20",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-20.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "纯真年代",
+      "artist": "张惠妹",
+      "album": "不顾一切",
+      "canonical_id": "张惠妹::纯真年代",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1854813610",
+        "song_id": "1854813610",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用张惠妹《纯真年代》把听感放回千禧年前后的国语流行。选择它不是为了追求大歌式的爆发，而是因为张惠妹极有辨识度的人声在相对传统的流行框架里，能把旋律、句子力度与伴奏层次之间的关系听得很清楚；它也为后面更偏摇滚、爵士与当代古典的几首建立一个熟悉而有人情味的起点。",
+      "listening_cue": "先固定一个舒适音量听主唱的中频厚度和句尾收束，再留意伴奏逐渐增加重量时人声是否仍稳定居中；重点比较节奏脉冲、和声支撑与主唱之间有没有各自的空间，而不是一起挤成一个平面。"
+    },
+    {
+      "position": 2,
+      "title": "Radio Head (2005 Remaster)",
+      "artist": "Talking Heads",
+      "album": "True Stories (Bonus Track Version)",
+      "canonical_id": "Talking Heads::Radio Head (2005 Remaster)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/726289927",
+        "song_id": "726289927",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首切到 Talking Heads《Radio Head》的 2005 remaster。它把新浪潮/艺术摇滚的紧绷律动和更具乡土色彩的乐器质感放在一起：吉他、贝斯、鼓与 David Byrne 略带神经质的演唱互相咬合，编曲并不靠厚重墙式声响，而靠节奏位置和音色反差保持推进。选择这个具体 remaster，是为了听一种和现代流行完全不同的干爽、颗粒化乐队质地。",
+      "listening_cue": "先跟住贝斯与鼓的稳定脉冲，再把注意力移到吉他和更明亮的装饰性声部；听 David Byrne 的声音进入后，节奏是否仍然有弹性，尤其注意军鼓瞬态和中频吉他不要因为整体变响而互相遮蔽。"
+    },
+    {
+      "position": 3,
+      "title": "'Round Midnight",
+      "artist": "Thelonious Monk",
+      "album": "The Art of the Ballad",
+      "canonical_id": "Thelonious Monk::'Round Midnight",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1412801356",
+        "song_id": "1412801356",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首把前两首的歌手与节奏组都收掉，转到 Thelonious Monk 的《'Round Midnight》。这个中国区资源对应 1957 年日期的版本，核心魅力是独奏钢琴里极不规则却极有逻辑的停顿、和声张力与触键重量：Monk 不会把抒情曲弹成平滑背景，而是让每个和弦的落点、延迟与留白都带着明确的性格。今天选它，是为了把耳朵从“编曲密度”转向“时间与沉默”。",
+      "listening_cue": "不要追求把每个和弦都听成漂亮的连续线条；专门注意右手旋律与左手和声之间略微错开的落点，以及音符结束后的空白。好的重放应让琴键起音有硬度，同时保留尾音与房间感，不把停顿填满。"
+    },
+    {
+      "position": 4,
+      "title": "Blackbird (Take 4 - Remastered)",
+      "artist": "The Beatles",
+      "album": "Anthology 3",
+      "canonical_id": "The Beatles::Blackbird (Take 4 - Remastered)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1834472875",
+        "song_id": "1834472875",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这里明确推荐《Anthology 3》中的《Blackbird (Take 4 - Remastered)》，不是用它替代更熟悉的正式录音室版本。正因为是具体的 alternate take，声响更适合把注意力放在人声与原声吉他的近距离互动：拨弦、呼吸、力度变化和微小的节奏松紧都比宏大的制作效果重要。它放在 Monk 之后，可以连续比较两种“少即是多”的录音如何依靠时间感成立。",
+      "listening_cue": "先只听原声吉他每次拨弦的起音与衰减，再把人声加进来，观察两者是不是各有清楚边界却仍像在同一个近距离空间里。尤其留意强弱变化时，吉他不应变得尖薄，人声也不应因为过度解析而失去自然质感。"
+    },
+    {
+      "position": 5,
+      "title": "Tabula Rasa: Ludus",
+      "artist": "Rebecca Hirsch, 阿尔斯特管弦乐团, Takuo Yuasa, Lesley Hatfield & Leslie Hatfield",
+      "album": "Part: Arvo Part - a Portrait (Kimberley)",
+      "canonical_id": "Rebecca Hirsch, 阿尔斯特管弦乐团, Takuo Yuasa, Lesley Hatfield & Leslie Hatfield::Tabula Rasa: Ludus",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/536374634",
+        "song_id": "536374634",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard / expansion pick 是《Tabula Rasa: Ludus》。它把前四首的流行歌、摇滚、爵士与原声歌曲语法彻底放下，进入 Arvo Pärt 以重复、留白和高度克制的和声关系组织张力的世界。这个具体录音由 Rebecca Hirsch、阿尔斯特管弦乐团、Takuo Yuasa 等演奏；弦乐的尖锐起音、持续音与突然出现的空白，让时间像被切成一组一组具有重量的块面。",
+      "listening_cue": "不要只等一个传统意义上的主题或高潮；选定弦乐反复出现的短动机持续跟踪，观察每次返回时力度、密度与残响怎样变化。尤其注意强奏结束后的静默是否真的干净，以及下一次进入时瞬态能不能从黑背景里重新立起来。"
+    }
+  ]
+}
