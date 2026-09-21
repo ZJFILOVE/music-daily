@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-21",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-21.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "冷战",
+      "artist": "王菲",
+      "album": "Elements: 中词西曲",
+      "canonical_id": "王菲::冷战",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1442401196",
+        "song_id": "1442401196",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用王菲《冷战》把耳朵放进一种克制、疏离而又很讲究空间比例的九十年代华语流行语境。它并不依靠巨大鼓组或厚重低频制造情绪，而是让较冷的键盘/合成器色彩、节制的节奏支撑与王菲轻而有距离感的人声共同形成张力。选它的理由是这种制作特别适合听“留白是否真的存在”：一旦中频被推得太满，歌曲原本悬而未决的气质就会消失。",
+      "listening_cue": "从主唱刚进入时记住人声的距离和口型，随后听背景键盘与节奏层逐渐增加时，中央声像是否仍保持轻盈；尤其注意句尾残响与伴奏之间有没有清楚边界，而不是被低中频粘成一片。"
+    },
+    {
+      "position": 2,
+      "title": "What's Going On",
+      "artist": "Marvin Gaye",
+      "album": "What's Going On (Deluxe Edition 50th Anniversary)",
+      "canonical_id": "Marvin Gaye::What's Going On",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1547896521",
+        "song_id": "1547896521",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首转到 Marvin Gaye 的《What's Going On》，把上一首较冷的疏离感换成温暖、流动且高度群体化的 soul 声场。这里最值得听的不是单一主唱有多突出，而是贝斯、鼓、打击乐、弦乐/管乐色彩、背景人声与主唱如何同时保持运动感；James Jamerson 式的低音线不是简单打拍子，而是在和声内部持续走动。这个版本对应中国区《What's Going On (Deluxe Edition 50th Anniversary)》资源。",
+      "listening_cue": "先把注意力放在低音与鼓的关系上，听低音线如何不断绕开主拍又不破坏 groove；随后加入背景人声与弦乐去听，理想状态是声场很满，但每一层仍有呼吸，Marvin Gaye 的主唱不会被推成孤立的“大头像”。"
+    },
+    {
+      "position": 3,
+      "title": "Cantaloupe Island",
+      "artist": "Herbie Hancock",
+      "album": "Empyrean Isles (Expanded Edition)",
+      "canonical_id": "Herbie Hancock::Cantaloupe Island",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/724298921",
+        "song_id": "724298921",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首用 Herbie Hancock《Cantaloupe Island》把复杂编曲进一步减到一个极有辨识度的钢琴 riff、贝斯、鼓和铜管即兴。它的魅力在于 groove 很稳定，却从不僵硬：重复钢琴型提供地面，节奏组持续用细小的重音和摆动改变身体感，而即兴声部则在这个框架上拉开空间。今天选它，是为了和前一首 soul 比较两种同样依赖节奏的音乐——一个靠多层制作流动，一个靠演奏者之间的实时反应流动。",
+      "listening_cue": "先连续跟住钢琴 riff 两三轮，确认每次重复的触键和重音并非机械复制；再把耳朵移到贝斯与鼓，听它们怎样在相同框架里微调推进感。铜管进入后，注意即兴应该浮在节奏组之上，而不是把中频全部占满。"
+    },
+    {
+      "position": 4,
+      "title": "Down by the Water",
+      "artist": "PJ Harvey",
+      "album": "To Bring You My Love",
+      "canonical_id": "PJ Harvey::Down by the Water",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440922606",
+        "song_id": "1440922606",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首故意把前面的温暖与松弛切断，进入 PJ Harvey《Down by the Water》的暗色另类摇滚/艺术摇滚世界。这里的力量并不主要来自传统吉他墙，而来自阴冷的低频脉冲、干燥而带威胁感的节奏、稀疏键盘/弦乐化纹理以及 PJ Harvey 极强的角色化演唱。制作会不断利用空白与突出的单个音色制造不安，所以它很适合听瞬态、低频边缘和人声质地，而不是只追求整体冲击。",
+      "listening_cue": "先盯住开头反复出现的低频与节奏型，听每次起音是否短、硬且有明确收尾；主唱进入后，再比较她的近距离声线与后方阴影般的音色层。到编曲更浓的位置，重点判断压迫感是否增加，但各元素仍然分得开。"
+    },
+    {
+      "position": 5,
+      "title": "An Ending (Ascent)",
+      "artist": "布莱恩・伊诺",
+      "album": "Apollo: Atmospheres and Soundtracks",
+      "canonical_id": "布莱恩・伊诺::An Ending (Ascent)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/714861225",
+        "song_id": "714861225",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是布莱恩・伊诺《Apollo: Atmospheres and Soundtracks》里的《An Ending (Ascent)》。前四首都还有明确的节奏、riff 或人声中心，这一首则把这些抓手几乎全部撤掉，只留下缓慢变化的和声块、柔软的合成器包络与很长的空间衰减。它值得作为收尾，不只是因为“安静”，而是因为它要求用更长的时间尺度听音色：一个和弦的出现、悬停和消失本身就是结构。",
+      "listening_cue": "把音量保持在自然偏低的位置，不要为了听细节刻意放大；选一个持续和弦，从它刚出现一直跟到完全衰减，观察高频边缘、中心密度和残响尾部怎样变化。重点听声音消失之后的黑背景是否干净，以及下一层进入时是否有真正的纵深。"
+    }
+  ]
+}
