@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-22",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-22.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "美人鱼",
+      "artist": "林俊杰",
+      "album": "第二天堂(江南)",
+      "canonical_id": "林俊杰::美人鱼",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1071753633",
+        "song_id": "1071753633",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用林俊杰早期的《美人鱼》建立一个清晰、带轻微 R&B 弹性的华语流行坐标。2004 年的制作没有后来流行母带那么追求持续高密度，而是让键盘和声、节奏骨架、分层人声与旋律彼此留出空间；林俊杰当时偏轻、偏亮的声线在较高音区仍保有柔软度。选它不是因为熟悉，而是因为它能很好地听出一首旋律型流行歌如何靠节奏细节与和声色彩保持推进，而不是单靠副歌变响。",
+      "listening_cue": "从主歌一路听到副歌，先锁定鼓与低频的弹性，再听主唱升到较高音区时中央声像是否仍自然；特别注意背景和声与键盘层进入后，中高频有没有变薄或变硬，以及不同声部是否仍能保留空气。"
+    },
+    {
+      "position": 2,
+      "title": "Hallelujah",
+      "artist": "Jeff Buckley",
+      "album": "Grace",
+      "canonical_id": "Jeff Buckley::Hallelujah",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1046187586",
+        "song_id": "1046187586",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首明确推荐 Jeff Buckley 在《Grace》中的《Hallelujah》翻唱版本，而不是把它当作 Leonard Cohen 原作的替代。Buckley 的版本把编曲压缩到近乎只有干净电吉他与人声，让力度、呼吸、指触和空间尾音本身承担结构功能；他的声线会从贴近耳边的轻声逐渐扩展到更开放的高音，但真正动人的地方不是炫技，而是每一次动态扩张前都保留了足够的静与弱。",
+      "listening_cue": "开头先只听吉他拨弦的起音和衰减，记住它与主唱之间的距离；随后在 Buckley 拉长音和提高力度时，检查人声是否仍有完整的口型与空气感，残响应该向后延伸而不是把吉他和人声糊成同一层。"
+    },
+    {
+      "position": 3,
+      "title": "Águas de Março",
+      "artist": "Elis Regina & Antônio Carlos Jobim",
+      "album": "Elis & Tom",
+      "canonical_id": "Elis Regina & Antônio Carlos Jobim::Águas de Março",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1438430509",
+        "song_id": "1438430509",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首把语言、节奏与录音年代一下拉到 1974 年的巴西。《Águas de Março》在《Elis & Tom》里最值得听的并不是某一个声部多华丽，而是 Elis Regina 与 Antônio Carlos Jobim 的人声如何在轻盈的 bossa nova 脉冲上不断交替、重叠和互相接住。节奏组与和声伴奏始终克制，给两个人的时间感留下大量空间；那种像聊天一样自然的推进，正适合和前两首更明确的“主唱中心”制作做比较。",
+      "listening_cue": "先跟住最轻的节奏脉冲，不要急着追旋律；当两位歌手开始更频繁地交替和重叠时，听他们的声线是否仍各有位置、句尾是否保留自然呼吸。尤其留意轻微的速度感和重音变化，它们比整体响度更决定这首歌的摆动感。"
+    },
+    {
+      "position": 4,
+      "title": "Roygbiv",
+      "artist": "Boards of Canada",
+      "album": "Music Has the Right to Children",
+      "canonical_id": "Boards of Canada::Roygbiv",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/281116081",
+        "song_id": "281116081",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Boards of Canada 的《Roygbiv》。它很短，却把九十年代末 IDM/电子音乐中最迷人的“旧介质记忆感”压缩得非常集中：温暖而略失真的合成器低频、朦胧旋律线、颗粒化鼓点与像被磁带磨过的高频边缘共同形成一种既儿童化又不安的色彩。选它是为了让今天的聆听从歌词、人声与真实演奏彻底转向合成音色、包络和质感变化。",
+      "listening_cue": "第一遍只追低频合成器的轮廓，听每个音是否厚而不拖；第二遍把注意力转到鼓点和上方旋律，观察瞬态、磁带式柔化和轻微饱和如何同时存在。重点不是寻找巨大声场，而是听有限空间里每层质地是否仍清楚。"
+    },
+    {
+      "position": 5,
+      "title": "Plastic Love",
+      "artist": "竹内玛莉亚",
+      "album": "Expressions (MOON Version)",
+      "canonical_id": "竹内玛莉亚::Plastic Love",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1541673399",
+        "song_id": "1541673399",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用竹内玛莉亚《Plastic Love》把今天收在 1984 年日本 city pop 的精密都市感里。这个中国区资源来自《Expressions (MOON Version)》，保留了作品最重要的舞曲化节奏、流动低音、干净吉他/键盘色彩与层层叠加的人声和装饰声部。它的密度比前面几首都更高，却不是靠压缩成一堵墙来制造兴奋，而是让每个节奏性元素在稳定 groove 里持续咬合。",
+      "listening_cue": "先只跟低音与鼓组一整段，感受两者如何形成稳定但不僵硬的推进；副歌密度提高后，再分辨主唱、背景和声与明亮装饰声部的左右和前后位置。好的重放应让低频有弹性，高频有光泽，却不会把人声推得尖薄。"
+    }
+  ]
+}
