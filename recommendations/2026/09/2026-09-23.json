@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-23.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "不再流泪",
+      "artist": "陈百强",
+      "album": "不再流泪",
+      "canonical_id": "陈百强::不再流泪",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1442592938",
+        "song_id": "1442592938",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用陈百强 1980 年的《不再流泪》建立一个早期香港流行录音的坐标。这个时期的编曲不像后来华语流行那样追求持续高密度和夸张低频，而是把旋律、人声、节奏组与弦乐/键盘色彩留在相对清楚的层次里；陈百强偏清朗、克制的声线尤其适合听中频是否自然。选它不是单纯因为年代感，而是因为它能让耳朵重新注意一句旋律如何靠气息、伴奏留白与和声转折成立。",
+      "listening_cue": "从主唱进入后先记住人声的实体感和距离，再听伴奏逐渐铺开时中频是否仍有空气；尤其注意句尾与弦乐/键盘尾音的衰减，理想状态是温暖但不糊，人声不会被背景推得过亮。"
+    },
+    {
+      "position": 2,
+      "title": "Sweet Love (2012 Remaster)",
+      "artist": "Anita Baker",
+      "album": "80 Hits of the 80s",
+      "canonical_id": "Anita Baker::Sweet Love (2012 Remaster)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1477082929",
+        "song_id": "1477082929",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首明确选择 Apple Music 中国区当前这条《Sweet Love (2012 Remaster)》资源，专辑字段按直达页记录为《80 Hits of the 80s》，而不是静默改写成《Rapture》的另一条资源。Anita Baker 的低中频厚度、松弛而精准的鼓与贝斯、柔和电钢琴/合成器和背景和声，共同形成典型 quiet-storm / R&B 的丝滑推进；真正值得听的是它很饱满，却没有把人声和节奏组压成一个平面。",
+      "listening_cue": "先只跟贝斯和底鼓半分钟，感受低频的圆润起音与收尾；随后把注意力移到 Baker 拉长音时的胸腔厚度和高频边缘，检查背景和声加入后主唱是否仍有稳定中心，同时整体不会因 remaster 的亮度而变硬。"
+    },
+    {
+      "position": 3,
+      "title": "Everything In Its Right Place",
+      "artist": "Radiohead",
+      "album": "Kid A",
+      "canonical_id": "Radiohead::Everything In Its Right Place",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1097863108",
+        "song_id": "1097863108",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首把前两首以真人声线和传统节奏组为中心的听感突然切到《Kid A》的电子化空间。《Everything In Its Right Place》最重要的不是“电子音色很多”，而是一个看似简单的键盘和声循环如何通过切片人声、声像移动、滤波与重复制造越来越不稳定的空间感；它在结构上极克制，却能让每一次微小变化都被放大。今天选它，是为了比较模拟时代的温暖层次与数字处理时代的人工空间如何用完全不同的方法建立深度。",
+      "listening_cue": "开头先锁定键盘和弦的攻击与衰减，记住它的中心位置；人声切片逐渐进入后，不要追歌词，而是听声像、距离和纹理怎样被重新排列。重点判断低频是否稳住地基，同时上方处理声部仍能彼此分开而不化成一团雾。"
+    },
+    {
+      "position": 4,
+      "title": "Moanin' (Live)",
+      "artist": "Art Blakey",
+      "album": "Columbia Jazz",
+      "canonical_id": "Art Blakey::Moanin' (Live)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/532942801",
+        "song_id": "532942801",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这里明确推荐 Apple Music 中国区标注为《Moanin' (Live)》的具体现场资源，专辑为《Columbia Jazz》，不是拿其他录音室版或后来的重演版本互换。Art Blakey 的价值在这个版本里首先体现在鼓的推动力：军鼓、镲片与底鼓不是单纯打拍子，而是在不断改变乐队的重心；铜管与钢琴在这种推进之上形成呼应，使 hard bop 的能量来自集体时间感而不是母带响度。",
+      "listening_cue": "先盯住 Blakey 的镲片与军鼓，听强拍之外的小重音怎样把乐句向前推；铜管进入后再比较前景吹奏与后方鼓组的距离。现场录音不必追求绝对干净，关键是强奏时瞬态仍能立起来、各声部不会因厅堂和底噪而失去节奏边界。"
+    },
+    {
+      "position": 5,
+      "title": "Sports Men (2019 Remastering)",
+      "artist": "细野晴臣",
+      "album": "Philharmony",
+      "canonical_id": "细野晴臣::Sports Men (2019 Remastering)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1464660099",
+        "song_id": "1464660099",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是细野晴臣《Philharmony》里的《Sports Men (2019 Remastering)》。1982 年的原始创作已经把流行旋律、早期数字/合成器质感、机械节拍和近乎玩具化的音色拼在一起，而 2019 remaster 让这些层次在中国区当前资源里呈现得更清楚；它既不像传统 city pop，也不是纯粹的实验电子，更像一套故意把“人工感”摆到台前的声音设计。作为收尾，它能把今天从自然人声、R&B、数字艺术摇滚和现场爵士再推向一种轻巧而古怪的电子审美。",
+      "listening_cue": "第一遍只跟最稳定的电子节拍与低频脉冲，第二遍再听上方短促合成器、处理人声和装饰音怎样逐层插入；重点比较每个音色的起音边缘与左右位置。好的重放应保留它的俏皮和硬质轮廓，而不是把 2019 remaster 听成单纯更亮、更响。"
+    }
+  ]
+}
