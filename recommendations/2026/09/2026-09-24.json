@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-24",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-24.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "无与伦比的美丽",
+      "artist": "苏打绿",
+      "album": "无与伦比的美丽",
+      "canonical_id": "苏打绿::无与伦比的美丽",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E7%BE%8E%E4%B8%BD/1443209403",
+        "song_id": "1443209403",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用苏打绿《无与伦比的美丽》把听感拉回 2000 年代中后期华语乐队作品：青峰高而有韧性的声线、明亮的吉他/键盘色彩与逐层扩大的节奏和和声，让情绪不是靠一开始就把动态压满，而是靠密度与音域逐渐打开。选它作为开场，是为了在最近几天的老录音、电子与现场质地之后重新建立一个熟悉但制作并不扁平的中文流行坐标；真正值得听的是编曲越往后越满时，主唱仍能保持呼吸和中心感。",
+      "listening_cue": "从相对克制的前段一路听到后段明显增厚的位置，先记住主唱的距离与高频边缘，再听鼓、吉他/键盘和背景和声加入后声场怎样展开；重点检查高音是否仍有柔韧度、镲片是否发硬，以及低中频有没有把主唱的口型和空气吞掉。"
+    },
+    {
+      "position": 2,
+      "title": "As",
+      "artist": "Stevie Wonder",
+      "album": "Songs in the Key of Life",
+      "canonical_id": "Stevie Wonder::As",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/as/1440788744",
+        "song_id": "1440788744",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首转到 Stevie Wonder 1976 年《Songs in the Key of Life》里的《As》。它把 soul、funk 与带有 gospel 气质的群体推进揉在一起：稳定的 groove 之上，贝斯、鼓、键盘、打击乐、主唱与背景声部不断叠加，却始终保持一种会呼吸的弹性。今天选它，是因为它能很好地检验“密度”和“拥挤”之间的区别——音乐越到后面越热烈，但真正的推动力来自节奏位置、声部回应与动态积累，而不是单纯变响。",
+      "listening_cue": "先用约一分钟只跟贝斯、底鼓和镲片的关系，听低频怎样保持弹性而不拖；随后把键盘与背景人声加入注意力，观察层次增加后 Stevie Wonder 的主唱是否仍有清楚实体感。到最饱满的段落，重点听多个声部能否同时活动却不挤成一面声墙。"
+    },
+    {
+      "position": 3,
+      "title": "Pata Pata (Mono Version)",
+      "artist": "Miriam Makeba",
+      "album": "Pata Pata (Mono & Stereo Versions)",
+      "canonical_id": "Miriam Makeba::Pata Pata (Mono Version)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/pata-pata-mono-version/1472549630",
+        "song_id": "1472549630",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首明确推荐 Miriam Makeba《Pata Pata (Mono & Stereo Versions)》中的《Pata Pata (Mono Version)》，不是用立体声版、重录版或其他同名版本替代。1967 年的这条 mono 资源把舞动的节奏、吉他/贝斯、打击与铜管色彩、主唱和群体回应压在一个中央声像里，因此它特别适合把注意力从左右定位转向音色、瞬态、前后关系与节奏层次。今天放在 Stevie Wonder 之后，也能连续比较两种不同年代、不同制作逻辑的身体性 groove。",
+      "listening_cue": "不要期待宽阔立体声，先锁住中央声像里的打击与低频脉冲，听每个起音能否从同一位置中被分辨；当主唱、回应声部和铜管/装饰层一起变密时，重点判断是“集中而有层次”还是“全部挤成一团”。这个版本的价值就在 mono 限制下仍能保留节奏轮廓。"
+    },
+    {
+      "position": 4,
+      "title": "Heaven or Las Vegas",
+      "artist": "Cocteau Twins",
+      "album": "Heaven Or Las Vegas (Remastered)",
+      "canonical_id": "Cocteau Twins::Heaven or Las Vegas",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/heaven-or-las-vegas/258200075",
+        "song_id": "258200075",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首进入 Cocteau Twins 的《Heaven or Las Vegas》，中国区当前歌曲资源来自《Heaven Or Las Vegas (Remastered)》。这里的人声不只是叙事主体，更像和多层处理吉他一起构成发光的音色材料：节奏组提供稳定地面，上方则由延迟、混响、明亮吉他纹理和 Elizabeth Fraser 极具流动感的声线制造近乎无边界的光晕。今天选它，是为了在前一首极度集中的 mono 声像之后，突然切到依赖空间处理与层叠纹理成立的 dream pop。",
+      "listening_cue": "先听开头节奏组和吉他建立的底层，再等人声进入后刻意分辨中央主唱、左右扩散的吉他纹理与残响尾巴；重点不是追求越宽越好，而是听高密度混响里每一层是否仍有轮廓。若高频过亮，人声和吉他会很快糊成一片白光。"
+    },
+    {
+      "position": 5,
+      "title": "Xtal",
+      "artist": "Aphex Twin",
+      "album": "Selected Ambient Works 85-92",
+      "canonical_id": "Aphex Twin::Xtal",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/xtal/1668862649",
+        "song_id": "1668862649",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard / expansion pick 是 Aphex Twin 的《Xtal》，来自《Selected Ambient Works 85-92》。它把前四首的明确歌手、乐队或现场质感进一步抽掉，只保留柔化的鼓循环、漂浮合成器和声、带颗粒感的人声样纹理与朦胧空间；早期 ambient techno 的魅力就在于节拍明明稳定，却被包络、残响和模糊边缘处理成近似梦境的时间感。把它放在最后，是为了把今天从“声部怎么演奏”转到“声音本身怎样被设计和衰减”。",
+      "listening_cue": "保持偏自然的音量，第一遍只跟鼓循环与低频脉冲，第二遍再追上方持续和声和人声样纹理的出现、悬停与消失；特别听硬一些的节拍瞬态与柔软背景之间是否同时存在。不要等传统副歌，关注循环内部音色怎样缓慢变化。"
+    }
+  ]
+}
