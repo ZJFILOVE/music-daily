@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-25",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-25.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "我只要",
+      "artist": "伍佰 & China Blue",
+      "album": "纯真年代",
+      "canonical_id": "伍佰 & China Blue::我只要",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1063940820","song_id":"1063940820","storefront":"cn"},
+      "analysis_summary": "今天用伍佰 & China Blue《我只要》开场，是想把耳朵重新放回一支真正靠乐队互动而不是精密堆叠取胜的华语摇滚录音。电吉他的中频颗粒、贝斯与鼓稍微松弛却始终咬住拍点的推进感，以及主唱和乐器像处在同一物理空间里的粗粝质感，让它很适合作为今天比较不同制作空间的起点。",
+      "listening_cue": "先用半分钟只跟军鼓、踩镲和贝斯，进入更饱满的段落后再加入吉他与主唱，重点听中频密度升高时每一层是否仍有独立轮廓。"
+    },
+    {
+      "position": 2,
+      "title": "everything i wanted",
+      "artist": "Billie Eilish",
+      "album": "everything i wanted - Single",
+      "canonical_id": "Billie Eilish::everything i wanted",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1487502476","song_id":"1487502476","storefront":"cn"},
+      "analysis_summary": "第二首把第一首的乐队实体感骤然收窄到 Billie Eilish《everything i wanted》的近距离录音室空间。微动态、气息、叠录人声与克制的键盘和低频被组织得极有效率，声音并不少，却刻意不制造夸张的大舞台，特别适合听制作如何用“少”和“近”建立心理距离。",
+      "listening_cue": "保持偏低到正常音量，先盯住主唱辅音、气息和句尾，再听低频进入时是否只是增加重量而没有把人声推远；叠录增加后观察中央声像是否仍小而稳定。"
+    },
+    {
+      "position": 3,
+      "title": "Angel (Remastered 2018)",
+      "artist": "Massive Attack",
+      "album": "Mezzanine (Deluxe)",
+      "canonical_id": "Massive Attack::Angel (Remastered 2018)",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1428687420","song_id":"1428687420","storefront":"cn"},
+      "analysis_summary": "这里明确推荐 Apple Music 中国大陆区的《Angel (Remastered 2018)》，不是其他母带版本。缓慢而执拗的低频循环、沉重鼓点、悬浮人声与后段逐渐压近的吉他和噪声纹理共同形成持续增压，优秀之处在于“黑”和“重”仍然保留清楚边界，而不是把所有频段堆成一团。",
+      "listening_cue": "用中等音量从开头持续跟住低频循环的起音与收尾；随着吉他和高密度纹理加入，检查低频是否仍有清楚边缘，同时听人声是否仍保持独立的前后层次。"
+    },
+    {
+      "position": 4,
+      "title": "Sinnerman",
+      "artist": "Nina Simone",
+      "album": "Feeling Good: The Very Best of Nina Simone",
+      "canonical_id": "Nina Simone::Sinnerman",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1470670838","song_id":"1470670838","storefront":"cn"},
+      "analysis_summary": "第四首把电子制作的压迫换成 Nina Simone《Sinnerman》依靠演奏本身累积出的长线张力。钢琴反复型、持续脉冲与声乐在较长时间里不断改变力度和重心，同一材料反复出现却不机械；它非常适合训练对时间、重音和微小动态变化的耐心。",
+      "listening_cue": "先连续一到两分钟只跟钢琴反复型和节奏脉冲，随后把注意力移回主唱，听她每次进入时如何改变同一拍速的紧迫感，并分辨强度增长究竟来自哪些声部变化。"
+    },
+    {
+      "position": 5,
+      "title": "Llorando",
+      "artist": "Rebekah Del Rio",
+      "album": "All My Life - Toda Mi Vida",
+      "canonical_id": "Rebekah Del Rio::Llorando",
+      "apple_music": {"url":"https://music.apple.com/cn/song/456992227","song_id":"456992227","storefront":"cn"},
+      "analysis_summary": "今天的 wildcard 是 Rebekah Del Rio《Llorando》，明确推荐《All My Life - Toda Mi Vida》里的这个具体资源。它是 Roy Orbison《Crying》的西班牙语无伴奏演绎，并非把原作录音或同名作品替代进来；真正值得听的是裸露人声如何仅凭呼吸、颤音、力度跨度和空间尾音维持完整情绪弧线。",
+      "listening_cue": "保持正常甚至略低音量，挑一个长持续音从起音、元音稳定、颤音展开一路跟到残响消失，再比较克制句子与强声段落的声像大小和前后移动。"
+    }
+  ]
+}
