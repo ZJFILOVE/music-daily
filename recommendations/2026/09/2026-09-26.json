@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-26",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-26.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "很远的地方 (电影《海关战线》主题曲 / 粤语版)",
+      "artist": "张学友",
+      "album": "很远的地方 (电影《海关战线》主题曲) - Single",
+      "canonical_id": "张学友::很远的地方 (电影《海关战线》主题曲 / 粤语版)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/%E5%BE%88%E8%BF%9C%E7%9A%84%E5%9C%B0%E6%96%B9-%E7%94%B5%E5%BD%B1-%E6%B5%B7%E5%85%B3%E6%88%98%E7%BA%BF-%E4%B8%BB%E9%A2%98%E6%9B%B2-%E7%B2%A4%E8%AF%AD%E7%89%88/1752629180",
+        "song_id": "1752629180",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用张学友 2024 年的《很远的地方》粤语版建立一个现代华语电影歌曲的听感坐标。它保留成熟男声的中低频重量，同时用较克制的键盘、弦乐化铺陈和节奏支撑把情绪逐层拉开；相比一开始就把动态压满的制作，这首更适合听主唱如何在编曲增厚后仍维持清楚的口型、气息与中心位置。",
+      "listening_cue": "先记住开头人声的距离和中低频厚度，随后听弦乐化背景与节奏层加入后，主唱是否仍然稳定居中。尤其注意强声段落的齿音与胸腔共鸣：应有力量，但不能因为编曲变满而发硬或被低中频遮住。"
+    },
+    {
+      "position": 2,
+      "title": "Blue in Green",
+      "artist": "Miles Davis",
+      "album": "Kind of Blue (Legacy Edition)",
+      "canonical_id": "Miles Davis::Blue in Green",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/blue-in-green/300865222",
+        "song_id": "300865222",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首把第一首的电影歌曲空间骤然收窄到《Blue in Green》的极简爵士场景。弱音小号、钢琴、贝斯与刷奏鼓组几乎没有任何多余填充，每个音的起音、延音和留白都直接参与结构；它适合训练耳朵去听安静里的层次，而不是只在大动态里寻找细节。",
+      "listening_cue": "先跟弱音小号的单个音，从起音边缘一路听到完全消失；再转去听钢琴、贝斯和刷奏鼓怎样利用空白维持时间。理想重放应让空间很安静，却不是空洞，每件乐器都有清楚的前后位置。"
+    },
+    {
+      "position": 3,
+      "title": "Giorgio by Moroder",
+      "artist": "Daft Punk",
+      "album": "Random Access Memories (10th Anniversary Edition)",
+      "canonical_id": "Daft Punk::Giorgio by Moroder",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/giorgio-by-moroder/1673536432",
+        "song_id": "1673536432",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首转向 Daft Punk《Giorgio by Moroder》，中国大陆区当前资源来自《Random Access Memories (10th Anniversary Edition)》。它把口述采样、合成器循环、现场鼓和更密集的高频层次不断拼接，最精彩的地方不是单个音色，而是不同年代的制作语言怎样在同一首歌里连续换挡。",
+      "listening_cue": "从口述段开始记住人声距离，鼓组和合成器逐渐加入后，重点比较每次段落切换时低频、鼓瞬态和高频纹理的变化。到最密集的位置，尝试同时追住低频脉冲、鼓组与上方旋律材料。"
+    },
+    {
+      "position": 4,
+      "title": "Chan Chan (2021 - Remaster)",
+      "artist": "Buena Vista Social Club",
+      "album": "Buena Vista Social Club (25th Anniversary Edition)",
+      "canonical_id": "Buena Vista Social Club::Chan Chan (2021 - Remaster)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/chan-chan-2021-remaster/1675123649",
+        "song_id": "1675123649",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首明确推荐《Chan Chan (2021 - Remaster)》这一具体资源，而不是其他现场版或重录版。古巴 son 的魅力在于低音、打击、拨弦乐器和人声之间像面对面演奏一样的咬合，节奏并不重，却有很强的身体性；2021 remaster 的价值在于让原本朴素的中频纹理与打击瞬态更容易被分辨。",
+      "listening_cue": "第一遍只跟低音与打击的循环，感受节拍如何在看似松弛的状态下持续向前；第二遍加入拨弦和人声，听各声部是不是仍像围坐在同一个空间里。高频打击应清脆，但不能因为 remaster 而显得过亮或过硬。"
+    },
+    {
+      "position": 5,
+      "title": "Mohabbat",
+      "artist": "阿鲁杰・阿夫塔布",
+      "album": "Vulture Prince",
+      "canonical_id": "阿鲁杰・阿夫塔布::Mohabbat",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/mohabbat/1598994872",
+        "song_id": "1598994872",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是阿鲁杰・阿夫塔布《Vulture Prince》中的《Mohabbat》。它把南亚声乐传统的长线旋律感、近乎室内乐式的稀疏配器和现代 ambient 制作揉在一起，没有常规流行歌那种明显鼓点或副歌推进，却能靠低沉声线、拨弦质地与长尾混响维持持续张力。",
+      "listening_cue": "保持自然音量，先跟主唱一个完整长句，从起音、气息、元音稳定到尾部残响都不要移开注意力；随后再听周围拨弦与持续背景怎样进入和退出。重点是判断人声是否有实体，同时长混响仍能向后延伸而不遮住细小变化。"
+    }
+  ]
+}
