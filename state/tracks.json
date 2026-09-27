@@ -2,121 +2,615 @@
   "schema_version": 1,
   "provider": "apple_music",
   "recommended": {
-    "王菲::暧昧":{"first_recommended":"2026-09-04","last_recommended":"2026-09-04","count":1},
-    "陶喆::流沙":{"first_recommended":"2026-09-04","last_recommended":"2026-09-04","count":1},
-    "孙燕姿::我怀念的":{"first_recommended":"2026-09-04","last_recommended":"2026-09-04","count":1},
-    "蔡健雅::陌生人":{"first_recommended":"2026-09-04","last_recommended":"2026-09-04","count":1},
-    "陈奕迅::单车":{"first_recommended":"2026-09-04","last_recommended":"2026-09-04","count":1},
-    "Billie Eilish::bad guy":{"first_recommended":"2026-09-05","last_recommended":"2026-09-05","count":1},
-    "Daft Punk & Julian Casablancas::Instant Crush":{"first_recommended":"2026-09-05","last_recommended":"2026-09-05","count":1},
-    "Laufey::From The Start":{"first_recommended":"2026-09-05","last_recommended":"2026-09-05","count":1},
-    "Eagles::Hotel California":{"first_recommended":"2026-09-05","last_recommended":"2026-09-05","count":1},
-    "王菲::梦游":{"first_recommended":"2026-09-05","last_recommended":"2026-09-05","count":1},
-    "Norah Jones::Don't Know Why":{"first_recommended":"2026-09-06","last_recommended":"2026-09-06","count":1},
-    "莫文蔚::Close To You":{"first_recommended":"2026-09-06","last_recommended":"2026-09-06","count":1},
-    "方大同::Love Song (Live)":{"first_recommended":"2026-09-06","last_recommended":"2026-09-06","count":1},
-    "罗志祥::怕安静":{"first_recommended":"2026-09-06","last_recommended":"2026-09-06","count":1},
-    "逃走鲍伯::忽然之间 (滚石40 滚石撞乐队 40团拚经典 (原唱:莫文蔚))":{"first_recommended":"2026-09-06","last_recommended":"2026-09-06","count":1},
-    "Sade::Smooth Operator":{"first_recommended":"2026-09-07","last_recommended":"2026-09-07","count":1},
-    "Radiohead::No Surprises":{"first_recommended":"2026-09-07","last_recommended":"2026-09-07","count":1},
-    "李宗盛::寂寞难耐":{"first_recommended":"2026-09-07","last_recommended":"2026-09-07","count":1},
-    "Dave Brubeck::Take Five":{"first_recommended":"2026-09-07","last_recommended":"2026-09-07","count":1},
-    "Daniel Barenboim::Suite bergamasque, L. 75: III. Clair de lune":{"first_recommended":"2026-09-07","last_recommended":"2026-09-07","count":1},
-    "Tracy Chapman::Fast Car":{"first_recommended":"2026-09-08","last_recommended":"2026-09-08","count":1},
-    "The Beatles::Come Together (2019 Mix)":{"first_recommended":"2026-09-08","last_recommended":"2026-09-08","count":1},
-    "朴树::平凡之路":{"first_recommended":"2026-09-08","last_recommended":"2026-09-08","count":1},
-    "Charlie Puth::Attention":{"first_recommended":"2026-09-08","last_recommended":"2026-09-08","count":1},
-    "Alan Walker::Faded":{"first_recommended":"2026-09-08","last_recommended":"2026-09-08","count":1},
-    "Lorde::Royals":{"first_recommended":"2026-09-09","last_recommended":"2026-09-09","count":1},
-    "Miles Davis::So What":{"first_recommended":"2026-09-09","last_recommended":"2026-09-09","count":1},
-    "Portishead::Roads":{"first_recommended":"2026-09-09","last_recommended":"2026-09-09","count":1},
-    "Childish Gambino::Redbone":{"first_recommended":"2026-09-09","last_recommended":"2026-09-09","count":1},
-    "邓丽君::月亮代表我的心":{"first_recommended":"2026-09-09","last_recommended":"2026-09-09","count":1},
-    "Nujabes::Aruarian Dance":{"first_recommended":"2026-09-10","last_recommended":"2026-09-10","count":1},
-    "周杰伦::我的地盘":{"first_recommended":"2026-09-10","last_recommended":"2026-09-10","count":1},
-    "蔡琴::你的眼神 (Live)":{"first_recommended":"2026-09-10","last_recommended":"2026-09-10","count":1},
-    "坂本龙一::Merry Christmas Mr. Lawrence":{"first_recommended":"2026-09-10","last_recommended":"2026-09-10","count":1},
-    "张国荣::最爱":{"first_recommended":"2026-09-10","last_recommended":"2026-09-10","count":1},
-    "The Verve::Bitter Sweet Symphony":{"first_recommended":"2026-09-11","last_recommended":"2026-09-11","count":1},
-    "LOUIS ARMSTRONG::What A Wonderful World":{"first_recommended":"2026-09-11","last_recommended":"2026-09-11","count":1},
-    "Céline Dion::My Heart Will Go On (Love Theme from \"Titanic\")":{"first_recommended":"2026-09-11","last_recommended":"2026-09-11","count":1},
-    "光良::妹妹":{"first_recommended":"2026-09-11","last_recommended":"2026-09-11","count":1},
-    "苏嘉妍::旅行的意义":{"first_recommended":"2026-09-11","last_recommended":"2026-09-11","count":1},
-    "林忆莲::夜太黑":{"first_recommended":"2026-09-11","last_recommended":"2026-09-11","count":1},
-    "The Cranberries::Dreams":{"first_recommended":"2026-09-11","last_recommended":"2026-09-11","count":1},
-    "Michael Jackson::Billie Jean":{"first_recommended":"2026-09-11","last_recommended":"2026-09-11","count":1},
-    "Pink Floyd::Wish You Were Here (Live at Knebworth, 1990) [2019 Mix]":{"first_recommended":"2026-09-11","last_recommended":"2026-09-11","count":1},
-    "kotoringo::Hyperballad":{"first_recommended":"2026-09-11","last_recommended":"2026-09-11","count":1},
-    "王若琳::Let's Start from Here":{"first_recommended":"2026-09-12","last_recommended":"2026-09-12","count":1},
-    "鹿先森乐队::一场雨落下来要用多久":{"first_recommended":"2026-09-12","last_recommended":"2026-09-12","count":1},
-    "陈百强::愛在今宵":{"first_recommended":"2026-09-12","last_recommended":"2026-09-12","count":1},
-    "齐豫::Diamonds And Rust":{"first_recommended":"2026-09-12","last_recommended":"2026-09-12","count":1},
-    "林强::奇林":{"first_recommended":"2026-09-12","last_recommended":"2026-09-12","count":1},
-    "陈粒::奇妙能力歌":{"first_recommended":"2026-09-13","last_recommended":"2026-09-13","count":1},
-    "The xx::Intro":{"first_recommended":"2026-09-13","last_recommended":"2026-09-13","count":1},
-    "Aimer::Ref:rain":{"first_recommended":"2026-09-13","last_recommended":"2026-09-13","count":1},
-    "Fela Kuti::Water No Get Enemy":{"first_recommended":"2026-09-13","last_recommended":"2026-09-13","count":1},
-    "Enya::Only Time":{"first_recommended":"2026-09-13","last_recommended":"2026-09-13","count":1},
-    "窦唯::高级动物":{"first_recommended":"2026-09-14","last_recommended":"2026-09-14","count":1},
-    "Bill Withers::Ain't No Sunshine":{"first_recommended":"2026-09-14","last_recommended":"2026-09-14","count":1},
-    "Massive Attack::Teardrop (Remastered 2018)":{"first_recommended":"2026-09-14","last_recommended":"2026-09-14","count":1},
-    "Nick Drake::Northern Sky":{"first_recommended":"2026-09-14","last_recommended":"2026-09-14","count":1},
-    "马克思・李希特, 路易莎・富勒, Natalia Bonner, 约翰・梅特卡夫, Philip Sheppard & 克里斯・沃西::On the Nature of Daylight":{"first_recommended":"2026-09-14","last_recommended":"2026-09-14","count":1},
-    "林宥嘉::病态":{"first_recommended":"2026-09-15","last_recommended":"2026-09-15","count":1},
-    "Fleetwood Mac::The Chain":{"first_recommended":"2026-09-15","last_recommended":"2026-09-15","count":1},
-    "尼尔斯・弗拉姆::Says":{"first_recommended":"2026-09-15","last_recommended":"2026-09-15","count":1},
-    "Oscar Peterson::You Look Good To Me (Live At The Salle Pleyel, Paris, France / June 25, 1996)":{"first_recommended":"2026-09-15","last_recommended":"2026-09-15","count":1},
-    "陈绮贞::雨水一盒":{"first_recommended":"2026-09-15","last_recommended":"2026-09-15","count":1},
-    "王力宏::白纸":{"first_recommended":"2026-09-16","last_recommended":"2026-09-16","count":1},
-    "David Bowie::Space Oddity (US Mono Single Edit) [2009 Remaster]":{"first_recommended":"2026-09-16","last_recommended":"2026-09-16","count":1},
-    "宇多田光::Be My Last (Remastered 2018)":{"first_recommended":"2026-09-16","last_recommended":"2026-09-16","count":1},
-    "Utada::Be My Last (Remastered 2018)":{"first_recommended":"2026-09-16","last_recommended":"2026-09-16","count":1},
-    "杨乃文::一个人 (feat. 伍佰) [Live]":{"first_recommended":"2026-09-16","last_recommended":"2026-09-16","count":1},
-    "Tame Impala::The Less I Know the Better (Mixed)":{"first_recommended":"2026-09-16","last_recommended":"2026-09-16","count":1},
-    "万芳::触景生情":{"first_recommended":"2026-09-17","last_recommended":"2026-09-17","count":1},
-    "Sade::No Ordinary Love":{"first_recommended":"2026-09-17","last_recommended":"2026-09-17","count":1},
-    "新裤子乐队::我不想失去你":{"first_recommended":"2026-09-17","last_recommended":"2026-09-17","count":1},
-    "皮埃尔 · 洛朗 · 艾马尔::Préludes, Book 1: VIII. La fille aux cheveux de lin":{"first_recommended":"2026-09-17","last_recommended":"2026-09-17","count":1},
-    "Kraftwerk & Der Zyklus::Computer Love / Formenverwandler (Mixed)":{"first_recommended":"2026-09-17","last_recommended":"2026-09-17","count":1},
-    "张震岳::爱我别走":{"first_recommended":"2026-09-18","last_recommended":"2026-09-18","count":1},
-    "SAM COOKE::A Change Is Gonna Come":{"first_recommended":"2026-09-18","last_recommended":"2026-09-18","count":1},
-    "久石让::Summer":{"first_recommended":"2026-09-18","last_recommended":"2026-09-18","count":1},
-    "范晓萱::一起":{"first_recommended":"2026-09-18","last_recommended":"2026-09-18","count":1},
-    "菲利普・格拉斯, 格拉斯合奏团 & 迈克尔・里斯曼::Opening":{"first_recommended":"2026-09-18","last_recommended":"2026-09-18","count":1},
-    "陈奕迅::富士山下":{"first_recommended":"2026-09-19","last_recommended":"2026-09-19","count":1},
-    "Aretha Franklin::Day Dreaming":{"first_recommended":"2026-09-19","last_recommended":"2026-09-19","count":1},
-    "Metallica::Nothing Else Matters (Live)":{"first_recommended":"2026-09-19","last_recommended":"2026-09-19","count":1},
-    "坂本龙一::NEO GEO":{"first_recommended":"2026-09-19","last_recommended":"2026-09-19","count":1},
-    "Nusrat Fateh Ali Khan::Shahbaaz Qalandar":{"first_recommended":"2026-09-19","last_recommended":"2026-09-19","count":1},
-    "张惠妹::纯真年代":{"first_recommended":"2026-09-20","last_recommended":"2026-09-20","count":1},
-    "Talking Heads::Radio Head (2005 Remaster)":{"first_recommended":"2026-09-20","last_recommended":"2026-09-20","count":1},
-    "Thelonious Monk::'Round Midnight":{"first_recommended":"2026-09-20","last_recommended":"2026-09-20","count":1},
-    "The Beatles::Blackbird (Take 4 - Remastered)":{"first_recommended":"2026-09-20","last_recommended":"2026-09-20","count":1},
-    "Rebecca Hirsch, 阿尔斯特管弦乐团, Takuo Yuasa, Lesley Hatfield & Leslie Hatfield::Tabula Rasa: Ludus":{"first_recommended":"2026-09-20","last_recommended":"2026-09-20","count":1},
-    "王菲::冷战":{"first_recommended":"2026-09-21","last_recommended":"2026-09-21","count":1},
-    "Marvin Gaye::What's Going On":{"first_recommended":"2026-09-21","last_recommended":"2026-09-21","count":1},
-    "Herbie Hancock::Cantaloupe Island":{"first_recommended":"2026-09-21","last_recommended":"2026-09-21","count":1},
-    "PJ Harvey::Down by the Water":{"first_recommended":"2026-09-21","last_recommended":"2026-09-21","count":1},
-    "布莱恩・伊诺::An Ending (Ascent)":{"first_recommended":"2026-09-21","last_recommended":"2026-09-21","count":1},
-    "林俊杰::美人鱼":{"first_recommended":"2026-09-22","last_recommended":"2026-09-22","count":1},
-    "Jeff Buckley::Hallelujah":{"first_recommended":"2026-09-22","last_recommended":"2026-09-22","count":1},
-    "Elis Regina & Antônio Carlos Jobim::Águas de Março":{"first_recommended":"2026-09-22","last_recommended":"2026-09-22","count":1},
-    "Boards of Canada::Roygbiv":{"first_recommended":"2026-09-22","last_recommended":"2026-09-22","count":1},
-    "竹内玛莉亚::Plastic Love":{"first_recommended":"2026-09-22","last_recommended":"2026-09-22","count":1},
-    "陈百强::不再流泪":{"first_recommended":"2026-09-23","last_recommended":"2026-09-23","count":1},
-    "Anita Baker::Sweet Love (2012 Remaster)":{"first_recommended":"2026-09-23","last_recommended":"2026-09-23","count":1},
-    "Radiohead::Everything In Its Right Place":{"first_recommended":"2026-09-23","last_recommended":"2026-09-23","count":1},
-    "Art Blakey::Moanin' (Live)":{"first_recommended":"2026-09-23","last_recommended":"2026-09-23","count":1},
-    "细野晴臣::Sports Men (2019 Remastering)":{"first_recommended":"2026-09-23","last_recommended":"2026-09-23","count":1},
-    "苏打绿::无与伦比的美丽":{"first_recommended":"2026-09-24","last_recommended":"2026-09-24","count":1},
-    "Stevie Wonder::As":{"first_recommended":"2026-09-24","last_recommended":"2026-09-24","count":1},
-    "Miriam Makeba::Pata Pata (Mono Version)":{"first_recommended":"2026-09-24","last_recommended":"2026-09-24","count":1},
-    "Cocteau Twins::Heaven or Las Vegas":{"first_recommended":"2026-09-24","last_recommended":"2026-09-24","count":1},
-    "Aphex Twin::Xtal":{"first_recommended":"2026-09-24","last_recommended":"2026-09-24","count":1},
-    "伍佰 & China Blue::我只要":{"first_recommended":"2026-09-25","last_recommended":"2026-09-25","count":1},
-    "Billie Eilish::everything i wanted":{"first_recommended":"2026-09-25","last_recommended":"2026-09-25","count":1},
-    "Massive Attack::Angel (Remastered 2018)":{"first_recommended":"2026-09-25","last_recommended":"2026-09-25","count":1},
-    "Nina Simone::Sinnerman":{"first_recommended":"2026-09-25","last_recommended":"2026-09-25","count":1},
-    "Rebekah Del Rio::Llorando":{"first_recommended":"2026-09-25","last_recommended":"2026-09-25","count":1}
+    "王菲::暧昧": {
+      "first_recommended": "2026-09-04",
+      "last_recommended": "2026-09-04",
+      "count": 1
+    },
+    "陶喆::流沙": {
+      "first_recommended": "2026-09-04",
+      "last_recommended": "2026-09-04",
+      "count": 1
+    },
+    "孙燕姿::我怀念的": {
+      "first_recommended": "2026-09-04",
+      "last_recommended": "2026-09-04",
+      "count": 1
+    },
+    "蔡健雅::陌生人": {
+      "first_recommended": "2026-09-04",
+      "last_recommended": "2026-09-04",
+      "count": 1
+    },
+    "陈奕迅::单车": {
+      "first_recommended": "2026-09-04",
+      "last_recommended": "2026-09-04",
+      "count": 1
+    },
+    "Billie Eilish::bad guy": {
+      "first_recommended": "2026-09-05",
+      "last_recommended": "2026-09-05",
+      "count": 1
+    },
+    "Daft Punk & Julian Casablancas::Instant Crush": {
+      "first_recommended": "2026-09-05",
+      "last_recommended": "2026-09-05",
+      "count": 1
+    },
+    "Laufey::From The Start": {
+      "first_recommended": "2026-09-05",
+      "last_recommended": "2026-09-05",
+      "count": 1
+    },
+    "Eagles::Hotel California": {
+      "first_recommended": "2026-09-05",
+      "last_recommended": "2026-09-05",
+      "count": 1
+    },
+    "王菲::梦游": {
+      "first_recommended": "2026-09-05",
+      "last_recommended": "2026-09-05",
+      "count": 1
+    },
+    "Norah Jones::Don't Know Why": {
+      "first_recommended": "2026-09-06",
+      "last_recommended": "2026-09-06",
+      "count": 1
+    },
+    "莫文蔚::Close To You": {
+      "first_recommended": "2026-09-06",
+      "last_recommended": "2026-09-06",
+      "count": 1
+    },
+    "方大同::Love Song (Live)": {
+      "first_recommended": "2026-09-06",
+      "last_recommended": "2026-09-06",
+      "count": 1
+    },
+    "罗志祥::怕安静": {
+      "first_recommended": "2026-09-06",
+      "last_recommended": "2026-09-06",
+      "count": 1
+    },
+    "逃走鲍伯::忽然之间 (滚石40 滚石撞乐队 40团拚经典 (原唱:莫文蔚))": {
+      "first_recommended": "2026-09-06",
+      "last_recommended": "2026-09-06",
+      "count": 1
+    },
+    "Sade::Smooth Operator": {
+      "first_recommended": "2026-09-07",
+      "last_recommended": "2026-09-07",
+      "count": 1
+    },
+    "Radiohead::No Surprises": {
+      "first_recommended": "2026-09-07",
+      "last_recommended": "2026-09-07",
+      "count": 1
+    },
+    "李宗盛::寂寞难耐": {
+      "first_recommended": "2026-09-07",
+      "last_recommended": "2026-09-07",
+      "count": 1
+    },
+    "Dave Brubeck::Take Five": {
+      "first_recommended": "2026-09-07",
+      "last_recommended": "2026-09-07",
+      "count": 1
+    },
+    "Daniel Barenboim::Suite bergamasque, L. 75: III. Clair de lune": {
+      "first_recommended": "2026-09-07",
+      "last_recommended": "2026-09-07",
+      "count": 1
+    },
+    "Tracy Chapman::Fast Car": {
+      "first_recommended": "2026-09-08",
+      "last_recommended": "2026-09-08",
+      "count": 1
+    },
+    "The Beatles::Come Together (2019 Mix)": {
+      "first_recommended": "2026-09-08",
+      "last_recommended": "2026-09-08",
+      "count": 1
+    },
+    "朴树::平凡之路": {
+      "first_recommended": "2026-09-08",
+      "last_recommended": "2026-09-08",
+      "count": 1
+    },
+    "Charlie Puth::Attention": {
+      "first_recommended": "2026-09-08",
+      "last_recommended": "2026-09-08",
+      "count": 1
+    },
+    "Alan Walker::Faded": {
+      "first_recommended": "2026-09-08",
+      "last_recommended": "2026-09-08",
+      "count": 1
+    },
+    "Lorde::Royals": {
+      "first_recommended": "2026-09-09",
+      "last_recommended": "2026-09-09",
+      "count": 1
+    },
+    "Miles Davis::So What": {
+      "first_recommended": "2026-09-09",
+      "last_recommended": "2026-09-09",
+      "count": 1
+    },
+    "Portishead::Roads": {
+      "first_recommended": "2026-09-09",
+      "last_recommended": "2026-09-09",
+      "count": 1
+    },
+    "Childish Gambino::Redbone": {
+      "first_recommended": "2026-09-09",
+      "last_recommended": "2026-09-09",
+      "count": 1
+    },
+    "邓丽君::月亮代表我的心": {
+      "first_recommended": "2026-09-09",
+      "last_recommended": "2026-09-09",
+      "count": 1
+    },
+    "Nujabes::Aruarian Dance": {
+      "first_recommended": "2026-09-10",
+      "last_recommended": "2026-09-10",
+      "count": 1
+    },
+    "周杰伦::我的地盘": {
+      "first_recommended": "2026-09-10",
+      "last_recommended": "2026-09-10",
+      "count": 1
+    },
+    "蔡琴::你的眼神 (Live)": {
+      "first_recommended": "2026-09-10",
+      "last_recommended": "2026-09-10",
+      "count": 1
+    },
+    "坂本龙一::Merry Christmas Mr. Lawrence": {
+      "first_recommended": "2026-09-10",
+      "last_recommended": "2026-09-10",
+      "count": 1
+    },
+    "张国荣::最爱": {
+      "first_recommended": "2026-09-10",
+      "last_recommended": "2026-09-10",
+      "count": 1
+    },
+    "The Verve::Bitter Sweet Symphony": {
+      "first_recommended": "2026-09-11",
+      "last_recommended": "2026-09-11",
+      "count": 1
+    },
+    "LOUIS ARMSTRONG::What A Wonderful World": {
+      "first_recommended": "2026-09-11",
+      "last_recommended": "2026-09-11",
+      "count": 1
+    },
+    "Céline Dion::My Heart Will Go On (Love Theme from \"Titanic\")": {
+      "first_recommended": "2026-09-11",
+      "last_recommended": "2026-09-11",
+      "count": 1
+    },
+    "光良::妹妹": {
+      "first_recommended": "2026-09-11",
+      "last_recommended": "2026-09-11",
+      "count": 1
+    },
+    "苏嘉妍::旅行的意义": {
+      "first_recommended": "2026-09-11",
+      "last_recommended": "2026-09-11",
+      "count": 1
+    },
+    "林忆莲::夜太黑": {
+      "first_recommended": "2026-09-11",
+      "last_recommended": "2026-09-11",
+      "count": 1
+    },
+    "The Cranberries::Dreams": {
+      "first_recommended": "2026-09-11",
+      "last_recommended": "2026-09-11",
+      "count": 1
+    },
+    "Michael Jackson::Billie Jean": {
+      "first_recommended": "2026-09-11",
+      "last_recommended": "2026-09-11",
+      "count": 1
+    },
+    "Pink Floyd::Wish You Were Here (Live at Knebworth, 1990) [2019 Mix]": {
+      "first_recommended": "2026-09-11",
+      "last_recommended": "2026-09-11",
+      "count": 1
+    },
+    "kotoringo::Hyperballad": {
+      "first_recommended": "2026-09-11",
+      "last_recommended": "2026-09-11",
+      "count": 1
+    },
+    "王若琳::Let's Start from Here": {
+      "first_recommended": "2026-09-12",
+      "last_recommended": "2026-09-12",
+      "count": 1
+    },
+    "鹿先森乐队::一场雨落下来要用多久": {
+      "first_recommended": "2026-09-12",
+      "last_recommended": "2026-09-12",
+      "count": 1
+    },
+    "陈百强::愛在今宵": {
+      "first_recommended": "2026-09-12",
+      "last_recommended": "2026-09-12",
+      "count": 1
+    },
+    "齐豫::Diamonds And Rust": {
+      "first_recommended": "2026-09-12",
+      "last_recommended": "2026-09-12",
+      "count": 1
+    },
+    "林强::奇林": {
+      "first_recommended": "2026-09-12",
+      "last_recommended": "2026-09-12",
+      "count": 1
+    },
+    "陈粒::奇妙能力歌": {
+      "first_recommended": "2026-09-13",
+      "last_recommended": "2026-09-13",
+      "count": 1
+    },
+    "The xx::Intro": {
+      "first_recommended": "2026-09-13",
+      "last_recommended": "2026-09-13",
+      "count": 1
+    },
+    "Aimer::Ref:rain": {
+      "first_recommended": "2026-09-13",
+      "last_recommended": "2026-09-13",
+      "count": 1
+    },
+    "Fela Kuti::Water No Get Enemy": {
+      "first_recommended": "2026-09-13",
+      "last_recommended": "2026-09-13",
+      "count": 1
+    },
+    "Enya::Only Time": {
+      "first_recommended": "2026-09-13",
+      "last_recommended": "2026-09-13",
+      "count": 1
+    },
+    "窦唯::高级动物": {
+      "first_recommended": "2026-09-14",
+      "last_recommended": "2026-09-14",
+      "count": 1
+    },
+    "Bill Withers::Ain't No Sunshine": {
+      "first_recommended": "2026-09-14",
+      "last_recommended": "2026-09-14",
+      "count": 1
+    },
+    "Massive Attack::Teardrop (Remastered 2018)": {
+      "first_recommended": "2026-09-14",
+      "last_recommended": "2026-09-14",
+      "count": 1
+    },
+    "Nick Drake::Northern Sky": {
+      "first_recommended": "2026-09-14",
+      "last_recommended": "2026-09-14",
+      "count": 1
+    },
+    "马克思・李希特, 路易莎・富勒, Natalia Bonner, 约翰・梅特卡夫, Philip Sheppard & 克里斯・沃西::On the Nature of Daylight": {
+      "first_recommended": "2026-09-14",
+      "last_recommended": "2026-09-14",
+      "count": 1
+    },
+    "林宥嘉::病态": {
+      "first_recommended": "2026-09-15",
+      "last_recommended": "2026-09-15",
+      "count": 1
+    },
+    "Fleetwood Mac::The Chain": {
+      "first_recommended": "2026-09-15",
+      "last_recommended": "2026-09-15",
+      "count": 1
+    },
+    "尼尔斯・弗拉姆::Says": {
+      "first_recommended": "2026-09-15",
+      "last_recommended": "2026-09-15",
+      "count": 1
+    },
+    "Oscar Peterson::You Look Good To Me (Live At The Salle Pleyel, Paris, France / June 25, 1996)": {
+      "first_recommended": "2026-09-15",
+      "last_recommended": "2026-09-15",
+      "count": 1
+    },
+    "陈绮贞::雨水一盒": {
+      "first_recommended": "2026-09-15",
+      "last_recommended": "2026-09-15",
+      "count": 1
+    },
+    "王力宏::白纸": {
+      "first_recommended": "2026-09-16",
+      "last_recommended": "2026-09-16",
+      "count": 1
+    },
+    "David Bowie::Space Oddity (US Mono Single Edit) [2009 Remaster]": {
+      "first_recommended": "2026-09-16",
+      "last_recommended": "2026-09-16",
+      "count": 1
+    },
+    "宇多田光::Be My Last (Remastered 2018)": {
+      "first_recommended": "2026-09-16",
+      "last_recommended": "2026-09-16",
+      "count": 1
+    },
+    "Utada::Be My Last (Remastered 2018)": {
+      "first_recommended": "2026-09-16",
+      "last_recommended": "2026-09-16",
+      "count": 1
+    },
+    "杨乃文::一个人 (feat. 伍佰) [Live]": {
+      "first_recommended": "2026-09-16",
+      "last_recommended": "2026-09-16",
+      "count": 1
+    },
+    "Tame Impala::The Less I Know the Better (Mixed)": {
+      "first_recommended": "2026-09-16",
+      "last_recommended": "2026-09-16",
+      "count": 1
+    },
+    "万芳::触景生情": {
+      "first_recommended": "2026-09-17",
+      "last_recommended": "2026-09-17",
+      "count": 1
+    },
+    "Sade::No Ordinary Love": {
+      "first_recommended": "2026-09-17",
+      "last_recommended": "2026-09-17",
+      "count": 1
+    },
+    "新裤子乐队::我不想失去你": {
+      "first_recommended": "2026-09-17",
+      "last_recommended": "2026-09-17",
+      "count": 1
+    },
+    "皮埃尔 · 洛朗 · 艾马尔::Préludes, Book 1: VIII. La fille aux cheveux de lin": {
+      "first_recommended": "2026-09-17",
+      "last_recommended": "2026-09-17",
+      "count": 1
+    },
+    "Kraftwerk & Der Zyklus::Computer Love / Formenverwandler (Mixed)": {
+      "first_recommended": "2026-09-17",
+      "last_recommended": "2026-09-17",
+      "count": 1
+    },
+    "张震岳::爱我别走": {
+      "first_recommended": "2026-09-18",
+      "last_recommended": "2026-09-18",
+      "count": 1
+    },
+    "SAM COOKE::A Change Is Gonna Come": {
+      "first_recommended": "2026-09-18",
+      "last_recommended": "2026-09-18",
+      "count": 1
+    },
+    "久石让::Summer": {
+      "first_recommended": "2026-09-18",
+      "last_recommended": "2026-09-18",
+      "count": 1
+    },
+    "范晓萱::一起": {
+      "first_recommended": "2026-09-18",
+      "last_recommended": "2026-09-18",
+      "count": 1
+    },
+    "菲利普・格拉斯, 格拉斯合奏团 & 迈克尔・里斯曼::Opening": {
+      "first_recommended": "2026-09-18",
+      "last_recommended": "2026-09-18",
+      "count": 1
+    },
+    "陈奕迅::富士山下": {
+      "first_recommended": "2026-09-19",
+      "last_recommended": "2026-09-19",
+      "count": 1
+    },
+    "Aretha Franklin::Day Dreaming": {
+      "first_recommended": "2026-09-19",
+      "last_recommended": "2026-09-19",
+      "count": 1
+    },
+    "Metallica::Nothing Else Matters (Live)": {
+      "first_recommended": "2026-09-19",
+      "last_recommended": "2026-09-19",
+      "count": 1
+    },
+    "坂本龙一::NEO GEO": {
+      "first_recommended": "2026-09-19",
+      "last_recommended": "2026-09-19",
+      "count": 1
+    },
+    "Nusrat Fateh Ali Khan::Shahbaaz Qalandar": {
+      "first_recommended": "2026-09-19",
+      "last_recommended": "2026-09-19",
+      "count": 1
+    },
+    "张惠妹::纯真年代": {
+      "first_recommended": "2026-09-20",
+      "last_recommended": "2026-09-20",
+      "count": 1
+    },
+    "Talking Heads::Radio Head (2005 Remaster)": {
+      "first_recommended": "2026-09-20",
+      "last_recommended": "2026-09-20",
+      "count": 1
+    },
+    "Thelonious Monk::'Round Midnight": {
+      "first_recommended": "2026-09-20",
+      "last_recommended": "2026-09-20",
+      "count": 1
+    },
+    "The Beatles::Blackbird (Take 4 - Remastered)": {
+      "first_recommended": "2026-09-20",
+      "last_recommended": "2026-09-20",
+      "count": 1
+    },
+    "Rebecca Hirsch, 阿尔斯特管弦乐团, Takuo Yuasa, Lesley Hatfield & Leslie Hatfield::Tabula Rasa: Ludus": {
+      "first_recommended": "2026-09-20",
+      "last_recommended": "2026-09-20",
+      "count": 1
+    },
+    "王菲::冷战": {
+      "first_recommended": "2026-09-21",
+      "last_recommended": "2026-09-21",
+      "count": 1
+    },
+    "Marvin Gaye::What's Going On": {
+      "first_recommended": "2026-09-21",
+      "last_recommended": "2026-09-21",
+      "count": 1
+    },
+    "Herbie Hancock::Cantaloupe Island": {
+      "first_recommended": "2026-09-21",
+      "last_recommended": "2026-09-21",
+      "count": 1
+    },
+    "PJ Harvey::Down by the Water": {
+      "first_recommended": "2026-09-21",
+      "last_recommended": "2026-09-21",
+      "count": 1
+    },
+    "布莱恩・伊诺::An Ending (Ascent)": {
+      "first_recommended": "2026-09-21",
+      "last_recommended": "2026-09-21",
+      "count": 1
+    },
+    "林俊杰::美人鱼": {
+      "first_recommended": "2026-09-22",
+      "last_recommended": "2026-09-22",
+      "count": 1
+    },
+    "Jeff Buckley::Hallelujah": {
+      "first_recommended": "2026-09-22",
+      "last_recommended": "2026-09-22",
+      "count": 1
+    },
+    "Elis Regina & Antônio Carlos Jobim::Águas de Março": {
+      "first_recommended": "2026-09-22",
+      "last_recommended": "2026-09-22",
+      "count": 1
+    },
+    "Boards of Canada::Roygbiv": {
+      "first_recommended": "2026-09-22",
+      "last_recommended": "2026-09-22",
+      "count": 1
+    },
+    "竹内玛莉亚::Plastic Love": {
+      "first_recommended": "2026-09-22",
+      "last_recommended": "2026-09-22",
+      "count": 1
+    },
+    "陈百强::不再流泪": {
+      "first_recommended": "2026-09-23",
+      "last_recommended": "2026-09-23",
+      "count": 1
+    },
+    "Anita Baker::Sweet Love (2012 Remaster)": {
+      "first_recommended": "2026-09-23",
+      "last_recommended": "2026-09-23",
+      "count": 1
+    },
+    "Radiohead::Everything In Its Right Place": {
+      "first_recommended": "2026-09-23",
+      "last_recommended": "2026-09-23",
+      "count": 1
+    },
+    "Art Blakey::Moanin' (Live)": {
+      "first_recommended": "2026-09-23",
+      "last_recommended": "2026-09-23",
+      "count": 1
+    },
+    "细野晴臣::Sports Men (2019 Remastering)": {
+      "first_recommended": "2026-09-23",
+      "last_recommended": "2026-09-23",
+      "count": 1
+    },
+    "苏打绿::无与伦比的美丽": {
+      "first_recommended": "2026-09-24",
+      "last_recommended": "2026-09-24",
+      "count": 1
+    },
+    "Stevie Wonder::As": {
+      "first_recommended": "2026-09-24",
+      "last_recommended": "2026-09-24",
+      "count": 1
+    },
+    "Miriam Makeba::Pata Pata (Mono Version)": {
+      "first_recommended": "2026-09-24",
+      "last_recommended": "2026-09-24",
+      "count": 1
+    },
+    "Cocteau Twins::Heaven or Las Vegas": {
+      "first_recommended": "2026-09-24",
+      "last_recommended": "2026-09-24",
+      "count": 1
+    },
+    "Aphex Twin::Xtal": {
+      "first_recommended": "2026-09-24",
+      "last_recommended": "2026-09-24",
+      "count": 1
+    },
+    "伍佰 & China Blue::我只要": {
+      "first_recommended": "2026-09-25",
+      "last_recommended": "2026-09-25",
+      "count": 1
+    },
+    "Billie Eilish::everything i wanted": {
+      "first_recommended": "2026-09-25",
+      "last_recommended": "2026-09-25",
+      "count": 1
+    },
+    "Massive Attack::Angel (Remastered 2018)": {
+      "first_recommended": "2026-09-25",
+      "last_recommended": "2026-09-25",
+      "count": 1
+    },
+    "Nina Simone::Sinnerman": {
+      "first_recommended": "2026-09-25",
+      "last_recommended": "2026-09-25",
+      "count": 1
+    },
+    "Rebekah Del Rio::Llorando": {
+      "first_recommended": "2026-09-25",
+      "last_recommended": "2026-09-25",
+      "count": 1
+    },
+    "万能青年旅店::杀死那个石家庄人": {
+      "first_recommended": "2026-09-26",
+      "last_recommended": "2026-09-26",
+      "count": 1
+    },
+    "张学友::很远的地方 (电影《海关战线》主题曲 / 粤语版)": {
+      "first_recommended": "2026-09-26",
+      "last_recommended": "2026-09-26",
+      "count": 1
+    },
+    "Miles Davis::Blue in Green": {
+      "first_recommended": "2026-09-26",
+      "last_recommended": "2026-09-26",
+      "count": 1
+    },
+    "Daft Punk::Giorgio by Moroder": {
+      "first_recommended": "2026-09-26",
+      "last_recommended": "2026-09-26",
+      "count": 1
+    },
+    "Buena Vista Social Club::Chan Chan (2021 - Remaster)": {
+      "first_recommended": "2026-09-26",
+      "last_recommended": "2026-09-26",
+      "count": 1
+    },
+    "阿鲁杰・阿夫塔布::Mohabbat": {
+      "first_recommended": "2026-09-26",
+      "last_recommended": "2026-09-26",
+      "count": 1
+    }
   }
 }
