@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-28.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "天空",
+      "artist": "王菲",
+      "album": "天空",
+      "canonical_id": "王菲::天空",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/%E5%A4%A9%E7%A9%BA/1443363499",
+        "song_id": "1443363499",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用王菲 1994 年专辑《天空》的同名曲把耳朵拉回一种极讲究留白与空气感的华语流行制作。她的声线不是靠厚重的胸声占据中央，而是用轻、直、近乎悬浮的质感贴着键盘与持续背景前行；编曲在情绪展开时逐渐加宽，却很少用粗暴的低频或密集鼓点制造重量。把它放在第一首，是为了先校准人声、残响和中高频透明度，再进入后面更强调 groove 与节拍的作品。",
+      "listening_cue": "先记住开头主唱的距离、齿音边缘和尾音残响，再听编曲逐渐铺开后声场怎样向左右与后方扩展。重点检查王菲的人声是否仍保持轻盈而清楚的中心轮廓，以及背景持续声部有没有在中频里把她包得过厚。"
+    },
+    {
+      "position": 2,
+      "title": "Untitled (How Does It Feel)",
+      "artist": "D'Angelo",
+      "album": "Voodoo",
+      "canonical_id": "D'Angelo::Untitled (How Does It Feel)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/untitled-how-does-it-feel/1440841917",
+        "song_id": "1440841917",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首转到 D'Angelo《Voodoo》里的《Untitled (How Does It Feel)》。它最值得听的不是“复古 R&B”标签，而是节奏组极松却极准的 pocket：鼓、贝斯、键盘和多层人声彼此之间都留着微小的时间缝隙，让音乐既有身体性，又没有被量化成僵硬网格。今天选它，是想把第一首的悬浮空间换成更贴地的 groove，同时继续保留对人声细节和动态的关注。",
+      "listening_cue": "先只听底鼓、军鼓与贝斯的相对位置，不要急着追旋律；随后把主唱和叠录和声加入注意力，观察强度上升时声像是否只是变大而没有变硬。尤其留意鼓点稍晚于直觉拍点时产生的拖拽感，那正是这首最迷人的时间组织。"
+    },
+    {
+      "position": 3,
+      "title": "Feather (feat. Cise Star & Akin)",
+      "artist": "Nujabes",
+      "album": "Modal Soul",
+      "canonical_id": "Nujabes::Feather (feat. Cise Star & Akin)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/feather-feat-cise-star-akin/1078914485",
+        "song_id": "1078914485",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首用 Nujabes《Modal Soul》里的《Feather》把今天从 neo-soul 转向爵士化 hip-hop。循环钢琴、清脆鼓组与流动的说唱并没有追求压迫性的低频，而是把重心放在律动的轻盈、采样质感与人声节奏之间的咬合。它很适合夹在两首强烈依赖人声音色的作品之间，因为这里的人声首先是节奏元素，其次才是叙事主体，听感会自然从“嗓音质地”切换到“音节怎样落在拍点上”。",
+      "listening_cue": "第一遍只跟钢琴循环与鼓组，注意钢琴尾音如何给每一小节留出空气；第二遍把注意力移到两位说唱者的重音与停顿，听他们怎样在相同节拍上制造不同推进感。低频应有支撑但不过度隆起，镲片和军鼓则要清楚而不尖。"
+    },
+    {
+      "position": 4,
+      "title": "cellophane",
+      "artist": "FKA twigs",
+      "album": "MAGDALENE",
+      "canonical_id": "FKA twigs::cellophane",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/cellophane/1477652823",
+        "song_id": "1477652823",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首把前面的稳定节拍几乎全部撤掉。《cellophane》以极少的钢琴与电子层次托住 FKA twigs 非常近、非常脆弱的人声，很多情绪并不是由和声堆叠制造，而来自气息、句尾、轻微破音与动态控制本身。今天选它，是为了在《Feather》的连续律动之后突然把时间拉慢，让注意力重新回到单个音的出现、维持与消失，也检验系统在低音量下能否保留微动态。",
+      "listening_cue": "从最安静的开头开始，不要提高音量追细节；先跟一个完整人声乐句，听起音、呼吸、元音稳定和尾音衰减。到后段层次增厚时，再检查钢琴、低频与电子纹理有没有把主唱推远；好的重放应让情绪扩大，但人声仍像就在面前。"
+    },
+    {
+      "position": 5,
+      "title": "Journey in Satchidananda (feat. Pharoah Sanders)",
+      "artist": "爱丽丝・柯川",
+      "album": "Journey in Satchidananda",
+      "canonical_id": "爱丽丝・柯川::Journey in Satchidananda (feat. Pharoah Sanders)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/journey-in-satchidananda-feat-pharoah-sanders/1440719297",
+        "song_id": "1440719297",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是爱丽丝・柯川 1971 年的《Journey in Satchidananda (feat. Pharoah Sanders)》。持续的低音型与坦布拉式 drone 先建立近乎静止的地基，竖琴与萨克斯则在其上不断改变密度、方向和音域；它既有爵士即兴的开放性，又有冥想音乐那种长时间不急于解决张力的耐心。把它放在最后，是为了把今天从流行歌曲、groove 和说唱彻底推向“持续音与音色如何塑造时间”的另一种听法。",
+      "listening_cue": "先连续跟住低音型与持续 drone 一分钟，确认它们怎样在几乎不变化的情况下维持重心；随后把注意力移到竖琴和萨克斯，听短促颗粒与长音如何穿过这层背景。不要只追独奏线条，重点感受前景即兴与后方持续声之间的纵深。"
+    }
+  ]
+}
