@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-29",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-29.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "发呆",
+      "artist": "许美静",
+      "album": "蔓延",
+      "canonical_id": "许美静::发呆",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/%E5%8F%91%E5%91%86/1442363759",
+        "song_id": "1442363759",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用许美静《蔓延》里的《发呆》把耳朵放进一种很典型、却并不粗糙的九十年代国语流行空间。许美静的声线不是靠强烈爆发抓人，而是以偏冷、克制、略带疏离的质地站在编曲中央；伴奏保持中低密度，让旋律、气息和残响都留有余量。它适合作为今天的第一首，因为后面会连续进入更强的 groove、重复型和高密度制作，先听这首能建立一个“人声自然比例”和中频留白的基准。",
+      "listening_cue": "先把注意力锁在主唱句尾：听声音从清楚的字头慢慢退进残响，再观察节奏与背景层加入后，人声是否仍保持稳定的前景位置。不要追求齿音越亮越好，重点是中频应有实体、尾音应能自然散开，而不是被伴奏迅速吞掉。"
+    },
+    {
+      "position": 2,
+      "title": "On & On",
+      "artist": "Erykah Badu",
+      "album": "Baduizm",
+      "canonical_id": "Erykah Badu::On & On",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/on-on/1440837273",
+        "song_id": "1440837273",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首转到 Erykah Badu《Baduizm》的《On & On》，把上一首的悬停感换成 neo-soul 极具弹性的 pocket。这里真正值得听的不是“低频很多”，而是鼓、贝斯、电键盘与主唱之间故意留出的微小时差：每件乐器都像稍微靠后坐，却共同把节拍稳稳托住。Badu 的人声既有说话般的松弛，又不断用重音和音色改变律动，所以这首特别适合训练你去听 groove 是怎样由时间关系而不是单纯音量建立的。",
+      "listening_cue": "第一遍先忽略主唱，只跟底鼓、军鼓和贝斯约半分钟，感受它们之间的前后关系；第二遍再把人声加入，注意 Badu 的辅音、拖拍和句尾如何“压”在节奏上。理想重放应该让低频圆润有弹性，但鼓点的边缘仍清楚，人声也不会被暖厚的中低频包住。"
+    },
+    {
+      "position": 3,
+      "title": "This Must Be the Place (Naive Melody)",
+      "artist": "Talking Heads",
+      "album": "Speaking In Tongues",
+      "canonical_id": "Talking Heads::This Must Be the Place (Naive Melody)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/this-must-be-the-place-naive-melody/300202271",
+        "song_id": "300202271",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首选择 Talking Heads 的《This Must Be the Place (Naive Melody)》。它表面上由非常简单、近乎循环的动机组成，却把合成器/键盘低音型、吉他与打击乐的短促纹理、人声和背景层组织成一种既机械又温暖的流动感。放在《On & On》之后很有意思：两首都不靠炫技推进，但前者的律动更像身体自然后靠，Talking Heads 则把重复本身做成结构，让细小的音色变化不断刷新同一个格子。",
+      "listening_cue": "先连续追踪最稳定的循环低音/键盘动机，至少听两个完整段落都不要移开；然后再听吉他、打击与人声怎样在这个固定框架周围逐渐改变密度。重点比较“重复”和“机械”的区别：底层可以几乎不变，但上方每次进入的音色、声像和重音都应让时间继续向前。"
+    },
+    {
+      "position": 4,
+      "title": "Running Up That Hill (A Deal With God) [2018 Remaster]",
+      "artist": "Kate Bush",
+      "album": "Hounds of Love (2018 Remaster)",
+      "canonical_id": "Kate Bush::Running Up That Hill (A Deal With God) [2018 Remaster]",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/running-up-that-hill-a-deal-with-god-2018-remaster/1675560578",
+        "song_id": "1675560578",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首明确推荐 Apple Music 中国大陆区的《Running Up That Hill (A Deal With God) [2018 Remaster]》，不把原始母带条目、2012 Remix 或其他翻唱混在一起。持续推进的鼓机/打击脉冲、厚实合成器层与 Kate Bush 极具张力的人声让整首歌像在同一个坡度上不断加压；优秀之处在于密度一直很高，却没有依赖频繁换和弦或夸张低频来制造运动感。今天把它放在 Talking Heads 后面，是为了比较两种八十年代“重复驱动”的完全不同质感。",
+      "listening_cue": "从开头就锁住那条持续脉冲，先听它的起音是否稳定、低频是否紧；等合成器和人声层逐渐加厚后，检查脉冲还能不能从混音中被单独追踪。到最饱满处再转去听主唱，高频应有张力但不能发硬，2018 remaster 的清晰度不应把整首歌听成一堵亮而扁的墙。"
+    },
+    {
+      "position": 5,
+      "title": "Starálfur",
+      "artist": "Sigur Rós",
+      "album": "Ágætis Byrjun",
+      "canonical_id": "Sigur Rós::Starálfur",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/star%C3%A1lfur/1447442939",
+        "song_id": "1447442939",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard / expansion pick 是 Sigur Rós《Ágætis Byrjun》里的《Starálfur》。它把前四首明确的流行歌曲节拍进一步松开：高处的人声、弦乐与持续纹理先建立近乎失重的空间，随后动态和声部密度缓慢扩张，时间感更多来自延音、呼吸和渐变，而不是固定 groove。它既能检验系统在安静段落里的低电平细节，也能让你在最后的大幅展开里听到前后纵深，而不仅是“越来越响”。",
+      "listening_cue": "前段不要急着提高音量，先跟住一个持续音或弦乐尾巴，看它能向后延伸多久；随后在人声与更多声部进入时，刻意辨认前景、中央和后方残响的三层距离。最后的动态展开要听的是空间是否被撑大，而不是高频是否变得更刺激。"
+    }
+  ]
+}
