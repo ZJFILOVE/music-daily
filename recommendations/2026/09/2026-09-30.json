@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-30",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-09-30.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Riders On the Storm",
+      "artist": "The Doors",
+      "album": "Dreams - Magic 70's",
+      "canonical_id": "The Doors::Riders On the Storm",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1563391823","song_id":"1563391823","storefront":"cn"},
+      "analysis_summary": "今天用《Riders On the Storm》开场，是因为它能把“氛围”与“节奏”同时摆到前景：键盘的流动线条、克制的鼓组与低频骨架并不追求猛烈冲击，却让整首歌持续向前。这个中国大陆区资源对应 The Doors 的同名曲目，适合先校准空间、低频收放与持续声部之间的关系，再进入后面更强调现场动态和电子质地的作品。",
+      "listening_cue": "先只跟键盘与低频两层，听它们如何在稳定节奏里制造流动感；随后把注意力移到人声与高频环境声，判断这些层次是否能保持前后距离。不要把音量开得过大，重点是听低频尾巴和键盘延音是否彼此遮蔽。"
+    },
+    {
+      "position": 2,
+      "title": "Cornflake Girl (Live 1994)",
+      "artist": "Tori Amos",
+      "album": "Falling Upwards (Live 1994)",
+      "canonical_id": "Tori Amos::Cornflake Girl (Live 1994)",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1716759134","song_id":"1716759134","storefront":"cn"},
+      "analysis_summary": "第二首明确选择《Cornflake Girl (Live 1994)》这一现场版本，而不是录音室版。Tori Amos 的钢琴与人声在现场里有更直接的力度起伏，句子和节奏也不是被制作完全“钉死”的；放在 The Doors 之后，可以从稳定、催眠式的 groove 转向更有弹性的人声—键盘互动，听演奏者如何用触键、重音和停顿推动结构。",
+      "listening_cue": "先抓住钢琴每次较强触键的起音，再听同一句附近人声的力度如何跟着变化。到情绪升高处，不要只听“更响”，而要分辨钢琴瞬态、人声边缘和现场空间是否仍是三层独立信息。"
+    },
+    {
+      "position": 3,
+      "title": "大雨 (Klub Classic)",
+      "artist": "娃娃",
+      "album": "ROCKADANCE",
+      "canonical_id": "娃娃::大雨 (Klub Classic)",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1611297011","song_id":"1611297011","storefront":"cn"},
+      "analysis_summary": "第三首选《大雨 (Klub Classic)》是为了把九十年代华语流行熟悉的旋律感，放进明显舞曲化的版本框架里。这里推荐的就是 Apple Music 中国大陆区标注的 Klub Classic 版本，不把它当成普通原版替代。它最值得听的是人声情绪与更规整的电子节拍之间的张力：熟悉的抒情表达被重新放到更强调脉冲、重复和层次叠加的制作里。",
+      "listening_cue": "第一遍只数底层节拍和低频循环，先确认它怎样稳定地托住整首；第二遍再把人声加进来，注意句尾的拖拍、混响和电子节拍是否彼此抢空间。尤其听副段密度增加时，人声中频还能否清楚穿过节奏层。"
+    },
+    {
+      "position": 4,
+      "title": "Angel (Live)",
+      "artist": "Sarah McLachlan",
+      "album": "Live Acoustic EP 2003 - EP",
+      "canonical_id": "Sarah McLachlan::Angel (Live)",
+      "apple_music": {"url":"https://music.apple.com/cn/song/304813957","song_id":"304813957","storefront":"cn"},
+      "analysis_summary": "第四首把前一首的舞曲脉冲几乎全部撤掉，明确选择 Sarah McLachlan 在《Live Acoustic EP 2003 - EP》中的《Angel (Live)》。现场的价值在于声音没有太多制作层可以藏身，人声的气息、强弱转换以及钢琴与少量伴奏的起音都更容易被听见；它适合重新校准前面连续几首之后的动态尺度。",
+      "listening_cue": "选一段从轻声逐渐推到强声的乐句，始终跟住人声，而不是追伴奏。注意气息感是否在增强音量时仍然自然；随后再听钢琴起音和尾音，确认它与人声残响没有黏成同一团。"
+    },
+    {
+      "position": 5,
+      "title": "Kerala",
+      "artist": "Bonobo",
+      "album": "Migration",
+      "canonical_id": "Bonobo::Kerala",
+      "apple_music": {"url":"https://music.apple.com/cn/song/1169246072","song_id":"1169246072","storefront":"cn"},
+      "analysis_summary": "今天的 wildcard 是 Bonobo《Migration》里的《Kerala》。它把有机打击感、切片式人声材料与电子低频组织成不断微调的循环，既不是传统乐队，也不是只靠四拍强攻的舞曲。把它放在最后，是为了从《Angel (Live)》的极简现场重新进入精密制作，同时训练耳朵去听“循环里的变化”：同样的素材如何通过滤波、层次、声像和密度调整持续前进。",
+      "listening_cue": "先连续听一到两分钟，不要主动找主旋律，只锁定最稳定的节奏骨架；第二遍再专门追切片人声与高频纹理，观察它们何时出现、被滤掉、移位或叠加。最后检查低频是否始终有弹性而不是压成一整块。"
+    }
+  ]
+}
