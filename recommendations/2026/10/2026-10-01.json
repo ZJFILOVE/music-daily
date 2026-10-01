@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-01",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-10-01.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Times of Your Life",
+      "artist": "王若琳",
+      "album": "Joanna & 王若琳 The Adult Storybook",
+      "canonical_id": "王若琳::Times of Your Life",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/323952013",
+        "song_id": "323952013",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天用王若琳 2009 年的《Times of Your Life》开场，明确推荐她这一版翻唱录音，而不是原作的其他版本。她把英语老歌放进更松弛、偏复古成人流行/爵士流行的声场里，核心不是炫技，而是让低沉人声、柔和节奏与伴奏之间保留自然距离，适合作为今天的音色基准。",
+      "listening_cue": "先只听第一段主唱的辅音、气息和句尾，再把注意力移到节奏组与和声伴奏；人声应有近距离实体感，但不能因为中低频温暖而糊成一团。"
+    },
+    {
+      "position": 2,
+      "title": "不不不之灵魂蒸发实录",
+      "artist": "林忆莲",
+      "album": "都市触觉, Pt. II",
+      "canonical_id": "林忆莲::不不不之灵魂蒸发实录",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/954769041",
+        "song_id": "954769041",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首把第一首的松弛感突然切进 1990 年前后的都市舞曲语汇。《不不不之灵魂蒸发实录》最值得听的是电子节拍、合成器低频与林忆莲灵活的咬字怎样形成一种既机械又有身体感的推进，密度明显上升，却不靠单纯增大音量制造刺激。",
+      "listening_cue": "先锁住鼓机式脉冲和低频循环，连续听几十秒不跟人声；随后把主唱重新加回注意力，检查她的切分和句尾是否像在节拍缝隙里穿行，而不是被底层律动拖平。"
+    },
+    {
+      "position": 3,
+      "title": "耶利亚",
+      "artist": "梅艳芳",
+      "album": "封面女郎",
+      "canonical_id": "梅艳芳::耶利亚",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/892584737",
+        "song_id": "892584737",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首继续留在 1990 年，却换成梅艳芳更戏剧化、重量更足的声线。《耶利亚》把那个年代偏数字化的键盘、鼓组与宽阔残响放在她极有辨识度的中低频前景之后，特别适合比较‘大制作感’和‘声部真的有层次’之间的区别。",
+      "listening_cue": "在编曲最饱满的段落里，刻意同时追三件事：主唱中心位置、低频根基和上方合成器/高频装饰；如果只剩人声很大或背景一片亮，层次就被压扁了。"
+    },
+    {
+      "position": 4,
+      "title": "普鲁斯特行动 (Live)",
+      "artist": "陈绮贞",
+      "album": "时间的歌: 巡回演唱会现场录音",
+      "canonical_id": "陈绮贞::普鲁斯特行动 (Live)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1061048035",
+        "song_id": "1061048035",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这里明确推荐《普鲁斯特行动 (Live)》这一现场录音，不把它当作录音室版本的替代品。前面两首强调制作层次，这一首则把注意力重新拉回现场里的触弦、呼吸、空间回声与动态伸缩，让‘不完全规整’本身成为音乐性的一部分。",
+      "listening_cue": "挑一段从较轻的演唱或伴奏逐渐推到更强的位置，完整追踪一次人声、吉他/乐队瞬态和场地残响的变化；好的现场感不是观众声更大，而是每次力度变化都能听出空间在响应。"
+    },
+    {
+      "position": 5,
+      "title": "彼岸",
+      "artist": "林强",
+      "album": "别境",
+      "canonical_id": "林强::彼岸",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1758716498",
+        "song_id": "1758716498",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是林强 2024 年《别境》里的《彼岸》。它不再把流行旋律或传统主副歌放在最前面，而更强调电子质感、空间关系和缓慢发生的音色变化，用较少的显性事件维持注意力，正好把前四首的‘人声中心’思路拆掉。",
+      "listening_cue": "第一遍不要主动寻找副歌或钩子，只选一个持续音色或低频纹理一路跟到它发生明显变化；第二遍再听整个声场怎样在前后、左右和明暗之间移动。"
+    }
+  ]
+}
