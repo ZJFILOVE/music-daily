@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-02",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-10-02.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "我还是很爱你",
+      "artist": "戴佩妮",
+      "album": "Just Sing It",
+      "canonical_id": "戴佩妮::我还是很爱你",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/905224113",
+        "song_id": "905224113",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用戴佩妮《Just Sing It》里的《我还是很爱你》建立自然华语人声与乐队编配的基准。她的声线兼有清亮边缘和轻微颗粒，编曲没有把情绪一次推满，而是让吉他、键盘与节奏层逐渐扩展；值得听的是主唱在力度增加后仍保留呼吸和口型，而不是只剩明亮的高频。",
+      "listening_cue": "先记住第一段人声的距离和吉他起音，随后在编曲增厚处同时追主唱、军鼓和背景和声；人声应该更有力量但不发硬，吉他尾音也不应被中频密度吞掉。"
+    },
+    {
+      "position": 2,
+      "title": "Time: The Donut of the Heart",
+      "artist": "J Dilla",
+      "album": "Donuts",
+      "canonical_id": "J Dilla::Time: The Donut of the Heart",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/108232662",
+        "song_id": "108232662",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首把完整歌曲叙事压缩成 J Dilla 式的采样时间艺术。《Donuts》里的这一小段不是靠长结构发展，而是靠切片、鼓点落位和循环内部的微小错觉建立情绪。它特别适合接在华语流行之后，让注意力从‘谁在唱’切到‘一个循环为什么越听越有生命’。",
+      "listening_cue": "连续跟住主循环至少四轮，不要主动寻找新段落；注意鼓点与采样边缘并非完全机械对齐，以及每次循环时你对重拍位置的感知如何被重新塑形。"
+    },
+    {
+      "position": 3,
+      "title": "Desafinado (feat. Antônio Carlos Jobim)",
+      "artist": "Stan Getz & João Gilberto",
+      "album": "Getz/Gilberto (Expanded Edition)",
+      "canonical_id": "Stan Getz & João Gilberto::Desafinado (feat. Antônio Carlos Jobim)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1469581177",
+        "song_id": "1469581177",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首转到 bossa nova 的极致松弛：João Gilberto 的吉他与声线把节拍拆成非常细的内部摆动，Stan Getz 的萨克斯则提供更长、更圆润的旋律线。选 Expanded Edition 中这一明确资源，是为了听两种完全不同的时间感怎样在同一个轻量编配里共存。",
+      "listening_cue": "先只听吉他右手节奏和人声落点，再把萨克斯加入；重点不是找谁更靠前，而是听短促吉他脉冲与长萨克斯线条如何互相留空间，低频应轻而稳定。"
+    },
+    {
+      "position": 4,
+      "title": "亲爱的我不想努力了 (feat. 凹与山)",
+      "artist": "杨乃文",
+      "album": "Flow",
+      "canonical_id": "杨乃文::亲爱的我不想努力了 (feat. 凹与山)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1702488138",
+        "song_id": "1702488138",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首用 2023 年《Flow》里的合作曲把听感拉回现代华语制作。杨乃文偏冷、坚实的中频与凹与山更当代的电子/独立质地形成张力，合成器和吉他并不是单纯铺底，而是在主唱周围不断改变空间颜色。它值得听的是成熟摇滚声线如何进入不那么传统的制作框架。",
+      "listening_cue": "先锁定杨乃文的人声中心，再听合成器、吉他和另一声部出现时声场如何扩张；密度上升后，主唱的低中频实体感应保留，但不能把电子纹理压扁。"
+    },
+    {
+      "position": 5,
+      "title": "Sunday Morning",
+      "artist": "Michael Stipe",
+      "album": "I’ll Be Your Mirror: A Tribute to The Velvet Underground & Nico",
+      "canonical_id": "Michael Stipe::Sunday Morning",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1565884196",
+        "song_id": "1565884196",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 明确选择 Michael Stipe 在《I’ll Be Your Mirror: A Tribute to The Velvet Underground & Nico》中的《Sunday Morning》翻唱，而不是 Velvet Underground 原版。熟悉的旋律被另一种成熟、略带风化感的男声重新占据后，歌曲的温柔不再只是轻盈，也多了一层回望意味；版本差异本身就是今天值得听的内容。",
+      "listening_cue": "不要先拿记忆里的原版做优劣判断；第一遍只听 Stipe 的辅音、气息和句尾，第二遍再观察伴奏怎样给他的声线留空间，尤其注意轻声处是否仍有实体而不显得干瘪。"
+    }
+  ]
+}
