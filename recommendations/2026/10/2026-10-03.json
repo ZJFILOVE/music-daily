@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-10-03.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "秋日",
+      "artist": "陈珊妮",
+      "album": "秋日 - Single",
+      "canonical_id": "陈珊妮::秋日",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1533407457",
+        "song_id": "1533407457",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用陈珊妮 2008 年的《秋日》建立一个低密度华语制作的听感基准。她的演唱不靠爆发或厚重胸声占据前景，而是让语气、字头、尾音和周围的留白共同承担情绪；编配的价值也不在元素数量，而在不同声部何时出现、何时退出。放在第一首，是为了先把耳朵从连续几天的复杂制作里清空，重新校准人声比例、残响长度和中频透明度。",
+      "listening_cue": "先只跟主唱一个完整乐句，记住字头、持续音和尾音消失的速度；随后再听背景声部进入时，人声是否仍保持清楚的中心轮廓。尤其注意安静处的残响：它应该延伸空间，而不是把字尾拖成一团。"
+    },
+    {
+      "position": 2,
+      "title": "Come As You Are (Live Acoustic)",
+      "artist": "Nirvana",
+      "album": "MTV Unplugged In New York (Live Acoustic) [25th Anniversary Edition]",
+      "canonical_id": "Nirvana::Come As You Are (Live Acoustic)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1545867067",
+        "song_id": "1545867067",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首明确推荐《MTV Unplugged In New York》中的《Come As You Are (Live Acoustic)》，不是《Nevermind》的录音室版本。熟悉的低音/吉他动机被换到更少失真、更暴露演奏动作的现场框架里，Kurt Cobain 的声线、木吉他质地、低频与鼓组之间的距离因此更容易被听见。今天选它，是为了比较“同一首歌在制作退后之后，演奏动作和空间感会多出多少信息”。",
+      "listening_cue": "先抓住开头反复动机的每次起音与衰减，再把注意力移到人声。进入更强的段落后，听木吉他的拨弦边缘、鼓的瞬态和现场残响是否仍然分开；不要只比较它和录音室版谁更有冲击力。"
+    },
+    {
+      "position": 3,
+      "title": "Goodbye Pork Pie Hat",
+      "artist": "Charles Mingus",
+      "album": "Mingus Ah Um",
+      "canonical_id": "Charles Mingus::Goodbye Pork Pie Hat",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/636353294",
+        "song_id": "636353294",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首把今天从摇滚现场带回 1959 年的爵士录音。《Goodbye Pork Pie Hat》真正动人的地方是管乐声部像合唱一样展开的和声重量，以及 Mingus 的低音与节奏组如何在不抢前景的情况下维持脉搏。它不是靠独奏炫技成立，而是靠音色、和声与停顿共同塑造纪念性的气氛；放在中间能很好地把耳朵从“主唱中心”切换到“多声部共同呼吸”。",
+      "listening_cue": "开头先不要追任何一支独奏乐器，只听管乐和声从起音到收尾的整体形状；随后再转向低音和鼓，观察它们如何在后方持续维持时间。重点听不同管乐音色叠在一起时，和声应该厚，但仍能分辨各层边缘。"
+    },
+    {
+      "position": 4,
+      "title": "River Man",
+      "artist": "Nick Drake",
+      "album": "Five Leaves Left (Remastered)",
+      "canonical_id": "Nick Drake::River Man",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440656392",
+        "song_id": "1440656392",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首选择《Five Leaves Left (Remastered)》中的《River Man》。Nick Drake 的指弹吉他以不那么直觉的拍感推进，弦乐则不是简单铺底，而是用长线条在吉他的短颗粒之间拉出另一层时间尺度；Drake 本人的声线很克制，使整首歌的张力更多来自拍号、和声与声部长度，而不是音量变化。它很适合接在 Mingus 后面，比较爵士合奏与民谣室内乐化编配怎样用不同方法制造悬浮感。",
+      "listening_cue": "第一遍只跟吉他的循环与重音位置，试着不数拍也感受它哪里不像常规四拍；第二遍再加入弦乐，听长音如何跨过吉他的短句继续向前。最后才把注意力放回主唱，判断人声是否能在两种时间尺度之间保持稳定。"
+    },
+    {
+      "position": 5,
+      "title": "郭德堡變奏曲, Pt. 3",
+      "artist": "雷光夏",
+      "album": "时间的密语〖全新创作专辑〗",
+      "canonical_id": "雷光夏::郭德堡變奏曲, Pt. 3",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/331491512",
+        "song_id": "331491512",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard / expansion pick 是雷光夏《时间的密语》中的《郭德堡變奏曲, Pt. 3》。这张专辑把歌曲、叙事感材料与 Goldberg 相关片段交错排列，因此这一首更像章节之间的时间标记，而不是等待主歌、副歌和钩子的传统流行歌。它把注意力从“歌曲讲了什么”推向“一个古典材料片段如何改变整张专辑的呼吸”，也是今天五首里最明确的一次结构性扩展。",
+      "listening_cue": "不要等待副歌或明显高潮，先完整跟住乐句的起点、停顿与衰减；再回想前一首《River Man》的弦乐长线条，比较两首如何用更少的事件延长时间感。重点不是音量，而是句子之间的空白有没有真正被听见。"
+    }
+  ]
+}
