@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-04",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-10-04.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "没有很会唱",
+      "artist": "小宇 宋念宇",
+      "album": "小宇同学就是我",
+      "canonical_id": "小宇 宋念宇::没有很会唱",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1064776494",
+        "song_id": "1064776494",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用小宇首张专辑里的《没有很会唱》把注意力放在人声节奏、转音与华语 R&B 的身体感上。它并不依赖宏大的声场，而是让主唱的咬字、假声/真声切换、和声与节奏组互相咬合；作为开场，它能先建立一个鲜活、偏近距离的中频基准，再进入后面更松弛或更抽象的制作。",
+      "listening_cue": "第一遍只追主唱的字头、转音和换气，第二遍再把鼓与低频加入注意力；重点听人声在快速语句和力度变化时是否仍有清楚轮廓，而不是被节奏层压扁。"
+    },
+    {
+      "position": 2,
+      "title": "Dreams",
+      "artist": "Fleetwood Mac",
+      "album": "Rumours (Deluxe Edition)",
+      "canonical_id": "Fleetwood Mac::Dreams",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/651871679",
+        "song_id": "651871679",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首把第一首较活跃的人声节奏换成《Dreams》近乎漂浮的稳定 groove。鼓、贝斯、吉他和键盘都很克制，Stevie Nicks 的声线像悬在节奏组上方；真正值得听的是这种‘松’如何始终保持精确，以及很少的声部如何制造持续流动感。",
+      "listening_cue": "先完全忽略主唱，跟半分钟鼓与贝斯的相对位置；再把 Stevie Nicks 加回来，听她怎样略微浮在节拍之上，同时背景仍保持宽松、不拥挤。"
+    },
+    {
+      "position": 3,
+      "title": "The Rip",
+      "artist": "Portishead",
+      "album": "Third",
+      "canonical_id": "Portishead::The Rip",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1585215884",
+        "song_id": "1585215884",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首选择《Third》里的《The Rip》，因为它把结构变化本身做成了核心体验：前段脆弱、稀疏，随后电子脉冲逐渐接管时间感。推进并非简单来自音量增加，而是从人声与原声质地慢慢过渡到更机械、循环的运动方式。",
+      "listening_cue": "锁定电子脉冲第一次进入后的几轮，不要急着追主旋律；听它如何从背景变成结构骨架，同时检查 Beth Gibbons 的人声是否仍保有脆弱、靠前的质地。"
+    },
+    {
+      "position": 4,
+      "title": "Here Comes the Sun (2019 Mix)",
+      "artist": "The Beatles",
+      "album": "Abbey Road (2019 Mix)",
+      "canonical_id": "The Beatles::Here Comes the Sun (2019 Mix)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1474815898",
+        "song_id": "1474815898",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这里明确推荐《Abbey Road (2019 Mix)》中的 2019 Mix，而不是其他母带或 Super Deluxe 中另一条资源。它适合观察经典多轨录音经过现代重混后，分离度与低频轮廓变得更清楚的同时，木吉他、和声与整体轻盈感是否仍然自然。",
+      "listening_cue": "先听开头木吉他的拨弦起音与尾音，再在低频、打击和背景和声加入后重新检查空间；各层应该更清楚，但不能因此变成彼此割裂的‘展示型解析’。"
+    },
+    {
+      "position": 5,
+      "title": "Olson",
+      "artist": "Boards of Canada",
+      "album": "Music Has the Right to Children",
+      "canonical_id": "Boards of Canada::Olson",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/281116088",
+        "song_id": "281116088",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Boards of Canada 的《Olson》。它很短，也几乎撤掉传统歌曲的主唱、明显节拍和段落提示，留下柔化的合成器边缘、旧介质般的颗粒与缓慢衰减。选它不是当过场，而是训练对低电平音色变化和‘声音如何消失’的注意力。",
+      "listening_cue": "选一层持续音从出现一直跟到彻底衰减，不要提高音量追细节；第二遍再听不同层的明暗、距离和轻微失真如何共同形成记忆般的空间。"
+    }
+  ]
+}
