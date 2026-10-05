@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-05",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-10-05.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "我想你要走了",
+      "artist": "张悬",
+      "album": "神的遊戏",
+      "canonical_id": "张悬::我想你要走了",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/547978772",
+        "song_id": "547978772",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先用张悬《神的遊戏》里的《我想你要走了》开场。它把离别感写得很克制，情绪不是靠一次性推满的制作，而是靠主唱的停顿、吉他织体与乐队逐步进入来累积。今天选它，是为了先把听觉尺度拉回自然人声和有呼吸的乐队空间，重新校准中频、尾音与动态。",
+      "listening_cue": "第一遍只跟主唱句尾和吉他的衰减；当鼓、低频和其他吉他层逐渐加入时，听人声是否仍保持靠前但不突兀。重点比较‘编曲变厚’和‘声音变大’的区别。"
+    },
+    {
+      "position": 2,
+      "title": "I Fall In Love Too Easily",
+      "artist": "Chet Baker",
+      "album": "Chet Baker Quartet Featuring Russ Freeman",
+      "canonical_id": "Chet Baker::I Fall In Love Too Easily",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1450725778",
+        "song_id": "1450725778",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首也是今天的 wildcard：明确选 Apple Music 中国大陆区这条 1953 年、标注在《Chet Baker Quartet Featuring Russ Freeman》下的具体资源，而不是后来的合辑或其他重发条目。小编制爵士让制作退到背景，人声、小号与节奏组之间留出大量空气；它最值得听的是极小动态里的亲密感与时间感。",
+      "listening_cue": "保持正常音量，先听人声的气息、辅音和句尾，再转向节奏组的细小脉搏；注意每个乐句结束后的空白是否仍有时间感，而不是把安静误听成‘没有信息’。"
+    },
+    {
+      "position": 3,
+      "title": "Nightswimming",
+      "artist": "R.E.M.",
+      "album": "Automatic For The People",
+      "canonical_id": "R.E.M.::Nightswimming",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440950061",
+        "song_id": "1440950061",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首转到 R.E.M.《Automatic For The People》中的《Nightswimming》。循环钢琴、人声和后段弦乐形成室内乐式纵深；钢琴骨架几乎不需要大幅变化，情绪却会因为主唱的力度和弦乐进入而不断改变。它适合用来听同样的伴奏循环为何每一轮仍有新的重量。",
+      "listening_cue": "先锁住钢琴循环听几个周期，再把人声加回来并等待弦乐进入；比较三个阶段的空间深度，钢琴位置基本稳定，但整体声场应从近景逐步扩展。"
+    },
+    {
+      "position": 4,
+      "title": "Killing Me Softly with His Song",
+      "artist": "Fugees",
+      "album": "The Score",
+      "canonical_id": "Fugees::Killing Me Softly with His Song",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1054461710",
+        "song_id": "1054461710",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首明确推荐 Fugees 1996 年《The Score》里的翻唱/重构版本，而不是 Roberta Flack 的录音。Lauryn Hill 的主唱被放在极简而稳固的 hip-hop/R&B 脉冲上，低频、鼓循环和背景声部没有把空间塞满。今天选它，是为了把自然演奏的时间感换成循环驱动的 groove，同时保留强烈的人声表现力。",
+      "listening_cue": "第一遍先跟底层鼓与低频；第二遍只听 Lauryn Hill 从轻句到强段落时的音色变化。进入更厚的位置后，检查主唱、低频和背景声部是否仍能分成三个层级。"
+    },
+    {
+      "position": 5,
+      "title": "Midnight City",
+      "artist": "M83",
+      "album": "Midnight City (Remix EP) - EP",
+      "canonical_id": "M83::Midnight City",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1674599206",
+        "song_id": "1674599206",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用 M83 的《Midnight City》把密度推高。这里按 Apple Music 中国大陆区的具体 song resource 记录为《Midnight City (Remix EP) - EP》下的《Midnight City》，不静默改写成另一张专辑的资源。明亮合成器、厚鼓、层叠人声和强烈压缩感形成霓虹般声墙，结尾萨克斯又插入明显的呼吸与吹奏质感。",
+      "listening_cue": "开头只跟主导合成器，同时留意鼓进入后声场是否出现规律性的‘呼吸’；结尾萨克斯出现时比较它与合成器的质感差异，检查高密度下主旋律、鼓和低频是否仍各有轮廓。"
+    }
+  ]
+}
