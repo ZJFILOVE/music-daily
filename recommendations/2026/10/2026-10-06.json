@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-06",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-10-06.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "普通朋友",
+      "artist": "陶喆",
+      "album": "I'm O.K.",
+      "canonical_id": "陶喆::普通朋友",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/905206479",
+        "song_id": "905206479",
+        "storefront": "cn"
+      },
+      "analysis_summary": "华语 R&B 的人声节奏与乐队 pocket 是今天的起点；主唱咬字、滑音、鼓和贝斯之间的微小时值关系，比单纯的大动态更值得听。",
+      "listening_cue": "先跟主唱字头与军鼓落点，再加入贝斯和背景和声，比较声部增厚后 groove 是否仍然松而稳。"
+    },
+    {
+      "position": 2,
+      "title": "Lorelei",
+      "artist": "Cocteau Twins",
+      "album": "Treasure",
+      "canonical_id": "Cocteau Twins::Lorelei",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1027469102",
+        "song_id": "1027469102",
+        "storefront": "cn"
+      },
+      "analysis_summary": "从语义中心转到人声作为音色：多层声线、调制吉他和混响共同制造梦幻纵深，和第一首近距离的人声空间形成鲜明反差。",
+      "listening_cue": "第一遍不要辨词，只追一条高声部；第二遍听吉他尾音如何扩散，并区分空间的深度与单纯的模糊。"
+    },
+    {
+      "position": 3,
+      "title": "Peace Piece",
+      "artist": "Bill Evans",
+      "album": "Peace Piece",
+      "canonical_id": "Bill Evans::Peace Piece",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/660015646",
+        "song_id": "660015646",
+        "storefront": "cn"
+      },
+      "analysis_summary": "制作密度降到单钢琴：固定左手和声地面托住越来越自由的右手，触键、延音与和声偏移本身承担了结构推进。",
+      "listening_cue": "把左手当作时钟听数个循环，再追右手如何逐渐扩大音程和紧张度，同时留意踏板与琴体共鸣。"
+    },
+    {
+      "position": 4,
+      "title": "Something About Us",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "canonical_id": "Daft Punk::Something About Us",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/697195941",
+        "song_id": "697195941",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首把自然钢琴切换成精确的电子 groove，但仍保持亲密和克制。温暖的低频、鼓机、键盘与处理过的人声让机械时间获得柔软的情绪。",
+      "listening_cue": "先只听鼓机与低频的稳定循环，再把人声和键盘加入；注意固定节拍之上，音色包络如何制造呼吸感。"
+    },
+    {
+      "position": 5,
+      "title": "Glass",
+      "artist": "哈妮雅・拉尼",
+      "album": "Esja",
+      "canonical_id": "哈妮雅・拉尼::Glass",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1578451932",
+        "song_id": "1578451932",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是现代极简钢琴。重复型、触键、踏板与微小重音变化代替传统段落推进，让注意力回到低电平细节和时间感。",
+      "listening_cue": "选一个重复型连续跟几轮，听每次重音、触键硬度和残响是否真的相同，不要为了追尾音刻意提高音量。"
+    }
+  ]
+}
