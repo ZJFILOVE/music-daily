@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-10-08.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "美丽生灵",
+      "artist": "李健",
+      "album": "无时无刻",
+      "canonical_id": "李健::美丽生灵",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1573188331",
+        "song_id": "1573188331",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先选李健 2021 年《无时无刻》中的《美丽生灵》，而不是继续沿用前一天的高强度乐队和说唱开场。李健的旋律线通常保留完整的呼吸与长句，听者可以把注意力重新放回一个声音怎样从轻处走到有重量的句尾。歌曲值得听的并不只是旋律优美，还在于相对克制的情绪表达能够让中频保持透明。 人声是最明确的中心，背景的和声性伴奏负责支撑乐句和扩大空间，而不需要以巨大低频制造冲击。重点听主唱的字头、较长元音与周围持续音色之间的距离；如果伴奏变厚后人声仍能自然地伸展，说明编曲层次是随着叙事展开，而非机械叠加。",
+      "listening_cue": "从第一段选择一个完整乐句，专门跟踪换气、字尾和残响，再观察背景持续声部变多时人声是否依旧保持相同的中心位置。不要为追弱音刻意调高音量。"
+    },
+    {
+      "position": 2,
+      "title": "Boat (feat. Eddie Corman)",
+      "artist": "Shintaro Sakamoto",
+      "album": "Boat / Dear Future Person (feat. Eddie Corman) - Single",
+      "canonical_id": "Shintaro Sakamoto::Boat (feat. Eddie Corman)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1831276412",
+        "song_id": "1831276412",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首换成坂本慎太郎（Shintaro Sakamoto）的《Boat》，这里明确采用标注 feat. Eddie Corman 的 2019 年单曲版本。它适合用来打破‘独立音乐一定只靠吉他和真情实感’的直觉：略带迷幻感的音色、慢速而稳定的律动和轻巧的表演，共同制造一种既古怪又不紧张的松弛。 音色的魅力来自轻盈节奏骨架与略显歪斜的吉他／键盘纹理之间的反差。声乐与乐器不是严格的前景、背景关系，而像若干短线条在同一平面相互错开；这使得声场虽不宏大，却处处有不规则的细小细节可听。",
+      "listening_cue": "把重心放在重复的贝斯与打击型上，连续听几轮后再追高频短促音色。注意某些声部看似松散，却总能重新落回共同的节拍位置。"
+    },
+    {
+      "position": 3,
+      "title": "Until Next Time",
+      "artist": "蔡健雅",
+      "album": "Bored",
+      "canonical_id": "蔡健雅::Until Next Time",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1625809675",
+        "song_id": "1625809675",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首回到蔡健雅 1997 年英文专辑《Bored》的《Until Next Time》，让今天拥有一个不同于她成熟国语流行时期的侧面。选它的价值是听早期英语唱作中相对直接的语气与旋律组织，而不是只依据后来的代表作理解这位歌手。它也和前一首日式迷幻形成鲜明对照：一个更依赖口语化乐句，另一个更依赖音色。 音乐不必用密集的合成器和巨大的低频占据所有空间，人声的发音节奏、伴奏的轻重与句间停顿便足以建立个性。值得聆听的是当旋律重复时细小的发声变化，以及伴奏怎样让出足够的中频位置，而不是一味把声音做得明亮。",
+      "listening_cue": "第一遍先听她的英语辅音如何切入拍点，以及长句结束时声线怎样收细。第二遍再把和声伴奏加入，比较同一段旋律重复时的力度与空间差别。"
+    },
+    {
+      "position": 4,
+      "title": "Daemonize",
+      "artist": "Nine Inch Nails",
+      "album": "TRON: Ares (Original Motion Picture Soundtrack)",
+      "canonical_id": "Nine Inch Nails::Daemonize",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1826198695",
+        "song_id": "1826198695",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首从 1990 年代的轻量唱作突然切到 Nine Inch Nails 为《TRON: Ares》制作的 2025 年电影原声《Daemonize》。本次推荐的是该电影原声中的具体歌曲资源，不是乐队经典工业摇滚歌曲的翻唱或现场版。它把主题从人声转向声音物理质感：电子张力、失真轮廓和持续推动的低频更像叙事中的压力装置。 硬边缘的电子合成音色和更深的低频层形成强烈明暗对比，密集段落需要同时维持低频起落和上方高频噪声的可辨性。制作故意具有人工、机械和压迫的特征，不能简单把它当作需要消除的粗糙；真正的问题是多层失真有没有各自的运动方向。",
+      "listening_cue": "选一个脉冲重复的段落，先只追低频的起落，再把高频失真与空间余音加入注意力。不要在音量最大处只判断冲击力，也要留意声响停止后是否留下清楚的空白。"
+    },
+    {
+      "position": 5,
+      "title": "Argenté",
+      "artist": "Floating Points",
+      "album": "Elaenia",
+      "canonical_id": "Floating Points::Argenté",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1031951574",
+        "song_id": "1031951574",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Floating Points 2015 年《Elaenia》中的《Argenté》。它不是简单的舞曲降速版，而是让电子音色在重复、和声与微小变化之间慢慢生成结构。放在 Nine Inch Nails 的电影化高压声场之后，听觉会突然从‘强声响的冲击’转向‘小变化如何累积’；这是一次主动扩大音乐语言的选择。 合成器持续音、细小节奏脉冲与逐渐移动的音色层形成较开放的空间，许多发展并不由传统人声副歌提示。其核心是包络、滤波感和频谱重心的缓慢变化：乍听相似的循环，实际上可能在亮度、密度和声像位置上不断改变。",
+      "listening_cue": "第一遍连续跟住一个最稳定的音色循环，不等明显的段落转换；第二遍专门辨认进入、消失或改变明暗的细小材料。再与《Daemonize》比较：两首都偏人工制作，却采用完全不同的张力生成速度。"
+    }
+  ]
+}
