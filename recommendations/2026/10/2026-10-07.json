@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-07",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-10-07.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "青鸟Ⅱ",
+      "artist": "许巍",
+      "album": "在别处",
+      "canonical_id": "许巍::青鸟Ⅱ",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1060981618",
+        "song_id": "1060981618",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天从许巍早期的《青鸟Ⅱ》开场，而不是继续用精致的现代流行录音校准耳朵。《在别处》带着九十年代中国另类摇滚特有的粗粝与不安：歌曲的推进依赖乐队共同积累的张力，许巍的声线也不追求每个字都被修饰得圆滑。它值得听的是一种尚未被磨平的表达，以及乐队整体的呼吸。 电吉他的持续纹理、贝斯的低频支撑与鼓组比较直接的重拍，形成密实但不是电子舞曲式的声墙。人声嵌在乐队里，而不是被单独放大到所有声部前面。编曲起伏时留意高频吉他和镲片的粗糙边缘，与主唱中频颗粒如何共存；不能把这种有意保留的粗糙误判成应当消除的缺陷。",
+      "listening_cue": "先听鼓与贝斯建立的脉搏，再沿着吉他纹理跟踪到更饱满的段落。注意许巍的人声是否仍能从吉他中辨认出来，并比较强奏时鼓点起音与吉他延音的不同形状。"
+    },
+    {
+      "position": 2,
+      "title": "Bitch, Don't Kill My Vibe",
+      "artist": "Kendrick Lamar",
+      "album": "good kid, m.A.A.d city (Deluxe Version)",
+      "canonical_id": "Kendrick Lamar::Bitch, Don't Kill My Vibe",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440824516",
+        "song_id": "1440824516",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首把上一首依赖乐队共同推进的时间感切换成 Kendrick Lamar 的节拍叙事。这首 2012 年录音非常适合观察说唱在松弛的底层 groove 上怎样同时承担节奏、情绪和角色变化。它并非靠不断提高鼓的冲击力抓人，而是让语句长度、重音与背景声部的层次不断重组同一个拍速。 鼓点和贝斯形成相对稳定的低频骨架，和声性键盘／采样质地则在后方形成柔和衬底。Kendrick 的主声线、叠录声部与短促回应有不同的空间距离；更值得听的是这些声部怎样进入和退出，而不让整首混成单一的中频平面。",
+      "listening_cue": "第一遍只跟军鼓与主唱辅音的相对落点，第二遍再把背景人声和和声层加入注意力。听主唱改变语速时，节拍是否仍松弛，而主体声像又始终清楚。"
+    },
+    {
+      "position": 3,
+      "title": "Special Ops",
+      "artist": "The Chemical Brothers",
+      "album": "Hanna (Original Motion Picture Soundtrack)",
+      "canonical_id": "The Chemical Brothers::Special Ops",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/423742731",
+        "song_id": "423742731",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首明确选《Hanna》电影原声带中的《Special Ops》，而非同名其他艺人的录音。它作为电影音乐更注重动作与紧张感的持续塑造，而不是完整的主歌—副歌。放在 Kendrick 后面可以把注意力从语义和人声彻底移到节奏音色本身，观察电子制作怎样用重复与突发声响刻画空间。 短促电子打击、合成器低频与锐利的中高频音色共同构成带机械感的脉冲。声响的边缘、持续长度和音色明暗比旋律的复杂程度更重要；层次增加时，不能仅因为高频更响就误认为紧张感更强，真正有效的是不同材料在时间中的错位和对抗。",
+      "listening_cue": "固定音量锁住最稳定的低频脉冲，再逐个识别那些突然出现的短促高频声响。留意每次音色切换前后的空白长度，以及低频是否仍能迅速收住。"
+    },
+    {
+      "position": 4,
+      "title": "Midnight with Paul",
+      "artist": "落日飞车",
+      "album": "SOFT STORM",
+      "canonical_id": "落日飞车::Midnight with Paul",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1752999095",
+        "song_id": "1752999095",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首让前一首的紧绷电子音色松开，转入落日飞车《SOFT STORM》里偏柔软的复古流行与 R&B 氛围。《Midnight with Paul》吸引人的并非某个炫目的独奏，而是整支乐队有意识地把力度放轻，让律动、和声颜色和若即若离的声线共同制造夜间漂浮感。 温润的键盘与吉他音色提供软边缘，贝斯和鼓维持均匀却不僵硬的 groove。人声并非绝对干燥靠前，而是和背景音色保持一种半融合的距离；中低频有温度，但若过厚会抹掉节奏的弹性和吉他的细小起音。",
+      "listening_cue": "先只跟贝斯与鼓的一小段循环，再比较主唱进入前后的空间变化。留意吉他或键盘尾音如何留在节拍之间，判断这种朦胧感有没有保留清楚的低频边界。"
+    },
+    {
+      "position": 5,
+      "title": "Létt Ma",
+      "artist": "Youssou N'Dour",
+      "album": "Rokku Mi Rokka",
+      "canonical_id": "Youssou N'Dour::Létt Ma",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/266711510",
+        "song_id": "266711510",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是塞内加尔歌手 Youssou N'Dour 在《Rokku Mi Rokka》中的《Létt Ma》。它把听觉参考系从英美/华语歌曲转换到西非流行音乐：人声的节奏组织、乐队声部的应答和循环的推进方式，都不需要服从常见的四小节副歌预期。值得认真听它本身的生命力，而不是只把它当作异国风情。 声乐的旋律性、快速变化的装饰与乐队节奏形成交错的层次；打击和低音的持续推动，使高处的旋律材料可以自由地进入、停顿和回应。真正有趣的是多个节奏声部互相套合时仍然保持身体感，而不是简单地把每个拍点堆得更重。",
+      "listening_cue": "第一遍跟住一个最稳定的节奏型，连续听数轮；第二遍再追领唱与伴奏中的回应声部。特别注意重音并不总落在你熟悉的位置，试着在不数拍的情况下保持身体对 groove 的感知。"
+    }
+  ]
+}
