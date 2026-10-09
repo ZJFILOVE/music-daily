@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-10-09.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "一场游戏一场梦",
+      "artist": "王杰",
+      "album": "王杰超级精选集「一番杰作」",
+      "canonical_id": "王杰::一场游戏一场梦",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/263596250",
+        "song_id": "263596250",
+        "storefront": "cn"
+      },
+      "analysis_summary": "开场选王杰《一场游戏一场梦》，是想把今天的起点放在八十年代华语流行歌曲的强烈叙事感上，而不是继续昨天那种清透、含蓄的现代人声路线。这里选用 Apple Music 中国大陆所列《王杰超级精选集「一番杰作」》内的王杰本人演唱资源，不以同名翻唱或近期重录代替。它的吸引力不只是“老歌好听”：略带沙砾感的声线在很容易跟唱的旋律里不断加重情绪，既有克制，也有几乎脱口而出的倔强。 留意八十年代流行摇滚式的节奏推进：鼓组确立宽而稳的拍点，低音与和声性伴奏保持简明，让电声织体、持续音和人声的长尾留出足够的空间。与当代每个细节都力求靠前的混音不同，这种录音的情绪靠声线的粗粝、乐句的抬升，以及伴奏与主唱之间的远近对比形成。不要把较明显的年代感直接当作技术缺点，它也是表达的一部分。",
+      "listening_cue": "第一遍从主唱第一次进入开始，听每一句的字头有多直接、拖长的句尾又如何松开；第二遍把注意力放到鼓的重拍与低音上，观察相对平稳的节奏如何衬托越来越用力的人声。"
+    },
+    {
+      "position": 2,
+      "title": "Marunouchi Sadistic (EXPO Version)",
+      "artist": "椎名林檎",
+      "album": "Sanmon Gossip",
+      "canonical_id": "椎名林檎::Marunouchi Sadistic (EXPO Version)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1385311487",
+        "song_id": "1385311487",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首特意挑椎名林檎收录于 2009 年《Sanmon Gossip》的《Marunouchi Sadistic (EXPO Version)》，不是她 1999 年首张专辑中的原版，也不是未注明版本的现场音源。EXPO 改编给一首原本很有街头与摇滚锋芒的歌换了观看角度：旋律仍有熟悉的张力，声音却更像经过舞台灯光重新调度。今天把它放在王杰之后，是为了比较两种截然不同的“戏剧性”：前者靠嗓音直冲，后者靠节拍、发音与编曲姿态相互挑衅。 这版值得听的是更具舞台化、爵士／放克气息的切分与声部组织，而非只追最显眼的旋律。节奏底座与零碎的器乐应答不断制造前进和停顿的错觉，椎名的咬字则像一种有棱角的打击乐器，时而把音节摆在拍点前沿，时而故意拉长尾音。这里的复杂不是单纯堆叠：乐器之间留出的短暂空档，让人声的幽默与攻击性都更鲜明。",
+      "listening_cue": "从第一段人声开始，只听她的辅音、停顿和切分重音，再把注意力移到每次人声后方的短句回应。可以先听这支 EXPO Version，再自行与 1999 年原版比较，但本日记录只对应当前这个 2009 年版本。"
+    },
+    {
+      "position": 3,
+      "title": "Everything’s Beautiful",
+      "artist": "Hiatus Kaiyote",
+      "album": "Love Heart Cheat Code",
+      "canonical_id": "Hiatus Kaiyote::Everything’s Beautiful",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1733341276",
+        "song_id": "1733341276",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首转向 Hiatus Kaiyote 2024 年《Love Heart Cheat Code》中的《Everything’s Beautiful》。今天选择它，是因为它把复杂的现代灵魂乐语言做得轻松：音乐不是通过昂贵而光亮的音色宣告自己精致，而是让许多灵活的小动作共同支持一个明快的情绪。它尤其适合放在椎名林檎之后，比较两首同样爱用错位节奏的作品，如何分别走向俏皮的戏剧性与更柔软的乐队温度。 Paul Bender 的贝斯线持续向前推，Perrin Moss 的鼓却不总在听觉上与每个低音重合，Nai Palm 的声线和吉他短句在缝隙里穿行。这里的 neo-soul、放克与爵士感来自律动层之间微妙的错开、和声的伸缩以及声乐带有弹性的分句。听密集段落时不要只追人声最高的音；背后贝斯和鼓怎样把看似繁杂的演奏重新粘合，才是歌曲真正的动力。",
+      "listening_cue": "先连续听两轮贝斯与底鼓／军鼓之间的关系，尽量不要跟着主唱唱；然后再听 Nai Palm 的旋律和吉他在节拍空隙里怎样进出。比较它与上一首：两者都灵动，但这首的放松感是整支乐队一起‘呼吸’出来的。"
+    },
+    {
+      "position": 4,
+      "title": "Lingus",
+      "artist": "Snarky Puppy",
+      "album": "We Like It Here",
+      "canonical_id": "Snarky Puppy::Lingus",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1322209832",
+        "song_id": "1322209832",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首是 Snarky Puppy 2014 年《We Like It Here》的《Lingus》，明确选的是这张专辑的录音，而非后来发行的替代 take 或重新混音版本。推荐它并非为了给今天增加一首“炫技神曲”，而是因为少见地能把现场式集体配合、放克的身体性和爵士融合乐的即兴张力全放进一个仍然可辨认的结构。前一首是让复杂藏在轻盈里，这一首则让你直接看到复杂如何被乐手共同推到台前。 贝斯与鼓把节奏钉稳，铜管与其他旋律乐器以整齐的齐奏、短促断句制造轮廓，随后键盘独奏逐渐取得焦点。Cory Henry 富有层次的键盘／合成器即兴是著名亮点，但它并不是脱离伴奏单独存在的：节奏组的持续回应与和声循环，才能让层层加码的音符听起来有方向。录音保留了乐手共同演奏的呼吸感，与纯粹靠剪辑拼贴塑造的密集声场不同。",
+      "listening_cue": "先听开头合奏主题里铜管齐奏与鼓组落点如何对齐，再在键盘独奏越来越密的段落刻意改听贝斯和鼓。注意高潮之所以成立，除了独奏者更快、更高、更密，还因为下方律动仍保持清晰的支点。"
+    },
+    {
+      "position": 5,
+      "title": "Bubbles",
+      "artist": "Yosi Horikawa",
+      "album": "Wandering - EP",
+      "canonical_id": "Yosi Horikawa::Bubbles",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/530796494",
+        "song_id": "530796494",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 留给日本声音艺术家 Yosi Horikawa 的《Bubbles》，对应 2012 年《Wandering - EP》的原曲资源。最后一首让歌曲从有人声、有乐队的世界退到“身边的东西本身也能成为乐器”：Horikawa 把采集的日常声响重新组织成节奏和空间，其中乒乓球弹跳的声音就是重要材料。推荐它不是为了考验耳机解析力，而是想让你听见一段不依靠传统主唱、副歌和完整鼓套件的音乐同样能把时间组织得很有趣。 不同材质的短促撞击、细碎沙沙声与电子低音彼此拼接，乍听像许多小物体在不同距离上活动。弹跳声既能扮演高频的节奏声部，又保留真实物体碰撞时轻重不一的个性；电子加工并没有把这份不规则全部磨平。相比《Lingus》用真实乐手维持共同的脉搏，这里更像是创作者为日常声音重新发明了一套‘乐队编制’。",
+      "listening_cue": "最好用双耳耳机、适中音量听完整开头：先只分辨那些短促弹跳声的疏密与左右位置，再追踪低频进入后它们如何逐渐被听成节拍。随后闭眼再听一次，问自己究竟是哪个瞬间从‘物体的声音’听成了‘音乐的鼓点’。"
+    }
+  ]
+}
