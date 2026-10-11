@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-11",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-10-11.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Chicago (Acoustic Version)",
+      "artist": "Sufjan Stevens",
+      "album": "The Avalanche: Outtakes and Extras from the Illinois Album",
+      "canonical_id": "Sufjan Stevens::Chicago (Acoustic Version)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/160174685",
+        "song_id": "160174685",
+        "storefront": "cn"
+      },
+      "analysis_summary": "把今天的开场交给《Chicago》的原声版本，是想观察同一首作品在撤掉宏大的配器后，会怎样重新定义叙事的尺度。原版带有层层铺开的行进感，这个明确标注 Acoustic Version 的录音则把情绪收回更私密的范围；旋律仍然朝前走，却不再急于制造集体性的高潮。它适合用来校准耳朵：先听清楚一件乐器和一句人声本身的重量，再进入今天后面更复杂的编曲。\n\n原声弦乐器的分解和弦形成持续而轻巧的脉动，拨弦的颗粒感和余音让每一个和声转换都能被听到。主唱不像大型编曲中那样被厚实声墙包围，呼吸、轻声的起落和吉他声部之间的距离因而更明显。留意它怎样靠重复、音区与层次的细微变化而不是突然加大的音量，让情绪缓慢积累；这种克制正是此版本值得单独欣赏的原因。",
+      "listening_cue": "开头先只追踪吉他高音与低音的交替，等人声进入后观察相同的和弦循环如何因为一句尾音的收放而听起来不同；第二遍再和你熟悉的原版比较声音密度。"
+    },
+    {
+      "position": 2,
+      "title": "Hasta la Raíz",
+      "artist": "Natalia Lafourcade",
+      "album": "Hasta la Raíz (Edición Especial)",
+      "canonical_id": "Natalia Lafourcade::Hasta la Raíz",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1055384375",
+        "song_id": "1055384375",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首用 Natalia Lafourcade 的西班牙语创作把听觉从北美独立民谣带到拉丁美洲流行与民谣的交会处。选择这首本人演唱的录音，不只是为了在语种上制造变化：它有极强的旋律记忆点，但情感表达并不依赖夸张的唱法。即使暂时听不懂语言，也能够从短句的抑扬、伴奏的推进和副歌旋律的展开，感受到亲密感与向外生长的力量。\n\n伴奏以清晰的拨弦／扫弦纹理和有弹性的低音构成骨架，细密的打击乐让节奏向前流动，又不遮住主唱字头。进入更开阔的段落后，背景和声与延长音色逐渐填满横向空间，形成柔软而有支撑力的流行制作。特别值得欣赏的是声部密度的控制：低频稳健，人声始终在前，但周围的乐器会随着乐句起伏而退让或靠近。",
+      "listening_cue": "第一遍跟着主唱记住副歌的旋律弧线；第二遍只注意副歌前后低音与背景和声怎样加入，比较它们出现之前和之后，人声的亲密感有没有改变。"
+    },
+    {
+      "position": 3,
+      "title": "4:00A.M.",
+      "artist": "大贯妙子",
+      "album": "MIGNONNE (Mastered by Bernie Grundman)",
+      "canonical_id": "大贯妙子::4:00A.M.",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1597423772",
+        "song_id": "1597423772",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首选 1978 年的《4:00A.M.》，用日本流行录音中精密的律动安排替代单纯的复古情绪。这里采用 Apple Music 所列的《MIGNONNE (Mastered by Bernie Grundman)》曲目资源，而非现代翻唱或现场重录。它的魅力是表面轻盈、内部却十分忙碌：一条会呼吸的贝斯线、一组恰到好处的和声以及不断改变位置的器乐装饰，共同把凌晨的孤独写得既温暖又不安。\n\n贝斯的切分和鼓组稳定的脉冲之间保持微妙张力，电钢琴／键盘和弦负责柔化边缘，铜管短句及合唱声部又让声音在关键处突然明亮起来。大贯妙子的声线并不靠力量压过伴奏，而是用纤细、略带距离感的语气穿过相当饱满的编曲。请特别留意乐器在左右与前后层次中的错落：复杂度很高，旋律主体却始终清楚。",
+      "listening_cue": "先专注贝斯如何绕开最直接的重拍，再听副歌背景合唱与铜管进入时的音色明暗变化；不要提高音量，试着分辨每一层各自何时退场。"
+    },
+    {
+      "position": 4,
+      "title": "秦皇岛",
+      "artist": "万能青年旅店",
+      "album": "万能青年旅店",
+      "canonical_id": "万能青年旅店::秦皇岛",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1538548884",
+        "song_id": "1538548884",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首将视线从制作精巧的都市流行转向中国独立摇滚中更长篇、更含混的叙事。《秦皇岛》不急于给情绪一个容易归纳的标签：灰暗的城市质感、摇滚乐队的克制推进与铜管带出的远景感互相牵扯。把它放在今天这个位置，是为了与上一首比较：同样能用多声部构建空间，一首追求明快精密，一首却让留白和缓慢积累成为核心力量。\n\n电吉他的持续和弦与有颗粒感的演奏织体保留了粗粝的边缘，贝斯和鼓提供不疾不徐的地基，旋律与器乐段落则在较大的时间尺度中交替伸展。铜管的音色为摇滚编制打开一个更辽阔、也更疏离的声场；它并非只为副歌加厚，而像另一条独立的叙事线索。听这首时可以把注意力从单一主唱移到全队，体会紧张感怎样在看似重复的伴奏里逐渐累积。",
+      "listening_cue": "从歌曲前段开始记录鼓与吉他保持了哪些固定元素；等铜管旋律逐渐成为焦点时，留意伴奏是否真的变快，还是仅凭声部增加和音色变化就让时间感加速。"
+    },
+    {
+      "position": 5,
+      "title": "Vardavar",
+      "artist": "Tigran Hamasyan",
+      "album": "EP, No. 1 - EP",
+      "canonical_id": "Tigran Hamasyan::Vardavar",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1444311551",
+        "song_id": "1444311551",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后一首是今天刻意保留的 wildcard：Tigran Hamasyan 将亚美尼亚民间旋律语汇与现代爵士钢琴、强烈的节奏设计结合起来。《Vardavar》值得推荐，并非因为拍子难数就等于音乐高级，而是复杂循环真正产生了身体上的牵引感。把它留到末尾，耳朵已经从民谣的自然呼吸、拉丁流行的流动节奏、都市流行的切分走过摇滚的长线推进，此时就更容易感到错位重音带来的冲击。\n\n钢琴短促而清楚的音头不断提出节奏动机，低音与鼓在不同层次上标出脉冲；当重音与乐句的边界不同时落地，会出现仿佛拍点移动的错觉。反复的音型并非机械复制，它们会在力度、音区和伴奏回应中改变表情，保留民间舞曲般的动势。听时不必立即用一个固定拍号框住全曲，先感受乐队如何把复杂结构演奏得有弹性、有呼吸。",
+      "listening_cue": "第一遍暂时别数拍，只感受钢琴短句与鼓组形成的推拉；第二遍从 3:12 附近尝试跟随低音的循环，比较钢琴每次重新切入时的重音是否落在同一位置。"
+    }
+  ]
+}
