@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "provider": "apple_music",
+  "generated_by": "ChatGPT",
+  "obsidian_note": "Music/Daily/2026-10-12.md",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "你啊你啊",
+      "artist": "魏如萱",
+      "album": "末路狂花",
+      "canonical_id": "魏如萱::你啊你啊",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1171898023",
+        "song_id": "1171898023",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天不急着用一首音量很大的歌开场。魏如萱的《你啊你啊》把亲密关系里近乎笨拙的坦率，唱成一种忽然靠近、忽然后退的对话。挑选的是《末路狂花》里的 2016 年录音，而不是现场版：她在字音、气息和语尾上刻意留下的拐弯，比整齐划一的抒情唱腔更能传达情绪。即使熟悉这首歌，也值得把注意力从旋律移到「一句话究竟怎样被唱出来」。\n\n吉他拨弦为歌曲保留轻巧的起伏，弦乐并非一味铺成厚垫：小提琴、中提琴与大提琴会在不同音区接过和声的张力，令温柔里露出一点不安。人声既能贴近耳边轻声讲述，也会突然改变咬字力度或音高走向；伴奏的留白正好容纳这种不完全可预测的表演。不要把它只听作清新民谣，细听弦乐延音与吉他短音的时间尺度差别。",
+      "listening_cue": "前段先只跟踪吉他的规律拨弦，再把注意力移到一处人声突然上扬的字尾，听小提琴的高音线条是否随之抬起；最后重听大提琴较长的低音如何让轻盈的节奏带出重量。"
+    },
+    {
+      "position": 2,
+      "title": "Mas, Que Nada!",
+      "artist": "Jorge Ben Jor",
+      "album": "Samba Esquema Novo",
+      "canonical_id": "Jorge Ben Jor::Mas, Que Nada!",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1443845526",
+        "song_id": "1443845526",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首从私密的中文歌走进 1963 年巴西流行音乐的公共空间。这里选 Jorge Ben Jor 在《Samba Esquema Novo》中的《Mas, Que Nada!》，不是后来国际上更常听见的翻唱或电子化改编。作品最迷人之处不在于旋律有多复杂，而在于几乎每个短句都能自然生出身体律动：即便不理解葡萄牙语，也会被节奏与人声的相互应答带着向前。它也提醒我们，明亮不必意味着编曲拥挤。\n\n吉他提供清楚的切分型和声支点，鼓与打击乐把重音拆散在拍内，人声的重读又与器乐的反拍互相咬合；低音承担连续的地面感，让表层节奏可以灵活摆动。老录音里相对集中的空间感和当代流行制作的宽阔声场不同，乐器不是靠夸张低频与大量叠轨取胜，而靠每个声部恰好错开的动作形成弹性。注意听那些乍看重复、实则不断变换着力点的段落。",
+      "listening_cue": "不要先跟旋律哼唱：用手稳定打四拍，再听吉他的和弦短击究竟有几次没有落在手掌的正拍上；随后转而听主唱的句尾如何给打击乐留出回答的位置。"
+    },
+    {
+      "position": 3,
+      "title": "Wuthering Heights",
+      "artist": "Cécile McLorin Salvant",
+      "album": "Ghost Song",
+      "canonical_id": "Cécile McLorin Salvant::Wuthering Heights",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1592614854",
+        "song_id": "1592614854",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首是今日的 wildcard。Cécile McLorin Salvant 翻唱 Kate Bush 的《Wuthering Heights》，但绝不是把一首著名流行歌套上常规爵士和弦、唱得更华丽而已。她在《Ghost Song》的这一版本里把戏剧性的角色感拆解为吟唱、近似自语的柔软线条与突然拉开的音域，令熟悉的旋律像一则幽灵故事重新出现。值得听的是诠释本身：一位歌者怎样通过改变声音的身体感，而不是复制原唱的标志性音色，让旧作品产生新的叙事角度。\n\n作品保留带有传统无伴奏吟唱气息的声线，同时借助稀疏、朦胧的和声与持续低音营造悬置感；留白较多的段落尤其突出齿音、气息、颤音与音高转折。与人声总被稳定节拍托住的标准爵士唱片不同，这里更像室内戏剧：伴奏未必时时提醒你拍点，反而让时间随着一句长音的收放变形。它不是 Kate Bush 原录音，也不是 2023 年的 Kassa Overall Remix；此处特意推荐 2022 年《Ghost Song》的录音。",
+      "listening_cue": "注意开头近乎独唱的声音质地怎样过渡到带和声背景的段落，再挑一句被拉长的高音，留意起音、渐强与尾音回落分别改变了多少角色感；不必急着判断它是否「像原版」。"
+    },
+    {
+      "position": 4,
+      "title": "Looped",
+      "artist": "Kiasmos",
+      "album": "Kiasmos",
+      "canonical_id": "Kiasmos::Looped",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1451077338",
+        "song_id": "1451077338",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首撤掉歌词，让注意力完全交给声音在时间里的移动。《Looped》来自 Kiasmos 2014 年的同名专辑：它不像追求瞬间爆发的大型电子舞曲，而是让很少的动机反复出现，慢慢改变它们之间的关系。选择这首既是给上一首戏剧化人声一次清耳，也是观察一件更微妙的事：当旋律与和声看似变化不大时，我们为什么仍会感觉空间持续展开、情绪不断前进？\n\n规律的电子节拍像细密坐标，富有颗粒感的打击声与较柔软的键盘／合成器和声相互穿插；持续音和重复旋律往往靠细小的音色、音量和织体变化形成张力。它把近乎室内乐的克制与电子舞曲的稳定脉搏接在一起：下层提供可以信赖的循环，上层让相同材料在不同位置浮起。留意声部进入和退出时，你是否会把这些变化误听成节奏突然加速或减慢。",
+      "listening_cue": "开头先用脚轻轻跟住底层脉冲；随后固定注意力在一条重复的键盘音型上，观察新打击声进入时它本身其实有无变化。第二遍可以刻意不数拍，只追踪音色如何从干燥变得更宽阔。"
+    },
+    {
+      "position": 5,
+      "title": "Agitations tropicales",
+      "artist": "L'Impératrice",
+      "album": "Odyssée - EP",
+      "canonical_id": "L'Impératrice::Agitations tropicales",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1203034552",
+        "song_id": "1203034552",
+        "storefront": "cn"
+      },
+      "analysis_summary": "用法国乐队 L'Impératrice 的《Agitations tropicales》收尾，是希望今天不在极简的重复里结束。这是 2015 年《Odyssée - EP》中的版本，不是之后推出的原声改编。它把 disco 的身体感与精致的法语流行制作结合起来：声音相当考究，律动却没有为了展示技术而变得难以亲近。听过前面的巴西吉他切分和 Kiasmos 的电子循环后，再听它如何把两种「让身体自己找到拍点」的办法重新组织。\n\n富弹性的贝斯线条、稳定而干净的鼓组、亮面合成器与带有短促节奏感的和声层互相叠放，形成几乎可以触摸的细密纹理。人声不像主流流行大副歌那样以高音压住全场，而常常把法语的音节轻轻镶在节奏缝隙中；器乐里的小装饰与滤波明暗使循环保持流动。这首的丰富并不等于混乱：低频负责脚步，较高音区负责闪光，中频声线保持松弛。",
+      "listening_cue": "第一遍只听贝斯在每小节里如何提前或延后贴近鼓的重拍；第二遍盯住合成器的短促回应与法语字尾，注意它们分别占据了节奏网格的哪个空隙。可倒回《Looped》，比较两种电子重复为何一内敛、一轻快。"
+    }
+  ]
+}
