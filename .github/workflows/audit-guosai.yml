@@ -1,0 +1,88 @@
+name: Audit guosai text (read-only)
+on:
+  push:
+    branches: ['audit/2026-10-14-system-review']
+    paths: ['.github/workflows/audit-guosai.yml']
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Inspect pinned public source without downloading binary assets
+        shell: bash
+        run: |
+          git clone --bare --filter=blob:none --quiet https://github.com/ZJFILOVE/guosai.git source.git
+          python - <<'PY'
+          import ast,concurrent.futures,hashlib,json,re,subprocess,time,urllib.request,urllib.parse,urllib.error,zipfile
+          from pathlib import Path,PurePosixPath
+          rev='b5dfffb4b4484c6ffcfe31ad0d65a0ea40badd1f'
+          def git(*a):return subprocess.check_output(['git','--git-dir=source.git',*a],stderr=subprocess.PIPE)
+          def unique(pairs):
+              d={}
+              for k,v in pairs:
+                  if k in d:raise ValueError('duplicate JSON key')
+                  d[k]=v
+              return d
+          sensitive=re.compile(r'(^|/)(\.env(?:\..*)?|\.git-credentials|id_rsa|id_ed25519|credentials(?:\.[^/]*)?|secrets(?:\.[^/]*)?)$|\.(?:pem|key|p12|pfx)$',re.I)
+          secret=re.compile(r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|\bgh[pousr]_[A-Za-z0-9]{30,}\b|\bgithub_pat_[A-Za-z0-9_]{30,}\b|\bAKIA[A-Z0-9]{16}\b|\bsk-(?:proj-)?[A-Za-z0-9_-]{40,}\b')
+          suffixes={'.py','.js','.json','.jsonl','.yml','.yaml','.md','.txt','.toml','.ini','.cfg','.sh','.ps1','.bat','.m','.tex','.bib','.html','.css','.csv','.ts','.tsx','.jsx','.ipynb','.rb','.r','.jl'}
+          names={'Makefile','Gemfile','Dockerfile','.gitignore','.gitattributes','LICENSE'}
+          inventory,selected,checks,excluded,security=[],[],[],[],[]
+          # Deliberately omit ls-tree -l: asking sizes would lazily fetch every binary blob.
+          for raw in git('ls-tree','-r','-z',rev).split(b'\0'):
+              if not raw:continue
+              meta,name=raw.split(b'\t',1);mode,kind,sha=meta.decode().split();p=name.decode('utf-8',errors='surrogateescape');pp=PurePosixPath(p)
+              item={'path':p,'mode':mode,'type':kind,'sha':sha,'size':None};inventory.append(item)
+              reason=None
+              if mode not in {'100644','100755'} or kind!='blob':reason='non-regular-object'
+              elif sensitive.search(p):reason='credential-filename-not-read'
+              elif pp.suffix.lower() not in suffixes and pp.name not in names:reason='binary-or-unselected-format'
+              if reason:excluded.append({'path':p,'reason':reason})
+              else:selected.append(item)
+          print('Tracked paths:',len(inventory),'Selected text:',len(selected),flush=True)
+          def read(item):
+              p=item['path'];url='https://raw.githubusercontent.com/ZJFILOVE/guosai/'+rev+'/'+urllib.parse.quote(p,safe='/')
+              try:
+                  with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'ZJFILOVE-read-only-audit'}),timeout=20) as res:
+                      b=res.read(20*1024*1024+1)
+                  if len(b)>20*1024*1024:return item,None,'over-20-MiB-text-limit'
+                  sha=hashlib.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest()
+                  if sha!=item['sha']:return item,None,'blob-sha-mismatch'
+                  return item,b,None
+              except urllib.error.HTTPError as e:return item,None,'http-'+str(e.code)
+              except Exception as e:return item,None,type(e).__name__
+          out=Path('audit-output');out.mkdir()
+          with zipfile.ZipFile(out/'snapshot.zip','w',zipfile.ZIP_DEFLATED) as z,concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+              for item,b,error in pool.map(read,selected):
+                  p=item['path'];pp=PurePosixPath(p)
+                  if error:excluded.append({'path':p,'reason':error});continue
+                  item['size']=len(b)
+                  try:t=b.decode('utf-8-sig')
+                  except UnicodeDecodeError:excluded.append({'path':p,'reason':'non-UTF-8'});continue
+                  if secret.search(t):security.append({'path':p,'reason':'potential-secret-file-not-exported'});continue
+                  rec={'path':p,'sha':item['sha'],'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()}
+                  try:
+                      if pp.suffix.lower() in {'.json','.ipynb'}:json.loads(t,object_pairs_hook=unique);rec['json']='passed'
+                      elif pp.suffix.lower()=='.jsonl':
+                          for line in t.splitlines():
+                              if line.strip():json.loads(line,object_pairs_hook=unique)
+                          rec['jsonl']='passed'
+                      elif pp.suffix.lower()=='.py':ast.parse(t,filename=p);rec['python_syntax']='passed'
+                  except (ValueError,SyntaxError) as e:rec['error_type']=type(e).__name__;rec['line']=getattr(e,'lineno',None)
+                  if pp.is_absolute() or '..' in pp.parts:raise ValueError('Unsafe path')
+                  z.writestr('current/'+p,b);checks.append(rec)
+              summary={'snapshot_commit':rev,'tree_sha':git('rev-parse',rev+'^{tree}').decode().strip(),'commit_count':int(git('rev-list','--count',rev)),'tracked_objects':len(inventory),'selected_text_files':len(selected),'exported_text_files':len(checks),'excluded_count':len(excluded),'potential_secret_files':len(security),'parse_errors':sum('error_type' in c for c in checks),'coverage':'All pinned paths and commit metadata; selected current UTF-8 text. Binary sizes/content, credentials and historical source versions not read. Every downloaded text blob checked against Git tree SHA.'}
+              for name,value in [('summary',summary),('inventory',inventory),('checks',checks),('excluded',excluded),('security_findings',security)]:z.writestr(name+'.json',json.dumps(value,ensure_ascii=True,indent=2)+'\n')
+              z.writestr('refs.txt',git('for-each-ref','--format=%(refname) %(objectname)'))
+              z.writestr('commits.txt',secret.sub('[REDACTED]',git('log','--all','--format=%H%x09%P%x09%cI%x09%s','--name-status').decode('utf-8',errors='replace')))
+              (out/'summary.json').write_text(json.dumps(summary,indent=2)+'\n')
+          print(json.dumps(summary,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audit-snapshot-guosai
+          path: audit-output/
+          if-no-files-found: error
+          retention-days: 7
