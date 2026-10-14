@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "operation_id": "system-audit-2026-10-14-repair-1",
+  "status": "prepared",
+  "mode": "repair_existing_publications_not_new_recommendations",
+  "source_heads": {
+    "music-daily": "bb7980e3f3860d77bc1756ec5c250e7aae9e5f38",
+    "obsidian-vault": "22bcbe4dceaa8983c9cb89cb0d4a31a4bc4aa8a2"
+  },
+  "history_recovery": {
+    "old_state_blob_sha": "bc15317c4bd3c955a59ef5fc0b84141b06091496",
+    "expected_state_blob_sha": "7467a6fefff1b1a9993b8aa8410dfa3610f81dc6",
+    "old_count": 187,
+    "expected_count": 193,
+    "preserve_all_existing_entries_and_values": true,
+    "additions": [
+      {"canonical_id":"魏如萱::你啊你啊","first_recommended":"2026-10-12"},
+      {"canonical_id":"Jorge Ben Jor::Mas, Que Nada!","first_recommended":"2026-10-12"},
+      {"canonical_id":"Cécile McLorin Salvant::Wuthering Heights","first_recommended":"2026-10-12"},
+      {"canonical_id":"Kiasmos::Looped","first_recommended":"2026-10-12"},
+      {"canonical_id":"L'Impératrice::Agitations tropicales","first_recommended":"2026-10-12"},
+      {"canonical_id":"费玉清::苏州夜曲","first_recommended":"2026-09-05","reason":"Retain previously exposed track removed by commit 0589f435660f6b744d132a657145931c9a4d422e; this is not a new recommendation."}
+    ]
+  },
+  "remaining_planned_repairs": {
+    "vault_manifest_mirrors": ["2026-09-05","2026-09-06","2026-09-07","2026-09-08","2026-09-09","2026-09-10","2026-09-11","2026-09-13","2026-10-01"],
+    "authority": "music-daily current manifests, with the 2026-09-05 replacement independently corroborated by the already-repaired Vault note and Git history",
+    "english_history_missing_sources": 17,
+    "youtube_url_typo": "Resources/YouTube/Daily/2026-09-30.md: wcodghatch -> watch; retain video ID PHe0bXAIuk0",
+    "validator": "Accept equivalent existing Markdown metadata and Source/frontmatter forms without weakening counts, chapter requirements, CN URL checks or exact ID order. Add regression tests."
+  },
+  "invariants": [
+    "No deletion or rewriting of historical recommendation entries",
+    "No changes to user Notes or music/English note bodies",
+    "No new recommendation selection",
+    "No credentials, security settings or production deployment changes",
+    "No automatic task re-enablement",
+    "No success claim before readback and relevant regression checks"
+  ],
+  "recovery": "Before each Contents API update, fetch the current blob SHA. An already-matching expected blob is an idempotent no-op. On conflict or unknown transport outcome, read back before retry. Stop rather than overwrite unexpected changes. Complete each repository serially; two repositories are not one atomic transaction.",
+  "verification_scope": "Data/history repair and parser regression only. Historical source availability and subjective semantic/diversity QA remain separate checks; prepared does not mean passed."
+}
