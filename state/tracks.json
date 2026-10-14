@@ -39,7 +39,7 @@
     "张国荣::最爱": 1,
     "The Verve::Bitter Sweet Symphony": 1,
     "LOUIS ARMSTRONG::What A Wonderful World": 1,
-    "Céline Dion::My Heart Will Go On (Love Theme from \"Titanic\")": 1,
+    "Céline Dion::My Heart Will Go On (Love Theme from "Titanic")": 1,
     "光良::妹妹": 1,
     "苏嘉妍::旅行的意义": 1,
     "林忆莲::夜太黑": 1,
@@ -408,6 +408,12 @@
       "first_recommended": "2026-10-11",
       "last_recommended": "2026-10-11",
       "count": 1
-    }
+    },
+    "魏如萱::你啊你啊": {"first_recommended": "2026-10-12", "last_recommended": "2026-10-12", "count": 1},
+    "Jorge Ben Jor::Mas, Que Nada!": {"first_recommended": "2026-10-12", "last_recommended": "2026-10-12", "count": 1},
+    "Cécile McLorin Salvant::Wuthering Heights": {"first_recommended": "2026-10-12", "last_recommended": "2026-10-12", "count": 1},
+    "Kiasmos::Looped": {"first_recommended": "2026-10-12", "last_recommended": "2026-10-12", "count": 1},
+    "L'Impératrice::Agitations tropicales": {"first_recommended": "2026-10-12", "last_recommended": "2026-10-12", "count": 1},
+    "费玉清::苏州夜曲": {"first_recommended": "2026-09-05", "last_recommended": "2026-09-05", "count": 1}
   }
 }
