@@ -1,0 +1,89 @@
+name: Audit public repositories (read-only)
+on:
+  push:
+    branches: ['audit/2026-10-14-system-review']
+    paths: ['.github/workflows/audit-public.yml']
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - repo: guosai
+            rev: b5dfffb4b4484c6ffcfe31ad0d65a0ea40badd1f
+          - repo: gitdemo
+            rev: bada6d7ad5e31d36309dfbbca0d96187b70a5580
+          - repo: picture-bed
+            rev: 05de9a4d81eac5b6c396708ae18e1a86dc42f06f
+          - repo: blog-comments
+            rev: ''
+    steps:
+      - name: Collect public metadata and source without running project code
+        env:
+          REPO_NAME: ${{ matrix.repo }}
+          EXPECTED_REV: ${{ matrix.rev }}
+        shell: bash
+        run: |
+          git clone --bare --filter=blob:none --quiet "https://github.com/ZJFILOVE/$REPO_NAME.git" source.git
+          python - <<'PY'
+          import ast,hashlib,json,os,re,subprocess,zipfile
+          from pathlib import Path,PurePosixPath
+          out=Path.cwd()/'audit-output';out.mkdir();os.chdir('source.git')
+          def git(*a): return subprocess.check_output(['git',*a],stderr=subprocess.PIPE)
+          def unique(pairs):
+              d={}
+              for k,v in pairs:
+                  if k in d: raise ValueError('duplicate JSON key')
+                  d[k]=v
+              return d
+          sensitive=re.compile(r'(^|/)(\.env(?:\..*)?|\.git-credentials|id_rsa|id_ed25519|credentials(?:\.[^/]*)?|secrets(?:\.[^/]*)?)$|\.(?:pem|key|p12|pfx)$',re.I)
+          secret=re.compile(r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|\bgh[pousr]_[A-Za-z0-9]{30,}\b|\bgithub_pat_[A-Za-z0-9_]{30,}\b|\bAKIA[A-Z0-9]{16}\b|\bxox[baprs]-[A-Za-z0-9-]{20,}\b|\bsk-(?:proj-)?[A-Za-z0-9_-]{40,}\b')
+          suffixes={'.py','.js','.json','.jsonl','.yml','.yaml','.md','.txt','.toml','.ini','.cfg','.sh','.ps1','.bat','.m','.tex','.bib','.html','.css','.less','.xml','.csv','.ts','.tsx','.jsx','.ipynb','.rb','.r','.jl','.svg'}
+          names={'Makefile','Gemfile','Gemfile.lock','Rakefile','Dockerfile','CNAME','.gitignore','.gitattributes','LICENSE'}
+          rev=os.environ['EXPECTED_REV'];inventory,checks,excluded,security=[],[],[],[]
+          if rev and not re.fullmatch('[0-9a-f]{40}',rev): raise RuntimeError('Invalid pinned revision')
+          if not rev and git('for-each-ref').strip(): raise RuntimeError('Repository is no longer empty; review new contents first')
+          with zipfile.ZipFile(out/'snapshot.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for line in (git('ls-tree','-r','-z','-l',rev).split(b'\0') if rev else []):
+                  if not line: continue
+                  meta,name=line.split(b'\t',1);mode,kind,sha,size=meta.decode().split();p=name.decode('utf-8',errors='surrogateescape');size=None if size=='-' else int(size);pp=PurePosixPath(p)
+                  inventory.append({'path':p,'mode':mode,'type':kind,'sha':sha,'size':size})
+                  reason=None
+                  if mode not in {'100644','100755'} or kind!='blob': reason='symlink-or-non-regular-object'
+                  elif sensitive.search(p): reason='credential-filename-not-read'
+                  elif pp.suffix.lower() not in suffixes and pp.name not in names: reason='binary-or-unselected-format'
+                  elif size>20*1024*1024: reason='over-20-MiB-text-limit'
+                  if reason: excluded.append({'path':p,'reason':reason});continue
+                  b=git('cat-file','blob',sha)
+                  try: t=b.decode('utf-8-sig')
+                  except UnicodeDecodeError: excluded.append({'path':p,'reason':'non-UTF-8'});continue
+                  if secret.search(t):
+                      security.append({'path':p,'line_numbers':[i for i,l in enumerate(t.splitlines(),1) if secret.search(l)],'reason':'potential-secret-file-not-exported'});continue
+                  record={'path':p,'sha':sha,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()}
+                  try:
+                      if pp.suffix.lower() in {'.json','.ipynb'}: json.loads(t,object_pairs_hook=unique);record['json']='passed'
+                      elif pp.suffix.lower()=='.jsonl':
+                          for l in t.splitlines():
+                              if l.strip(): json.loads(l,object_pairs_hook=unique)
+                          record['jsonl']='passed'
+                      elif pp.suffix.lower()=='.py': ast.parse(t,filename=p);record['python_syntax']='passed'
+                  except (ValueError,SyntaxError) as e: record['error_type']=type(e).__name__;record['line']=getattr(e,'lineno',None)
+                  if pp.is_absolute() or '..' in pp.parts: raise RuntimeError('Unsafe path')
+                  z.writestr('current/'+p,b);checks.append(record)
+              summary={'repository':'ZJFILOVE/'+os.environ['REPO_NAME'],'snapshot_commit':rev or None,'empty_git_repository':not bool(rev),'tree_sha':git('rev-parse',rev+'^{tree}').decode().strip() if rev else None,'commit_count':int(git('rev-list','--count',rev)) if rev else 0,'tracked_objects':len(inventory),'exported_text_files':len(checks),'excluded_count':len(excluded),'potential_secret_files':len(security),'parse_errors':sum('error_type' in c for c in checks),'coverage':'All pinned default-branch paths; UTF-8 selected text formats; all fetched commit metadata. Binary assets and historical source versions not exported; Discussions are not Git objects.'}
+              for n,v in [('summary',summary),('inventory',inventory),('checks',checks),('excluded',excluded),('security_findings',security)]: z.writestr(n+'.json',json.dumps(v,ensure_ascii=True,indent=2)+'\n')
+              z.writestr('refs.txt',git('for-each-ref','--format=%(refname) %(objectname)'))
+              z.writestr('commits.txt',secret.sub('[REDACTED]',git('log','--all','--format=%H%x09%P%x09%cI%x09%s','--name-status').decode('utf-8',errors='replace')) if rev else '')
+              (out/'summary.json').write_text(json.dumps(summary,indent=2)+'\n')
+          print(json.dumps(summary,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audit-snapshot-${{ matrix.repo }}
+          path: audit-output/
+          if-no-files-found: error
+          retention-days: 7
