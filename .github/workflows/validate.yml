@@ -3,13 +3,27 @@ name: validate
 on:
   push:
   pull_request:
+  schedule:
+    - cron: '17 0 * * *'
+
+permissions:
+  contents: read
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: python scripts/validate.py
+      - run: python -m unittest discover -s scripts -p 'test_consistency.py' -v
+      - name: Preserve all historically exposed tracks and existing state values
+        run: python scripts/check_consistency.py --base-ref "$(git rev-parse HEAD^)"
+      # This token is repository-scoped. Cross-private-repository comparison
+      # must be run with two authorized local checkouts via --vault-root.
