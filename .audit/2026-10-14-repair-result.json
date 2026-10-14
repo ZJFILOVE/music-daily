@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "operation_id": "system-audit-2026-10-14-repair-1",
+  "audited_on": "2026-10-14",
+  "status": "data_repair_completed_with_open_findings",
+  "intent_path": ".audit/2026-10-14-repair.json",
+  "intent_commit": "434cade665eaacbae8a7b26f95d303ea98fda320",
+  "stages": [
+    {"stage":"prepared","result":"passed","commit":"434cade665eaacbae8a7b26f95d303ea98fda320"},
+    {"stage":"vault_repair_ci","result":"passed","data_commit":"1c9674208e02ff20be3f7f02d4dc600527ef7eda","workflow_run":38513801521,"changed_files_read_back":14},
+    {"stage":"music_repair_ci","result":"passed","data_commit":"f9a057c4ee90b09a1f30aa2059e23ef213c866f4","workflow_run":38514545165},
+    {"stage":"music_main_publish","result":"passed","expected_previous_head":"434cade665eaacbae8a7b26f95d303ea98fda320","new_head":"f9a057c4ee90b09a1f30aa2059e23ef213c866f4","force":false,"main_ci_run":38514940759,"main_ci_result":"success"},
+    {"stage":"vault_main_publish","result":"passed","expected_previous_head":"22bcbe4dceaa8983c9cb89cb0d4a31a4bc4aa8a2","new_head":"1c9674208e02ff20be3f7f02d4dc600527ef7eda","force":false},
+    {"stage":"default_branch_state_readback","result":"passed","expected_blob_sha":"7467a6fefff1b1a9993b8aa8410dfa3610f81dc6","music_observed_blob_sha":"7467a6fefff1b1a9993b8aa8410dfa3610f81dc6","vault_observed_blob_sha":"7467a6fefff1b1a9993b8aa8410dfa3610f81dc6"},
+    {"stage":"cross_repository_regression","result":"passed_structural_with_url_warnings","manifests":37,"current_tracks":185,"permanent_history_entries":193,"retired_entries_retained":8,"english_notes_with_history":37,"legacy_short_url_format_warnings":20},
+    {"stage":"october_12_repair_qa_record","result":"written","vault_commit":"83e192921337a10cb623c266fd53215b7e570113","path":".recommendation/runs/2026-10-12-music.json","full_content_qa":"not_certified"}
+  ],
+  "invariants_verified": {
+    "old_music_history_entries_preserved_with_identical_values":187,
+    "music_history_entries_appended":6,
+    "old_english_history_lines_preserved_byte_for_byte":20,
+    "english_history_lines_appended":17,
+    "vault_manifest_mirrors_reconciled":9,
+    "existing_music_and_english_note_bodies_changed":0,
+    "youtube_note_change":"one known URL spelling repair; video ID unchanged",
+    "new_recommendations_selected":0,
+    "manual_notes_overwritten":0,
+    "chatgpt_automations_reenabled":0,
+    "security_or_secret_settings_changed":0,
+    "production_blog_changes":0
+  },
+  "tests": {"new_music_negative_regressions":14,"new_vault_parser_regressions":12,"courseware_updated_tests":51,"courseware_original_tests":22,"cumcm_standard_result":"6 independent tests passed; 4 setUpClass errors because processed input fixture was not available; not an overall pass"},
+  "deployed_qa": {
+    "music_ci":"Existing validator plus full-history protection and 14 negative tests; push, pull_request and daily UTC 00:17.",
+    "first_future_scheduled_execution":"not_observed_yet",
+    "cross_repository_check":"scripts/check_consistency.py --vault-root PATH, executed against verified authorized snapshots. Not automatically scheduled across private repositories with the repository-scoped GITHUB_TOKEN.",
+    "vault_default_branch_ci":"Not restored; its deliberate September 15 removal remains a separate review decision.",
+    "true_cross_repository_atomicity":false,
+    "recovery_strategy":"Pinned branches, tested commits, expected-head non-force updates and serial readback. A failed later stage must resume from this journal, not clear history or regenerate content."
+  },
+  "audit_execution_failures": [
+    {"operation":"trial branch state update","result":"Invalid quote escaping caught by blob hash/readback; fixed on the trial branch; invalid commit cd80ab4c4612c2129d3915156f5e570cfb9edd52 was never published to main and is not an ancestor of the clean repair commit."},
+    {"operation":"create_tree","http_status":422,"message":"base_tree is not a valid tree oid","cause":"Audit supplied an incorrect tree SHA; corrected after reading the commit object. No branch mutation occurred from the failed call."},
+    {"operation":"guosai snapshot","result":"Initial job hit a 20-minute timeout; optimized metadata/text-only retry succeeded in workflow run 38512543345."}
+  ],
+  "remaining_scope": ["Live source and semantic quality for the complete historical corpus","Reddit okm6rm independent source verification","Schema/version migration for legacy September 4 content","Twenty historical slug-form Apple Music URLs","Automatic private cross-repository checking and producer transaction adoption","Local Obsidian sync and actual delivery","Binary assets, non-UTF-8 legacy references and complete scientific-model reproduction"],
+  "completion_meaning":"The verified data repairs and new regression code are on default branches. This does not certify all projects, sources, delivery paths or scientific outputs as healthy."
+}
