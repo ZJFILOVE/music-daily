@@ -409,11 +409,40 @@
       "last_recommended": "2026-10-11",
       "count": 1
     },
-    "魏如萱::你啊你啊": {"first_recommended": "2026-10-12", "last_recommended": "2026-10-12", "count": 1},
-    "Jorge Ben Jor::Mas, Que Nada!": {"first_recommended": "2026-10-12", "last_recommended": "2026-10-12", "count": 1},
-    "Cécile McLorin Salvant::Wuthering Heights": {"first_recommended": "2026-10-12", "last_recommended": "2026-10-12", "count": 1},
-    "Kiasmos::Looped": {"first_recommended": "2026-10-12", "last_recommended": "2026-10-12", "count": 1},
-    "L'Impératrice::Agitations tropicales": {"first_recommended": "2026-10-12", "last_recommended": "2026-10-12", "count": 1},
-    "费玉清::苏州夜曲": {"first_recommended": "2026-09-05", "last_recommended": "2026-09-05", "count": 1}
+    "魏如萱::你啊你啊": {
+      "first_recommended": "2026-10-12",
+      "last_recommended": "2026-10-12",
+      "count": 1
+    },
+    "Jorge Ben Jor::Mas, Que Nada!": {
+      "first_recommended": "2026-10-12",
+      "last_recommended": "2026-10-12",
+      "count": 1
+    },
+    "Cécile McLorin Salvant::Wuthering Heights": {
+      "first_recommended": "2026-10-12",
+      "last_recommended": "2026-10-12",
+      "count": 1
+    },
+    "Kiasmos::Looped": {
+      "first_recommended": "2026-10-12",
+      "last_recommended": "2026-10-12",
+      "count": 1
+    },
+    "L'Impératrice::Agitations tropicales": {
+      "first_recommended": "2026-10-12",
+      "last_recommended": "2026-10-12",
+      "count": 1
+    },
+    "费玉清::苏州夜曲": {
+      "first_recommended": "2026-09-05",
+      "last_recommended": "2026-09-05",
+      "count": 1
+    },
+    "曹方::冰川": 1,
+    "José González::El Invento": 1,
+    "黄莺莺::三年三月到九天九夜": 1,
+    "奇克・考瑞亚 & Return to Forever::Spain": 1,
+    "柏林爱乐乐团 & 赫伯特・冯・卡拉扬::Boléro, M. 81": 1
   }
 }
