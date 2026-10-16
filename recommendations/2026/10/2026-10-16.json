@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-10-16",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "口是心非",
+      "artist": "张雨生",
+      "album": "口是心非",
+      "analysis_summary": "以同名专辑中的张雨生录音作为华语入口，借页面标示的 10 月 16 日发行日重听演唱的张力。重点不是孤立欣赏高音，而是比较字头、长句、人声位置与流行摇滚伴奏密度怎样共同形成推进。",
+      "listening_cue": "第一遍比较一段主歌与随后情绪展开段落的句尾：哪里直接收住，哪里借下一句继续向前？第二遍只跟鼓和低音，再回听同一处高音，看看高潮是否也来自底层支撑，而不只是音高。",
+      "canonical_id": "张雨生::口是心非",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1854813955",
+        "song_id": "1854813955",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Coyote",
+      "artist": "Joni Mitchell",
+      "album": "Hejira",
+      "analysis_summary": "选择《Hejira》专辑录音，避开现场与 demo 条目。作者的伸缩句法、吉他的起音和无品低音的流动形成多条可跟随的线，适合把低音从背景节拍提升为独立旋律来听。",
+      "listening_cue": "选一个人声暂时停顿的地方，只听低音如何接下空隙；再倒回前一个乐句，比较主唱与低音是在一起落地，还是一方已经开始下一步。最后试着只哼低音，不跟主旋律。",
+      "canonical_id": "Joni Mitchell::Coyote",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1492262289",
+        "song_id": "1492262289",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 3,
+      "title": "Two Thousand and Seventeen",
+      "artist": "Four Tet",
+      "album": "Two Thousand and Seventeen - Single",
+      "analysis_summary": "选择独立单曲条目而非混音串烧版本。以明亮短音、余音和电子节奏的层次关系为入口，比较旋律持续重复时，织体变化怎样仍然带来方向感；不臆造具体声源或采样出处。",
+      "listening_cue": "先跟着最容易辨认的短旋律循环数几轮，再把注意力移到低频与细小节奏。找一处旋律似乎没变、整体却明显变厚或变轻的位置，写下究竟是哪个声部让你改变了判断。",
+      "canonical_id": "Four Tet::Two Thousand and Seventeen",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1288804817",
+        "song_id": "1288804817",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 4,
+      "title": "Orpheus",
+      "artist": "David Sylvian",
+      "album": "Secrets of the Beehive (Remastered 2003)",
+      "analysis_summary": "明确选择 2003 重制版的专辑资源，不与新录音混淆。低沉人声、原声与电子材质、低音提琴和管弦编排提供相互衬托的空间，适合练习听起音、持续与留白的比例。",
+      "listening_cue": "选一个完整乐句，把注意力依次交给人声、低音和持续的背景层，各听一遍。记录哪一层最容易让你感觉音乐仍在前进；再比较一个收尾停顿，看看是谁最后离开听觉空间。",
+      "canonical_id": "David Sylvian::Orpheus",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1451900035",
+        "song_id": "1451900035",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Sodade",
+      "artist": "Cesária Evora",
+      "album": "Miss Perfumado (20th Anniversary Edition)",
+      "analysis_summary": "以明确标示的周年发行版独唱条目拓展到佛得角 morna，不混用二重唱、现场或重混版本。听轻摆脉冲、带沙质的人声边缘和句尾留白，先描述具体声音，再形成情绪判断。",
+      "listening_cue": "第一遍只听句尾：每次收束后，伴奏留出了多少可感到的空隙？第二遍轻轻跟随底层脉冲，观察主唱的进入是否总落在你预想的位置。结束后用三个声音特征描述它，不用歌词翻译替代聆听。",
+      "canonical_id": "Cesária Evora::Sodade",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/573377330",
+        "song_id": "573377330",
+        "storefront": "cn"
+      }
+    }
+  ]
+}
