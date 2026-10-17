@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-10-17",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Manta",
+      "artist": "Lexie Liu",
+      "album": "Manta - Single",
+      "analysis_summary": "用 Manta 的低频重量、电子空间与人声在唱和说之间的转换开场，选核验到的单曲资源，不把专辑、现场或重混归属混用。",
+      "listening_cue": "第一遍只盯一句人声的收尾：它是立即停住，还是让余音继续占据空间？第二遍回到同一处，只跟低频；比较声音很轻时，节奏为什么仍有重量。找一个“说”转为“唱”的瞬间，用节奏或音长描述它，不只写“很酷”。",
+      "canonical_id": "Lexie Liu::Manta",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/manta/1491316305",
+        "song_id": "1491316305",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Stay High",
+      "artist": "Brittany Howard",
+      "album": "Jaime",
+      "analysis_summary": "用温暖但不松散的节奏、细小的高音亮点与主唱的轻重变化，听一首灵魂乐怎样保持亲近感；明确选择 Jaime 原版而非重想版本。",
+      "listening_cue": "先跟着鼓轻点两轮，再把注意力移到较高、较短的亮音，最后回到人声。找一处主唱不加力、情绪却更亲近的位置，比较它前后的字头与句尾。三分钟左右的一首，值得完整听过再挑细节。",
+      "canonical_id": "Brittany Howard::Stay High",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/stay-high/1710206776",
+        "song_id": "1710206776",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 3,
+      "title": "Friday Morning",
+      "artist": "Khruangbin",
+      "album": "Friday Morning - Single",
+      "analysis_summary": "听吉他旋律如何在稳定的低音与鼓之间伸展，区分放松与松散；保存实际核验到的单曲发行归属，不冒充专辑条目或现场版。",
+      "listening_cue": "选一段吉他延长音较多的位置，第一遍跟旋律，第二遍只跟贝斯和鼓。到吉他暂时留白时，不要急着跳走：检查究竟是哪一个声部让你仍然知道下一拍在哪里。最后用一句话区分“放松”与“没有控制”。",
+      "canonical_id": "Khruangbin::Friday Morning",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/friday-morning/1763223953",
+        "song_id": "1763223953",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 4,
+      "title": "De Cara a la Pared",
+      "artist": "Lhasa De Sela",
+      "album": "La Llorona",
+      "analysis_summary": "用西语唱作比较较粗粝的低声线与弦声的清楚边缘，听情绪如何留在音色和句尾里；明确是 La Llorona 专辑录音而非现场或翻唱。",
+      "listening_cue": "任选两次相似的乐句收束，只听最后一个元音：它们是逐渐消失，还是带着清晰的边缘停止？再追踪其后的伴奏空隙。最后用音色、音长、力度三个词汇维度写一小句，不引用歌词，也不拿歌词解释替代自己的听觉观察。",
+      "canonical_id": "Lhasa De Sela::De Cara a la Pared",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/de-cara-a-la-pared/1551592392",
+        "song_id": "1551592392",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Music for a Found Harmonium (2008 Digital Remaster)",
+      "artist": "Penguin Cafe Orchestra",
+      "album": "Music for a Found Harmonium - EP",
+      "analysis_summary": "今日 wildcard 用带簧片质感的短句循环收尾，比较循环的轻快和机械的整齐；保留2008数字重制标识，排除现场、The Orb重混及他人演绎。",
+      "listening_cue": "第一遍沿着最容易记住的短句轻轻打拍；第二遍挑一处循环接回开头的位置，检查你是否把重音听到了不同的音上。结束后试着只哼节奏、不哼音高，看看推动感还剩多少。舒服音量即可，不必为了分辨声部持续加大音量。",
+      "canonical_id": "Penguin Cafe Orchestra::Music for a Found Harmonium (2008 Digital Remaster)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/music-for-a-found-harmonium-2008-digital-remaster/715651844",
+        "song_id": "715651844",
+        "storefront": "cn"
+      }
+    }
+  ]
+}
