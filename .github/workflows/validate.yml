@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/validate.py
-      - run: python -m unittest discover -s scripts -p 'test_consistency.py' -v
+      - run: python -m unittest discover -s scripts -p 'test_*.py' -v
       - name: Preserve all historically exposed tracks and existing state values
         run: python scripts/check_consistency.py --base-ref "$(git rev-parse HEAD^)"
       # This token is repository-scoped. Cross-private-repository comparison
