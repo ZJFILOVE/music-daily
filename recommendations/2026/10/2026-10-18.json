@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-10-18",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "米店",
+      "artist": "张玮玮",
+      "album": "白银饭店",
+      "analysis_summary": "从《白银饭店》专辑录音进入张玮玮的慢叙述：不靠大幅度的声势变化，而把注意力放在声线的颗粒、句子松紧和伴奏留下的余地。明确区别于2008北京现场和后来现场录音。",
+      "listening_cue": "挑两处相似的句尾，分别留意最后一个音的长度、气息和它后面的空隙。第一遍只随叙述走，第二遍只跟伴奏落点；看看你感觉的“慢”，究竟来自速度，还是一句话没有被急着唱满。不要抄歌词，用一句自己的话描述这份距离感。",
+      "canonical_id": "张玮玮::米店",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/%E7%B1%B3%E5%BA%97/1707829783",
+        "song_id": "1707829783",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Song for Our Daughter",
+      "artist": "Laura Marling",
+      "album": "Song for Our Daughter",
+      "analysis_summary": "把亲密与提醒放在同一首歌里：Laura Marling写给想象中的下一代，而不是需要按现实亲子传记理解的自述。用原声质地、克制的人声与逐渐展开的声部关系，听关怀如何不变成说教。国区条目标有儿童不宜。",
+      "listening_cue": "第一遍只听人声的语气变化，找一处像提醒、另一处更像安慰的位置。第二遍跟着吉他的短起音，再切换到更长的背景声：情绪变宽时，是音量在增加、声部长了，还是主唱的发声方式改变了？选一种你真正听到的变化描述即可。",
+      "canonical_id": "Laura Marling::Song for Our Daughter",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/song-for-our-daughter/1876508755",
+        "song_id": "1876508755",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 3,
+      "title": "Poinciana (Live at The Pershing, Chicago, 1958)",
+      "artist": "Ahmad Jamal Trio",
+      "album": "Ahmad Jamal At The Pershing: But Not for Me",
+      "analysis_summary": "1958年Pershing现场不是任意一份同名录音：钢琴、贝斯和鼓的分工让停顿仍然有推进力。把钢琴暂时移出注意力中心，听Israel Crosby和Vernell Fournier如何把时间维持在音乐里。",
+      "listening_cue": "找一处钢琴明显减少音符的位置，暂时只跟鼓与贝斯轻轻打拍；等钢琴重新进入，注意它是在你预期的位置，还是用一个偏移改变了句子的重量。再回听同一段，比较只听旋律和听三人互动时，你对“安静”的理解有什么不同。",
+      "canonical_id": "Ahmad Jamal Trio::Poinciana (Live at The Pershing, Chicago, 1958)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/poinciana-live-at-the-pershing-chicago-1958/1445769464",
+        "song_id": "1445769464",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 4,
+      "title": "Diaraby (with Ry Cooder) [with Ry Cooder]",
+      "artist": "Ali Farka Touré",
+      "album": "Talking Timbuktu (with Ry Cooder)",
+      "analysis_summary": "让循环保持生命力的不是不断换和弦，而是吉他短句、人声与打击乐彼此让位。保留国区目录中重复的合作艺人括注，不混用选集或翻奏ID；单曲页1984与专辑页1994的年份冲突明确披露，未猜测录音日期。",
+      "listening_cue": "这份专辑条目时长7分26秒，最好留出一整段时间。先连续跟一个循环，再在相似的下一轮只听人声背后的回应，找出音长、重音或空隙的一处变化。不要把听不懂的语言自动归为神秘或悲伤，先用声音的近远、松紧和明暗描述它。",
+      "canonical_id": "Ali Farka Touré::Diaraby (with Ry Cooder) [with Ry Cooder]",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/diaraby-with-ry-cooder-with-ry-cooder/1528519982",
+        "song_id": "1528519982",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Partita for 8 Singers: 1. Allemande",
+      "artist": "Roomful of Teeth & Brad Wells",
+      "album": "Caroline Shaw: Partita for 8 Voices - EP",
+      "analysis_summary": "真正的wildcard：Caroline Shaw组曲第一乐章，把说话、呼吸感与和声当作可组合的声音材料，而非传统主唱加伴唱。明确只推荐第一乐章，不把整部四乐章作品或混音版算成同一首资源。",
+      "listening_cue": "第一遍不追词义，只区分“说出来”“唱出来”和介于两者之间的声音。第二遍找一次多个声部突然形成整体的位置，判断是哪种变化让你察觉聚合：节奏对齐、音高稳定，还是音色接近？只记一个瞬间，再决定是否另找时间听完整组曲。",
+      "canonical_id": "Roomful of Teeth & Brad Wells::Partita for 8 Singers: 1. Allemande",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/partita-for-8-singers-1-allemande/1830552219",
+        "song_id": "1830552219",
+        "storefront": "cn"
+      }
+    }
+  ]
+}
