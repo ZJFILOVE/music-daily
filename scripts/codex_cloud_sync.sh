@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Run in the Codex Cloud setup phase, where environment secrets are available.
+# Run with cloud network-secret placeholders, injected variables, or Legacy setup secrets.
 set -euo pipefail
 cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.."
 
