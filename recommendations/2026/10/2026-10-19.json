@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-10-19",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "气球 (Acoustic) [feat. 徐研培]",
+      "artist": "许哲珮",
+      "album": "In My Place (feat. 徐研培)",
+      "analysis_summary": "选择明确标注Acoustic及徐研培合作的2021年版本，让熟悉的中文作品转化为关于语句密度、呼吸与轻重的听觉练习；不是把翻唱或早期录音混作同一版本。",
+      "listening_cue": "第一遍只跟人声：找出连续短词转成长句时，呼吸与重音怎样改变。第二遍把注意力移到句尾的伴奏，比较它是在填满空隙，还是让上一句的情绪继续停留；用“紧—松—紧”三个字记下你自己的段落感，不必抄歌词。",
+      "canonical_id": "许哲珮::气球 (Acoustic) [feat. 徐研培]",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/%E6%B0%94%E7%90%83-acoustic-feat-%E5%BE%90%E7%A0%94%E5%9F%B9/1600888923",
+        "song_id": "1600888923",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Move On Up (Extended Version)",
+      "artist": "Curtis Mayfield",
+      "album": "Curtis (Expanded Edition)",
+      "analysis_summary": "加长版让明亮的铜管、轻盈声线与持续推进的节奏形成完整弧线。推荐重点不是励志标签，而是合奏如何在一个稳定律动中不断增加方向感。",
+      "listening_cue": "先挑一个容易跟住的打击乐或鼓的脉冲，整段都别丢；管乐再次进入时，检查你是否仍在同一个身体节拍里。人声退到次要位置后继续听，辨认推动力来自新旋律、节奏加密还是音色轮换。不要因进入器乐段就提前切歌，这正是选择加长版的理由。",
+      "canonical_id": "Curtis Mayfield::Move On Up (Extended Version)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/move-on-up-extended-version/29168235",
+        "song_id": "29168235",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 3,
+      "title": "Los Ageless",
+      "artist": "St. Vincent",
+      "album": "MASSEDUCTION",
+      "analysis_summary": "从灵魂乐的集体推进切到人工感鲜明的电子摇滚，观察精致表面与人声焦灼如何并存。明确选择MASSEDUCTION原专辑版本，不与钢琴版或混音版混淆。",
+      "listening_cue": "先对照主歌与副歌的发声距离、音色密度和句子长度；旋律变得更容易跟唱时，情绪是否真的更轻松？再听一次重复的节奏动机，分辨人声是在贴合它还是试图挣脱它。用一句自己的话写下“好听的表面下面是什么”，不需要复述歌词。",
+      "canonical_id": "St. Vincent::Los Ageless",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/los-ageless/1440947068",
+        "song_id": "1440947068",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 4,
+      "title": "The Astounding Eyes of Rita",
+      "artist": "阿瑙尔・伯拉罕",
+      "album": "The Astounding Eyes of Rita",
+      "analysis_summary": "用2009年同名专辑标题曲，认识乌德琴的短促起音如何与管乐长线、低音及打击乐组成对话。不是把北非音乐化约成异域背景，而是具体聆听声部的接力。",
+      "listening_cue": "找一处乌德琴短句结束后由另一声部接住的时刻：接力的是相近旋律、延长音，还是节奏回应？第二遍只跟低音，感受你对段落边界的判断是否改变。给它完整的一段时间，别只截取最像“安静背景”的半分钟。",
+      "canonical_id": "阿瑙尔・伯拉罕::The Astounding Eyes of Rita",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/the-astounding-eyes-of-rita/1443767437",
+        "song_id": "1443767437",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Summon the Fire",
+      "artist": "The Comet Is Coming",
+      "album": "Trust In The Lifeforce Of The Deep Mystery",
+      "analysis_summary": "以电子爵士的强脉冲与萨克斯动机收尾，是今日真正的高能wildcard。重点听重复如何积累压力，而不是把探索曲误当作安静器乐或要求自己立即喜欢。",
+      "listening_cue": "先记住最容易辨认的短动机，随后每次它回来，都只比较一件事：鼓是否改变重心、背景是否增加密度，或句尾是否出现新的回应。若几层声音挤在一起，暂时只跟鼓；重新回到整体时，听它是否仍像刚才那个不变的循环。",
+      "canonical_id": "The Comet Is Coming::Summon the Fire",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/summon-the-fire/1449208109",
+        "song_id": "1449208109",
+        "storefront": "cn"
+      }
+    }
+  ]
+}
