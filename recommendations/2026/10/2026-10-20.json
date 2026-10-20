@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-10-20",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "赏味期限",
+      "artist": "黄小桢",
+      "album": "赏味期限",
+      "analysis_summary": "以1998年专辑标题曲开场，关注不夸张的演唱如何容纳分离后的不整齐情绪；把语句的近距离与伴奏的收尾放在一起听，不将目录中有歧义的乐器标签当成精确配器证据。",
+      "listening_cue": "第一遍只随人声走，挑一句收尾听它是干脆结束、轻轻松开还是继续拖住。第二遍回到相同位置，只跟伴奏的起音与消退，比较情绪的重量来自发声，还是来自后面的空隙。最后用一句自己的话形容这段距离，不抄歌词。",
+      "canonical_id": "黄小桢::赏味期限",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/%E8%B5%8F%E5%91%B3%E6%9C%9F%E9%99%90/1720694629",
+        "song_id": "1720694629",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Diamonds On the Soles of Her Shoes",
+      "artist": "Paul Simon",
+      "album": "Graceland (25th Anniversary Deluxe Edition)",
+      "analysis_summary": "以人声合唱到乐队律动的交接为入口，听低音旋律、吉他短句和合唱如何共同组织重心；明确选25周年版中的原专辑主版本，不是附赠Alternate或现场重演。",
+      "listening_cue": "完整听过开头人声到乐队进入的交接，不要直接跳到熟悉的段落。随后挑两轮相似的节奏，第一轮跟低音，第二轮跟吉他与打击声；主唱回到前景时，检查你是否仍能跟住低音线。用一个动作或重音记住变化，不靠不断调高音量找热闹。",
+      "canonical_id": "Paul Simon::Diamonds On the Soles of Her Shoes",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/diamonds-on-the-soles-of-her-shoes/581741461",
+        "song_id": "581741461",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 3,
+      "title": "Samba Pa Ti",
+      "artist": "Santana",
+      "album": "Abraxas",
+      "analysis_summary": "从吉他长音与弯音的歌唱性进入，再留意鼓、康茄鼓及低音怎样改变同一段旋律的重心；选择《Abraxas》原专辑条目，不用同名现场或弦乐翻奏替代。",
+      "listening_cue": "第一遍选两次吉他长音，比较起音、音高弯曲和尾音的长度。第二遍暂时把吉他放到后面，只跟鼓与打击乐；再回到旋律，听同样的长句为什么不像刚开始那样悬着。辨认一次你确实听见的节奏重心变化即可，不必把整首拆成技术清单。",
+      "canonical_id": "Santana::Samba Pa Ti",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/samba-pa-ti/871146612",
+        "song_id": "871146612",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 4,
+      "title": "I Know You Know",
+      "artist": "Esperanza Spalding & Leo Genovese",
+      "album": "Esperanza",
+      "analysis_summary": "用轻盈人声与富于运动的低音线，打开爵士里歌唱和节奏对话的入口；保留原专辑资源的Esperanza Spalding与Leo Genovese联合艺人署名，不套用合辑的简写元数据。",
+      "listening_cue": "先跟人声完整走一遍，再回到一段容易记住的乐句，只听低音如何走过它的空隙。第三次才加入钢琴：它是在与人声同落点，还是用短句回应？不需要一开始就同时听清全部声部，只找出一处你能明确说出谁在回应谁的位置。",
+      "canonical_id": "Esperanza Spalding & Leo Genovese::I Know You Know",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/i-know-you-know/1440629980",
+        "song_id": "1440629980",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Ever New",
+      "artist": "Beverly Glenn-Copeland",
+      "album": "Keyboard Fantasies",
+      "analysis_summary": "今日wildcard把缓慢的电子音色与温暖人声放在同一空间，练习辨认声音包络、层次与注意力的变化；明确选《Keyboard Fantasies》原录音，不是近年的重作或合作重录。",
+      "listening_cue": "留出七分钟，先不做别的事；任选一个较持续的声音，听它的边缘如何从出现走向消退。人声进入或退出时，比较同一片电子背景给你的距离感是否改变。若一开始抓不住段落，只记下一个音色由近变远或由清楚变模糊的瞬间，就足够作为下一遍的入口。",
+      "canonical_id": "Beverly Glenn-Copeland::Ever New",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/ever-new/1504283285",
+        "song_id": "1504283285",
+        "storefront": "cn"
+      }
+    }
+  ]
+}
