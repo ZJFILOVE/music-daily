@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-10-21",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "千千万万",
+      "artist": "郑宜农",
+      "album": "给天王星",
+      "analysis_summary": "《给天王星》收录的5:50版本，把中文唱作的近距离表达与逐渐展开的段落放在同一条线上。重点辨认人声力度、伴奏密度和空间感各自怎样变化；与较早的《PLUTO》同名条目明确区分。",
+      "listening_cue": "第一遍只跟住主唱，记住你第一次感觉情绪被推高的位置；第二遍从那里前后各回听约半分钟，判断推动来自唱法、伴奏进入，还是两者同时发生。只记一个实际听见的变化，不必给所有声音命名。",
+      "canonical_id": "郑宜农::千千万万",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/%E5%8D%83%E5%8D%83%E4%B8%87%E4%B8%87/1547211375",
+        "song_id": "1547211375",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Floating on a Moment",
+      "artist": "Beth Gibbons",
+      "album": "Lives Outgrown",
+      "analysis_summary": "Beth Gibbons个人专辑中的曲目，适合从气息、音色边缘与背景声部的距离进入。与早前Portishead曝光区分为不同作品，同时诚实保留同一歌手的关联；本曲制作与混音署名可在国区页核对。",
+      "listening_cue": "先听开头一段，给主唱与最远处的背景声音各画一个“前后位置”；接着听到新声部进入，检查你的空间图有没有改变。第二遍只选一处尾音，听它是被留白接住，还是被另一层声音接走。",
+      "canonical_id": "Beth Gibbons::Floating on a Moment",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/floating-on-a-moment/1728144213",
+        "song_id": "1728144213",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 3,
+      "title": "French Disko",
+      "artist": "Stereolab",
+      "album": "Refried Ectoplasm (Switched On, Vol. 2)",
+      "analysis_summary": "用持续脉冲与吉他、键盘的音色色块，体验重复如何形成推进感。选择合辑正式曲目，排除同名demo、早期混音和DJ截段；标题不被当成语言或曲风的证据。",
+      "listening_cue": "前一分钟先跟住鼓的重心，暂时忽略主唱；再把注意力移到持续铺陈的高音色层。尝试判断它的兴奋来自节拍变快，还是同一速度下密度与明暗的改变。最后回到人声，听它怎样穿过这些色块。",
+      "canonical_id": "Stereolab::French Disko",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/french-disko/1419804182",
+        "song_id": "1419804182",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 4,
+      "title": "Jarabi",
+      "artist": "Toumani Diabaté",
+      "album": "Kaira",
+      "analysis_summary": "《Kaira》中的科拉琴独奏录音，以同一件乐器内部的循环、支点和流动旋律建立层次。与近来西非吉他及同名合作录音明确区分，提供不同的弹拨音色和注意力分配方式。",
+      "listening_cue": "选一段约40秒的片段：第一次只哼较低、较稳定的循环，第二次只追较高的线条，第三次允许两者同时进入耳朵。若跟丢，不必重来，等循环再次接住你；目标是听到两种角色，而不是数清所有音。",
+      "canonical_id": "Toumani Diabaté::Jarabi",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/jarabi/1629109827",
+        "song_id": "1629109827",
+        "storefront": "cn"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Soul Vibrations",
+      "artist": "Dorothy Ashby",
+      "album": "Afro-Harping (Deluxe)",
+      "analysis_summary": "以竖琴进入灵魂爵士的律动，检验“轻盈音色只能当背景”的预设。选豪华版里的原曲主条目，排除Alternate Take；与前一首科拉琴独奏形成编制、节奏支撑与音头角色的具体对照。",
+      "listening_cue": "先让脚轻轻跟住最稳定的拍点，耳朵只追竖琴音头落在拍前、拍上还是拍后；不必逐个分类，找到一处让身体与旋律似乎分开走的位置即可。随后连回上一首开头，比较同样清楚的拨弦声在独奏与乐队中各承担什么。",
+      "canonical_id": "Dorothy Ashby::Soul Vibrations",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/soul-vibrations/1765583656",
+        "song_id": "1765583656",
+        "storefront": "cn"
+      }
+    }
+  ]
+}
