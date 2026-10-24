@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-10-24",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "鹿港小镇",
+      "artist": "罗大佑",
+      "album": "之乎者也",
+      "canonical_id": "罗大佑::鹿港小镇",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1720705000",
+        "song_id": "1720705000",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先从一首有清晰叙述方向的华语摇滚进入。选择《之乎者也》的专辑录音：它的力量来自一段段语句持续向前推进，同时让个人口吻与更大的社会经验彼此碰撞。与只凭熟悉旋律怀旧相比，更值得听的是歌者如何维持长段叙述的重心——不是每句都加重，却能让后一句比前一句更迫切。适合完整听一遍，先感受声音里向前走与想回头的拉扯。 以摇滚乐队的节奏支撑为坐标，把罗大佑略带沙哑、边缘粗粝的嗓音放在前景听。人声不是装饰在伴奏上，而像一个一直需要把话说完的人；器乐的推进与句子起伏之间，因此有很强的相互牵引。这里选的是1982年专辑条目，未把北京—香港演唱会或宜花东鹿现场的演奏细节混入，也不据页面日期推断具体录音日。",
+      "listening_cue": "第一遍跟住每一段的语气，不急着分析文字。第二遍只抓一个句末，听声音收束后节奏怎样把下一句接起来；再找一处主唱加重的字，判断力量来自音量、音区，还是进入节拍的位置。"
+    },
+    {
+      "position": 2,
+      "title": "Mushaboom",
+      "artist": "Feist",
+      "album": "Let It Die (UK Version)",
+      "canonical_id": "Feist::Mushaboom",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/mushaboom/1443379471",
+        "song_id": "1443379471",
+        "storefront": "cn"
+      },
+      "analysis_summary": "把第二首留给一种轻巧、带想象空间的亲密感。Feist 的歌声很容易亲近，但这首并不是单靠“温柔”就成立：旋律的弹性和轻快的推进，让略带憧憬的情绪始终有落脚点。今天明确选择《Let It Die (UK Version)》的原歌曲条目，不是 K-Os、Mocky 或 Postal Service 混音，也不是电影合辑。它适合在周末出门前听，让注意力从严肃叙述转到一句话怎样唱得松而不散。 可以把拨弦的颗粒、轻的节奏支点和贴近耳边的人声分开听：前两层给身体一个不太用力的摇摆，歌唱则在其上保留自然的呼吸。她的声音既有柔软边缘，又不会把旋律轮廓磨平。Apple Music 的资料列出 Feist 主唱及 Chilly Gonzales 的编曲身份；这里不由署名反推某件乐器一定是谁演奏，也不把 UK Version 理解为另一场重新演唱。",
+      "listening_cue": "先轻点基本拍子，再听一个短句的开头：它是紧贴拍点，还是让语气稍微悬一下？找一处主唱结束而伴奏仍继续的空隙，比较有歌声和没有歌声时，同一层拨弦带给你的轻重感。"
+    },
+    {
+      "position": 3,
+      "title": "La femme d'argent",
+      "artist": "Air",
+      "album": "Moon Safari",
+      "canonical_id": "Air::La femme d'argent",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/la-femme-dargent/697240265",
+        "song_id": "697240265",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这是今日优先：给一个不靠歌词、也不急着冲向高潮的声音空间留七分钟。它很适合把“旋律主角”暂时放下，改听低音、节拍与上层音色怎样共同构成运动感。选的是《Moon Safari》原专辑中的录音，不是《Blue Moon Safari》的 Vegyn Version 或 DJ 混音片段。前两首以歌声带路，这里则让你发现，反复的底层线条也能成为很有性格的叙述者。 低音的弹性与较松的鼓点形成稳固的框架，键盘和电子色彩在其上铺出更轻、更漂浮的层次。值得注意的不是声音有多少，而是每层都有自己的起音、延续和退后方式：低处让你保持身体感，高处则打开空间。Apple Music 的原专辑介绍也强调松散节拍与多层配器；具体到这一曲，建议听声部间的距离，不把听感直接归因于未经核实的某台合成器或录音设备。",
+      "listening_cue": "开头先只跟低音，记住它怎样绕回起点。等上层材料增多，再把注意力移到较长的延音：节奏还一样时，空间为何已经不同？最后回到开头，比较你对同一条低音的感受是否变了。"
+    },
+    {
+      "position": 4,
+      "title": "Chaser",
+      "artist": "Mammal Hands",
+      "album": "Captured Spirits",
+      "canonical_id": "Mammal Hands::Chaser",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/chaser/1579312329",
+        "song_id": "1579312329",
+        "storefront": "cn"
+      },
+      "analysis_summary": "电子循环之后，换成有呼吸、触键和击打触感的合奏，比较“反复”在两种音乐里怎样工作。Mammal Hands 的入口不是先背爵士术语，而是抓住一个短动机，听其他声部怎样让它越来越有方向。选择《Captured Spirits》中的具体歌曲条目；这次不追新发行，也不把同一乐队的其他曲子拼成介绍。它值得专门听的地方，是旋律、伴奏与节奏支撑可以轮流改变你注意的中心。 钢琴的重复型、萨克斯的气息线条与鼓及打击乐的细密活动，是理解这支合奏语言的三个入口。别只追着最响的声部跑：较小的重音和延续音，也会改变一个循环的重心。可以先把它当成几个彼此配合的动作，再听它们合起来的紧张感。国区曲页与专辑页日期字段并不相同，这里只确认专辑和录音身份，不拿单曲目录日期声称整张专辑的实际首发日。",
+      "listening_cue": "第一遍跟住钢琴短型，第二遍把注意力完全交给节奏层，找它在哪些地方推动、哪些地方留下空隙。再把旋律放回来：同一个重复型上，哪一层的变化最先让你觉得音乐向前走了？"
+    },
+    {
+      "position": 5,
+      "title": "Odugen Taiga (Live)",
+      "artist": "Huun Huur Tu",
+      "album": "WANDER ABOUT TUVA (Live)",
+      "canonical_id": "Huun Huur Tu::Odugen Taiga (Live)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/odugen-taiga-live/1827140846",
+        "song_id": "1827140846",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天真正跨出常听范围的一首，留给图瓦的人声传统。这里有意选择2025年《WANDER ABOUT TUVA (Live)》中的现场版本，而不把《The Orphan’s Lament》的另一首歌替进来。它适合暂时放下“主唱在唱什么歌词”的习惯，听声音本身怎样形成持续的底色和更明亮的上层。你不需要模仿发声，只要允许耳朵先适应这种不同于常规流行主唱的音色组织。 聆听时可先分辨较低、持续的声响与浮在上面的明亮成分，再留意句子呼吸带来的边界。泛音的突出会改变你对“一条声音”的直觉，但不要把每一处高音都直接判成另一位歌者或某件乐器。Apple Music 列出团体的声乐与编曲身份；现场版标注并不自动证明录于某个地点，也不代表没有后期处理。今天把判断停在能够核实的版本和实际可听的层次关系上。",
+      "listening_cue": "先找一个较稳定的持续声，把它当作参照，再留意更亮的声音如何在上方移动。人声停下或换气时，听声音的边缘与余响怎样改变；回听同一小段，比较“跟旋律”与“跟音色”两种听法。"
+    }
+  ]
+}
