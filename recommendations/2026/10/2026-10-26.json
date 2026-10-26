@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-10-26",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Love and Affection",
+      "artist": "Joan Armatrading",
+      "album": "Love and Affection: Joan Armatrading Classics (1975-1983)",
+      "canonical_id": "Joan Armatrading::Love and Affection",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1429178815",
+        "song_id": "1429178815",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天先从一首既有叙述感、又会逐渐向外打开的歌开始。Joan Armatrading 的吸引力并不只在于嗓音厚实，而在于她能把犹疑、靠近和释放放进同一条旋律里，让声音的力度随着关系的变化而调整。这首适合周一在开始工作之前完整听一遍：不急着把它当成怀旧金曲，而是观察一个人如何从较收敛的表达走向更宽的情绪空间。本次选的是《Love and Affection: Joan Armatrading Classics (1975-1983)》中的4分29秒条目，按真实合辑名登记，不冒充另一个原专辑资源。 原声吉他的清晰拨弦给歌声留下可以倚靠的骨架，节奏组、和声与管乐色彩使歌曲的空间逐渐变厚。值得听的是主唱的低处质地与更高、更展开的句子如何形成对照：同一句旋律的重心，可以通过气息、咬字与尾音长度改变，不必一直把音量推高。这里没有凭目录日期判断某次录音日，也不因合辑收录便宣称它经过新的重录或母带升级；版本身份以核验到的标题、时长和专辑为准。",
+      "listening_cue": "第一遍只跟主唱，找出一处从“像说话”转为明显拉长旋律的地方。第二遍在同一处听伴奏：哪些声部继续维持脉冲，哪些在回答歌声？最后只回听一个句尾，比较音高停住后，情绪是否仍由呼吸与伴奏继续推进。"
+    },
+    {
+      "position": 2,
+      "title": "Time Moves Slow",
+      "artist": "BADBADNOTGOOD & Samuel T. Herring",
+      "album": "IV",
+      "canonical_id": "BADBADNOTGOOD & Samuel T. Herring::Time Moves Slow",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1608122095",
+        "song_id": "1608122095",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首把时间感放慢，但不把注意力放松掉。BADBADNOTGOOD 与 Samuel T. Herring 的合作让歌唱有很强的身体重量：它不是轻巧地贴在伴奏上，而像是带着摩擦进入一张稳定的网。今天选择《IV》的专辑录音，保留双方联合艺人署名，排除名称相近的器乐伴奏翻制和DJ混合版本。它的价值是让你听出“节奏稳定”与“情绪安稳”并不是同一回事；乐队的克制，反而给人声里的不平整留下了位置。 缓慢的鼓与低音形成底座，键盘和吉他的轮廓不争着填满每一拍；Herring 带颗粒、带胸腔感的声音，因而能在空隙里成为最明显的纹理。听时可以把伴奏想成几个相互留位置的角色，而不是一块和弦背景：低音推动下一步，鼓标出边界，较细的器乐起音则在歌声停顿时显形。不要把听起来松弛等同于没有设计；真正的张力往往来自落点与留白的关系。",
+      "listening_cue": "先轻点基本拍子，留意主唱进入时是贴紧拍点还是给你稍稍滞后的感觉。第二遍选一处短暂停唱，只追踪低音怎样把段落接住。最后把耳朵从嗓音的沙哑移到一句旋律的收尾：这次听到的是音色效果，还是节奏上的松紧？"
+    },
+    {
+      "position": 3,
+      "title": "Eras",
+      "artist": "Juana Molina",
+      "album": "Wed 21",
+      "canonical_id": "Juana Molina::Eras",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/708262824",
+        "song_id": "708262824",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这是今日优先：它让你从“歌里唱了什么”转向“一个循环怎样不断改变意义”。Juana Molina 把亲密的人声与反复的声音材料放在一起，表面上没有很夸张的戏剧动作，细小的进入、退出和叠层却不断改变重心。选择《Wed 21》的《Eras》专辑条目，而非另一个明确标为墨西哥现场的版本。它适合戴耳机认真听四分多钟，暂时不要求一首歌必须靠传统副歌完成释放，也不要求你懂西班牙语才有入口。 拨弦的循环、人声层与电子纹理相互编织；可听的重点不是只数重复了几次，而是每次重复时周围多了什么、少了什么。同一个动机在低频、敲击与声音远近改变后，会获得不同的紧张度。Molina 的歌声有时像叙述者，有时又成为织物中的一根线，适合比较“听清一个词”和“听见一个音色形状”两种注意力。下文是导听方向，没有声称逐秒测试全曲，也不把录音制作的听感猜测写成未经核对的设备清单。",
+      "listening_cue": "第一遍只挑一个最容易认出的短动机，跟到结尾。第二遍把它当作固定参照，记录两次你觉得空间或密度发生变化的地方，注明是新声部进入、旧声部消失，还是音色改变。不要急着找准确术语，先用“更近、更空、更挤”描述听觉差别。"
+    },
+    {
+      "position": 4,
+      "title": "Mouneïssa",
+      "artist": "Rokia Traoré",
+      "album": "Mouneïssa",
+      "canonical_id": "Rokia Traoré::Mouneïssa",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/656679757",
+        "song_id": "656679757",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首把循环从电子制作带回有手指、有呼吸的合奏里。Rokia Traoré 的表达并不依赖不断抬高声量，声音的细处与器乐之间的空隙足以保持吸引力。选择她《Mouneïssa》的同名歌曲条目，让一首五分多钟的作品拥有完整展开的时间；不要只把它当成“异国气氛”背景。今天值得听的是不同材料如何维持同一个步幅，又不把每个声部压到完全相同的位置，给前面较密集的声音组织换一种质地。 把耳朵放在拨弦的短促起音、打击的颗粒和歌声较长的线条之间。短音负责给出纹理，长句则让你跨过一个个小拍点；人声与器乐的轻重对比，使合奏保有空气。具体传统乐器与每位演奏者的署名没有从单曲页得到充分确认，因此这里不凭印象列名单。Apple目录的歌曲日期与专辑首次发行资料可能采用不同口径，本笔记保留实际专辑名，不用一个目录年份推定录音现场或制作年代。",
+      "listening_cue": "第一遍随整体步幅轻点拍子。第二遍只听一个拨弦声部，试着判断它在歌声停顿时怎样继续前进；再把人声放回去，找出一处它没有跟器乐一起收尾的地方。比较这些错开的边缘，是否让你感到更松、更有牵引力。"
+    },
+    {
+      "position": 5,
+      "title": "O Virtus Sapientiae (Antiphona)",
+      "artist": "Sequentia & Barbara Thornton",
+      "album": "Hildegard Von Bingen: Spiritual Songs",
+      "canonical_id": "Sequentia & Barbara Thornton::O Virtus Sapientiae (Antiphona)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/272104142",
+        "song_id": "272104142",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后一首故意离开今天前四首熟悉的节奏组织，进入 Sequentia 与 Barbara Thornton 演绎的希尔德加德作品。这是今日wildcard：尝试不用鼓点与和弦更替判断一段音乐走到了哪里，而以旋律的上行、回落、停顿和呼吸认识时间。选择《Hildegard Von Bingen: Spiritual Songs》中带有 Antiphona 标注的2分50秒录音，不把同作品的弦乐四重奏、竖琴与竖笛改编或其他歌者版本混作一条。作品历史与本次具体数字录音的身份也分开处理。 这里把注意力集中在人声的线条、元音的延展和句尾余响：少了流行歌曲里显著的节奏组，就更容易听见音与音之间如何牵引。音节与旋律不必保持一字一音的直线对应，延长的音群会改变一句话的比例；听起来静，并不表示内部没有方向。不要预先把宽阔的余响归因于某座具体教堂，也不依据演出者名称推断未经确认的录音地点、麦克风或全部声部配置。",
+      "listening_cue": "第一次不要数拍，只在你感觉一句结束时轻轻抬一下手。第二次听同一句，区分真正的呼吸停顿与还在延续的共鸣；再追踪一条上行音线何时回落。听完后保持十秒安静，比较你对“推进”的感觉，是否仍需要依赖明显的鼓点。"
+    }
+  ]
+}
