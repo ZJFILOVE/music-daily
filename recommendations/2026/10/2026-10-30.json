@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-10-30",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Save Me",
+      "artist": "Aimee Mann",
+      "album": "Magnolia (Music from the Motion Picture)",
+      "canonical_id": "Aimee Mann::Save Me",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/331242248",
+        "song_id": "331242248",
+        "storefront": "cn"
+      },
+      "analysis_summary": "先用一首旋律亲近、表达却保留棱角的歌打开今天。这里选择《Magnolia》电影原声中的1999年资源，不换成现场版或2020年重制目录。即使没有看过电影，也能独立欣赏这首歌怎样把求助感放进完整而克制的流行结构：歌声没有急着夸张地释放，旋律却不断把注意力带回同一个情绪结点。它适合一边走路一边听，也值得坐下来重听句子之间的停顿。 把木吉他的清晰拨弦当作骨架，留意低频与鼓怎样让平稳的步幅保持弹性。Aimee Mann的中低音不追求尖亮，咬字里略带干涩的边缘与较圆润的和声形成层次。听到较饱满的段落时，试着分辨主唱仍在正前方说话，还是已经被背景声部包围；这种距离变化比单纯的音量起伏更能解释温柔里为何仍有不安。",
+      "listening_cue": "第一遍只跟主唱，记住一处句尾如何收住；第二遍跟吉他与低音，听同一处停顿是否仍被伴奏向前带。最后选一个副歌入口，比较入口前后的和声厚度，写下一个具体变化。"
+    },
+    {
+      "position": 2,
+      "title": "Riverside",
+      "artist": "Agnes Obel",
+      "album": "Philharmonics",
+      "canonical_id": "Agnes Obel::Riverside",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/390881586",
+        "song_id": "390881586",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首把注意力收进更小的房间。选《Philharmonics》普通专辑资源，而非豪华版中的其他条目；页面列出2010年5月30日，不由此推断具体录音日期。它的独特之处在于，钢琴可以持续重复，人声却让同一组音符像被换了一层光线。与开场依靠清楚句法向前走的歌曲相比，这里更适合暂时放下故事解释，听一条旋律如何分出自己的影子。 钢琴起音有明确轮廓，余音又把相邻的音连接起来；两者之间的空隙构成呼吸。叠录的歌声既能融合成柔软的整体，也会在句尾显出不同线条。不要把“安静”理解成没有变化：留意较低的音区如何托住旋律，较高声部如何改变和声颜色，以及声音离开后房间般的余响留下多久。",
+      "listening_cue": "先听钢琴，心里划出一个反复的单位；再听人声何时从单线变成可辨认的多层。挑一处句尾，不急着等下一句，专听仍在持续的声音，并比较它与最初钢琴的远近。"
+    },
+    {
+      "position": 3,
+      "title": "Red Eyes",
+      "artist": "The War on Drugs",
+      "album": "Lost In the Dream",
+      "canonical_id": "The War on Drugs::Red Eyes",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/765568670",
+        "song_id": "765568670",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今日优先，也是整组由内向外打开的一刻。选《Lost In the Dream》的录音室资源，不以《LIVE DRUGS》中的同名现场版替代。它让稳定前行的节奏与略带雾感的歌声同时存在：推动力很明确，情绪却没有被整理成简单的昂扬。适合在工作告一段落后完整听一遍，把注意力从短句切回一条较长的运动轨迹。 鼓的规律脉搏提供道路，吉他较明亮的起音与延音、持续的键盘底色把道路两侧撑开。Adam Granduciel的声音融在混响中，未必总比乐器更靠前；别因此只把它当作模糊背景，试着听他的重音与节奏组如何相互牵引。到合奏展开时，关注声音横向铺开的宽度，也关注低音是否仍给你一个清楚的中心。",
+      "listening_cue": "开头先跟鼓点，再选择一条持续的吉他或键盘线。较饱满的段落出现时，保持跟着原先那条线，观察新增声部怎样改变它的重量。最后问自己：推进感主要来自加速，还是音色、重音与密度的变化？"
+    },
+    {
+      "position": 4,
+      "title": "Hopopono",
+      "artist": "GoGo Penguin",
+      "album": "v2.0 (Deluxe Edition)",
+      "canonical_id": "GoGo Penguin::Hopopono",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1579119136",
+        "song_id": "1579119136",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这首把刚才宽阔的摇滚声场缩成钢琴、贝斯与鼓之间精密的来回。选《v2.0 (Deluxe Edition)》中的录音室曲目，不换成后来的现场或再编版本。今天保留它，并不是因为“三重奏”这个标签，而是它能让你听见一种接近循环音乐的组织方式怎样由真实演奏完成：重复有抓力，细小的触键与鼓点又让它不显得僵硬。 钢琴短句的颗粒感提供醒目的图形，贝斯把低音写成会移动的线，鼓则在稳定框架内制造密集的小分割。先不要把所有快速音符都听成同一股能量；区分钢琴的重音、贝斯的落点与镲片的细碎纹理。三者有时贴紧，有时轻轻错开，空间即使不大，层次也能十分清楚。",
+      "listening_cue": "第一遍轻点你认为的主拍，不追每个鼓音。第二遍只跟贝斯，再回到钢琴动机，听两个声部何时对齐、何时错开。找一次密度明显变化，判断是换了材料，还是原有材料换了排列。"
+    },
+    {
+      "position": 5,
+      "title": "Cariño",
+      "artist": "Susana Baca",
+      "album": "Palabras Urgentes",
+      "canonical_id": "Susana Baca::Cariño",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1654259937",
+        "song_id": "1654259937",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今日探索。用一首西班牙语歌曲结束，让节奏的弹性从乐器重新回到人的语气。选2021年《Palabras Urgentes》的专辑资源，区别于搜索中出现的2019年演唱会及WOMAD现场条目。Susana Baca的价值不只是一种新的语言或地域：她的歌声能在温厚与锋利之间转动，让抒情保持身体感。先听声音怎样落在节奏里，再决定是否继续探索整张专辑。 把伴奏中短促的敲击与较长的低频分开，听它们怎样给歌声留出转弯的余地；不要急着凭音色为每一种打击乐命名。Baca的声线有成熟的颗粒感，长音和短音之间的重量差值得单独听。即使暂时不理解文字，也可以比较一句话从轻到重、从紧到松的变化，避免把文化差异笼统写成“异域氛围”。",
+      "listening_cue": "先跟最容易辨认的低频脉搏，再把注意力移到歌声的句尾，听它是贴住拍子、提前收住，还是稍稍拖在后面。第二遍选择一种短促敲击，观察主唱停顿时它是否继续把音乐向前带。"
+    }
+  ]
+}
