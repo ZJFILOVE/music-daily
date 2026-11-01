@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-01",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Asleep Among Endives",
+      "artist": "青叶市子",
+      "album": "Asleep Among Endives - Single",
+      "canonical_id": "青叶市子::Asleep Among Endives",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1714304127",
+        "song_id": "1714304127",
+        "storefront": "cn"
+      },
+      "analysis_summary": "先用一首不急着抵达终点的歌打开十一月。这里选2021年单曲资源，不是2022年伦敦弦乐现场，也不是2025年东京音乐厅的周年演出。青叶市子的价值在于把叙述放进很小的声音尺度：声音轻，却不等于没有方向；一句旋律走到哪里，往往取决于呼吸和拨弦怎样互相等待。它适合安静的清晨，也适合在信息很多的一天里，重新练习把注意力放在一个人的句子上。 以吉他拨弦与歌声的关系作为入口：拨弦的音头较清楚，余响往后退，声线则把这些离散的点接成更长的弧。不要只把柔和音色归结为“治愈”，可以听同一句旋律里，哪些字被轻轻带过，哪些尾音留下更宽的空隙。用舒适音量保持这些细节，特别留意歌声收住后，吉他余音是否改变了你对停顿长度的感觉。",
+      "listening_cue": "第一遍只跟歌声，不数拍；第二遍选一处主唱停顿，听吉他是继续走、等待，还是用余响接住句尾。最后用一句话描述这处停顿，尽量不用“空灵”这样的总括词。"
+    },
+    {
+      "position": 2,
+      "title": "Fade into You",
+      "artist": "Mazzy Star",
+      "album": "So Tonight That I Might See",
+      "canonical_id": "Mazzy Star::Fade into You",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440848810",
+        "song_id": "1440848810",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首保留柔软的表面，却让合奏把空间撑起来。明确选《So Tonight That I Might See》中的专辑资源，不采用The Avener重制，也不以同一录音的主题合辑充当另一首新歌。它的迷人之处在于熟悉的和声与不肯完全靠近的歌声之间，那一点始终没有被填满的距离。与第一首比较，你会发现安静既可以来自少量声部，也可以来自整个乐队把动作放得很慢。 国区页列出David Roback的吉他与键盘、Hope Sandoval的声乐与吉他、小手鼓，以及低音吉他和鼓。先听拨弦的规律，再听滑动、延长的吉他线条怎样越过小节边界；人声不靠强烈音头抢占前景，反而让每个句尾像在伴奏里慢慢沉下去。这里可以把短促节奏与持续音分成两层，感受它们如何在同一慢拍里制造不同的时间感。",
+      "listening_cue": "第一次只跟最稳定的扫弦；第二次把注意力换到歌声后面的长音，找一次它跨过主唱停顿的地方。比较这两个声部时，音乐似乎更向前走，还是更像停在原地？"
+    },
+    {
+      "position": 3,
+      "title": "Sister",
+      "artist": "Angel Olsen",
+      "album": "MY WOMAN",
+      "canonical_id": "Angel Olsen::Sister",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1115790940",
+        "song_id": "1115790940",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天最适合完整留出时间的一首：国区专辑页标为7分45秒。选2016年《MY WOMAN》录音室版；歌曲页的8月24日与专辑页的9月2日是不同目录日期，不把两者混写成录音时间。它与上一首同样让歌声和吉他保持距离，但歌曲更愿意向外生长：听一段个人叙述如何逐渐把重心交给乐队，是比等待一个漂亮副歌更有意思的入口。 把Olsen带一点沙砾的声线，与较长的电吉他音符、稳定的鼓和低频支撑分开。前面有文字带路时，伴奏像在为句子安排边界；器乐空间展开后，吉他的延音、反复与回应会接过表达。不要只用“后半段更大声”来判断变化，留意一条乐器线持续了多久、另一条线何时回应，以及歌声退后时，节奏是否仍维持原来的重心。",
+      "listening_cue": "完整听一遍，记下你第一次开始追踪吉他而非主唱的大致位置；第二遍从该处前一点开始，判断交接是突然发生，还是早已有铺垫。最后用“谁接过了谁的句子”记录结构变化。"
+    },
+    {
+      "position": 4,
+      "title": "Electric Fish",
+      "artist": "Ana Frango Elétrico",
+      "album": "Me Chama De Gato Que Eu Sou Sua",
+      "canonical_id": "Ana Frango Elétrico::Electric Fish",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1700639808",
+        "song_id": "1700639808",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今日优先，给前三首较松、较长的呼吸换一个身体性的支点。这里选2023年专辑中的原曲资源。Ana Frango Elétrico适合作为相邻探索：你可以从熟悉的低音律动进入，再听铜管、键盘和伴唱如何让一首短歌拥有很多小转弯。推荐它不是因为国别新鲜，而是因为声部相当丰富，却仍能把重心留在节奏与人的语气上。 国区歌曲页明确列出贝斯、吉他、鼓、打击乐、小号、长号、合成器、电钢琴、伴唱与钟琴。先把低音的弹性当作地面，再听上层短句怎样伸进来、退回去；铜管的集体起音与键盘的较圆润延音，可作为两种不同的强调方式。不要要求自己一次辨认所有乐器，先追踪一种短促声音，观察它是在补主唱的空隙，还是故意与主唱重叠。",
+      "listening_cue": "第一遍轻点主拍，只跟低音；第二遍挑铜管或伴唱之一，找它与主唱交接的两处位置。试着在不加大音量的情况下换注意目标，感受同一段律动是否因此变得更紧或更松。"
+    },
+    {
+      "position": 5,
+      "title": "Refuge",
+      "artist": "Andrew Hill",
+      "album": "Point of Departure (The Rudy Van Gelder Edition Remastered)",
+      "canonical_id": "Andrew Hill::Refuge",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/723474805",
+        "song_id": "723474805",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今日探索，给习惯了旋律主导的耳朵一次真正不同的任务。选《Point of Departure》的Rudy Van Gelder Edition Remastered目录，曲名没有Alternate Take标记；国区页显示12分16秒。不要把页面的1965年日期当作录音日期，也不声称这是今天的新发行。它的吸引力在于主题并不总让你轻易预判下一步，合奏既能彼此靠拢，也会保留互相牵扯的棱角。 国区演出信息确认Andrew Hill钢琴、Kenny Dorham小号、Eric Dolphy中音萨克斯、Joe Henderson次中音萨克斯、Richard Davis低音声部及Anthony Williams鼓。把管乐合奏的块面与钢琴不那么规整的落点放在一起听：旋律之外，还有鼓的回应和低频的移动在改变方向。初听不必辨认每位独奏者，也不要把每个不熟悉的和声都等同于随机；先观察短动机如何被延长、截断或换一个位置出现。",
+      "listening_cue": "先用开头一段记住一个短轮廓，再在后面寻找相似的节奏形状。第二遍只跟鼓几十秒，随后回到钢琴，比较同一段音乐的重音感有没有改变。若暂时找不到主题回归，就记录一次你确实听到的声部回应，不必勉强给全曲画结构图。"
+    }
+  ]
+}
