@@ -1,0 +1,63 @@
+name: Update Apple Music playlists
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'recommendations/**'
+      - 'scripts/*music*sync*'
+      - 'scripts/*playlists*'
+      - '.github/workflows/apple-music-playlists.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: apple-music-playlists
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate manifests and synchronization behavior
+        run: |
+          python scripts/validate.py
+          python -m unittest discover -s scripts -p 'test_*sync.py' -v
+      - name: Restore private operation checkpoints
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/apple-music-state
+          key: apple-music-state-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: apple-music-state-
+      - name: Update total playlist and dated playlists
+        env:
+          APPLE_MUSIC_DEVELOPER_TOKEN: ${{ secrets.APPLE_MUSIC_DEVELOPER_TOKEN }}
+          APPLE_MUSIC_USER_TOKEN: ${{ secrets.APPLE_MUSIC_USER_TOKEN }}
+          APPLE_MUSIC_PLAYLIST_ID: p.YJXV7dEIeb3GzZX
+          APPLE_MUSIC_API_HOST: amp-api.music.apple.com
+        run: |
+          python scripts/apple_music_sync.py --no-wrapper --execute --repo . --state-file "$RUNNER_TEMP/apple-music-state/total.json"
+          python scripts/daily_playlists_sync.py --no-wrapper --execute --repo . --state-file "$RUNNER_TEMP/apple-music-state/days.json" --report "$RUNNER_TEMP/apple-music-report/dated-playlists.json"
+      - name: Preserve checkpoints even after an uncertain write
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ runner.temp }}/apple-music-state
+          key: apple-music-state-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Save verified dated playlist index
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dated-playlists
+          path: ${{ runner.temp }}/apple-music-report/dated-playlists.json
+          retention-days: 30
+          if-no-files-found: warn
