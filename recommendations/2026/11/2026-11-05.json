@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-05",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Stoned Soul Picnic",
+      "artist": "罗拉‧妮罗",
+      "album": "Eli and the Thirteenth Confession",
+      "canonical_id": "罗拉‧妮罗::Stoned Soul Picnic",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/192828391",
+        "song_id": "192828391",
+        "storefront": "cn"
+      },
+      "analysis_summary": "选《Eli and the Thirteenth Confession》里 Laura Nyro 自己唱的版本，和后来把歌曲带进流行榜的翻唱区分开。它适合做今天的第一首：短句唱得轻巧，但它的松弛感不是节奏模糊，而是主唱可以在稳定的伴奏上自由分配每一句的重量。\n\n把钢琴式的和弦起落、鼓和低音提供的持续律动、以及人声里的拖腔分开听。较整齐的伴奏和有弹性的人声互相衬托，歌声既可以贴着拍子落下，也可以拖过你本以为该收束的地方。不要追求把每一个字都听清；今天更适合听声音如何从讲述变成带动身体的节拍。",
+      "listening_cue": "先只跟低音和鼓，记下它们哪里保持不变。第二遍回到相同段落，用手指点主唱每次起句的位置：哪些正落在拍上，哪些从拍前或拍后钻进来？"
+    },
+    {
+      "position": 2,
+      "title": "静止",
+      "artist": "杨乃文",
+      "album": "K歌王国-女人K歌",
+      "canonical_id": "杨乃文::静止",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/615195488",
+        "song_id": "615195488",
+        "storefront": "cn"
+      },
+      "analysis_summary": "选择国区合辑中明确署名杨乃文的《静止》条目，页面未标现场或重混；此处保留合辑名，不把它标成另一专辑资源。接在 Nyro 之后，可以对比两种声线与节奏的关系：一首让句子在伴奏上轻轻游走，另一首把咬字与乐队的硬边直接放在一起。\n\n听电吉他的连续纹理如何把背景撑起来，再听鼓与人声给出的不同轮廓。即使整体变得饱满，杨乃文的句子仍有明确边界；情绪并不全靠提高音量，也来自重复时更紧的发音、句尾略短的处理，以及鼓点留下的空间。",
+      "listening_cue": "在第一次段落展开时比较两次相近的主唱短句：是主唱变得更用力，还是吉他和鼓填得更满？先听歌声，再把注意力切到镲和低音，不必用同一个答案解释两次变化。"
+    },
+    {
+      "position": 3,
+      "title": "Cloudbusting (2018 Remaster)",
+      "artist": "Kate Bush",
+      "album": "Hounds of Love (2018 Remaster)",
+      "canonical_id": "Kate Bush::Cloudbusting (2018 Remaster)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1675560844",
+        "song_id": "1675560844",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的优先曲。选 Apple Music 标注的 2018 重制，不把它描述成 2018 年重新演唱；歌曲页显示的是 1985 年日期。它值得整首听，因为段落的推进并不靠每次都换一组和弦：反复的节奏形状在不同的密度下，可以把同一个故事从私人回忆推向更开阔的空间。\n\n听弦乐短促的重复起音，它们既有明确的音高，也像在敲出步子。人声拉出更长的句子，打击给段落增加重量，反复动机则保证整体不会失去方向。听感上的扩大可以拆成两件事：背景声部有没有增多，原来的节奏骨架有没有改变。",
+      "listening_cue": "从开头追踪一组弦乐短音，直到后段。选两个同样能辨出这个动机的位置，比较人声与打击的前后关系；试着说出哪一层令空间变大，而不只说『高潮更响』。"
+    },
+    {
+      "position": 4,
+      "title": "De Ushuaia a la Quiaca",
+      "artist": "Gustavo Santaolalla",
+      "album": "Qhapaq Ñan",
+      "canonical_id": "Gustavo Santaolalla::De Ushuaia a la Quiaca",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1530853388",
+        "song_id": "1530853388",
+        "storefront": "cn"
+      },
+      "analysis_summary": "采用《Qhapaq Ñan》国区页所列条目，不与同名的 2024 重制或电影原声资源互换，也不从发行日期推断首次录音时间。放在强脉冲的歌曲之后，这首把注意力移到一个短动机的末端：它什么时候真正停下，又在听者心里延续了多久。\n\n近处的拨弦起音像是一颗颗有边界的点，尾音则使这些点之间的空处不完全空白。可以把较靠前的高音短句当作线索，再听更低的声音如何帮助判断下一句的落点。这里不必急于按乐器名辨认每一层，先区分起音、延音和空隙更有收获。",
+      "listening_cue": "只跟一个反复的拨弦形状，第二遍专听两次进入之间。标记一处上一音还没完全消散、下一音就已出现的位置，再找一处间隔真正被留空的位置。"
+    },
+    {
+      "position": 5,
+      "title": "Parce Mihi Domine",
+      "artist": "杨・葛柏瑞克 & 希利亚合唱团",
+      "album": "Officium",
+      "canonical_id": "杨・葛柏瑞克 & 希利亚合唱团::Parce Mihi Domine",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440773934",
+        "song_id": "1440773934",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的探索曲，选《Officium》里 Jan Garbarek 与 Hilliard Ensemble 合作的录音。它把古乐的声部组织和萨克斯的即兴线条放进同一个空间；听点不只是稀有的搭配，而是两套语法可以在没有明显鼓点的情况下，靠呼吸、停顿和音的持续时间建立联系。\n\n把合唱的音程和同时收束的句尾当作一条地平线，再听萨克斯何时贴近、何时游离。声学空间让音消失得很慢，某些交接听起来像相互回答，也可能只是两个声部在余响里短暂重叠。先承认这两种可能，才更容易听出录音真正有趣的时间差。",
+      "listening_cue": "先跟合唱找一句共同收束的地方，再听萨克斯是填进余响、盖住尾音，还是等到空隙才进入。小音量听一遍：如果仍能分清这些先后，说明你听到的是结构，不只是混响的规模。"
+    }
+  ]
+}
