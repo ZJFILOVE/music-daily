@@ -6,6 +6,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import subprocess
 
 from check_consistency import AuditError, git, iso_day, loads, require
 
@@ -182,6 +183,80 @@ def retired_note_rows(vault, existing_rows, state):
     return rows
 
 
+def associate_missing_rows(rows, root, vault):
+    """Only committed descendant evidence may associate an original unknown row."""
+    revisions, ancestry = {}, {}
+
+    def source(row):
+        value = row['source']
+        if value.startswith('working:'):
+            return root, value[len('working:'):], row['manifest_blob']
+        checkout = root if value.startswith('music:') else vault
+        if checkout is None:
+            return None, '', ''
+        value = value.split(':', 1)[1] if ':' in value else value
+        path, oid = value.rsplit('@', 1)
+        return checkout, path, oid
+
+    def commits(checkout, path, oid):
+        key = (str(checkout), path)
+        if key not in revisions:
+            versions = {}
+            for commit in git(checkout, 'log', '--format=%H', 'HEAD', '--', path).decode().splitlines():
+                for entry in git(checkout, 'ls-tree', commit, '--', path).decode().splitlines():
+                    meta, name = entry.split('\t', 1)
+                    if name == path:
+                        versions.setdefault(meta.split()[2], []).append(commit)
+            revisions[key] = versions
+        return revisions[key].get(oid, [])
+
+    def later(checkout, old, new):
+        if old == new:
+            return False
+        key = (str(checkout), old, new)
+        if key not in ancestry:
+            try:
+                git(checkout, 'merge-base', '--is-ancestor', old, new)
+                ancestry[key] = True
+            except subprocess.CalledProcessError as exc:
+                if exc.returncode != 1:
+                    raise
+                ancestry[key] = False
+        return ancestry[key]
+
+    mappings, unknown, unlinked = [], set(), set()
+    for row in rows:
+        if row['song_id'] is not None:
+            continue
+        key = row['date'] + ':' + row['canonical_id']
+        unknown.add(key)
+        checkout, path, oid = source(row)
+        origins = commits(checkout, path, oid) if checkout else []
+        evidence = []
+        for candidate in rows:
+            if (candidate['song_id'] is None or occurrence_key(candidate) != occurrence_key(row)
+                    or candidate['canonical_id'] != row['canonical_id']):
+                continue
+            other, candidate_path, candidate_oid = source(candidate)
+            if other != checkout or checkout is None:
+                continue
+            versions = commits(other, candidate_path, candidate_oid)
+            proof = next(((old, new) for old in origins for new in versions if later(checkout, old, new)), None)
+            if proof:
+                item = dict(identity=candidate['provider'] + ':' + candidate['storefront'] + ':' + candidate['song_id'],
+                            source=candidate['source'], original_source=row['source'],
+                            original_commit=proof[0], later_commit=proof[1])
+                if item not in evidence:
+                    evidence.append(item)
+        if evidence:
+            mappings.append(dict(occurrence=key, original_recording_id=None,
+                                 historically_linked_identities=sorted({x['identity'] for x in evidence}),
+                                 evidence=evidence))
+        else:
+            unlinked.add(key)
+    return mappings, sorted(unknown), sorted(unlinked)
+
+
 def audit_history(root, vault=None):
     rows = []
     for path, sha, raw in historical_blobs(root, ['recommendations']):
@@ -195,8 +270,8 @@ def audit_history(root, vault=None):
         for path, sha, raw in historical_blobs(vault, ['Music/Daily/manifests', '.recommendation/transactions/music']):
             if path.startswith('.recommendation/transactions/'):
                 bundle = loads(raw)
-                require(path not in frozen or frozen[path] == bundle['bundle_sha256'], 'Immutable PREPARED changed: ' + path)
-                frozen[path] = bundle['bundle_sha256']
+                require(path not in frozen or frozen[path] == (bundle['bundle_sha256'], sha), 'Immutable PREPARED changed: ' + path)
+                frozen[path] = (bundle['bundle_sha256'], sha)
                 rows.extend(prepared_rows(raw, path)); prepared += 1
             else:
                 rows.extend(occurrences(raw, 'vault:' + path + '@' + sha))
@@ -204,7 +279,7 @@ def audit_history(root, vault=None):
         # Include uncommitted reservations too; never rely on a cached export.
         for path in sorted((vault / '.recommendation/transactions/music').glob('*.json')):
             raw = path.read_bytes(); name = path.relative_to(vault).as_posix()
-            require(name not in frozen or frozen[name] == loads(raw)['bundle_sha256'], 'Immutable PREPARED changed: ' + name)
+            require(name not in frozen or frozen[name] == (loads(raw)['bundle_sha256'], blob_sha(raw)), 'Immutable PREPARED changed: ' + name)
             rows.extend(prepared_rows(raw, name))
     state = loads((root / 'state/tracks.json').read_bytes())['recommended']
     retired = []
@@ -217,24 +292,10 @@ def audit_history(root, vault=None):
     known = check_rows(rows, evidence)
     state = loads((root / 'state/tracks.json').read_bytes())['recommended']
     require({r['canonical_id'] for r in rows if r['canonical_id']} <= state.keys(), 'Historical/reserved canonical keys missing from state')
-    mappings = []
-    unresolved = set()
-    for row in rows:
-        if row['song_id'] is None:
-            linked = sorted({r['provider'] + ':' + r['storefront'] + ':' + r['song_id'] for r in rows
-                             if r['song_id'] is not None and occurrence_key(r) == occurrence_key(row)
-                             and r['canonical_id'] == row['canonical_id']})
-            key = row['date'] + ':' + row['canonical_id']
-            unresolved.add(key)  # Later IDs are candidates, not proof of the original search result.
-            if linked:
-                mapping = {'occurrence': key, 'historically_linked_identities': linked}
-                if mapping not in mappings:
-                    mappings.append(mapping)
-            else:
-                unresolved.add(key)
+    mappings, unresolved, unlinked = associate_missing_rows(rows, root, vault)
     return {'status': 'structural_history_checked', 'recording_identities': len({(r['provider'], r['storefront'], r['song_id']) for r in rows if r['song_id'] is not None}),
             'unresolved_historical_occurrences': sorted(unresolved),
-            'unlinked_historical_occurrences': sorted(unresolved - {r['occurrence'] for r in mappings}),
+            'unlinked_historical_occurrences': unlinked,
             'search_only_history_mappings': sorted(mappings, key=lambda r: r['occurrence']),
             'retired_note_evidence': sorted({(r['canonical_id'], r['song_id'], r['source']) for r in retired}),
             'unmapped_canonical_keys': sorted(set(state) - {r['canonical_id'] for r in rows}),

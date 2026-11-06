@@ -31,13 +31,13 @@ With `--vault-root`, the index also walks all Vault manifest mirrors and histori
 `.recommendation/transactions/music/*.json`. It verifies bundle/plan SHA-256,
 every payload's Git blob hash, exact target sets, operation/date, exposed canonical
 IDs, and manifest mirror equality. Deleted reservations remain occupied. Different
-bundle digests for the same operation fail, including uncommitted modifications.
+bundle bytes or digests for the same operation fail, including uncommitted modifications.
 Repeated identical bundles are idempotent. Current working files are also indexed.
 No code from the other checkout is executed.
 
 Legacy search-only entries retain their original names and unresolved source
 bytes. They are linked only to same-date, same-position, same-canonical historical
-entries with direct recording IDs; all such identities remain reserved. State
+entries with direct recording IDs in provably descendant Git revisions; all such identities remain reserved. State
 keys without manifest identities are recovered from exact numbered artist/title
 headings and unambiguous song links in historical Vault notes. These results keep
 the original note blob evidence. Later direct URLs are candidates, not proof of

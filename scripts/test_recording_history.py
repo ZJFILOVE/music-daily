@@ -88,6 +88,22 @@ class HistoryTests(unittest.TestCase):
         self.assertEqual(result['search_only_history_mappings'][0]['historically_linked_identities'],
                          ['apple_music:cn:123', 'apple_music:cn:456'])
 
+    def test_uncommitted_direct_link_cannot_resolve_search_history(self):
+        doc = self.manifest()
+        doc['tracks'][0]['apple_music'] = {'song_id': None, 'url': 'https://music.apple.com/cn/search?term=Track'}
+        path = 'recommendations/2020/01/2020-01-01.json'
+        self.write(path, doc); self.write('state/tracks.json', {'recommended': {'Alias A::Track': 1}}); self.commit()
+        self.write(path, self.manifest())
+        self.assertEqual(len(h.audit_history(self.root)['unlinked_historical_occurrences']), 1)
+
+    def test_earlier_direct_id_cannot_resolve_later_unknown_exposure(self):
+        path = 'recommendations/2020/01/2020-01-01.json'
+        self.write(path, self.manifest()); self.write('state/tracks.json', {'recommended': {'Alias A::Track': 1}}); self.commit()
+        doc = self.manifest()
+        doc['tracks'][0]['apple_music'] = {'song_id': None, 'url': 'https://music.apple.com/cn/search?term=Track'}
+        self.write(path, doc); self.commit()
+        self.assertEqual(len(h.audit_history(self.root)['unlinked_historical_occurrences']), 1)
+
     def incident_rows(self):
         evidence = h.incident(ROOT)
         rows = []

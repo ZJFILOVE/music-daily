@@ -137,6 +137,13 @@ class GateTests(unittest.TestCase):
         self.write(self.vault, self.bp, json.dumps(changed)); self.vhead = self.commit(self.vault)
         with self.assertRaisesRegex(RuntimeError, 'Immutable PREPARED changed'): self.run_gate()
 
+    def test_prepared_whitespace_rewrite_is_not_same_operation_recovery(self):
+        p = self.vault / self.bp
+        p.write_text(p.read_text() + '\n')
+        self.vhead = self.commit(self.vault)
+        with self.assertRaisesRegex(RuntimeError, 'Immutable PREPARED changed'):
+            self.run_gate()
+
     def test_new_mirror_snapshot_without_new_qa_is_rejected(self):
         state = json.loads(self.payloads['ZJFILOVE/music-daily:state/tracks.json'])
         state['recommended']['Other::Song'] = 1
