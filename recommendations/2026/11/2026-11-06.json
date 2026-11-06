@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-06",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "丽水街的丽水海边",
+      "artist": "许含光",
+      "album": "太平洋大酒店",
+      "canonical_id": "许含光::丽水街的丽水海边",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1847866026",
+        "song_id": "1847866026",
+        "storefront": "cn"
+      },
+      "analysis_summary": "先从《太平洋大酒店》里这首具体的大陆区录音进入今天。许含光把城市地点写成一种可被声音反复走过的空间：主唱并不急着把情绪推到最满，而是在相对克制的乐队背景里，让句子的停顿、拖尾和再次进入逐渐改变你对“远近”的判断。\n\n编曲的价值在于层次不靠堆满来成立。吉他与键盘形成带空气感的横向纹理，鼓和低音把步伐放稳，人声则留有略微游离的边缘。请把“朦胧”拆开听：一部分来自音色的软边，一部分来自声部之间没有抢着把空白填掉。",
+      "listening_cue": "第一遍只追主唱每次句尾之后留下的空隙；第二遍选一段，把鼓的稳定拍点与吉他延音分开。判断空间感主要来自延音变长，还是来自下一层声音刻意晚一点进入。"
+    },
+    {
+      "position": 2,
+      "title": "Early Summer",
+      "artist": "Ryo Fukui",
+      "album": "Scenery",
+      "canonical_id": "Ryo Fukui::Early Summer",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1329457872",
+        "song_id": "1329457872",
+        "storefront": "cn"
+      },
+      "analysis_summary": "选择《Scenery》页面所列、song_id 为 1329457872 的版本，不与 2025 重制或其他合辑条目混用。它把今天从歌曲写作带进钢琴三重奏：长篇幅不是为了展示更多材料，而是让一个清楚的主题在速度、触键、伴奏密度和独奏互动中不断改换光线。\n\n先把钢琴右手的线条与左手和声分开，再听低音如何标出和声落点、鼓怎样用镲片维持连续流动。福居良的触键既有颗粒清楚的单音，也有成串向前冲的句子；真正的推动力常来自三人同时调节密度，而不只是钢琴弹得更快。",
+      "listening_cue": "主题出现时记住最容易辨认的两三个音形；进入独奏后不要追每个音，改听低音与镲片何时收紧。主题回归时比较触键重量和鼓的开放程度，判断“回来”是否等于“恢复原状”。"
+    },
+    {
+      "position": 3,
+      "title": "An Ending (Ascent)",
+      "artist": "Brian Eno",
+      "album": "Apollo: Atmospheres and Soundtracks",
+      "canonical_id": "Brian Eno::An Ending (Ascent)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/714861225",
+        "song_id": "714861225",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的优先曲。选择《Apollo: Atmospheres and Soundtracks》中的大陆区条目；这是 Brian Eno 的录音，不把同名翻奏或后来的视觉搭配混进来。它适合放在三重奏之后，因为两者都处理时间，却采取相反方式：前者靠互动制造推进，这首则让和声变化慢到几乎成为光线移动。\n\n合成器音块的起音被磨得很软，尾音彼此覆盖，低频没有用明显鼓点规定步幅。于是每次和弦更换既像抵达，也像上一层余响的延续。不要只把它当“放松音乐”；细听声部进入的高度、立体声位置与衰减速度，安静里其实有严密的配重。",
+      "listening_cue": "用较低音量听两遍。第一遍只数你能明确感觉到的和声更换；第二遍在每次更换前找最先浮出的高音或低音，判断转折是由新声音进入，还是由旧声音退去造成。"
+    },
+    {
+      "position": 4,
+      "title": "La chanson",
+      "artist": "Claude Nougaro",
+      "album": "15 titres de Claude Nougaro (Mono Version)",
+      "canonical_id": "Claude Nougaro::La chanson",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/914055072",
+        "song_id": "914055072",
+        "storefront": "cn"
+      },
+      "analysis_summary": "采用 Apple Music 大陆区明确标注的 Mono Version 合辑条目，保留页面上的专辑名与 1962 日期，不把它伪装成现代立体声重制。Claude Nougaro 的法语处理同时接近说话与歌唱：辅音给拍点切边，元音把句子拉长，使语言本身成为编曲的一部分。\n\n单声道把人声与伴奏压在同一中心，不提供宽阔的左右分离；这反而迫使耳朵注意前后与重量。听伴奏怎样在主唱停顿时给出回应，又怎样在句子密集处后退。录音年代感不是要被“修掉”的噪点，而是声部轮廓、动态余量和表演距离共同形成的质地。",
+      "listening_cue": "不要先查歌词。选一段用手指点出辅音最明显的落点，再听伴奏是否在同一拍强调。第二遍只关注一句末尾：歌声是收紧、滑开，还是把最后一个元音留给伴奏接住？"
+    },
+    {
+      "position": 5,
+      "title": "Fado Final",
+      "artist": "Amália Rodrigues",
+      "album": "Il fado",
+      "canonical_id": "Amália Rodrigues::Fado Final",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/410742021",
+        "song_id": "410742021",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的探索曲。选大陆区《Il fado》条目中的《Fado Final》，按页面保留 Amália Rodrigues 的艺名拼写与该版本信息。它与上一首同样把语言放在中心，却把重心从节奏性的咬字移到长线条、装饰音和气息压力：情绪并非平均铺开，而是被一次次推向句中或句尾的支点。\n\n请先区分葡萄牙吉他的明亮拨弦与较低、更稳的和声支撑，再听人声怎样跨过它们。Amália 的强度变化不只是音量上升；音头的硬度、颤音出现的时机、元音保持多久，都会改变一句话的重量。把它当成声音与弦乐之间的拉力，而不必依赖歌词翻译。",
+      "listening_cue": "找一句由较轻起音走向更强持续音的旋律，听葡萄牙吉他是在歌声下方重复图形，还是在空隙里回答。最后再比较两次颤音：它们是否都出现在句尾，承担的收束作用是否相同？"
+    }
+  ]
+}
