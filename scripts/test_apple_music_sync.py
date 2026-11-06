@@ -50,6 +50,7 @@ class SyncTests(unittest.TestCase):
         ]}))
         self.state = self.root / 'private/checkpoint.json'
         self.client = FakeClient('api.music.apple.com', {})
+        patch('publication_gate.require_publication_authorization', return_value=None).start()
         self.addCleanup(patch.stopall)
         patch.object(sync, 'Client', return_value=self.client).start()
         patch.object(sync.time, 'sleep').start()
@@ -117,6 +118,25 @@ class SyncTests(unittest.TestCase):
     def test_checkpoint_cannot_be_saved_inside_repo(self):
         with self.assertRaisesRegex(RuntimeError, 'outside the metadata repository'):
             sync.main(['--repo', str(self.repo), '--state-file', str(self.repo / 'token-state.json')])
+
+    def test_authorized_write_is_scoped_to_one_manifest(self):
+        authorization = dict(date='2026-10-18', manifest_path='recommendations/2026/10/2026-10-18.json',
+                             song_ids=['1', '2', '3', '4', '5'])
+        extra = self.repo / 'recommendations/2026/10/2026-10-19.json'
+        extra.write_text(json.dumps({'tracks': [{'position': 1, 'apple_music': {'song_id': '99', 'storefront': 'cn'}}]}))
+        with patch('publication_gate.require_publication_authorization', return_value=authorization), patch('publication_gate.recheck') as recheck:
+            self.run_sync('--execute')
+        self.assertTrue(recheck.called)
+        self.assertEqual(json.loads(self.state.read_text())['target_song_ids'], authorization['song_ids'])
+        self.assertNotIn('99', str(self.client.posts))
+
+    def test_authorized_write_rejects_replacement(self):
+        authorization = dict(date='2026-10-18', manifest_path='recommendations/2026/10/2026-10-18.json',
+                             song_ids=['1', '2', '3', '4', '5'])
+        with patch('publication_gate.require_publication_authorization', return_value=authorization):
+            with self.assertRaisesRegex(RuntimeError, 'does not allow'):
+                self.run_sync('--execute', '--replace', '1=99')
+        self.assertEqual(self.client.posts, [])
 
     def test_lock_prevents_concurrent_writes(self):
         with sync.state_lock(self.state):

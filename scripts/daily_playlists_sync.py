@@ -22,9 +22,11 @@ def save(path, data):
     os.chmod(name, 0o600)
     os.replace(name, path)
 
-def plans(repo, client):
+def plans(repo, client, date=None):
     days = []
     for p in sorted((repo / 'recommendations').glob('*/*/*.json')):
+        if date is not None and p.stem != date:
+            continue
         day = json.loads(p.read_text())
         if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', p.stem):
             raise RuntimeError('Invalid date')
@@ -46,9 +48,14 @@ def plans(repo, client):
     return [(date, tracks, [t['apple_music']['song_id'] for t in tracks if t['apple_music']['song_id'] in available]) for date, tracks in days]
 
 def sync(args):
+    from publication_gate import authorize_args, recheck
+    authorization = authorize_args(args) if args.execute else None
     auth = common.load_auth(args.no_wrapper)
     client = common.Client(args.api_host, auth)
-    days = plans(args.repo, client)
+    days = plans(args.repo, client, authorization['date'] if authorization else None)
+    if authorization:
+        if len(days) != 1 or days[0][2] != authorization['song_ids']:
+            raise RuntimeError('Authorized daily selection unavailable or changed')
     playlists = client.collection('/v1/me/library/playlists?limit=100')
     state = json.loads(args.state_file.read_text()) if args.state_file.exists() else {'days': {}}
     state.setdefault('days', {})
@@ -77,6 +84,7 @@ def sync(args):
             save(args.state_file, state)
             payload = {'attributes': {'name': name, 'description': note},
                        'relationships': {'tracks': {'data': [{'id': sid, 'type': 'songs'} for sid in ids]}}}
+            recheck(authorization)
             _, response = client.request('/v1/me/library/playlists', 'POST', payload)
             playlist = response['data'][0]
             playlists.append(playlist)
@@ -85,14 +93,22 @@ def sync(args):
             if ids:
                 common.verify(client, playlist['id'], set(ids))
         else:
-            existing = common.catalog_ids(client.playlist_tracks(playlist['id']))
+            actual_before = client.playlist_tracks(playlist['id'])
+            if authorization:
+                ordered = common.ordered_catalog_ids(actual_before)
+                if ordered != ids[:len(ordered)]:
+                    raise RuntimeError('Existing dated playlist is not an exact prefix; manual repair required')
+            existing = common.catalog_ids(actual_before)
             missing = [sid for sid in ids if sid not in existing]
             if missing:
+                recheck(authorization)
                 client.request(f'/v1/me/library/playlists/{playlist["id"]}/tracks', 'POST',
                                {'data': [{'id': sid, 'type': 'songs'} for sid in missing]})
                 common.verify(client, playlist['id'], set(ids))
         actual = client.playlist_tracks(playlist['id'])
         actual_ids = common.catalog_ids(actual)
+        if authorization and common.ordered_catalog_ids(actual) != ids:
+            raise RuntimeError('Dated playlist exact count/order/IDs verification failed')
         if not set(ids) <= actual_ids:
             raise RuntimeError(f'{date}: readback does not match recommendations')
         record = {'date': date, 'name': name, 'playlist_id': playlist['id'], 'verified_count': len(set(ids) & actual_ids),
@@ -115,6 +131,8 @@ def main(argv=None):
     p.add_argument('--api-host', choices=sorted(common.ALLOWED_HOSTS), default='amp-api.music.apple.com')
     p.add_argument('--no-wrapper', action='store_true')
     p.add_argument('--execute', action='store_true')
+    from publication_gate import add_arguments
+    add_arguments(p)
     args = p.parse_args(argv)
     args.repo=args.repo.resolve();args.state_file=args.state_file.resolve();args.report=args.report.resolve()
     if args.state_file.is_relative_to(args.repo):

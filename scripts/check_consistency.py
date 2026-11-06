@@ -107,7 +107,10 @@ def audit(root: Path, vault: Path | None, ever: set[str], base_ref: str | None =
     require(bool(paths), 'No manifests found')
     canonical, song_ids, names = set(), set(), set()
     legacy_urls = []
+    recording_rows = []
+    from recording_history import occurrences, check_rows, incident
     for path in paths:
+        recording_rows.extend(occurrences(path.read_bytes(), str(path)))
         doc = loads(path.read_bytes()); require(isinstance(doc, dict), 'Manifest root must be an object')
         day = iso_day(doc.get('date'))
         require(path.relative_to(root).as_posix() == f'recommendations/{day[:4]}/{day[5:7]}/{day}.json', 'Manifest date/path mismatch')
@@ -121,7 +124,7 @@ def audit(root: Path, vault: Path | None, ever: set[str], base_ref: str | None =
             require(isinstance(sid, str) and re.fullmatch(r'[0-9]+', sid) is not None, 'song_id must be a decimal string')
             require(cid == track['artist'] + '::' + track['title'], 'canonical_id mismatch')
             require(cid in state, 'Manifest not registered in state')
-            require(cid not in canonical and sid not in song_ids, 'Repeated canonical ID or Apple song ID')
+            require(cid not in canonical, 'Repeated canonical ID')
             match = re.fullmatch(r'https://music\.apple\.com/cn/song/(?:[^/\s]+/)?([0-9]+)', str(am.get('url', '')))
             require(match is not None and match.group(1) == sid and am.get('storefront') == 'cn', f'{path.name}: wrong CN URL/ID/storefront for {sid}')
             if am['url'] != 'https://music.apple.com/cn/song/' + sid:
@@ -135,7 +138,8 @@ def audit(root: Path, vault: Path | None, ever: set[str], base_ref: str | None =
             require(note_path.is_file(), 'Missing music note: ' + day)
             ids = re.findall(r'https://music\.apple\.com/cn/song/(?:[^/\s]+/)?([0-9]+)', note_path.read_text(encoding='utf-8'))
             require(ids == today_ids, 'Music note IDs/order differ: ' + day)
-    result = {'status': 'passed_structural_with_url_warnings' if legacy_urls else 'passed_structural_checks', 'legacy_url_warnings': legacy_urls, 'manifests': len(paths), 'current_tracks': len(canonical), 'state_entries': len(state), 'historical_exposures_checked': len(ever), 'retired_entries_retained': len(state.keys() - canonical), 'cross_repository': 'not_checked', 'unverified': ['live source availability and metadata', 'semantic quality and artist diversity', 'local Obsidian sync', 'task scheduling and delivery']}
+    known_incidents = check_rows(recording_rows, incident(root))
+    result = {'known_incidents': known_incidents, 'publication_authorized': False, 'status': 'passed_structural_with_url_warnings' if legacy_urls else 'passed_structural_checks', 'legacy_url_warnings': legacy_urls, 'manifests': len(paths), 'current_tracks': len(canonical), 'state_entries': len(state), 'historical_exposures_checked': len(ever), 'retired_entries_retained': len(state.keys() - canonical), 'cross_repository': 'not_checked', 'unverified': ['live source availability and metadata', 'semantic quality and artist diversity', 'local Obsidian sync', 'task scheduling and delivery']}
     if vault:
         require((vault / 'Music/Daily/state/tracks.json').read_bytes() == (root / 'state/tracks.json').read_bytes(), 'State mirrors differ')
         require({p.name for p in (vault / 'Music/Daily/manifests').glob('*.json')} == names, 'Orphan or missing manifest mirror')
@@ -161,10 +165,13 @@ def main() -> int:
     parser.add_argument('--base-ref', help='Optional full commit SHA for exact preservation of existing state values')
     args = parser.parse_args()
     try:
+        from recording_history import audit_history
+        recording_result = audit_history(args.music_root, args.vault_root)
         result = audit(args.music_root, args.vault_root, history_ids(args.music_root, args.history_snapshot), args.base_ref)
     except (AuditError, OSError, ValueError, KeyError, TypeError, subprocess.CalledProcessError) as exc:
         print(json.dumps({'status': 'failed', 'error_type': type(exc).__name__, 'error': str(exc)}, ensure_ascii=False, indent=2))
         return 1
+    result['recording_history'] = recording_result
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0
 

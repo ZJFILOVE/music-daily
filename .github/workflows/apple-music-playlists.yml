@@ -1,14 +1,22 @@
 name: Update Apple Music playlists
 
+# Stage-1 pushes are not publication authorization. This workflow intentionally
+# requires a trusted full Vault checkout supplied by the future integration.
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'recommendations/**'
-      - 'scripts/*music*sync*'
-      - 'scripts/*playlists*'
-      - '.github/workflows/apple-music-playlists.yml'
   workflow_dispatch:
+    inputs:
+      date:
+        description: 'Frozen publication date (YYYY-MM-DD)'
+        required: true
+        type: string
+      vault_head:
+        description: 'Expected authorized Vault checkout commit'
+        required: true
+        type: string
+      bundle_digest:
+        description: 'Original immutable PREPARED bundle SHA-256'
+        required: true
+        type: string
 
 permissions:
   contents: read
@@ -18,36 +26,50 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  sync:
+  publication-preflight:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    env:
+      PUBLICATION_DATE: ${{ inputs.date }}
+      VAULT_HEAD: ${{ inputs.vault_head }}
+      BUNDLE_DIGEST: ${{ inputs.bundle_digest }}
     steps:
       - uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate manifests and synchronization behavior
+      - name: Validate full local history and regression tests
         run: |
           python scripts/validate.py
-          python -m unittest discover -s scripts -p 'test_*sync.py' -v
+          python scripts/check_consistency.py --base-ref "$(git rev-parse HEAD^)"
+          python -m unittest discover -s scripts -p 'test_*.py' -v
+      - name: Require trusted cross-repository publication evidence
+        # No cross-repository credential exists in this workflow. The trusted
+        # authorized-vault checkout must be supplied by a separately reviewed
+        # integration. Missing checkout/QA/snapshot inputs fail here, before secrets.
+        run: >-
+          python scripts/publication_gate.py --repo .
+          --vault-root "$RUNNER_TEMP/authorized-vault" --date "$PUBLICATION_DATE"
+          --music-head "$GITHUB_SHA" --vault-head "$VAULT_HEAD" --bundle-digest "$BUNDLE_DIGEST"
       - name: Restore private operation checkpoints
         uses: actions/cache/restore@v4
         with:
           path: ${{ runner.temp }}/apple-music-state
           key: apple-music-state-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: apple-music-state-
-      - name: Update total playlist and dated playlists
+      - name: Update only the authorized date
         env:
           APPLE_MUSIC_DEVELOPER_TOKEN: ${{ secrets.APPLE_MUSIC_DEVELOPER_TOKEN }}
           APPLE_MUSIC_USER_TOKEN: ${{ secrets.APPLE_MUSIC_USER_TOKEN }}
           APPLE_MUSIC_PLAYLIST_ID: p.YJXV7dEIeb3GzZX
           APPLE_MUSIC_API_HOST: amp-api.music.apple.com
         run: |
-          python scripts/apple_music_sync.py --no-wrapper --execute --repo . --state-file "$RUNNER_TEMP/apple-music-state/total.json"
-          python scripts/daily_playlists_sync.py --no-wrapper --execute --repo . --state-file "$RUNNER_TEMP/apple-music-state/days.json" --report "$RUNNER_TEMP/apple-music-report/dated-playlists.json"
-      - name: Preserve checkpoints even after an uncertain write
+          python scripts/apple_music_sync.py --no-wrapper --execute --repo . --state-file "$RUNNER_TEMP/apple-music-state/total.json" --vault-root "$RUNNER_TEMP/authorized-vault" --date "$PUBLICATION_DATE" --music-head "$GITHUB_SHA" --vault-head "$VAULT_HEAD" --bundle-digest "$BUNDLE_DIGEST"
+          python scripts/daily_playlists_sync.py --no-wrapper --execute --repo . --state-file "$RUNNER_TEMP/apple-music-state/days.json" --report "$RUNNER_TEMP/apple-music-report/dated-playlists.json" --vault-root "$RUNNER_TEMP/authorized-vault" --date "$PUBLICATION_DATE" --music-head "$GITHUB_SHA" --vault-head "$VAULT_HEAD" --bundle-digest "$BUNDLE_DIGEST"
+      - name: Preserve private checkpoints
         if: always()
         uses: actions/cache/save@v4
         with:

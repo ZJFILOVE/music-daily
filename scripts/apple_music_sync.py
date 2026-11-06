@@ -136,6 +136,16 @@ def catalog_ids(tracks):
     return ids
 
 
+def ordered_catalog_ids(tracks):
+    result = []
+    for track in tracks:
+        ids = catalog_ids([track])
+        if len(ids) != 1:
+            raise RuntimeError('Ambiguous catalog identity in playlist readback')
+        result.append(next(iter(ids)))
+    return result
+
+
 def verify(client, playlist_id, expected):
     for attempt in range(12):
         try:
@@ -152,7 +162,13 @@ def verify(client, playlist_id, expected):
 
 
 def sync(args):
+    from publication_gate import authorize_args, recheck
+    authorization = authorize_args(args) if args.execute else None
     manifests = sorted((args.repo / 'recommendations').glob('*/*/*.json'), reverse=True)
+    if authorization:
+        manifests = [args.repo / authorization['manifest_path']]
+        if args.replace:
+            raise RuntimeError('Frozen publication does not allow catalog replacements')
     targets = []
     seen = set()
     for manifest in manifests:
@@ -166,6 +182,8 @@ def sync(args):
                 seen.add(song_id)
     if not targets:
         raise RuntimeError('No recommendation manifests')
+    if authorization and targets != authorization['song_ids']:
+        raise RuntimeError('Authorized manifest changed')
     original_targets = targets[:]
     replacements = {}
     for specification in args.replace:
@@ -188,6 +206,8 @@ def sync(args):
             raise RuntimeError('Invalid catalog preflight response')
         catalog.update(item['id'] for item in response['data'])
     unavailable = [sid for sid in targets if sid not in catalog]
+    if authorization and unavailable:
+        raise RuntimeError('Authorized selection unavailable; no partial publication')
     importable = [sid for sid in targets if sid in catalog]
     playlists = client.collection('/v1/me/library/playlists?limit=100')
     matches = [p for p in playlists if p.get('attributes', {}).get('name') == NAME]
@@ -239,12 +259,14 @@ def sync(args):
         payload = {'attributes': {'name': NAME, 'description': 'Daily 5 历史推荐；新推荐追加到歌单末尾。'},
                    'relationships': {'tracks': {'data': [{'id': sid, 'type': 'songs'} for sid in first]}}}
         try:
+            recheck(authorization)
             status, response = client.request('/v1/me/library/playlists', 'POST', payload)
         except ApiError as error:
             if error.status not in (401, 403) or client.host != 'api.music.apple.com':
                 raise
             # Explicit auth rejection proves the first request did not create a playlist.
             client = Client('amp-api.music.apple.com', auth)
+            recheck(authorization)
             status, response = client.request('/v1/me/library/playlists', 'POST', payload)
         playlist = response['data'][0]
         report.update(host=client.host, playlist_id=playlist['id'], creation_status=status, creation_pending=False)
@@ -258,6 +280,7 @@ def sync(args):
         batch = missing[:25]
         report['pending_song_ids'] = batch
         save(report)
+        recheck(authorization)
         status, _ = client.request(f'/v1/me/library/playlists/{playlist["id"]}/tracks', 'POST',
                                    {'data': [{'id': sid, 'type': 'songs'} for sid in batch]})
         report['last_append_status'] = status
@@ -295,6 +318,8 @@ def main(argv=None):
     parser.add_argument('--playlist-id', default=os.environ.get('APPLE_MUSIC_PLAYLIST_ID'), help='Pin an existing library playlist')
     parser.add_argument('--replace', action='append', default=[], metavar='ORIGINAL=REPLACEMENT',
                         help='Use an explicitly chosen catalog edition for an unavailable song')
+    from publication_gate import add_arguments
+    add_arguments(parser)
     args = parser.parse_args(argv)
     STATE = args.state_file.expanduser().resolve()
     args.repo = args.repo.expanduser().resolve()

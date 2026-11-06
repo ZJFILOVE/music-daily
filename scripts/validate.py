@@ -116,6 +116,12 @@ def main():
     else:
         fail("state/tracks.json is required")
 
+    from recording_history import audit_history
+    try:
+        history = audit_history(ROOT)
+    except Exception as exc:
+        fail(str(exc))
+    print(json.dumps(history, ensure_ascii=False))
     print(f"OK: {len(seen)} unique recommended tracks validated for China storefront")
 
 

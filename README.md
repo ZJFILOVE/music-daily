@@ -15,10 +15,14 @@ Human-readable Chinese appreciation notes live separately in `ZJFILOVE/obsidian-
 
 ## Cloud playlist delivery
 
-The `Update Apple Music playlists` GitHub Actions workflow runs when the daily
-recommendation manifests are pushed to `main`, and can also be started manually.
-It requires no running personal computer, local wrapper, or audio downloads.
-The existing recommendation task continues publishing the same manifests.
+Apple Music writes are **blocked** pending trusted cross-repository QA integration.
+Stage-1 manifest pushes no longer trigger playlist delivery. Manual dispatch runs
+validation and requires a complete authorized Vault checkout at the publication
+gate. Both sync scripts require snapshot-bound per-date QA before loading
+credentials or creating an API client. A valid gate scopes writes to that date.
+See [the publication gate contract](docs/publication-gate.md) for remaining work.
+
+Historical behavior and playlist names:
 
 - `ChatGPT Daily 5` keeps the combined listening collection.
 - `ChatGPT Daily 5 · YYYY-MM-DD` keeps each day's five recommendations in listening order.
@@ -26,10 +30,6 @@ The existing recommendation task continues publishing the same manifests.
 - Tracks unavailable in the China catalog are recorded in the dated playlist's
   description and the `dated-playlists` run artifact; no substitute is chosen automatically.
 
-Configure `APPLE_MUSIC_DEVELOPER_TOKEN` and `APPLE_MUSIC_USER_TOKEN` as repository
-Actions secrets. Credentials are read only from the environment in cloud mode.
-If Apple expires or revokes the session, renew these secrets and rerun the failed
-workflow. GitHub's normal workflow failure notifications identify failed updates.
-Operation checkpoints live in the Actions cache, outside the repository; they
-contain playlist IDs and pending operations, never credentials. An uncertain
-playlist creation stops rather than blindly creating a duplicate.
+Existing repository secrets and private operation checkpoints are unchanged.
+Do not rerun older workflows to bypass the gate. Structural audit results and
+known-incident acknowledgments do not authorize a playlist write.
