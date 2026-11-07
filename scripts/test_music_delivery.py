@@ -46,6 +46,7 @@ class LiveEvidenceTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.api.ci(d.MUSIC, self.sha)
 
+    def test_wrong_head_repo_workflow_or_pr_is_not_authority(self):
         for field,value in [('head_sha','b'*40),('head_branch','feature'),('event','pull_request'),
                             ('path','.github/workflows/untrusted.yml'),('head_repository',{'full_name':'other/repo'})]:
             run=copy.deepcopy(self.run);run[field]=value;self.response([run])
