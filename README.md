@@ -15,12 +15,12 @@ Human-readable Chinese appreciation notes live separately in `ZJFILOVE/obsidian-
 
 ## Cloud playlist delivery
 
-Apple Music writes are **blocked** pending trusted cross-repository QA integration.
-Stage-1 manifest pushes no longer trigger playlist delivery. Manual dispatch runs
-validation and requires a complete authorized Vault checkout at the publication
-gate. Both sync scripts require snapshot-bound per-date QA before loading
-credentials or creating an API client. A valid gate scopes writes to that date.
-See [the publication gate contract](docs/publication-gate.md) for remaining work.
+The proposed trusted-delivery workflow polls hourly for completed music QA on
+trusted `main` snapshots. It requires a separately approved Vault read-only
+credential and deployment; missing evidence fails closed. No stage-1 push or
+caller-provided date/ref triggers playlist writes. See
+[delivery setup and recovery](docs/trusted-music-delivery.md) and
+[the publication gate](docs/publication-gate.md).
 
 Historical behavior and playlist names:
 

@@ -1,5 +1,7 @@
 """Positive and negative gate tests use committed fixtures, never Apple Music."""
 import copy
+import hashlib
+from unittest.mock import Mock
 import json
 from pathlib import Path
 import subprocess
@@ -85,6 +87,78 @@ class GateTests(unittest.TestCase):
         result = self.run_gate()
         self.assertTrue(result['publication_authorized']); self.assertEqual(result['song_ids'], ['1','2','3','4','5'])
         self.assertEqual(self.run_gate(), result)
+
+    def alternate_qa(self):
+        old = self.qa
+        sources = []
+        for t in self.doc['tracks']:
+            sources.append(dict(position=t['position'], title=t['title'], artist=t['artist'], album=t['album'],
+                song_id=t['apple_music']['song_id'], storefront='cn', url=t['apple_music']['url'],
+                verification_method='direct_apple_music_cn_song_resource', observed_at=self.day + 'T01:00:00Z',
+                web_observation_ref='fixture-source', verified_fields=['title','artist','album','numeric_song_id','storefront','url_id_match']))
+        self.qa = dict(schema_version=1, date=self.day, operation_id='music:' + self.day,
+            status='success_current_publication', selected_tracks=self.doc['tracks'],
+            bundle_sha256=self.bundle['bundle_sha256'], plan_sha256=self.bundle['plan_sha256'],
+            stage_commits=dict(music_daily=old['checks']['mirror_check']['heads']['music'],
+                               obsidian_vault=old['checks']['mirror_check']['heads']['vault']),
+            source_verification=sources,
+            readbacks={('music-daily:state/tracks.json' if k=='ZJFILOVE/music-daily:state/tracks.json' else k.split(':',1)[1]): v['sha']
+                       for k,v in old['readbacks'].items()},
+            qa_scope={k:'passed' for k in ('current_source_identity','current_semantic_editorial_review','five_artifact_mirrors','history_preservation')},
+            checks=dict(bundle='bundle_valid', planner='artifacts_match_next_stage_null',
+                remote_snapshot='passed_current_music_mirrors_1_manifests',
+                music_daily_ci=dict(conclusion='failure'),
+                semantic_qa=dict(status='passed_current_publication_semantic_qa', date=self.day, track_count=5,
+                    song_ids=[t['apple_music']['song_id'] for t in self.doc['tracks']],
+                    canonical_ids=[t['canonical_id'] for t in self.doc['tracks']],
+                    sha256={label:hashlib.sha256(self.payloads[key].encode()).hexdigest() for label,key in
+                        [('manifest','ZJFILOVE/music-daily:' + self.mp),('state','ZJFILOVE/music-daily:state/tracks.json'),
+                         ('note','ZJFILOVE/obsidian-vault:Music/Daily/' + self.day + '.md')]})))
+        self.save_qa()
+
+    def test_alternate_qa_requires_live_ci_and_preserves_old_failure(self):
+        self.alternate_qa()
+        before = (self.vault / self.qp).read_bytes()
+        with self.assertRaisesRegex(RuntimeError, 'independent live CI'): self.run_gate()
+        live = Mock()
+        result = self.run_gate(live_verifier=live)
+        self.assertTrue(result['publication_authorized']); self.assertTrue(live.called)
+        self.assertEqual(before, (self.vault / self.qp).read_bytes())
+        self.assertEqual(self.qa['checks']['music_daily_ci']['conclusion'], 'failure')
+
+    def test_alternate_semantic_or_source_failure_is_not_structural_success(self):
+        self.alternate_qa()
+        self.qa['checks']['semantic_qa']['sha256']['note'] = '0'*64; self.save_qa()
+        with self.assertRaisesRegex(RuntimeError, 'Semantic payload'): self.run_gate(live_verifier=Mock())
+
+    def test_alternate_unverified_source_is_rejected(self):
+        self.alternate_qa(); self.qa['source_verification'][0]['verified_fields'] = []; self.save_qa()
+        with self.assertRaisesRegex(RuntimeError, 'source observations'): self.run_gate(live_verifier=Mock())
+
+    def test_live_ci_failure_and_head_movement_prevent_authorization(self):
+        live = Mock(side_effect=ValueError('remote head moved'))
+        with self.assertRaisesRegex(RuntimeError, 'remote head moved'): self.run_gate(live_verifier=live)
+
+    def test_later_date_state_growth_allows_earlier_retry(self):
+        new = copy.deepcopy(self.doc); new['date']='2026-11-08'
+        state=json.loads(self.payloads['ZJFILOVE/music-daily:state/tracks.json'])
+        for t in new['tracks']:
+            t['artist'] += ' Next'; t['canonical_id']=t['artist']+'::'+t['title']
+            t['apple_music']['song_id']=str(int(t['apple_music']['song_id'])+10)
+            t['apple_music']['url']='https://music.apple.com/cn/song/'+t['apple_music']['song_id']
+            state['recommended'][t['canonical_id']]=1
+        self.write(self.music,'recommendations/2026/11/2026-11-08.json',json.dumps(new))
+        self.write(self.music,'state/tracks.json',json.dumps(state)); self.mhead=self.commit(self.music)
+        self.write(self.vault,'Music/Daily/manifests/2026-11-08.json',json.dumps(new))
+        self.write(self.vault,'Music/Daily/state/tracks.json',json.dumps(state))
+        self.write(self.vault,'Music/Daily/2026-11-08.md','\n'.join(t['apple_music']['url'] for t in new['tracks']))
+        self.vhead=self.commit(self.vault)
+        self.assertTrue(self.run_gate()['publication_authorized'])
+
+    def test_unrelated_journal_head_advance_does_not_change_music_qa(self):
+        self.write(self.vault,'00-inbox/Journal/new.md','Unrelated fixture journal text')
+        self.vhead=self.commit(self.vault)
+        self.assertTrue(self.run_gate()['publication_authorized'])
 
     def test_missing_qa(self):
         (self.vault / self.qp).unlink(); self.vhead = self.commit(self.vault)

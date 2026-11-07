@@ -98,6 +98,8 @@ def sync(args):
                 common.verify(client, playlist['id'], set(ids))
         else:
             actual_before = client.playlist_tracks(playlist['id'])
+            if checkpoint.get('pending_append'):
+                actual_before, _ = common.verify(client, playlist['id'], set(checkpoint['pending_append']))
             if authorization:
                 ordered = common.ordered_catalog_ids(actual_before)
                 if ordered != ids[:len(ordered)]:
@@ -105,6 +107,8 @@ def sync(args):
             existing = common.catalog_ids(actual_before)
             missing = [sid for sid in ids if sid not in existing]
             if missing:
+                state['days'][date] = {**checkpoint, 'playlist_id': playlist['id'], 'pending_append': missing}
+                save(args.state_file, state)
                 recheck(authorization)
                 client.request(f'/v1/me/library/playlists/{playlist["id"]}/tracks', 'POST',
                                {'data': [{'id': sid, 'type': 'songs'} for sid in missing]})

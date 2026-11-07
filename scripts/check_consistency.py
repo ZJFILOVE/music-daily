@@ -85,7 +85,7 @@ def source_url(note: str) -> str | None:
                 return match.group(0).rstrip(').,;\"')
     return None
 
-def audit(root: Path, vault: Path | None, ever: set[str], base_ref: str | None = None) -> dict:
+def audit(root: Path, vault: Path | None, ever: set[str], base_ref: str | None = None, *, music_only: bool = False) -> dict:
     state_doc = loads((root / 'state/tracks.json').read_bytes())
     require(isinstance(state_doc, dict), 'State root must be an object')
     require(state_doc.get('schema_version') == 1 and state_doc.get('provider') == 'apple_music', 'Wrong state schema/provider')
@@ -146,6 +146,8 @@ def audit(root: Path, vault: Path | None, ever: set[str], base_ref: str | None =
         require((vault / 'Music/Daily/state/tracks.json').read_bytes() == (root / 'state/tracks.json').read_bytes(), 'State mirrors differ')
         require({p.name for p in (vault / 'Music/Daily/manifests').glob('*.json')} == names, 'Orphan or missing manifest mirror')
         result['cross_repository'] = 'passed_byte_exact'
+        if music_only:
+            return result
         english = [loads(x) for x in (vault / '.recommendation/history/english.jsonl').read_text(encoding='utf-8').splitlines() if x.strip()]
         pairs = [(iso_day(r.get('date')), r['source_url']) for r in english]
         require(len(pairs) == len(set(pairs)), 'Duplicate English append')
