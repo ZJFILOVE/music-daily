@@ -23,7 +23,29 @@ class LiveEvidenceTests(unittest.TestCase):
     def test_exact_main_workflow_ci(self):
         self.response([self.run]); self.assertEqual(self.api.ci(d.MUSIC,self.sha),1)
 
-    def test_wrong_head_repo_workflow_or_pr_is_not_authority(self):
+    def test_same_sha_schedule_or_manual_without_push_is_authority(self):
+        for event in ('schedule', 'workflow_dispatch'):
+            run = {**self.run, 'event': event, 'path': d.WORKFLOWS[d.VAULT],
+                   'head_repository': {'full_name': d.VAULT}}
+            self.response([run])
+            self.assertEqual(self.api.ci(d.VAULT, self.sha), 1)
+            query = self.api.get.call_args_list[0].args[1]
+            self.assertNotIn('event=', query)
+            self.assertIn('head_sha=' + self.sha, query)
+
+    def test_latest_scheduled_failure_or_running_blocks_old_push_green(self):
+        for status, conclusion in [('completed', 'failure'), ('in_progress', None)]:
+            run = {**self.run, 'id': 2, 'run_number': 2, 'event': 'schedule',
+                   'status': status, 'conclusion': conclusion}
+            self.response([self.run, run])
+            with self.assertRaises(ValueError):
+                self.api.ci(d.MUSIC, self.sha)
+
+    def test_scheduled_green_on_previous_sha_cannot_cover_current_head(self):
+        self.response([{**self.run, 'event': 'schedule', 'head_sha': 'b' * 40}])
+        with self.assertRaises(ValueError):
+            self.api.ci(d.MUSIC, self.sha)
+
         for field,value in [('head_sha','b'*40),('head_branch','feature'),('event','pull_request'),
                             ('path','.github/workflows/untrusted.yml'),('head_repository',{'full_name':'other/repo'})]:
             run=copy.deepcopy(self.run);run[field]=value;self.response([run])

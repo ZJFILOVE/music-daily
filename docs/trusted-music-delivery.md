@@ -42,7 +42,8 @@ and [workflow-run read permissions](https://docs.github.com/en/rest/actions/work
    commits, cache, logs or artifacts. No Vault code is executed.
 4. Verify the exact fixed workflow paths on each pinned main (`validate.yml` in
    music, `recommendation-health.yml` in Vault) using GitHub REST responses:
-   correct repository/head/main/push event, newest run completed successfully,
+   correct repository/current exact head/main and push, schedule or workflow_dispatch event;
+   the newest eligible run must have completed successfully,
    successful `validate` job, and stable HEADs before and after CI lookup. Pending,
    failed, absent or unreadable evidence stops the workflow. A QA receipt's own
    JSON CI claims cannot substitute for these live checks.
@@ -126,3 +127,10 @@ before enabling actual automatic writes. This implementation has been tested
 with fake APIs and real immutable QA as an **offline contract fixture**; no actual
 PAT-backed Actions checkout/CI handshake or Apple API write has been executed by
 this repair. A successful fixture is not a claim that production is connected.
+
+Unrelated Vault commits may not trigger its path-filtered push validation. A
+successful scheduled or manually dispatched validation of that same current main
+SHA is accepted; an older SHA's green result never substitutes. Until a matching
+run completes successfully, delivery pauses. The latest eligible failed or running
+run blocks fallback to an earlier green run. PR runs and other workflows remain
+ineligible. No Vault or Journal workflow changes are needed for this behavior.

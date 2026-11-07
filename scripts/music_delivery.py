@@ -54,10 +54,10 @@ class GitHub:
 
     def ci(self, repo, sha):
         workflow = WORKFLOWS[repo]
-        query = urllib.parse.urlencode({'branch': 'main', 'head_sha': sha, 'event': 'push', 'per_page': 100})
+        query = urllib.parse.urlencode({'branch': 'main', 'head_sha': sha, 'per_page': 100})
         runs = self.get(repo, '/actions/workflows/' + workflow.rsplit('/', 1)[1] + '/runs?' + query)['workflow_runs']
         valid = [r for r in runs if r.get('head_sha') == sha and r.get('head_branch') == 'main'
-                 and r.get('event') == 'push' and r.get('path') == workflow
+                 and r.get('event') in ('push', 'schedule', 'workflow_dispatch') and r.get('path') == workflow
                  and r.get('head_repository', {}).get('full_name') == repo]
         require(bool(valid), 'No trusted main validation run for ' + repo + '@' + sha)
         run = max(valid, key=lambda r: (r['run_number'], r.get('run_attempt', 1)))
