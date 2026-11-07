@@ -31,8 +31,12 @@ def plans(repo, client, date=None):
         if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', p.stem):
             raise RuntimeError('Invalid date')
         tracks = sorted(day['tracks'], key=lambda t: t['position'])
-        if len(tracks) != 5:
-            raise RuntimeError(f'{p.stem}: expected five recommendations')
+        expected = [1, 2, 3, 4, 5]
+        if p.stem == '2026-11-06':
+            from recording_withdrawal import positions
+            expected = positions(repo, p.stem, p.read_bytes())
+        if len(tracks) != len(expected):
+            raise RuntimeError(f'{p.stem}: expected standard five or exact authorized withdrawal')
         for t in tracks:
             am = t['apple_music']
             if am['storefront'] != 'cn' or not re.fullmatch(r'\d+', str(am['song_id'])):
@@ -75,7 +79,7 @@ def sync(args):
             note += ' 国区暂不可用：' + '；'.join(t['artist'] + '《' + t['title'] + '》' for t in unavailable) + '。'
         note += f' 导听：https://github.com/ZJFILOVE/obsidian-vault/blob/main/Music/Daily/{date}.md'
         if not args.execute:
-            print(f'{date}: {"exists" if playlist else "create"}, {len(ids)}/5 available', flush=True)
+            print(f'{date}: {"exists" if playlist else "create"}, {len(ids)}/{len(tracks)} available', flush=True)
             continue
         if playlist is None:
             if checkpoint.get('creation_pending') or checkpoint.get('playlist_id'):

@@ -32,20 +32,6 @@
       "listening_cue": "主题出现时记住最容易辨认的两三个音形；进入独奏后不要追每个音，改听低音与镲片何时收紧。主题回归时比较触键重量和鼓的开放程度，判断“回来”是否等于“恢复原状”。"
     },
     {
-      "position": 3,
-      "title": "An Ending (Ascent)",
-      "artist": "Brian Eno",
-      "album": "Apollo: Atmospheres and Soundtracks",
-      "canonical_id": "Brian Eno::An Ending (Ascent)",
-      "apple_music": {
-        "url": "https://music.apple.com/cn/song/714861225",
-        "song_id": "714861225",
-        "storefront": "cn"
-      },
-      "analysis_summary": "今天的优先曲。选择《Apollo: Atmospheres and Soundtracks》中的大陆区条目；这是 Brian Eno 的录音，不把同名翻奏或后来的视觉搭配混进来。它适合放在三重奏之后，因为两者都处理时间，却采取相反方式：前者靠互动制造推进，这首则让和声变化慢到几乎成为光线移动。\n\n合成器音块的起音被磨得很软，尾音彼此覆盖，低频没有用明显鼓点规定步幅。于是每次和弦更换既像抵达，也像上一层余响的延续。不要只把它当“放松音乐”；细听声部进入的高度、立体声位置与衰减速度，安静里其实有严密的配重。",
-      "listening_cue": "用较低音量听两遍。第一遍只数你能明确感觉到的和声更换；第二遍在每次更换前找最先浮出的高音或低音，判断转折是由新声音进入，还是由旧声音退去造成。"
-    },
-    {
       "position": 4,
       "title": "La chanson",
       "artist": "Claude Nougaro",

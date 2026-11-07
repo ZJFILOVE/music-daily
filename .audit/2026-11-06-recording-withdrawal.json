@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "correction_id": "music-2026-11-06-withdraw-714861225",
+  "action": "withdraw_later_duplicate",
+  "date": "2026-11-06",
+  "provider": "apple_music",
+  "storefront": "cn",
+  "song_id": "714861225",
+  "position": 3,
+  "canonical_id": "Brian Eno::An Ending (Ascent)",
+  "original_manifest_blob": "b0b271bf1c9a1e083e8756b841c43e18e02ab11a",
+  "corrected_manifest_blob": "de69236647a44e52ece517afb18fc9091bd9e46e",
+  "corrected_manifest_sha256": "1e254b8a1dcd5455bb0bb5f397896b6d1db8cc61bd61d614c3a8e7029cf1c41f",
+  "retained_positions": [
+    1,
+    2,
+    4,
+    5
+  ],
+  "original_bundle_sha256": "92b8be6108ad5f3c0b40d9b43949ace9d0f8fcb18719d46b5afcac139c1ce1c6",
+  "original_prepared_blob": "d9f3cb56b20e0dbbf4841d0e84eb6c91254bab55",
+  "original_failure_receipt_blob": "67f48ab45bcf701cec781f97d3d5ffb2d71a03db",
+  "original_operation_status": "blocked_current_publication",
+  "reservation_policy": "Keep every original exposure and canonical state value permanently reserved. No replacement song; no original success QA; no Apple Music mutation."
+}

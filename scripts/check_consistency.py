@@ -115,9 +115,11 @@ def audit(root: Path, vault: Path | None, ever: set[str], base_ref: str | None =
         day = iso_day(doc.get('date'))
         require(path.relative_to(root).as_posix() == f'recommendations/{day[:4]}/{day[5:7]}/{day}.json', 'Manifest date/path mismatch')
         require(doc.get('schema_version') == 1 and doc.get('provider') == 'apple_music', 'Wrong manifest schema/provider')
-        tracks = doc.get('tracks'); require(isinstance(tracks, list) and len(tracks) == 5, 'Every manifest must contain exactly five tracks')
+        from recording_withdrawal import positions as withdrawal_positions
+        expected_positions = withdrawal_positions(root, day, path.read_bytes())
+        tracks = doc.get('tracks'); require(isinstance(tracks, list) and len(tracks) == len(expected_positions), 'Manifest count must match exact publication/withdrawal')
         require(all(isinstance(t, dict) and type(t.get('position')) is int for t in tracks), 'Invalid track/position type')
-        require([t['position'] for t in tracks] == [1, 2, 3, 4, 5], 'Wrong position order')
+        require([t['position'] for t in tracks] == expected_positions, 'Wrong position order')
         today_ids = []
         for track in tracks:
             cid = track['canonical_id']; am = track['apple_music']; sid = am.get('song_id')

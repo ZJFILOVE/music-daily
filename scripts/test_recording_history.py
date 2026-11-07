@@ -108,7 +108,7 @@ class HistoryTests(unittest.TestCase):
         evidence = h.incident(ROOT)
         rows = []
         for r in evidence['occurrences']:
-            rows += h.occurrences((ROOT / r['manifest_path']).read_bytes(), r['manifest_path'])
+            rows += h.occurrences(h.git(ROOT, 'cat-file', 'blob', r['manifest_blob']), r['manifest_path'])
         return evidence, rows
 
     def test_exact_incident_allows_unrelated_future_date(self):

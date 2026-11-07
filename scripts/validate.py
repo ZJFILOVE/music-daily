@@ -40,9 +40,11 @@ def validate_manifest(path):
 
     if data.get("provider") != "apple_music":
         fail(f"{path}: provider must be apple_music")
+    from recording_withdrawal import positions as withdrawal_positions
+    expected_positions = withdrawal_positions(ROOT, date, path.read_bytes())
     tracks = data.get("tracks")
-    if not isinstance(tracks, list) or len(tracks) != 5:
-        fail(f"{path}: tracks must contain exactly 5 items")
+    if not isinstance(tracks, list) or len(tracks) != len(expected_positions):
+        fail(f"{path}: tracks must match the standard five or exact authorized withdrawal")
 
     ids, positions = [], []
     for t in tracks:
@@ -87,7 +89,7 @@ def validate_manifest(path):
 
     if len(ids) != len(set(ids)):
         fail(f"{path}: duplicate canonical_id within manifest")
-    if sorted(positions) != [1, 2, 3, 4, 5]:
+    if sorted(positions) != expected_positions:
         fail(f"{path}: positions must be 1..5")
     return ids
 

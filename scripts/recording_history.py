@@ -85,8 +85,13 @@ def incident(root):
     require(hashlib.sha256(raw).hexdigest() == INCIDENT_SHA256, 'Incident evidence changed or expanded')
     doc = loads(raw)
     for row in doc['occurrences']:
-        require(blob_sha((root / row['manifest_path']).read_bytes()) == row['manifest_blob'],
-                'Original incident manifest bytes changed')
+        original = git(root, 'cat-file', 'blob', row['manifest_blob'])
+        require(blob_sha(original) == row['manifest_blob'], 'Original incident evidence unavailable')
+        if row['date'] == '2026-11-06':
+            from recording_withdrawal import verify
+            verify(root)
+        else:
+            require((root / row['manifest_path']).read_bytes() == original, 'First incident occurrence changed')
     return doc
 
 

@@ -4,8 +4,10 @@ The 2026-11-06 selection was already synchronized: the combined playlist added
 four recordings and the dated playlist read back five. Post-write uniqueness QA
 failed. `.audit/2026-11-06-recording-collision.json` records precisely the two
 occurrences of `apple_music:cn:714861225`, their original manifest Git blobs,
-immutable PREPARED digest and failure receipt. Original manifests, canonical
-state values, payloads, QA receipts, and playlists are unchanged by this repair.
+immutable PREPARED digest and failure receipt. Original frozen payloads, canonical state values and QA receipts remain intact.
+The current November 6 manifest now has the exact withdrawal described below;
+its original bytes remain recoverable from ordinary Git history. Playlists are
+not modified by this repository repair.
 The evidence file's SHA-256 is pinned in code. It is an incident acknowledgment,
 not a song allowlist or successful QA. A third occurrence, changed original
 manifest, changed evidence, or changed failure receipt is rejected.
@@ -114,3 +116,34 @@ or self-asserted local success JSON was added. An authorized operator with both
 fresh checkouts can run the gate locally; this repair did not run either writer
 against Apple Music. Receipt provenance/remote freshness remains the trusted
 caller's responsibility, not a claim made by the gate's local verification.
+
+
+## Authorized November 6 withdrawal (2026-11-07)
+
+The user explicitly requested removal of the later duplicate. The only current
+manifest changed is `recommendations/2026/11/2026-11-06.json`: position 3,
+`Brian Eno::An Ending (Ascent)`, `apple_music:cn:714861225`. Positions 1, 2, 4, 5
+retain their original objects, order and position numbers. No replacement was
+selected. September 21 remains the valid first recommendation.
+
+`.audit/2026-11-06-recording-withdrawal.json` binds the original blob
+`b0b271bf1c9a1e083e8756b841c43e18e02ab11a` to the corrected blob
+`de69236647a44e52ece517afb18fc9091bd9e46e`, plus the original bundle and failure
+receipt. The record is hash-pinned in `scripts/recording_withdrawal.py`.
+Verification reconstructs the exact four-track document from the original Git
+blob; it rejects extra deletions, substitutions, renumbering, forged receipts,
+and restoration of the original five-track payload. The normal Daily 5 schema
+is unchanged. The separate withdrawal schema is an exact document constant,
+not a general four-track allowance.
+
+All original exposure/state entries remain permanently reserved. Both original
+occurrences still exist in Git history and the frozen PREPARED bytes stay intact.
+The November 6 operation remains failed: the publication gate rejects it even
+after withdrawal. This correction neither certifies past publication nor permits
+replaying its PREPARED package or changing existing Apple Music playlists.
+Future dates retain the complete history and snapshot-bound QA checks.
+
+The scope is music only. Journal/English/other project data and workflow settings
+are not changed. The latest November 7 music manifest and state additions are
+retained. Cross-repository mirror verification must use the matching corrected
+Vault branch; an intermediate one-sided withdrawal is intentionally not certified.
