@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-07",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "I Got The...",
+      "artist": "Labi Siffre",
+      "album": "The Music of Labi Siffre",
+      "canonical_id": "Labi Siffre::I Got The...",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/696090802",
+        "song_id": "696090802",
+        "storefront": "cn"
+      },
+      "analysis_summary": "选择国区《The Music of Labi Siffre》页面上的录音，不把它和 2006 Remaster 或其他合辑条目互换。它适合做开场，因为歌曲不是一开始就把最醒目的律动全部交出来，而是让叙述、键盘和节奏组逐渐暴露彼此的咬合方式。\n\n编曲最值得听的是重心的转移：前段给人声留下较多空间，后段低音和鼓把短小动机锁成更强的循环。贝斯并非只在根音上打点，而是用滑动与切分制造向前的拉力；鼓的落点让重复不显得静止。这个版本的魅力来自累积，不需要用音量突然放大来证明段落已经改变。",
+      "listening_cue": "第一遍只记录低音第一次真正抓住注意力的位置；第二遍从前一分钟开始，比较鼓、贝斯和键盘谁先改变密度。不要只等最熟悉的采样片段，把前段如何铺路也听进去。"
+    },
+    {
+      "position": 2,
+      "title": "Veinte Años",
+      "artist": "Omara Portuondo & Martin Rojas",
+      "album": "Omara Portuondo & Martin Rojas",
+      "canonical_id": "Omara Portuondo & Martin Rojas::Veinte Años",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1443011811",
+        "song_id": "1443011811",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这里明确选择 Martin Rojas 与 Omara Portuondo 联名专辑中的国区条目，不替换成 Omara 后来的独唱、重制或现场版本。紧接上一首密实的节奏组，它把尺度缩小到歌声与伴奏之间的呼吸：句子可以在较少声部中显出年龄、停顿和重音。\n\n聆听时把人声的长线与吉他伴奏的周期分开。伴奏负责提供稳定落点，却不会把每个空隙填满；主唱则通过句首稍慢的进入、句尾的收束与音色中的颗粒感改变时间感。情绪并非靠持续加厚，而是靠同一旋律在不同停顿后显出不同重量。",
+      "listening_cue": "选一段反复出现的旋律，先用手轻点吉他的稳定周期，再听主唱哪些音贴着拍点、哪些略微拖后。最后只听每句结束后的空白，判断伴奏是在回答，还是在等待。"
+    },
+    {
+      "position": 3,
+      "title": "Caboclo",
+      "artist": "Arthur Verocai",
+      "album": "Arthur Verocai",
+      "canonical_id": "Arthur Verocai::Caboclo",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/495578533",
+        "song_id": "495578533",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的优先曲，选择 1972 年同名专辑的国区歌曲页。它把巴西节奏、爵士和管弦配器压进一首很短的器乐曲：并非把几种风格轮流展示，而是让弦乐线条、低音、打击和短促的管乐色彩在同一段落里快速交换前景。\n\n听它不要只追主旋律。开头的织体看似轻，声部却不断改变距离：弦乐可以拉出连续背景，低音和打击把脉冲固定，较亮的短音则像在画面上瞬间开窗。段落推进依赖音色组合与重音迁移，因此即使和声材料没有剧烈转向，空间仍会持续展开。",
+      "listening_cue": "完整听两遍。第一遍每当新音色进入就记一个点；第二遍只跟低音和打击，检查那些『新段落』究竟由节奏改变，还是由上层配器换色造成。"
+    },
+    {
+      "position": 4,
+      "title": "Sapokanikan",
+      "artist": "Joanna Newsom",
+      "album": "Divers",
+      "canonical_id": "Joanna Newsom::Sapokanikan",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1027500477",
+        "song_id": "1027500477",
+        "storefront": "cn"
+      },
+      "analysis_summary": "选择《Divers》中的国区录音。它适合放在器乐曲之后，因为人声在这里不只是旋律载体，也像密集的节奏声部；钢琴提供可辨认的骨架，其他配器则随着叙述不断改变明暗和尺度。即使不追逐文本细节，也能从发音密度和旋律弧线听出段落如何被组织。\n\nJoanna Newsom 的声线边缘清楚，快速音节与较长尾音经常在同一句里交替。钢琴让句子有明确推进，弦乐和其他背景声部并不总在高潮才出现，而会提前改变下一段的颜色。聆听重点是『信息很多』如何仍保持方向：重复动机、和声落点和短暂留白共同阻止音乐散开。",
+      "listening_cue": "不要试图一次听清全部内容。第一遍只找钢琴反复出现的形状；第二遍在相同位置听人声的音节密度；第三遍再判断背景声部是在预告段落，还是在句尾补上余韵。"
+    },
+    {
+      "position": 5,
+      "title": "Go Dig My Grave",
+      "artist": "Lankum",
+      "album": "False Lankum",
+      "canonical_id": "Lankum::Go Dig My Grave",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1664242687",
+        "song_id": "1664242687",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard，选择《False Lankum》国区页上的录音。它保留民谣叙事的轮廓，却不用轻巧的原声编配把听者带过去；低沉的持续音、粗粝声部和缓慢累积把一首歌变成近乎物理性的空间。这里的黑暗感来自持续时间与频谱密度，不需要依靠突然的戏剧化转折。\n\n先把长时间保持的低频／中低频底层当作地面，再听歌声怎样从地面上显现。随着声部叠加，声音边缘会从可分辨变得相互摩擦；某些变化很小，却因为等待时间足够长而显得巨大。它要求完整时间，也适合检验自己是否能听见『缓慢』内部的层次。",
+      "listening_cue": "用中等偏小音量完整听，不要拖动进度条。每隔一段时间写下当前最靠前、最靠后和最持续的三个声音；结束后比较三次记录，找出真正移动的声部。"
+    }
+  ]
+}
