@@ -1,4 +1,5 @@
 import copy
+from contextlib import ExitStack
 import json
 import os
 from pathlib import Path
@@ -175,6 +176,93 @@ class DriverTests(unittest.TestCase):
             d.deliver(self.root,self.vault,self.checkpoint,self.plan,self.api,execute=True)
         self.assertEqual(calls,[('daily','2026-11-07'),('total','2026-11-07'),('daily','2026-11-08'),('total','2026-11-08')])
         self.assertEqual(json.loads((self.checkpoint/'delivery-success.json').read_text())['status'],'verified')
+
+    def lifecycle(self, scenario):
+        import apple_music_sync as total
+        import daily_playlists_sync as daily
+        current = {**self.plan, 'entries': self.plan['entries'][:1]}
+        entry = current['entries'][0]
+        rel = 'recommendations/2026/11/2026-11-07.json'
+        manifest = self.root / rel
+        manifest.parent.mkdir(parents=True)
+        tracks = [dict(position=i, title=str(i), artist='Fixture',
+                       apple_music=dict(song_id=str(i), storefront='cn')) for i in range(1, 6)]
+        manifest.write_text(json.dumps({'tracks': tracks}))
+        class Remote:
+            host = 'amp-api.music.apple.com'
+            def __init__(self):
+                self.ids = {'p.total': [], 'p.day': []}
+                self.day_exists = False
+                self.posts = []
+                self.unknown = False
+            def collection(self, path):
+                result = [dict(id='p.total', attributes=dict(name=total.NAME, canEdit=True))]
+                if self.day_exists:
+                    result.append(dict(id='p.day', attributes=dict(name=daily.PREFIX + entry['date'])))
+                return result
+            def playlist_tracks(self, playlist):
+                return [dict(id=x, type='songs') for x in self.ids[playlist]]
+            def request(self, path, method='GET', body=None):
+                if method == 'GET':
+                    return 200, {'data': [dict(id=x) for x in entry['song_ids']]}
+                self.posts.append(path)
+                if path.endswith('/playlists'):
+                    self.day_exists = True
+                    self.ids['p.day'] = list(entry['song_ids'])
+                    return 201, {'data': [self.collection('')[-1]]}
+                self.ids['p.total'].extend(x['id'] for x in body['data'])
+                if self.unknown:
+                    raise TimeoutError('POST committed but response lost')
+                return 204, {}
+        remote = Remote()
+        calls = 0
+        def client(*args):
+            nonlocal calls
+            calls += 1
+            if scenario == 'daily_complete' and calls == 2:
+                raise InterruptedError('Stopped before total started')
+            return remote
+        def authorize(args):
+            return dict(date=entry['date'], song_ids=entry['song_ids'], manifest_path=rel,
+                        guard=args.write_guard)
+        with ExitStack() as stack:
+            stack.enter_context(patch.object(d, 'plan', return_value=current))
+            stack.enter_context(patch.object(total, 'Client', side_effect=client))
+            stack.enter_context(patch.object(total, 'load_auth', return_value={}))
+            stack.enter_context(patch('publication_gate.authorize_args', side_effect=authorize))
+            stack.enter_context(patch('publication_gate.recheck', side_effect=lambda auth: auth['guard']()))
+            stack.enter_context(patch.dict(os.environ, {'APPLE_MUSIC_PLAYLIST_ID': 'p.total'}))
+            if scenario == 'daily_complete':
+                with self.assertRaises(InterruptedError):
+                    d.deliver(self.root, self.vault, self.checkpoint, current, self.api, execute=True)
+                self.assertEqual(len(remote.posts), 1)
+                self.assertEqual(remote.ids['p.day'], entry['song_ids'])
+                self.assertEqual(remote.ids['p.total'], [])
+            elif scenario == 'unknown_visible':
+                remote.unknown = True
+                with self.assertRaises(TimeoutError):
+                    d.deliver(self.root, self.vault, self.checkpoint, current, self.api, execute=True)
+                self.assertEqual(len(remote.posts), 2)
+                remote.unknown = False
+            before = list(remote.posts)
+            with patch.dict(os.environ, {'GITHUB_RUN_ATTEMPT': '2'}):
+                if scenario == 'unknown_visible':
+                    d.deliver(self.root, self.vault, self.checkpoint, current, self.api, execute=True)
+                    self.assertTrue((self.checkpoint / 'delivery-success.json').exists())
+                else:
+                    with self.assertRaisesRegex(ValueError, 'cannot be blindly replayed'):
+                        d.deliver(self.root, self.vault, self.checkpoint, current, self.api, execute=True)
+                    self.assertFalse((self.checkpoint / 'delivery-success.json').exists())
+            self.assertEqual(remote.posts, before)
+
+    def test_cross_attempt_reserved_before_first_post_refuses_write(self):
+        self.lifecycle('reserved_only')
+
+    def test_cross_attempt_daily_complete_does_not_start_total(self):
+        self.lifecycle('daily_complete')
+
+    def test_cross_attempt_unknown_post_visible_is_read_only_confirmed(self):
+        self.lifecycle('unknown_visible')
 
     def test_default_mode_never_writes(self):
         with patch.object(d,'plan',return_value=self.plan),patch('daily_playlists_sync.sync') as daily:
