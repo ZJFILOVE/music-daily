@@ -134,3 +134,15 @@ SHA is accepted; an older SHA's green result never substitutes. Until a matching
 run completes successfully, delivery pauses. The latest eligible failed or running
 run blocks fallback to an earlier green run. PR runs and other workflows remain
 ineligible. No Vault or Journal workflow changes are needed for this behavior.
+
+The `passed_current_publication_gates` receipt format is also supported. Its
+committed source evidence must already exist at the original PREPARED creation
+commit, retain identical bytes at the current Vault head, and match both its Git
+blob and SHA256. Selected mainland-China IDs, ordering, title/artist/album version,
+observed resource URLs and candidate decisions must match the frozen selection.
+Both committed stage receipts must bind the exact parent, commit, frozen bundle,
+plan and five readbacks. The gate recomputes baseline blobs, preserved state values
+and historical mirrors; existing full-history and current-payload checks still run.
+Normalization happens only in memory and retains the original status and scope.
+Receipt CI claims never replace independently verified current-head CI. Offline
+contract tests with a fixture CI callback do not authorize a real Apple write.
