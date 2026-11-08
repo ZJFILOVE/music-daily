@@ -47,12 +47,15 @@ class DailySyncTests(unittest.TestCase):
         self.client.fail=False
         with self.assertRaisesRegex(RuntimeError,'unresolved'):self.run_sync()
         self.assertEqual(self.client.creates,1)
-    def test_unknown_creation_recovers_when_playlist_becomes_visible(self):
+    def test_legacy_pending_creation_without_original_ids_requires_review(self):
         self.args.state_file.parent.mkdir(parents=True)
         self.args.state_file.write_text(json.dumps({'days':{'2026-11-01':{'creation_pending':True}}}))
         self.client.playlists=[{'id':'p.day','attributes':{'name':'ChatGPT Daily 5 · 2026-11-01'}}]
         self.client.ids={'1','2','3','4','5'}
-        self.run_sync();self.assertEqual(self.client.creates,0)
+        with patch.object(self.client,'request') as request:
+            with self.assertRaisesRegex(RuntimeError,'lacks original song IDs'):self.run_sync()
+            request.assert_not_called()
+        self.assertEqual(self.client.creates,0)
     def test_duplicate_names_stop_without_writes(self):
         self.client.playlists=[{'id':str(i),'attributes':{'name':'ChatGPT Daily 5 · 2026-11-01'}} for i in range(2)]
         with self.assertRaisesRegex(RuntimeError,'duplicate'):self.run_sync()

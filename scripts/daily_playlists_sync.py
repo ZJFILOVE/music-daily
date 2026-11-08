@@ -99,9 +99,9 @@ def sync(args):
         else:
             actual_before = client.playlist_tracks(playlist['id'])
             if checkpoint.get('creation_pending') or checkpoint.get('pending_creation_song_ids'):
-                # Old checkpoints lacked the creation payload. Only full exact
-                # readback of this authorized selection can recover those too.
-                pending = checkpoint.get('pending_creation_song_ids', ids)
+                pending = checkpoint.get('pending_creation_song_ids')
+                if pending is None:
+                    raise RuntimeError('Legacy pending creation lacks original song IDs; manual review required')
                 if pending != ids:
                     raise RuntimeError('Pending creation selection differs; manual review required')
                 actual_before, _ = common.verify(client, playlist['id'], set(pending))
