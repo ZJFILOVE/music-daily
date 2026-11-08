@@ -12,7 +12,7 @@ class FakeClient:
     def __init__(self):
         self.playlists=[];self.ids=set();self.creates=0;self.fail=False
     def collection(self,p): return list(self.playlists)
-    def playlist_tracks(self,p): return [{'id':x,'type':'songs'} for x in self.ids]
+    def playlist_tracks(self,p): return [{'id':x,'type':'songs'} for x in sorted(self.ids)]
     def request(self,path,method='GET',body=None):
         if path.endswith('/playlists') and method=='POST':
             self.creates+=1
@@ -104,6 +104,39 @@ class DailySyncTests(unittest.TestCase):
         with patch.object(self.client,'collection',side_effect=RuntimeError('page two failed')),patch.object(self.client,'request') as request:
             with self.assertRaisesRegex(RuntimeError,'page two'):self.run_sync()
             request.assert_not_called()
+
+    def creation_visibility_lifecycle(self, timeout):
+        ids=['1','2','3','4','5']
+        visible=['1','2']
+        original=self.client.request
+        def request(path,method='GET',body=None):
+            result=original(path,method,body)
+            if timeout:raise TimeoutError('created but response lost')
+            return result
+        self.client.playlist_tracks=lambda p:[{'id':x,'type':'songs'} for x in visible]
+        authorization=dict(date='2026-11-01',song_ids=ids)
+        with patch('local_sync_gate.authorize_args',return_value=authorization),patch('local_sync_gate.recheck'),patch.object(daily.common.time,'sleep'),patch.object(self.client,'request',side_effect=request) as posts:
+            with self.assertRaises((TimeoutError,RuntimeError)):self.run_sync()
+            checkpoint=json.loads(self.args.state_file.read_text())['days']['2026-11-01']
+            self.assertTrue(checkpoint['creation_pending'])
+            self.assertEqual(checkpoint['pending_creation_song_ids'],ids)
+            self.assertEqual(posts.call_count,1)
+            with self.assertRaises(RuntimeError):self.run_sync()
+            self.assertEqual(posts.call_count,1)
+            self.assertTrue(json.loads(self.args.state_file.read_text())['days']['2026-11-01']['creation_pending'])
+            visible[:]=ids
+            self.run_sync()
+            self.assertEqual(posts.call_count,1)
+            checkpoint=json.loads(self.args.state_file.read_text())['days']['2026-11-01']
+            self.assertFalse(checkpoint['creation_pending'])
+            self.assertNotIn('pending_creation_song_ids',checkpoint)
+            self.run_sync();self.assertEqual(posts.call_count,1)
+
+    def test_created_playlist_partial_visibility_never_appends_on_retry(self):
+        self.creation_visibility_lifecycle(False)
+
+    def test_creation_timeout_partial_visibility_never_appends_on_retry(self):
+        self.creation_visibility_lifecycle(True)
 
     def test_dry_run_does_not_create(self):
         self.args.execute=False;self.run_sync();self.assertEqual(self.client.creates,0)

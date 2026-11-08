@@ -84,7 +84,7 @@ def sync(args):
         if playlist is None:
             if checkpoint.get('creation_pending') or checkpoint.get('playlist_id'):
                 raise RuntimeError(f'{date}: earlier creation is unresolved or playlist missing; refusing duplicate')
-            state['days'][date] = {'creation_pending': True}
+            state['days'][date] = {'creation_pending': True, 'pending_creation_song_ids': ids[:]}
             save(args.state_file, state)
             payload = {'attributes': {'name': name, 'description': note},
                        'relationships': {'tracks': {'data': [{'id': sid, 'type': 'songs'} for sid in ids]}}}
@@ -92,12 +92,21 @@ def sync(args):
             _, response = client.request('/v1/me/library/playlists', 'POST', payload)
             playlist = response['data'][0]
             playlists.append(playlist)
-            state['days'][date] = {'creation_pending': False, 'playlist_id': playlist['id']}
+            state['days'][date] = {'creation_pending': True, 'pending_creation_song_ids': ids[:], 'playlist_id': playlist['id']}
             save(args.state_file, state)
             if ids:
                 common.verify(client, playlist['id'], set(ids))
         else:
             actual_before = client.playlist_tracks(playlist['id'])
+            if checkpoint.get('creation_pending') or checkpoint.get('pending_creation_song_ids'):
+                # Old checkpoints lacked the creation payload. Only full exact
+                # readback of this authorized selection can recover those too.
+                pending = checkpoint.get('pending_creation_song_ids', ids)
+                if pending != ids:
+                    raise RuntimeError('Pending creation selection differs; manual review required')
+                actual_before, _ = common.verify(client, playlist['id'], set(pending))
+                if common.ordered_catalog_ids(actual_before) != pending:
+                    raise RuntimeError('Pending creation exact order/count is unconfirmed')
             if checkpoint.get('pending_append'):
                 actual_before, _ = common.verify(client, playlist['id'], set(checkpoint['pending_append']))
             if authorization:
