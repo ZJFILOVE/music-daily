@@ -15,21 +15,23 @@ Human-readable Chinese appreciation notes live separately in `ZJFILOVE/obsidian-
 
 ## Cloud playlist delivery
 
-Apple Music writes are **blocked** pending trusted cross-repository QA integration.
-Stage-1 manifest pushes no longer trigger playlist delivery. Manual dispatch runs
-validation and requires a complete authorized Vault checkout at the publication
-gate. Both sync scripts require snapshot-bound per-date QA before loading
-credentials or creating an API client. A valid gate scopes writes to that date.
-See [the publication gate contract](docs/publication-gate.md) for remaining work.
+The single-day entry is a manual workflow dispatch with an explicit `date`.
+Both writers validate the clean music checkout, complete local Git recording
+history, withdrawal evidence and exact five-song selection before loading Apple
+credentials. They recheck the pinned snapshot immediately before writes.
+Vault checkout, live CI queries and new write-intent records are not required.
+This branch must be reviewed and deployed before the updated entry is available.
 
-Historical behavior and playlist names:
+- `ChatGPT Daily 5` receives only missing tracks from the selected day; existing
+  tracks are not reordered or replaced.
+- `ChatGPT Daily 5 · YYYY-MM-DD` must match the exact five-song listening order.
+- Missing catalog tracks, extra/out-of-order daily tracks, ambiguous playlists,
+  and unresolved writes stop synchronization. November 6 is always rejected.
+- Existing private checkpoints, cache and locks are retained. Cache loss does not
+  provide an absolute exactly-once guarantee; uncertain operations require
+  readback or review, not blind replay.
 
-- `ChatGPT Daily 5` keeps the combined listening collection.
-- `ChatGPT Daily 5 · YYYY-MM-DD` keeps each day's five recommendations in listening order.
-- All historical manifests are included. Repeated runs reuse existing playlists.
-- Tracks unavailable in the China catalog are recorded in the dated playlist's
-  description and the `dated-playlists` run artifact; no substitute is chosen automatically.
-
-Existing repository secrets and private operation checkpoints are unchanged.
-Do not rerun older workflows to bypass the gate. Structural audit results and
-known-incident acknowledgments do not authorize a playlist write.
+This is local published-selection validation. It does not claim to inspect
+Vault-only PREPARED reservations or retired note aliases. Original unknown
+history/mappings remain recorded. No new Vault token or permissions are needed.
+See [local synchronization](docs/local-single-day-sync.md).

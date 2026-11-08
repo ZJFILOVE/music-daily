@@ -1,5 +1,9 @@
 # Recording history and publication gate
 
+The cross-repository gate below remains an optional audit interface. Playlist
+writers now use the [local single-day gate](local-single-day-sync.md); Vault
+inputs are no longer mandatory for the manual synchronization entry.
+
 The 2026-11-06 selection was already synchronized: the combined playlist added
 four recordings and the dated playlist read back five. Post-write uniqueness QA
 failed. `.audit/2026-11-06-recording-collision.json` records precisely the two

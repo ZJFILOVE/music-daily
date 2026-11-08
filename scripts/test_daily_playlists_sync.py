@@ -29,7 +29,7 @@ class DailySyncTests(unittest.TestCase):
         self.args=argparse.Namespace(repo=root/'repo',state_file=root/'private/state.json',report=root/'report.json',api_host='amp-api.music.apple.com',no_wrapper=True,execute=True)
         self.client=FakeClient()
         self.tracks=[{'title':str(i),'artist':'Artist','apple_music':{'song_id':str(i)}} for i in range(1,6)]
-        patch('publication_gate.require_publication_authorization', return_value=None).start()
+        patch('local_sync_gate.authorize_args', return_value=None).start()
         self.addCleanup(patch.stopall)
         patch.object(daily.common,'load_auth',return_value={}).start()
         patch.object(daily.common,'Client',return_value=self.client).start()
@@ -66,18 +66,44 @@ class DailySyncTests(unittest.TestCase):
         authorization = dict(date='2026-11-01', song_ids=['1','2','3','4','5'])
         self.client.playlists=[{'id':'p.day','attributes':{'name':'ChatGPT Daily 5 · 2026-11-01'}}]
         self.client.ids={'1','99'}
-        with patch('publication_gate.require_publication_authorization', return_value=authorization):
+        with patch('local_sync_gate.authorize_args', return_value=authorization):
             with self.assertRaisesRegex(RuntimeError, 'exact prefix'): self.run_sync()
         self.assertEqual(self.client.ids, {'1','99'})
 
     def test_authorized_creation_checks_scope_and_exact_order(self):
         authorization = dict(date='2026-11-01', song_ids=['1','2','3','4','5'])
         self.client.playlist_tracks=lambda p: [{'id':x, 'type':'songs'} for x in sorted(self.client.ids)]
-        with patch('publication_gate.require_publication_authorization', return_value=authorization), patch('publication_gate.recheck') as recheck:
+        with patch('local_sync_gate.authorize_args', return_value=authorization), patch('local_sync_gate.recheck') as recheck:
             self.run_sync()
         self.plan.assert_called_once_with(self.args.repo, self.client, '2026-11-01')
         self.assertTrue(recheck.called)
         self.assertEqual(json.loads(self.args.report.read_text())['playlists'][0]['verified_count'], 5)
+
+    def test_authorized_catalog_missing_song_blocks_all_writes(self):
+        self.plan.return_value=[('2026-11-01',self.tracks,['1','2','3','4'])]
+        with patch('local_sync_gate.authorize_args', return_value=dict(date='2026-11-01',song_ids=['1','2','3','4','5'])):
+            with self.assertRaisesRegex(RuntimeError,'unavailable'):self.run_sync()
+        self.assertEqual(self.client.creates,0)
+
+    def test_authorized_out_of_order_playlist_blocks_all_writes(self):
+        self.client.playlists=[{'id':'p.day','attributes':{'name':'ChatGPT Daily 5 · 2026-11-01'}}]
+        self.client.playlist_tracks=lambda p:[{'id':x,'type':'songs'} for x in ['2','1']]
+        with patch('local_sync_gate.authorize_args',return_value=dict(date='2026-11-01',song_ids=['1','2','3','4','5'])):
+            with self.assertRaisesRegex(RuntimeError,'exact prefix'):self.run_sync()
+        self.assertEqual(self.client.creates,0)
+
+    def test_pending_append_requires_readback_not_resend(self):
+        self.client.playlists=[{'id':'p.day','attributes':{'name':'ChatGPT Daily 5 · 2026-11-01'}}]
+        self.args.state_file.parent.mkdir(parents=True)
+        self.args.state_file.write_text(json.dumps({'days':{'2026-11-01':{'playlist_id':'p.day','pending_append':['4','5']}}}))
+        with patch.object(self.client,'request') as request,patch.object(daily.common,'verify',side_effect=RuntimeError('unconfirmed append')):
+            with self.assertRaisesRegex(RuntimeError,'unconfirmed'):self.run_sync()
+            request.assert_not_called()
+
+    def test_playlist_pagination_failure_never_writes(self):
+        with patch.object(self.client,'collection',side_effect=RuntimeError('page two failed')),patch.object(self.client,'request') as request:
+            with self.assertRaisesRegex(RuntimeError,'page two'):self.run_sync()
+            request.assert_not_called()
 
     def test_dry_run_does_not_create(self):
         self.args.execute=False;self.run_sync();self.assertEqual(self.client.creates,0)

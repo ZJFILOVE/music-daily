@@ -50,7 +50,7 @@ class SyncTests(unittest.TestCase):
         ]}))
         self.state = self.root / 'private/checkpoint.json'
         self.client = FakeClient('api.music.apple.com', {})
-        patch('publication_gate.require_publication_authorization', return_value=None).start()
+        patch('local_sync_gate.authorize_args', return_value=None).start()
         self.addCleanup(patch.stopall)
         patch.object(sync, 'Client', return_value=self.client).start()
         patch.object(sync.time, 'sleep').start()
@@ -124,7 +124,7 @@ class SyncTests(unittest.TestCase):
                              song_ids=['1', '2', '3', '4', '5'])
         extra = self.repo / 'recommendations/2026/10/2026-10-19.json'
         extra.write_text(json.dumps({'tracks': [{'position': 1, 'apple_music': {'song_id': '99', 'storefront': 'cn'}}]}))
-        with patch('publication_gate.require_publication_authorization', return_value=authorization), patch('publication_gate.recheck') as recheck:
+        with patch('local_sync_gate.authorize_args', return_value=authorization), patch('local_sync_gate.recheck') as recheck:
             self.run_sync('--execute')
         self.assertTrue(recheck.called)
         self.assertEqual(json.loads(self.state.read_text())['target_song_ids'], authorization['song_ids'])
@@ -133,7 +133,7 @@ class SyncTests(unittest.TestCase):
     def test_authorized_write_rejects_replacement(self):
         authorization = dict(date='2026-10-18', manifest_path='recommendations/2026/10/2026-10-18.json',
                              song_ids=['1', '2', '3', '4', '5'])
-        with patch('publication_gate.require_publication_authorization', return_value=authorization):
+        with patch('local_sync_gate.authorize_args', return_value=authorization):
             with self.assertRaisesRegex(RuntimeError, 'does not allow'):
                 self.run_sync('--execute', '--replace', '1=99')
         self.assertEqual(self.client.posts, [])

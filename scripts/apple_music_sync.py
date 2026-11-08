@@ -162,7 +162,7 @@ def verify(client, playlist_id, expected):
 
 
 def sync(args):
-    from publication_gate import authorize_args, recheck
+    from local_sync_gate import authorize_args, recheck
     authorization = authorize_args(args) if args.execute else None
     manifests = sorted((args.repo / 'recommendations').glob('*/*/*.json'), reverse=True)
     if authorization:
@@ -318,7 +318,7 @@ def main(argv=None):
     parser.add_argument('--playlist-id', default=os.environ.get('APPLE_MUSIC_PLAYLIST_ID'), help='Pin an existing library playlist')
     parser.add_argument('--replace', action='append', default=[], metavar='ORIGINAL=REPLACEMENT',
                         help='Use an explicitly chosen catalog edition for an unavailable song')
-    from publication_gate import add_arguments
+    from local_sync_gate import add_arguments
     add_arguments(parser)
     args = parser.parse_args(argv)
     STATE = args.state_file.expanduser().resolve()

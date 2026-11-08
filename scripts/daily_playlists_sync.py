@@ -52,7 +52,7 @@ def plans(repo, client, date=None):
     return [(date, tracks, [t['apple_music']['song_id'] for t in tracks if t['apple_music']['song_id'] in available]) for date, tracks in days]
 
 def sync(args):
-    from publication_gate import authorize_args, recheck
+    from local_sync_gate import authorize_args, recheck
     authorization = authorize_args(args) if args.execute else None
     auth = common.load_auth(args.no_wrapper)
     client = common.Client(args.api_host, auth)
@@ -98,6 +98,8 @@ def sync(args):
                 common.verify(client, playlist['id'], set(ids))
         else:
             actual_before = client.playlist_tracks(playlist['id'])
+            if checkpoint.get('pending_append'):
+                actual_before, _ = common.verify(client, playlist['id'], set(checkpoint['pending_append']))
             if authorization:
                 ordered = common.ordered_catalog_ids(actual_before)
                 if ordered != ids[:len(ordered)]:
@@ -105,6 +107,8 @@ def sync(args):
             existing = common.catalog_ids(actual_before)
             missing = [sid for sid in ids if sid not in existing]
             if missing:
+                state['days'][date] = {**checkpoint, 'playlist_id': playlist['id'], 'pending_append': missing}
+                save(args.state_file, state)
                 recheck(authorization)
                 client.request(f'/v1/me/library/playlists/{playlist["id"]}/tracks', 'POST',
                                {'data': [{'id': sid, 'type': 'songs'} for sid in missing]})
@@ -135,7 +139,7 @@ def main(argv=None):
     p.add_argument('--api-host', choices=sorted(common.ALLOWED_HOSTS), default='amp-api.music.apple.com')
     p.add_argument('--no-wrapper', action='store_true')
     p.add_argument('--execute', action='store_true')
-    from publication_gate import add_arguments
+    from local_sync_gate import add_arguments
     add_arguments(p)
     args = p.parse_args(argv)
     args.repo=args.repo.resolve();args.state_file=args.state_file.resolve();args.report=args.report.resolve()

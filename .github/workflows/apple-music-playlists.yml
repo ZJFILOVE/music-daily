@@ -1,20 +1,11 @@
 name: Update Apple Music playlists
 
-# Stage-1 pushes are not publication authorization. This workflow intentionally
-# requires a trusted full Vault checkout supplied by the future integration.
+# Explicit single-day entry; no cross-repository credentials or live CI dependency.
 on:
   workflow_dispatch:
     inputs:
       date:
-        description: 'Frozen publication date (YYYY-MM-DD)'
-        required: true
-        type: string
-      vault_head:
-        description: 'Expected authorized Vault checkout commit'
-        required: true
-        type: string
-      bundle_digest:
-        description: 'Original immutable PREPARED bundle SHA-256'
+        description: 'Single publication date (YYYY-MM-DD)'
         required: true
         type: string
 
@@ -27,12 +18,11 @@ concurrency:
 
 jobs:
   publication-preflight:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
       PUBLICATION_DATE: ${{ inputs.date }}
-      VAULT_HEAD: ${{ inputs.vault_head }}
-      BUNDLE_DIGEST: ${{ inputs.bundle_digest }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -46,14 +36,10 @@ jobs:
           python scripts/validate.py
           python scripts/check_consistency.py --base-ref "$(git rev-parse HEAD^)"
           python -m unittest discover -s scripts -p 'test_*.py' -v
-      - name: Require trusted cross-repository publication evidence
-        # No cross-repository credential exists in this workflow. The trusted
-        # authorized-vault checkout must be supplied by a separately reviewed
-        # integration. Missing checkout/QA/snapshot inputs fail here, before secrets.
+      - name: Validate explicit date and full music history
         run: >-
-          python scripts/publication_gate.py --repo .
-          --vault-root "$RUNNER_TEMP/authorized-vault" --date "$PUBLICATION_DATE"
-          --music-head "$GITHUB_SHA" --vault-head "$VAULT_HEAD" --bundle-digest "$BUNDLE_DIGEST"
+          python scripts/local_sync_gate.py --repo .
+          --date "$PUBLICATION_DATE" --music-head "$GITHUB_SHA"
       - name: Restore private operation checkpoints
         uses: actions/cache/restore@v4
         with:
@@ -67,8 +53,8 @@ jobs:
           APPLE_MUSIC_PLAYLIST_ID: p.YJXV7dEIeb3GzZX
           APPLE_MUSIC_API_HOST: amp-api.music.apple.com
         run: |
-          python scripts/apple_music_sync.py --no-wrapper --execute --repo . --state-file "$RUNNER_TEMP/apple-music-state/total.json" --vault-root "$RUNNER_TEMP/authorized-vault" --date "$PUBLICATION_DATE" --music-head "$GITHUB_SHA" --vault-head "$VAULT_HEAD" --bundle-digest "$BUNDLE_DIGEST"
-          python scripts/daily_playlists_sync.py --no-wrapper --execute --repo . --state-file "$RUNNER_TEMP/apple-music-state/days.json" --report "$RUNNER_TEMP/apple-music-report/dated-playlists.json" --vault-root "$RUNNER_TEMP/authorized-vault" --date "$PUBLICATION_DATE" --music-head "$GITHUB_SHA" --vault-head "$VAULT_HEAD" --bundle-digest "$BUNDLE_DIGEST"
+          python scripts/apple_music_sync.py --no-wrapper --execute --repo . --state-file "$RUNNER_TEMP/apple-music-state/total.json" --date "$PUBLICATION_DATE" --music-head "$GITHUB_SHA"
+          python scripts/daily_playlists_sync.py --no-wrapper --execute --repo . --state-file "$RUNNER_TEMP/apple-music-state/days.json" --report "$RUNNER_TEMP/apple-music-report/dated-playlists.json" --date "$PUBLICATION_DATE" --music-head "$GITHUB_SHA"
       - name: Preserve private checkpoints
         if: always()
         uses: actions/cache/save@v4

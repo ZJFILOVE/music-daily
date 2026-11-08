@@ -177,7 +177,7 @@ class HistoryTests(unittest.TestCase):
 
 
 class PublicationGateTests(unittest.TestCase):
-    def test_no_or_failed_or_forged_success_qa_never_touches_client(self):
+    def test_missing_explicit_date_cannot_be_authorized_by_qa_file(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             for status in (None, 'failed', 'passed'):
@@ -186,7 +186,7 @@ class PublicationGateTests(unittest.TestCase):
                 for module in (apple_music_sync, daily_playlists_sync):
                     args = argparse.Namespace(repo=root, execute=True)
                     with patch.object(apple_music_sync, 'load_auth') as auth, patch.object(apple_music_sync, 'Client') as client:
-                        with self.assertRaisesRegex(RuntimeError, 'publication blocked'):
+                        with self.assertRaisesRegex(ValueError, 'Explicit --date'):
                             module.sync(args)
                         auth.assert_not_called(); client.assert_not_called()
 
