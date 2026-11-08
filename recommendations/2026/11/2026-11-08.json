@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-08",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Dancing Girl",
+      "artist": "Terry Callier",
+      "album": "What Color Is Love",
+      "canonical_id": "Terry Callier::Dancing Girl",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1442945656",
+        "song_id": "1442945656",
+        "storefront": "cn"
+      },
+      "analysis_summary": "用这首长线展开的民谣灵魂乐开场，是为了先把注意力从「副歌什么时候到」移向段落如何生长。这里选择《What Color Is Love》的录音条目；Callier 的低沉声线与逐渐扩展的伴奏，适合听一首歌如何容纳叙述的亲密感和乐队的宽阔感。它与后面的简约电子人声形成尺度上的对照。\n\n可把原声吉他的拨弦当作近处的坐标，再追踪低音、鼓和弦乐把背景推远的过程。人声保留讲述的弹性，节奏组却会把某些段落带向更明确的律动；轻与重的交接比单纯的音量变化更值得留意。听弦乐时，不必逐音辨认，先区分它是在托住长句，还是在句间推动下一次进入。",
+      "listening_cue": "第一遍不快进，记下你第一次觉得歌曲由「一个人在说话」变成「一支乐队在行进」的位置。第二遍从该段之前重听，只跟低音和鼓，找出究竟哪个声部先改变了重心。"
+    },
+    {
+      "position": 2,
+      "title": "Baltimore",
+      "artist": "Nina Simone",
+      "album": "Baltimore",
+      "canonical_id": "Nina Simone::Baltimore",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/193001286",
+        "song_id": "193001286",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首把长篇幅收束成更鲜明的律动。这是 Nina Simone 对 Randy Newman 作品的演绎，选择同名专辑录音，而非现场版或后来的混音。雷鬼式节奏的轻摆与她声音中的冷峻形成张力：伴奏允许身体移动，唱法仍把城市叙事的重量留在前景。不要把这种轻摆直接理解成轻快的情绪。\n\n先注意低音的线条怎样与拍点错开，再听短促的和弦切分如何把拍间的空隙照亮。Nina 的中低声区并不急着追随伴奏起伏，略带颗粒感的发音和句尾收束让主唱拥有自己的时间。较柔和的背景音色与坚实低音同时存在，听起来既有流动感，也有难以被抹平的沉重。",
+      "listening_cue": "用手轻点稳定拍子，只听一句人声的起点和终点相对拍子的位置；再重听同一句下面的低音。比较「伴奏在摇摆」与「主唱在讲述」是否总在同一个重音上。"
+    },
+    {
+      "position": 3,
+      "title": "Mustt Mustt",
+      "artist": "Nusrat Fateh Ali Khan",
+      "album": "Mustt Mustt (Real World Gold)",
+      "canonical_id": "Nusrat Fateh Ali Khan::Mustt Mustt",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1653379095",
+        "song_id": "1653379095",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首让声音从叙述转向反复、装饰与呼应。选的是《Mustt Mustt (Real World Gold)》中无 Remix 标注的同名曲，不把它与 Massive Attack 混音、现场版或致敬演出互换。卡瓦利声乐与录音室节奏相遇，提供一条进入南亚苏菲音乐表达的路径；它也让今天的语言与声乐习惯跳出英语歌曲的范围。\n\n聆听时把较稳定的底层脉冲与主唱不断伸缩的乐句分开。Nusrat 的声音能够从短促咬字突然向高处打开，装饰音不只是加在旋律末端的花边，还会改变一句话积累能量的方式。反复段落中的领唱与回应，可以作为辨认结构的线索；不懂文本时，也能沿着音高、气息和句长的变化找到方向。",
+      "listening_cue": "挑一段反复出现的主唱动机，连续比较三次：哪一次尾音更长，哪一次多了转折，哪一次更贴近节奏。保持相同音量，观察强度变化是否来自唱法，而非伴奏变响。"
+    },
+    {
+      "position": 4,
+      "title": "Doomed",
+      "artist": "Moses Sumney",
+      "album": "Doomed - Single",
+      "canonical_id": "Moses Sumney::Doomed",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1250618327",
+        "song_id": "1250618327",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这里刻意选用国区《Doomed - Single》条目，不用其他专辑或发行版本的 ID 替换。接在浓烈的人声之后，它把空间突然放大：稀疏的电子底色、高处的人声和迟缓展开的和声，让「没有被填满的部分」成为音乐的重要材料。2017 年的作品也为今天偏早期的录音年代带来一个当代对照。\n\n持续的合成器音色提供缓慢变化的地面，人声则在其上拉出脆弱而清楚的曲线。可以把注意力放在假声的边缘、换气与尾音消散上，而不是等待鼓点把段落切开。声部数量少，前后距离却并不简单：当和声或人声层次稍有变化，空间的深度就会改变。留白让细小差异得到更大的重量。",
+      "listening_cue": "先只跟人声每句结束后的余韵，判断下一句是在余韵尚存时进入，还是等空间空下来。第二遍再听底层和声，找出一次你第一遍没有注意到的变化；不必给它标注准确秒数。"
+    },
+    {
+      "position": 5,
+      "title": "O Superman (For Massenet)",
+      "artist": "Laurie Anderson",
+      "album": "Talk Normal: The Laurie Anderson Anthology (Remastered)",
+      "canonical_id": "Laurie Anderson::O Superman (For Massenet)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/40455526",
+        "song_id": "40455526",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 放在最后：选择这张回顾合辑中明确标注的重制条目，保留作品副标题，不将它写成现场版或舞曲重混。它把循环人声、电子处理与介于说话和歌唱之间的表达放在同一个空间，适合暂时放下主歌／副歌的期待，观察一段声音如何从亲近变得陌生。\n\n重复的人声脉冲既像节拍器，也像持续运转的装置；经过电子处理的声音让语气与音色之间出现距离。与前一首依靠气息和空白展开的唱法相比，这里更值得听的是机械重复怎样改变我们对一句话的感受。后续声部进入时，先留意背景的厚度和音域变化，再判断重复本身是否真的发生了变化。",
+      "listening_cue": "开头先只跟循环脉冲，等说话般的声音出现后，把注意力转到它与循环的关系。每当你觉得气氛改变，问自己：是循环变了、音色变了，还是同样的重复因为等待更久而变得不同？"
+    }
+  ]
+}
