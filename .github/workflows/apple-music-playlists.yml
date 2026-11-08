@@ -19,16 +19,16 @@ concurrency:
 jobs:
   publication-preflight:
     if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
     env:
       PUBLICATION_DATE: ${{ inputs.date }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
           persist-credentials: false
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Validate full local history and regression tests
@@ -41,7 +41,7 @@ jobs:
           python scripts/local_sync_gate.py --repo .
           --date "$PUBLICATION_DATE" --music-head "$GITHUB_SHA"
       - name: Restore private operation checkpoints
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: ${{ runner.temp }}/apple-music-state
           key: apple-music-state-${{ github.run_id }}-${{ github.run_attempt }}
@@ -57,13 +57,13 @@ jobs:
           python scripts/daily_playlists_sync.py --no-wrapper --execute --repo . --state-file "$RUNNER_TEMP/apple-music-state/days.json" --report "$RUNNER_TEMP/apple-music-report/dated-playlists.json" --date "$PUBLICATION_DATE" --music-head "$GITHUB_SHA"
       - name: Preserve private checkpoints
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: ${{ runner.temp }}/apple-music-state
           key: apple-music-state-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Save verified dated playlist index
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: dated-playlists
           path: ${{ runner.temp }}/apple-music-report/dated-playlists.json
