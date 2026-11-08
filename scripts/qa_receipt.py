@@ -1,6 +1,7 @@
 """Read existing QA formats without rewriting receipts or relabelling old CI."""
 import hashlib
-from urllib.parse import urlsplit
+import re
+from urllib.parse import urlsplit, unquote
 from check_consistency import preserve_state
 from check_consistency import git, loads, require
 from recording_history import blob_sha
@@ -117,7 +118,7 @@ def normalize_gates(qa, bundle, music, vault, live_verified):
         require(observation['song_id'] == sid and observation['storefront'] == 'cn'
                 and observation['requested_url'] == t['apple_music']['url'] == url
                 and observed.scheme == 'https' and observed.netloc == 'music.apple.com'
-                and observed.path.startswith('/cn/song/') and observed.path.split('/')[-1] == sid
+                and re.fullmatch(r'/cn/song/(?:[^/]+/)?' + re.escape(sid), unquote(observed.path))
                 and not observed.query and not observed.fragment
                 and all(observation[k] == t[k] for k in ('title', 'artist', 'album'))
                 and observation['verified_at_utc'] == ev['verification_utc']
@@ -127,6 +128,21 @@ def normalize_gates(qa, bundle, music, vault, live_verified):
         selected.append(dict(id=sid, storefront='cn', url=url, title=t['title'], artist=t['artist'],
                              album=t['album'], verification=observation['observations'], scope=observation['scope']))
     checks = qa['qa']; fresh = qa['freshness']; pub = qa['publication']
+    source_checks = source['checks']
+    require(all(source_checks[k] == 'passed' for k in (
+                'current_state_canonical_exclusion', 'normalized_artist_title_both_orientations',
+                'current_manifest_numeric_id_exclusion', 'parent_reported_retired_numeric_exclusions',
+                'full_ancestry_engineer_gate'))
+            and all(source_checks[k] is True for k in (
+                'preserve_prior_state_values', 'manifest_mirrors_byte_identical', 'state_mirrors_byte_identical',
+                'exact_five_order_unique_ids', 'all_five_cn_song_metadata_verified',
+                'note_required_sections_and_auto_markers')), 'Source checks explicitly failed or incomplete')
+    require(checks['local_checks'] == {
+                'integrity': 'passed_local_integrity',
+                'immutable_bundles': 'passed_immutable_publication_bundles',
+                'permanent_music_identity': 'complete_available_git_history'}, 'Local QA checks failed or incomplete')
+    require(source_checks['original_state_count'] == fresh['state_original_count']
+            and source_checks['target_state_count'] == fresh['state_target_count'], 'Source state counts differ')
     require(checks['status'] == 'passed_current_publication_qa'
             and checks['cross_repository_mirror_status'] == 'passed_current_music_mirrors'
             and all(checks[k] is True for k in ('manifest_byte_equal', 'state_byte_equal', 'cn_ids_order_exact_five'))

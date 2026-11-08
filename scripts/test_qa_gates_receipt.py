@@ -54,6 +54,13 @@ class GatesReceiptTests(unittest.TestCase):
         source = dict(schema_version=1, project='music', date=self.day, operation_id='music:'+self.day,
                       status='prepared_content_inputs_not_publication_receipt', candidate_pool_count=5,
                       candidate_pool=pool, source_checks=observations)
+        source['checks'] = {k:'passed' for k in ('current_state_canonical_exclusion',
+            'normalized_artist_title_both_orientations','current_manifest_numeric_id_exclusion',
+            'parent_reported_retired_numeric_exclusions','full_ancestry_engineer_gate')}
+        source['checks'].update({k:True for k in ('preserve_prior_state_values','manifest_mirrors_byte_identical',
+            'state_mirrors_byte_identical','exact_five_order_unique_ids','all_five_cn_song_metadata_verified',
+            'note_required_sections_and_auto_markers')})
+        source['checks'].update(original_state_count=0,target_state_count=5)
         sr = json.dumps(source).encode()
         self.files[('vault', self.creation, self.sp)] = self.files[('vault', 'HEAD', self.sp)] = sr
         ev = dict(path=self.sp, blob_sha=blob_sha(sr), sha256=hashlib.sha256(sr).hexdigest(), candidate_pool_count=5,
@@ -78,6 +85,8 @@ class GatesReceiptTests(unittest.TestCase):
                        qa=dict(status='passed_current_publication_qa',cross_repository_mirror_status='passed_current_music_mirrors',
                                manifest_byte_equal=True,state_byte_equal=True,cn_ids_order_exact_five=True,
                                detailed_chinese_sections_and_auto_markers='passed',editorial_basis='Original editorial work',manifest_dates_compared=1))
+        self.qa['qa']['local_checks'] = dict(integrity='passed_local_integrity',
+            immutable_bundles='passed_immutable_publication_bundles',permanent_music_identity='complete_available_git_history')
         self.mm = {self.day+'.json': targets[0]['target_sha']}
 
     def git(self, root, *args):
@@ -233,3 +242,33 @@ class GatesReceiptTests(unittest.TestCase):
             rr=json.dumps(receipt).encode();self.files[('vault','HEAD',path)]=rr;ref['blob_sha']=blob_sha(rr)
         with self.assertRaisesRegex(ValueError,'state|State|old-key|preserv|disappear'):
             self.run_normalize()
+
+
+    def test_each_local_check_failure_or_absence_rejected(self):
+        keys=list(self.qa['qa']['local_checks'])
+        for key in keys:
+            for missing in (False,True):
+                self.setUp()
+                if missing:del self.qa['qa']['local_checks'][key]
+                else:self.qa['qa']['local_checks'][key]='failed'
+                with self.assertRaises(ValueError):self.run_normalize()
+
+    def test_each_source_check_failure_or_absence_rejected_after_rehash(self):
+        keys=list(json.loads(self.files[('vault',self.creation,self.sp)])['checks'])
+        for key in keys:
+            for missing in (False,True):
+                with self.subTest(key=key,missing=missing):
+                    self.setUp()
+                    def change(source):
+                        if missing:del source['checks'][key]
+                        else:source['checks'][key]='failed'
+                    self.rewrite_source(change)
+                    with self.assertRaises((ValueError,KeyError)):self.run_normalize()
+
+    def test_observed_url_multiple_slug_layers_rejected_after_rehash(self):
+        for url in ['https://music.apple.com/cn/song/one/two/1',
+                    'https://music.apple.com/cn/song/one%2Ftwo/1',
+                    'https://music.apple.com/cn/song//1']:
+            self.setUp()
+            self.rewrite_source(lambda s:s['source_checks'][0].update(observed_url=url))
+            with self.assertRaises(ValueError):self.run_normalize()
