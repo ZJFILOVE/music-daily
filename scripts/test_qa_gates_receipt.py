@@ -150,3 +150,86 @@ class GatesReceiptTests(unittest.TestCase):
         with self.assertRaises(ValueError):self.run_normalize()
         self.setUp();self.files[('music',self.parent,'state/tracks.json')]=json.dumps({'recommended':{'old':1}}).encode()
         with self.assertRaises(ValueError):self.run_normalize()
+
+    def rewrite_source(self, change):
+        source = json.loads(self.files[('vault',self.creation,self.sp)])
+        change(source)
+        raw = json.dumps(source).encode()
+        self.files[('vault',self.creation,self.sp)] = self.files[('vault','HEAD',self.sp)] = raw
+        ev = self.qa['source_evidence']
+        ev['source_checks'] = copy.deepcopy(source['source_checks'])
+        ev['blob_sha'] = blob_sha(raw);ev['sha256'] = hashlib.sha256(raw).hexdigest()
+
+    def test_source_cross_date_and_traversal_paths_rejected(self):
+        for path in ['.recommendation/transaction-runs/music/2030-01-03/source-fixture.json',
+                     '.recommendation/transaction-runs/music/2030-01-02/source-../other.json']:
+            with self.subTest(path=path):
+                self.qa['source_evidence']['path'] = path
+                with self.assertRaises(ValueError):self.run_normalize()
+
+    def test_rehashed_source_url_region_id_host_query_fragment_rejected(self):
+        for field,url in [('observed_url','https://music.apple.com/us/song/1'),
+                          ('observed_url','https://music.apple.com/cn/song/99'),
+                          ('observed_url','https://example.invalid/cn/song/1'),
+                          ('observed_url','https://music.apple.com/cn/song/1?extra=1'),
+                          ('observed_url','https://music.apple.com/cn/song/1#fragment'),
+                          ('requested_url','https://music.apple.com/us/song/1')]:
+            with self.subTest(field=field,url=url):
+                self.setUp()
+                self.rewrite_source(lambda s:s['source_checks'][0].update({field:url}))
+                with self.assertRaises(ValueError):self.run_normalize()
+
+    def test_legitimate_observed_song_slug_is_accepted(self):
+        self.rewrite_source(lambda s:s['source_checks'][0].update(observed_url='https://music.apple.com/cn/song/song-one/1'))
+        self.assertEqual(self.run_normalize()['source_and_candidates']['selected'][0]['id'],'1')
+
+    def test_rehashed_source_version_and_order_changes_rejected(self):
+        for change in [lambda s:s['source_checks'][0].update(album='Different remaster'),
+                       lambda s:s['source_checks'].reverse(),
+                       lambda s:s['candidate_pool'].reverse(),
+                       lambda s:s['candidate_pool'][0].update(decision='not_selected_balance')]:
+            self.setUp();self.rewrite_source(change)
+            with self.assertRaises(ValueError):self.run_normalize()
+
+    def test_verified_unselected_candidate_not_treated_as_selected(self):
+        def change(s):
+            s['candidate_pool'].append(dict(song_id='99',title='Other',artist='Other',
+                decision='not_selected_balance',cn_metadata_verified=True,cn_url_tested='https://music.apple.com/cn/song/99'))
+            s['candidate_pool_count']=6
+        self.rewrite_source(change)
+        self.qa['source_evidence']['candidate_pool_count']=6
+        self.qa['source_evidence']['decision_counts']['not_selected_balance']=1
+        self.assertEqual(len(self.run_normalize()['source_and_candidates']['selected']),5)
+        self.qa['source_evidence']['decision_counts']['not_selected_balance']=2
+        with self.assertRaises(ValueError):self.run_normalize()
+
+    def test_rehashed_stage_receipt_wrong_operation_stage_or_parent_rejected(self):
+        for key,value in [('operation_id','music:2030-01-03'),('stage',2),('parent','f'*40),
+                          ('commit','f'*40),('prepared_blob_sha','f'*40),('plan_sha256','f'*64)]:
+            with self.subTest(key=key):
+                self.setUp();ref=self.qa['publication']['receipts'][0];path=ref['path']
+                receipt=json.loads(self.files[('vault','HEAD',path)]);receipt[key]=value
+                raw=json.dumps(receipt).encode();self.files[('vault','HEAD',path)]=raw;ref['blob_sha']=blob_sha(raw)
+                with self.assertRaises(ValueError):self.run_normalize()
+
+    def test_missing_readback_rejected(self):
+        del self.qa['publication']['readbacks'][next(iter(self.qa['publication']['readbacks']))]
+        with self.assertRaises(KeyError):self.run_normalize()
+
+    def test_matching_baseline_hash_does_not_allow_old_state_value_loss(self):
+        raw=json.dumps({'recommended':{'old-key':'original-value'}}).encode()
+        self.files[('music',self.parent,'state/tracks.json')]=raw
+        self.baselines[('music','state/tracks.json')]=blob_sha(raw)
+        self.bundle['plan']['targets'][1]['base_sha']=blob_sha(raw)
+        self.bundle['plan_sha256']=digest(self.bundle['plan'])
+        body={k:v for k,v in self.bundle.items() if k!='bundle_sha256'}
+        self.bundle['bundle_sha256']=digest(body)
+        frozen=json.dumps(self.bundle).encode()
+        self.files[('vault',self.creation,self.bp)]=self.files[('vault','HEAD',self.bp)]=frozen
+        self.qa['bundle'].update(blob_sha=blob_sha(frozen),bundle_sha256=self.bundle['bundle_sha256'],plan_sha256=self.bundle['plan_sha256'])
+        for ref in self.qa['publication']['receipts']:
+            path=ref['path'];receipt=json.loads(self.files[('vault','HEAD',path)])
+            receipt.update(prepared_blob_sha=blob_sha(frozen),bundle_sha256=self.bundle['bundle_sha256'],plan_sha256=self.bundle['plan_sha256'])
+            rr=json.dumps(receipt).encode();self.files[('vault','HEAD',path)]=rr;ref['blob_sha']=blob_sha(rr)
+        with self.assertRaisesRegex(ValueError,'state|State|old-key|preserv|disappear'):
+            self.run_normalize()
