@@ -115,10 +115,15 @@ def normalize_gates(qa, bundle, music, vault, live_verified):
     for t, observation, candidate in zip(tracks, ev['source_checks'], candidates):
         sid = t['apple_music']['song_id']; url = 'https://music.apple.com/cn/song/' + sid
         observed = urlsplit(observation['observed_url'])
+        decoded_path = unquote(observed.path)
+        require(not re.search(r'%2f|%5c', observed.path, re.IGNORECASE)
+                and chr(92) not in decoded_path
+                and not any(segment in ('.', '..') for segment in decoded_path.split('/')),
+                'Ambiguous source resource path')
         require(observation['song_id'] == sid and observation['storefront'] == 'cn'
                 and observation['requested_url'] == t['apple_music']['url'] == url
                 and observed.scheme == 'https' and observed.netloc == 'music.apple.com'
-                and re.fullmatch(r'/cn/song/(?:[^/]+/)?' + re.escape(sid), unquote(observed.path))
+                and re.fullmatch(r'/cn/song/(?:[^/]+/)?' + re.escape(sid), decoded_path)
                 and not observed.query and not observed.fragment
                 and all(observation[k] == t[k] for k in ('title', 'artist', 'album'))
                 and observation['verified_at_utc'] == ev['verification_utc']

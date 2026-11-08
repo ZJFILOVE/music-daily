@@ -272,3 +272,15 @@ class GatesReceiptTests(unittest.TestCase):
             self.setUp()
             self.rewrite_source(lambda s:s['source_checks'][0].update(observed_url=url))
             with self.assertRaises(ValueError):self.run_normalize()
+
+
+    def test_dot_segments_and_encoded_separators_rejected_after_rehash(self):
+        for path in ['/cn/song/../1', '/cn/song/slug%2F1', '/cn/song/slug%2f1',
+                     '/cn/song/slug%5C1', '/cn/song/slug%5c1', '/cn/song/./1',
+                     '/cn/song/%2e%2e/1', '/cn/song/slug' + chr(92) + '/1']:
+            with self.subTest(path=path):
+                self.setUp()
+                self.rewrite_source(lambda source: source['source_checks'][0].update(
+                    observed_url='https://music.apple.com' + path))
+                with self.assertRaisesRegex(ValueError, 'Ambiguous source resource path'):
+                    self.run_normalize()
