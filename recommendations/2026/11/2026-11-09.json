@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-09",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Tadow (Extended Version)",
+      "artist": "Masego",
+      "album": "Lady Lady",
+      "canonical_id": "Masego::Tadow (Extended Version)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1794866432",
+        "song_id": "1794866432",
+        "storefront": "cn"
+      },
+      "analysis_summary": "用这首延长版开场，是想先把注意力放在律动的耐心上：一个短小动机怎样在反复中维持吸引力，而不是靠频繁换段制造刺激。这里严格选择国区《Lady Lady》所列的 Extended Version，页面主艺人为 Masego；它不是 DJ 混音条目，也不把常见合作署名自动加进本条目的元数据。爵士语汇与当代 R&B 的相遇，给今天后面的民谣和极简打击乐提供一条节奏线索。\n\n可以把低音与鼓的落点视作骨架，把萨克斯和人声看作轮流进入的线条。Tadow 的魅力在于重复并不意味着每个声部都做相同的事：有的保持循环，有的在空隙中回应，音符的长短和句尾停顿便有了分量。延长篇幅适合听这些细小调节，先不用急着判断哪一次出现算新段落。留意吹奏音色的圆润与打击声的清脆，怎样把同一拍点分成不同的触感。",
+      "listening_cue": "先选一段自己容易跟上的低音循环，连续跟四次，只标记人声或萨克斯在哪些空隙加入。第二遍不跟旋律，只听鼓与低音：同一个循环有没有因为另一个声部的停顿而显得更松或更紧？"
+    },
+    {
+      "position": 2,
+      "title": "隐隐",
+      "artist": "莫文蔚",
+      "album": "拉活…莫文蔚",
+      "canonical_id": "莫文蔚::隐隐",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/300118903",
+        "song_id": "300118903",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第二首回到中文歌的语气。这次选择《拉活…莫文蔚》的具体条目，不用同艺人的热门单曲替代，也不把专辑名称当作现场版本标记。它适合作为节奏较外向的开场之后的一次收束：把注意力从乐队的循环移到一句话如何被唱出来，观察亲近的表达怎样在不过度强调情绪的情况下留下余味。\n\n莫文蔚声音中的气息感、咬字轻重与滑向下一个音的方式，比单纯追踪旋律高低更值得听。可以先把主唱当作近景，伴奏当作景深，比较长句与短句之间背景是否仍保持同样的存在感。听到声部重叠时，不必立刻给每一种音色命名；先分清它是在延长人声的情绪，还是在句间提供一个回应。这样的听法也能避免只把歌当作歌词的载体。",
+      "listening_cue": "挑一句你觉得最像日常说话的唱句，注意字头、元音延长和句尾收音各占多少时间；随后重听其前后两句，比较她是否用同样的力度开始。把一个最轻的字与一个最重的字放在一起听。"
+    },
+    {
+      "position": 3,
+      "title": "Sister Rosetta Goes Before Us",
+      "artist": "Robert Plant & Alison Krauss",
+      "album": "Raising Sand",
+      "canonical_id": "Robert Plant & Alison Krauss::Sister Rosetta Goes Before Us",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1597018889",
+        "song_id": "1597018889",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第三首选择《Raising Sand》中的合作演绎。这是对 Sam Phillips 作品的诠释，不是 Sister Rosetta Tharpe 本人的录音；歌曲名称不能代替演唱者和版本说明。它把乡村、民谣与带些幽暗感的音色放在一起，适合听两位歌手如何压低各自熟悉的舞台姿态，在一首歌里建立共同的距离感。\n\n先注意主声与和声相遇时，声音是融成一层，还是仍能辨认出两条边缘。弦乐器的短促拨奏与拉弦的延续感可以作为两种时间尺度来听：前者让步伐清楚，后者把句子之间连起来。作品的摇曳不必靠强烈鼓点说明，乐句的起伏本身就能带出摆动。不要急着把微暗的音色理解成悲伤，先听它怎样让旋律保持悬念。",
+      "listening_cue": "第一遍只跟主唱；第二遍在同一段落专找较低或较远的人声线条。每当两条线靠近，听它们是否同时结束，再比较单独唱句与重叠唱句给你的空间感。"
+    },
+    {
+      "position": 4,
+      "title": "Deadly Valentine",
+      "artist": "Charlotte Gainsbourg",
+      "album": "Rest",
+      "canonical_id": "Charlotte Gainsbourg::Deadly Valentine",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1331594740",
+        "song_id": "1331594740",
+        "storefront": "cn"
+      },
+      "analysis_summary": "第四首把节奏重新推向前景。选择《Rest》中的完整歌曲条目，不与 Radio Edit、Soulwax Remix 或同名的其他艺人作品互换。轻声表达与持续向前的电子律动形成有意思的摩擦：人声不需要提高音量，也能在密集背景中保持辨识度。这首提供了本期较当代的电子流行一面。\n\n听持续脉冲如何和弦乐般的线条、合成器的延展声共同累积张力。人声的贴近感与背景的宽阔感并不总在同一个尺度上，它们之间的距离值得单独留意。重复的短句可能让人先感到稳定，再感到一种被拉住的紧张；判断变化时，除了音量，也注意音域、声部数量和余响长度。不要把每次厚度增加都当作新的旋律。",
+      "listening_cue": "挑一段重复明显的地方，先跟最稳定的拍点，再逐次把注意力移到最高和最低的声部。找一个你感到张力增加的位置，判断是低音更突出、背景更厚，还是人声与伴奏的距离改变了。"
+    },
+    {
+      "position": 5,
+      "title": "Clapping Music (Live)",
+      "artist": "科林・库里 & 史提夫・莱许",
+      "album": "Colin Currie & Steve Reich Live at Fondation Louis Vuitton (Live)",
+      "canonical_id": "科林・库里 & 史提夫・莱许::Clapping Music (Live)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1802036691",
+        "song_id": "1802036691",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后的 wildcard 只把双手留在舞台上。这是 Colin Currie 与 Steve Reich 的明确现场版本，作品本身写于 1972 年；页面的 2019 年发行日期不是创作日期。它适合用来重新理解前四首里的重复：没有熟悉的和声铺底、歌词叙述或乐器旋律，节奏关系仍然能够产生方向和惊喜。\n\n作品让两位演奏者拍出同一个节奏型，一方保持位置，另一方在重复之后逐步错开。这里的变化是按单位移动，而不是一味越拍越快；两个简单层次叠起来，会让耳朵听见新的重音组合。现场版中可以留意两个人手掌音色的细微差别，但不必把每声都精确分配给某位演奏者。先维持一个稳定参照，就更容易听到关系如何改变。",
+      "listening_cue": "开始时用脚轻点稳定脉冲，手不要跟着拍。等你觉得重音组合变了，尝试继续保持原来的脉冲；再听一次，专找从较复杂的交错回到较清楚的重合的时刻，不必第一次就数出全部位移。"
+    }
+  ]
+}
