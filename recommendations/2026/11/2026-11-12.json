@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-12",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Telephone and Rubber Band (2008 Remaster)",
+      "artist": "Penguin Cafe Orchestra",
+      "album": "Penguin Café Orchestra",
+      "canonical_id": "Penguin Cafe Orchestra::Telephone and Rubber Band (2008 Remaster)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/714892933",
+        "song_id": "714892933",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这首 2 分半的器乐小品把电话声音与橡皮筋拨奏摆在一起，适合做今天的意外发现。电话音原本是带着实用意义的信号，进了曲子却能充当反复出现的节拍参照。这里选《Penguin Café Orchestra》的 2008 Remaster 条目，时长 2:30。\n\n电话音有很固定的音色和轮廓，橡皮筋拨下去则是短促、带弹性的声音。先听这两种音头怎样挨在一起，再留意背景里较圆润的持续声。它们各占一块频段和时值，同一段重复几次以后，耳朵会逐渐把原本突兀的电话音当作节奏的一部分。",
+      "listening_cue": "先跟电话音找一个固定位置，再追橡皮筋音，听它在哪一拍偏离你刚刚建立的预期。最后把注意力移到持续声，比较它盖住了哪些空隙，又留下哪些。"
+    },
+    {
+      "position": 2,
+      "title": "还是会寂寞",
+      "artist": "陈绮贞",
+      "album": "还是会寂寞",
+      "canonical_id": "陈绮贞::还是会寂寞",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/152200648",
+        "song_id": "152200648",
+        "storefront": "cn"
+      },
+      "analysis_summary": "从日常物件的节拍转到陈绮贞的国语流行，变化一下就能听出来。选的是同名专辑的 4:32 条目。歌声轻，旋律句子却有很明确的重心，尤其适合和上一首那些短、硬、几乎没有拖尾的音头接着听。\n\n先把注意力放在主唱的起音，听她如何从轻声起步，让一个元音慢慢打开。伴奏有拨弦的清楚边缘，也有撑开乐句的和声。声部变满时仍能跟住每一句的尾巴，听起来亲密，很大程度上来自人声在整段编配里保持了可辨认的距离。",
+      "listening_cue": "挑主唱刚进入的一句，用手指轻点伴奏的拍子。重听后面旋律展开的一句，看看重音来自伴奏加厚，还是来自字音被拉长。"
+    },
+    {
+      "position": 3,
+      "title": "Different Trains: I. America - Before the War",
+      "artist": "克罗诺斯四重奏",
+      "album": "Steve Reich: Different Trains & Electric Counterpoint",
+      "canonical_id": "克罗诺斯四重奏::Different Trains: I. America - Before the War",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/155903340",
+        "song_id": "155903340",
+        "storefront": "cn"
+      },
+      "analysis_summary": "克罗诺斯四重奏把人说话时的音高与时值变成弦乐可以接住的短句。《Different Trains》第一乐章用的是战前美国铁路旅行的声音记忆。把它放在陈绮贞之后，耳朵会从听人如何唱一句话，转向听乐器如何把一句话变成旋律。\n\n这里有录下的人声和铁路声，还有弦乐紧凑的反复运动。说话样本出现时，听弦乐有没有接过其中的高低轮廓。较均匀的弓弦律动像一直向前的底层，语音里的停顿和拖长却有自己的尺度，两者叠在一起，段落就会被语气带着转向。",
+      "listening_cue": "任选一段短语，第一遍记住它最后几个音节的高低，第二遍只追紧挨着它的弦乐。再往后听，找一处你即使听不清词也能认出声调轮廓的地方。"
+    },
+    {
+      "position": 4,
+      "title": "Ai Du (with Ry Cooder) [with Ry Cooder]",
+      "artist": "Ali Farka Touré",
+      "album": "Talking Timbuktu (with Ry Cooder)",
+      "canonical_id": "Ali Farka Touré::Ai Du (with Ry Cooder) [with Ry Cooder]",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1528519981",
+        "song_id": "1528519981",
+        "storefront": "cn"
+      },
+      "analysis_summary": "《Ai Du》把注意力从说话样本挪到两把吉他怎样留出让人声进出的空间。采用《Talking Timbuktu (with Ry Cooder)》的 7:09 条目，页面标题中的两次合作标注按目录保留。值得留出整首的时间，短动机反复出现时，变化常常发生在旁边的声部。\n\n吉他线条有清楚的拨弦起点，也有拖过拍点的滑音感。可以把较稳定、反复返回的短句当参照，听另一个声部何时补上一笔。人声出现时继续跟住那条短句，你会更容易听到吉他和人声怎样轮流占据句尾附近的空间。",
+      "listening_cue": "先用脚点一个稳定的拍子，在人声进入之前记住吉他短句的收尾。人声开始后继续点拍，找一个只有人声收住、吉他还在延伸的瞬间。"
+    },
+    {
+      "position": 5,
+      "title": "Last Night",
+      "artist": "阿鲁杰・阿夫塔布",
+      "album": "Vulture Prince",
+      "canonical_id": "阿鲁杰・阿夫塔布::Last Night",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1598994868",
+        "song_id": "1598994868",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用 Arooj Aftab 的《Last Night》收尾，选择《Vulture Prince》的 5:58 条目。它把鲁米的诗放在带雷鬼律动的编配里。上一首靠吉他短句让时间向前走，这一首可以听低音与反拍如何托住一条慢得多的英语人声线。\n\n留意低音落点的重量，再听较轻的反拍如何把拍子内部撑开。人声的延音可以从一处反拍越过去，到下一处才收住。这样有两个速度可听：节奏组不断划分时间，主唱的一句却要用更长的跨度才说完。",
+      "listening_cue": "先跟低音听一小段，然后在同一段里只数反拍。第三遍把注意力转向主唱，找一个元音跨过两个伴奏落点的地方，听它在哪里才真正落下来。"
+    }
+  ]
+}
