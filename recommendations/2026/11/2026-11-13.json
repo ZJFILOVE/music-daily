@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-13",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Muerte",
+      "artist": "Natalia Lafourcade",
+      "album": "De Todas las Flores",
+      "canonical_id": "Natalia Lafourcade::Muerte",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1643009587",
+        "song_id": "1643009587",
+        "storefront": "cn"
+      },
+      "analysis_summary": "《Muerte》把死亡这个重量很大的题目放进一种近距离、呼吸可闻的演奏尺度里。Natalia Lafourcade 没有用宏大的推进逼迫情绪，而是让歌声、木质拨弦与缓慢展开的乐句彼此留白；因此它适合作为今天的入口：先把耳朵调到细节，再进入后面更稠密的节奏与音色。\n\n编配的关键是克制。吉他的拨弦边缘清楚，却不追求明亮的攻击性；低频和打击乐更像在托住呼吸。人声靠近麦克风，细小的起音、尾音和气息变化都成为叙事的一部分。整首并不急着制造高潮，而是用声部逐渐靠拢、再退开的方式，让沉静本身产生张力。",
+      "listening_cue": "第一遍只跟主唱句尾，听她何时把气息留在拍子之后；第二遍改听吉他与低频，找一处伴奏没有加速、情绪却明显变重的时刻。"
+    },
+    {
+      "position": 2,
+      "title": "Plastic 100°C",
+      "artist": "Sampha",
+      "album": "Process (Bonus Edition)",
+      "canonical_id": "Sampha::Plastic 100°C",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1607100336",
+        "song_id": "1607100336",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Sampha 在《Plastic 100°C》里把身体焦虑写成一套会升温、会收缩的声音空间。它和《Muerte》同样从脆弱感出发，但处理方式完全不同：这里的人声被电子纹理、键盘和断续节拍包围，音色不断改变距离，让私人独白听起来像在室内与脑海之间来回切换。\n\n开头的键盘与环境感声响保留大量空气，随后低频、细碎打击和叠层人声逐步进入。Sampha 的嗓音有颗粒感，强音并不被修磨得完全平整；这种边缘与合成器的光滑表面形成对照。编曲最值得听的是密度变化：同一个和声氛围不必大幅转调，只靠低频加深、人声分层和节奏显形，就能让压力不断升高。",
+      "listening_cue": "先记住开头键盘留下的空白；等节拍和低频出现后，比较空间被压缩了多少。再选一处叠层人声，分辨主声与背景声谁在前、谁像回声。"
+    },
+    {
+      "position": 3,
+      "title": "Tobiume (2025 Remaster)",
+      "artist": "Susumu Yokota",
+      "album": "Sakura (2025 Remaster)",
+      "canonical_id": "Susumu Yokota::Tobiume (2025 Remaster)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1833283533",
+        "song_id": "1833283533",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Susumu Yokota 的《Tobiume (2025 Remaster)》。它不靠主唱或明确副歌抓住注意力，而是把短小的采样、温软的循环和若隐若现的声响拼成一片会呼吸的环境。放在两首强烈的人声作品之后，耳朵可以暂时不追故事，改为观察声音如何出现、停留和消散。\n\n这版 2025 重制保留《Sakura》那种朦胧而有触感的电子声场。循环并非机械地占满网格，细节常在边缘闪现：短促的音粒、像远处乐器的残影，以及带有柔和拖尾的和声层。重制版的意义不在把一切推得更响，而在让层次和低电平细节更容易被听见；适合用较安静的音量，注意不同声响的景深。",
+      "listening_cue": "不要先找旋律主角。选一个最先吸引你的短音，连续跟三次循环，记录它每次出现时周围多了什么、少了什么；随后把注意力移到最远的一层拖尾。"
+    },
+    {
+      "position": 4,
+      "title": "O Leaozinho",
+      "artist": "Caetano Veloso",
+      "album": "Brazil Classics 1: Beleza Tropical",
+      "canonical_id": "Caetano Veloso::O Leaozinho",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/3735675",
+        "song_id": "3735675",
+        "storefront": "cn"
+      },
+      "analysis_summary": "《O Leaozinho》用很少的材料建立亲密感：Caetano Veloso 的声线、吉他的轻柔分解，以及巴西葡萄牙语自然的重音流动。它接在 Yokota 的环境电子之后，会让你听见另一种留白——不是把声音推远，而是让演唱与乐器靠得足够近，仍然不挤压彼此。这里采用 Apple Music 中国区《Brazil Classics 1: Beleza Tropical》条目。\n\n吉他的和弦转换平稳，拨弦音头清楚，低音弦给出温和的重心；主唱常用接近说话的力度进入，再把元音延展开。旋律并不依赖强烈鼓点来标示拍子，语言本身的轻重和吉他的摆动共同形成律动。听似简单的编配，真正考验的是每个声部不抢位置的分寸。",
+      "listening_cue": "先不用理解歌词，只听每句葡萄牙语的重音落在哪里；再跟吉他低音弦，比较语言重音与和弦根音何时重合、何时轻轻错开。"
+    },
+    {
+      "position": 5,
+      "title": "Trouble of the World",
+      "artist": "Mahalia Jackson",
+      "album": "Gospels, Spirituals, & Hymns",
+      "canonical_id": "Mahalia Jackson::Trouble of the World",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1032611724",
+        "song_id": "1032611724",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用 Mahalia Jackson 的《Trouble of the World》把今天收住。她的福音演唱不是把力量等同于持续的大音量，而是在每一句内部调节共鸣、辅音和延音，让祈祷感与舞台感同时存在。前一首的亲密声线在这里被放大成公共表达，五首的路径也从个人沉思走向集体性的安顿。\n\n伴奏提供和声支架，真正推动时间的是主唱对句子的塑形。她会在一个音上改变音量与音色，也会让某些辅音成为节奏动作；低音区厚实，高处则带有明亮而略粗粝的穿透力。不要只等最高或最响的音，转折往往发生在她收住一句、短暂停顿，再以不同重量重新进入的地方。",
+      "listening_cue": "第一遍跟每句的起点与停顿，感受她如何控制整段呼吸；第二遍选一个长音，听同一音高里音量、共鸣位置和粗糙度怎样变化。"
+    }
+  ]
+}
