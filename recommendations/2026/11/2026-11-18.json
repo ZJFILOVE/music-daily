@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-18",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "My Jinji",
+      "artist": "落日飞车",
+      "album": "JINJI KIKKO - Single",
+      "canonical_id": "落日飞车::My Jinji",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1753222327",
+        "song_id": "1753222327",
+        "storefront": "cn"
+      },
+      "analysis_summary": "落日飞车的《My Jinji》把 80 年代成人抒情合成器与当代独立摇滚的慵懒质感结合得恰到好处。开篇温暖的合成器铺底与略带混响的鼓点一响起，整首歌就像被镀上一层湿润的霓虹暖光。\n\n中后段萨克斯独奏的进入把情绪从克制推向抒情高点，电吉他与合成器并不急着抢拍，而是顺着缓慢的六八拍摇曳往前推，适合作为今天松弛的开场。",
+      "listening_cue": "留意萨克斯独奏出现前贝斯与合成器的铺垫，听管乐声部如何把原本偏平缓的律动一下子撑开。"
+    },
+    {
+      "position": 2,
+      "title": "红豆",
+      "artist": "方大同",
+      "album": "可啦思刻",
+      "canonical_id": "方大同::红豆",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/537029548",
+        "song_id": "537029548",
+        "storefront": "cn"
+      },
+      "analysis_summary": "方大同在翻唱专辑《可啦思刻》里处理的《红豆》，几乎把一首大众熟知的流行抒情歌重新“翻译”了一遍。他改写了律动骨架，加入经典的 Neo-Soul 电钢琴和弦与微小的拍点切分。\n\n最值得听的是他对人声装饰音与句尾转音的控制：既没有破坏原曲旋律的辨识度，又用极具律动感的咬字和假声转换，让副歌每一次进入都带着新的弹性。",
+      "listening_cue": "对比你记忆中王菲原版的直线抒情，听方大同在每句结尾如何通过微小的切分和转音改变律动重心。"
+    },
+    {
+      "position": 3,
+      "title": "好男好女反水库",
+      "artist": "交工乐队",
+      "album": "我等就来唱山歌",
+      "canonical_id": "交工乐队::好男好女反水库",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/681767612",
+        "song_id": "681767612",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是交工乐队（林生祥）的《好男好女反水库》。这首出自《我等就来唱山歌》的作品把客家传统月琴、唢呐、锣鼓与硬朗的摇滚贝斯、鼓组直接并置，形成极具土地重量的现场能量。\n\n林生祥的客语演唱与大合唱带着强烈的行动感，传统民乐器在这里不是点缀，而是与现代电声乐器平等对话的主角，让叙事既具体又充满张力。",
+      "listening_cue": "先听月琴清脆的颗粒感如何切开厚重的摇滚低频，再留意唢呐与人声齐唱出现时声场能量的瞬间集中。"
+    },
+    {
+      "position": 4,
+      "title": "Last Train Home",
+      "artist": "Pat Metheny",
+      "album": "One Quiet Night",
+      "canonical_id": "Pat Metheny::Last Train Home",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1861839233",
+        "song_id": "1861839233",
+        "storefront": "cn"
+      },
+      "analysis_summary": "在《One Quiet Night》里，Pat Metheny 放弃了标志性的电吉他合成器，只用一把定制的 Baritone（中音）木吉他进行独奏。《Last Train Home》原本是充满火车节奏感的乐队名曲，在这里被放慢成深夜独行者的内省。\n\n低沉而共鸣丰满的琴弦让分解和弦自带低音厚度，他在指板上轻柔滑音与泛音点缀，把原曲向前奔跑的列车感转化为绵长、安静的回忆流动。",
+      "listening_cue": "专听最低几根琴弦在空气中残留的共鸣长度，感受独奏木吉他如何在没有其他乐器的情况下填满整个声场。"
+    },
+    {
+      "position": 5,
+      "title": "山海",
+      "artist": "草东没有派对",
+      "album": "丑奴儿",
+      "canonical_id": "草东没有派对::山海",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1676736010",
+        "song_id": "1676736010",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用草东没有派对的《山海》完成今天的动态收束。全曲最鲜明的武器是极静与极噪之间的悬崖式落差：主歌仅以干净而略带闷响的吉他与克制人声推进，仿佛在压抑中反复确认方向。\n\n一旦进入副歌，失真吉他与爆发的鼓组瞬间倾泻而出，主唱近乎嘶哑的呐喊把积压的情绪全部摊开；随后又在尾声骤然收住，留下清晰的回响。",
+      "listening_cue": "注意主歌转入副歌前那一拍极短的静默，感受动态从最低点瞬间拉满到饱和的冲击力。"
+    }
+  ]
+}
