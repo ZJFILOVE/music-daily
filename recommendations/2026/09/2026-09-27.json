@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-09-27",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Spain",
+      "artist": "奇克・考瑞亚",
+      "album": "Light As a Feather",
+      "canonical_id": "奇克・考瑞亚::Spain",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1452804079",
+        "song_id": "1452804079",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Chick Corea 在《Light As a Feather》里的《Spain》是爵士融合乐最具代表性的节奏炫技与旋律平衡之作。Fender Rhodes 电钢琴与 Joe Farrell 的长笛在统一动机下高速穿行。\n\n前奏借用阿兰胡埃斯协奏曲的西班牙和声，随后突然切入极具弹性的桑巴律动，贝斯与打击乐咬合得丝丝入扣，让高密度即兴听起来依然轻盈。",
+      "listening_cue": "留意前奏自由散板结束、电钢琴切入快板那一瞬间的律动切换，以及长笛与电钢琴齐奏的精准度。"
+    },
+    {
+      "position": 2,
+      "title": "Feeling Good",
+      "artist": "Nina Simone",
+      "album": "Four Women: The Nina Simone Philips Recordings",
+      "canonical_id": "Nina Simone::Feeling Good",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1469585983",
+        "song_id": "1469585983",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Nina Simone 的《Feeling Good》从清唱起手，仅靠她极具控制力的嗓音定下舞台尺度，随后低沉的铜管齐奏轰然进入，把个人宣言推成戏剧性的场面。\n\n她的演唱从不靠单纯高音取胜，而是利用胸腔共鸣、微微拖拍的咬字与突然收轻的气声，在铜管与弦乐之间建立强烈的对比。",
+      "listening_cue": "先听前二十秒无伴奏人声如何建立空间，再感受铜管第一次齐奏进入时声场的瞬间扩张。"
+    },
+    {
+      "position": 3,
+      "title": "Space Song",
+      "artist": "Beach House",
+      "album": "Depression Cherry",
+      "canonical_id": "Beach House::Space Song",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1247704673",
+        "song_id": "1247704673",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Beach House 的《Space Song》。极慢的三拍子鼓机、厚实的合成器垫音与 Alex Scally 标志性的滑音吉他，把整首歌泡在柔和而略带失重的混响里。\n\nVictoria Legrand 低沉而朦胧的嗓音不急着推进叙事，而是让滑音吉他不断向上拉升的旋律线成为真正的情绪引擎。",
+      "listening_cue": "专注听主歌与副歌之间那条不断上滑的吉他/合成器旋律线，体会慢速律动下的失重感。"
+    },
+    {
+      "position": 4,
+      "title": "Sunday Morning",
+      "artist": "The Velvet Underground & Nico",
+      "album": "The Velvet Underground & Nico (45th Anniversary Edition)",
+      "canonical_id": "The Velvet Underground & Nico::Sunday Morning",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440851619",
+        "song_id": "1440851619",
+        "storefront": "cn"
+      },
+      "analysis_summary": "作为《The Velvet Underground & Nico》的开篇，《Sunday Morning》用钢片琴（Celesta）清脆如八音盒般的音色与 Nico 冷淡克制的声线，营造出宿醉清晨般的微光质感。\n\n中提琴与温和的贝斯在背景轻轻托底，没有任何激烈失真，却在极简单的和弦循环里留下一丝微妙的不安。",
+      "listening_cue": "留意钢片琴与中提琴在左右声道的轻微呼应，以及 Nico 平直咬字带来的疏离感。"
+    },
+    {
+      "position": 5,
+      "title": "晴天",
+      "artist": "周杰伦",
+      "album": "叶惠美",
+      "canonical_id": "周杰伦::晴天",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/535824738",
+        "song_id": "535824738",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用周杰伦的《晴天》把今天收回到华语流行记忆里。从经典的木吉他四小节前奏起手，干净的鼓组与略带怀旧的电吉他把校园叙事铺开。\n\n副歌弦乐与合声的加入让情绪自然抬升，尾奏重新回到木吉他分解与轻声吟唱，形成完整的首尾呼应。",
+      "listening_cue": "注意前奏木吉他拨弦的颗粒感，以及第二段副歌弦乐推进时人声咬字与鼓点的配合。"
+    }
+  ]
+}
