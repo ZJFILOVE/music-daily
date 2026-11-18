@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-16",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Martha",
+      "artist": "Tom Waits",
+      "album": "Closing Time (Remastered)",
+      "canonical_id": "Tom Waits::Martha",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1485071443",
+        "song_id": "1485071443",
+        "storefront": "cn"
+      },
+      "analysis_summary": "1973 年首专里的 Tom Waits 还没有完全转向后期的粗粝工业声响，《Martha》展示的是他青年时期极具旋律感的抒情面。钢琴独奏开篇缓慢铺陈，随后弦乐以极其克制的方式托住他略带烟嗓的叙述。\n\n这首歌动人之处在于时间感：旋律并不急于推进，每个长音都像在电话那头犹豫片刻后才说出口。钢琴与弦乐在副歌处的微小推升，刚好够把情感托起而不显煽情。",
+      "listening_cue": "注意钢琴在主歌里只用稀疏和弦留白，直到副歌弦乐进入时才把和声厚度撑开。"
+    },
+    {
+      "position": 2,
+      "title": "Simulation Swarm",
+      "artist": "Big Thief",
+      "album": "Dragon New Warm Mountain I Believe In You",
+      "canonical_id": "Big Thief::Simulation Swarm",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1591285796",
+        "song_id": "1591285796",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Big Thief 的《Simulation Swarm》是当代独立民谣摇滚里编配密度与有机感结合的典范。Adrianne Lenker 细碎而敏捷的指弹吉他与鼓手 James Krivchenia 充满切分的鼓点紧密咬合，让整首歌像一台不停呼吸的精密木质机器。\n\n贝斯在低处稳住和声转换，人声旋律看似轻盈跳跃，却在多处转折里埋入极强的抓耳钩子；中后段的电吉他独奏更把这种紧张感推向彻底释放。",
+      "listening_cue": "先锁定吉他反复出现的拨弦节奏型，再听鼓组如何在不打破稳定速度的前提下不断变换重音。"
+    },
+    {
+      "position": 3,
+      "title": "Svefn-G-Englar",
+      "artist": "Sigur Rós",
+      "album": "Beautiful Boy (Original Motion Picture Soundtrack)",
+      "canonical_id": "Sigur Rós::Svefn-G-Englar",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1438473912",
+        "song_id": "1438473912",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Sigur Rós 的《Svefn-G-Englar》。长达数分钟的缓慢铺垫以类似声纳的脉冲与延迟键盘声开场，Jónsi 用大提琴弓拉奏电吉他，制造出既像风声又像管风琴的绵长音墙。\n\n冰岛语人声在这里不再承担具体词义，而是作为一件极高音域的共鸣乐器融进声场。全曲几乎没有传统摇滚的爆发式段落转换，而是像潮水一样缓慢漫过听者的注意边界。",
+      "listening_cue": "不要等传统意义上的副歌；专注听声纳般的脉冲音如何贯穿全曲，成为整片音墙里唯一的距离刻度。"
+    },
+    {
+      "position": 4,
+      "title": "Blue in Green (Mono Version)",
+      "artist": "Miles Davis",
+      "album": "Kind of Blue",
+      "canonical_id": "Miles Davis::Blue in Green (Mono Version)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/754384983",
+        "song_id": "754384983",
+        "storefront": "cn"
+      },
+      "analysis_summary": "从 Sigur Rós 的宏大声场退出来，Miles Davis 的《Blue in Green (Mono Version)》把所有多余的混响与空间都收回到一个温暖的录音室里。Bill Evans 的钢琴与 Miles 戴上弱音器的小号彼此试探，几乎每一拍都在重新商量速度。\n\n单声道版本让五重奏各声部更集中地聚在正前方：弱音小号的金属质感、钢琴和弦的细微泛音与鼓刷轻扫声交织成一种极度专注的静态张力。",
+      "listening_cue": "感受前奏钢琴和弦结束后，小号进入那一瞬间的空气张力；再听 John Coltrane 次中音萨克斯接棒时音色的冷暖变化。"
+    },
+    {
+      "position": 5,
+      "title": "宝贝 (In the Night)",
+      "artist": "张悬",
+      "album": "My Life Will",
+      "canonical_id": "张悬::宝贝 (In the Night)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/300117911",
+        "song_id": "300117911",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用张悬《宝贝 (In the Night)》收住今天的情绪。这版收录于《My Life Will》的夜间版本去掉了明亮的日间感，只剩一把木吉他与靠近麦克风的轻声吟唱，像深夜房间里的一段低语。\n\n编配极其单纯，却正因为没有多余修饰，呼吸、换弦的摩擦与尾音的轻微摇曳都变得清晰可辨，让整天的聆听回到最安静的私人尺度。",
+      "listening_cue": "把注意力放在她每句收尾时的轻声气音，以及木吉他分解和弦在夜间节奏里的轻微摇摆。"
+    }
+  ]
+}
