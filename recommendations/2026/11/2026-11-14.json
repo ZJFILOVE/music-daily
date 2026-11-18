@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-14",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Blue",
+      "artist": "Joni Mitchell",
+      "album": "Blue",
+      "canonical_id": "Joni Mitchell::Blue",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1492263127",
+        "song_id": "1492263127",
+        "storefront": "cn"
+      },
+      "analysis_summary": "《Blue》没有用繁复伴奏遮掩情绪，而是让 Joni Mitchell 的钢琴和声与声音的高低起伏直接承担全部重量。作为今天的第一首，它像把听觉焦距拉近到琴凳旁，让后续更宽阔的管弦与电子声场都有了参照尺度。\n\n钢琴左手给出略带不安定的和声支撑，右手则像在对话间隙落下的标点。她的人声在胸声与轻盈头声之间切换，句尾常留出微小的颤动与换气声，使整首歌既私密又具备极高的旋律张力。",
+      "listening_cue": "第一遍跟着钢琴和声走，留意每段副歌进入前和弦如何突然悬空；第二遍专听她高音区收尾时的气息控制。"
+    },
+    {
+      "position": 2,
+      "title": "Holocene",
+      "artist": "Bon Iver",
+      "album": "Bon Iver, Bon Iver",
+      "canonical_id": "Bon Iver::Holocene",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/438685989",
+        "song_id": "438685989",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Bon Iver 的《Holocene》把个人记忆放进一个不断向外扩展的声学空间里。从最初孤立的木吉他分解开始，萨克斯、圆号、滑音吉他与轻柔鼓点逐步加入，却始终保持透明、不拥挤的空气感。\n\n这首作品的编曲高明之处在于“加法而不浑浊”：每种乐器都占据清晰的频段与声像位置，假声人声则像一层薄雾穿过其间。直到后半段，所有声部已经叠得很厚，却依然给人置身旷野的开阔听感。",
+      "listening_cue": "先记住前三十秒只有吉他和人声的干爽质感；等鼓点和管乐陆续进来后，分辨低频何时托起整个声场。"
+    },
+    {
+      "position": 3,
+      "title": "Movement 6",
+      "artist": "Floating Points, Pharoah Sanders & 伦敦交响乐团",
+      "album": "Promises",
+      "canonical_id": "Floating Points, Pharoah Sanders & 伦敦交响乐团::Movement 6",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1550124488",
+        "song_id": "1550124488",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Floating Points、Pharoah Sanders 与伦敦交响乐团合作的《Movement 6》。它不依赖传统爵士独奏或流行曲式，而是以一段贯穿全曲的羽管键琴/合成器七拍主题为轴，让弦乐群在周围缓慢涨落。\n\n在《Promises》整套组曲里，第六乐章是弦乐最丰沛也最具戏剧性的段落：大提琴与小提琴从低处推起波浪，Pharoah Sanders 的次中音萨克斯只用极少音符就刺穿弦乐幕布，电子脉冲在底层维持稳定的时间锚点。",
+      "listening_cue": "先把注意力锁定在重复出现的键盘短句上，把它当成坐标；再去听弦乐声部如何一次次逼近、包裹并退开。"
+    },
+    {
+      "position": 4,
+      "title": "Almost Blue",
+      "artist": "Chet Baker",
+      "album": "Chet Baker in Tokyo (The Complete Concert)",
+      "canonical_id": "Chet Baker::Almost Blue",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1468200423",
+        "song_id": "1468200423",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Chet Baker 1987 年东京现场版的《Almost Blue》有一种经历时间磨损后的克制美感。相比年轻时的清亮，他晚年的小号与歌声都带着轻微的沙哑与迟疑，但每个乐句的呼吸依然精准。\n\n钢琴、贝斯与鼓刷组成的四重奏给予极大留白，音色温暖而克制。Chet Baker 先以人声低吟，再以小号接管旋律，两者在句法与分句长度上几乎同源，仿佛同一副嗓音的两种乐器形态。",
+      "listening_cue": "对比他前半段人声演唱与后半段小号独奏的分句方式，注意小号弱奏时空气穿过号嘴的细微质感。"
+    },
+    {
+      "position": 5,
+      "title": "浮躁",
+      "artist": "王菲",
+      "album": "浮躁",
+      "canonical_id": "王菲::浮躁",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1443287506",
+        "song_id": "1443287506",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用王菲的《浮躁》把叙事包袱彻底卸下。在窦唯与张亚东极简的律动架构下，全曲几乎没有传统意义上的线性故事，而是以重复的“九月”“一切都好”与自由吟唱构成轻盈的听觉循环。\n\n干净的吉他扫弦、带点冷调的合成器音色与稳健的贝斯线把空间留得很足，王菲的人声像在空气中自由滑行，既不刻意煽情，也不被节奏框死，为今天的五首歌画上一个透气的句点。",
+      "listening_cue": "把歌词意义暂时放一边，去听主唱滑音与吉他切分之间如何互相咬合，感受副歌留白处的松弛感。"
+    }
+  ]
+}
