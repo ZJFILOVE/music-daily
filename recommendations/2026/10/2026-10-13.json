@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-10-13",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Mystery Of Love (Demo)",
+      "artist": "Sufjan Stevens",
+      "album": "Carrie & Lowell (10th Anniversary Edition)",
+      "canonical_id": "Sufjan Stevens::Mystery Of Love (Demo)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1794842581",
+        "song_id": "1794842581",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这版《Mystery Of Love (Demo)》剥离了电影原声版的曼陀林与弦乐润色，只留下 Sufjan Stevens 的木吉他指弹与轻声吟唱。正因如此，和弦进行本身的精巧与换把时的指板摩擦清晰可闻。\n\n作为开场，它像一页刚写下的手稿，把情绪控制在极轻的呼吸尺度里。",
+      "listening_cue": "留意木吉他分解和弦里不断重复的高音持续音，听它如何在几段主歌里保持不变。"
+    },
+    {
+      "position": 2,
+      "title": "Truth",
+      "artist": "Kamasi Washington",
+      "album": "Harmony of Difference - EP",
+      "canonical_id": "Kamasi Washington::Truth",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1263764683",
+        "song_id": "1263764683",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Kamasi Washington 的《Truth》来自 EP《Harmony of Difference》，也是整套作品的集大成之作：他把前面五个各自独立的短乐章主题，像复调对位一样同时编织进这首十三分钟的宏大乐曲里。\n\n萨克斯、长号、合唱团、钢琴与双鼓组层层推进，却始终条理分明，展现了当代爵士罕见的建筑感。",
+      "listening_cue": "耐心听前五分钟各主题依次登场，到后半段合唱团与铜管齐鸣时，分辨其中两条同时进行的旋律线。"
+    },
+    {
+      "position": 3,
+      "title": "Chamber Of Reflection",
+      "artist": "Mac DeMarco",
+      "album": "Salad Days",
+      "canonical_id": "Mac DeMarco::Chamber Of Reflection",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/6789834619",
+        "song_id": "6789834619",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Mac DeMarco 的《Chamber Of Reflection》。整首歌建立在一段带有轻微跑调与磁带颤音感的合成器旋律之上，贝斯线缓慢而有粘性。\n\n他的演唱懒散却不失旋律感，把 70 年代日本融合爵士的采样碎片转化成极简的卧室流行美学。",
+      "listening_cue": "用偏低音量聆听合成器音色里微妙的音高摇晃（vibrato），感受它如何制造怀旧的迷离感。"
+    },
+    {
+      "position": 4,
+      "title": "Hallelujah (Radio Edit)",
+      "artist": "Jeff Buckley",
+      "album": "90s 100 Hits",
+      "canonical_id": "Jeff Buckley::Hallelujah (Radio Edit)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/943232463",
+        "song_id": "943232463",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Jeff Buckley 翻唱的《Hallelujah》只用一把带混响的 Fender Telecaster 电吉他与他跨越数个八度的嗓音，就撑起了极高的戏剧强度。每一次扫弦的停顿与气息的抽吸都成为结构的一部分。\n\n虽然是电台剪辑版，依然完整保留了他从低吟到高音爆发的惊人控制力。",
+      "listening_cue": "听他在副歌“Hallelujah”长音上如何从几乎耳语的弱声逐步推向饱满共鸣。"
+    },
+    {
+      "position": 5,
+      "title": "山丘 (Live)",
+      "artist": "李宗盛",
+      "album": "李宗盛「既然青春留不住-还是做个大叔好」演唱会巡回影音纪录 LIVE",
+      "canonical_id": "李宗盛::山丘 (Live)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1173734834",
+        "song_id": "1173734834",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后以李宗盛台北小巨蛋现场版的《山丘》收官。相比录音室版，现场版多了几分岁月磨砺后的口语化顿挫，木吉他与大编制的弦乐、鼓组在后半段稳稳托住他近乎诉说的唱腔。\n\n全曲结构层层递进，不靠炫技高音，而是用叙事重音与现场呼吸把听众带入沉淀。",
+      "listening_cue": "注意他第一段主歌几乎像说话一样的节奏处理，以及后半段弦乐与合声齐入时的能量落差。"
+    }
+  ]
+}
