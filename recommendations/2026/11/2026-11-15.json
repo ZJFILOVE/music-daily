@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-15",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Chega De Saudade",
+      "artist": "João Gilberto",
+      "album": "João Voz e Violão",
+      "canonical_id": "João Gilberto::Chega De Saudade",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1473446891",
+        "song_id": "1473446891",
+        "storefront": "cn"
+      },
+      "analysis_summary": "João Gilberto 晚年《João Voz e Violão》里的《Chega De Saudade》只剩下一把尼龙弦吉他与他的嗓音，却把 Bossa Nova 的本质暴露得一清二楚：不是浪漫装饰，而是节奏与和声的极度精准。\n\n他的右手拇指稳稳勾勒低音进行，其余手指切出轻巧的切分和弦；人声几乎贴着对话音量，却能在微小的拍点前后自由游走。没有鼓组，但律动比许多全编制乐队更清晰。",
+      "listening_cue": "专心听吉他低音弦与主唱咬字之间的微小时间差，体会他如何把旋律放在拍子稍后一点的位置。"
+    },
+    {
+      "position": 2,
+      "title": "White Gloves",
+      "artist": "Khruangbin",
+      "album": "White Gloves - Single",
+      "canonical_id": "Khruangbin::White Gloves",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1101626516",
+        "song_id": "1101626516",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Khruangbin 的《White Gloves》像一部低饱和度的公路短片。Laura Lee 沉稳而有弹性的贝斯线构成了全曲真正的叙事主干，Mark Speer 的电吉他只用带弹簧混响的单音与双音在上方点缀。\n\n鼓组刻意压低高频刺激，底鼓与军鼓干净得像用刷子扫过。全曲在极克制的动态范围里前进，仅靠最后一段微弱的和声人声加入，就让情绪自然升起。",
+      "listening_cue": "第一遍只跟贝斯线条，看它如何在极少变化里制造前进感；第二遍听吉他混响在每句末尾拖出的空间。"
+    },
+    {
+      "position": 3,
+      "title": "Near Light",
+      "artist": "奥拉佛・阿纳尔德斯",
+      "album": "Living Room Songs",
+      "canonical_id": "奥拉佛・阿纳尔德斯::Near Light",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1451058775",
+        "song_id": "1451058775",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Ólafur Arnalds 的《Near Light》。出自《Living Room Songs》系列，这首作品在客厅近场麦克风下录制，因此你能听见琴键机械动作、弓弦摩擦甚至房间里的微弱空气感。\n\n钢琴先铺出温和的分解动机，随后极细的电子脉冲与弦乐四重奏依次进入，既保留室内乐的脆弱纹理，又借由电子节拍给出清晰的时间推进，在静态与流动之间取得平衡。",
+      "listening_cue": "用中等偏低音量聆听，先捕捉钢琴踏板与琴槌的近场细节，再注意电子脉冲何时与弦乐重叠。"
+    },
+    {
+      "position": 4,
+      "title": "On and On (Da Boom Squad Remix)",
+      "artist": "Erykah Badu",
+      "album": "Baduizm (Special Edition)",
+      "canonical_id": "Erykah Badu::On and On (Da Boom Squad Remix)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1452804115",
+        "song_id": "1452804115",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Erykah Badu 的《On and On (Da Boom Squad Remix)》把原版《Baduizm》的爵士灵魂乐骨架重塑成更具弹性与低频纵深的节奏版本。她的嗓音依然保持那种不紧不慢的慵懒感，却与更紧凑的节拍形成微妙对抗。\n\n混音版强化了底鼓与贝斯的咬合，同时保留键盘的暖色和声。Badu 的转音从不炫技式地拉满，而是在关键字眼上轻轻一拐，让整首歌在稳固的律动里始终保持呼吸感。",
+      "listening_cue": "留意主唱在每段副歌进入前的停顿，以及贝斯与底鼓在低频区如何交替让位。"
+    },
+    {
+      "position": 5,
+      "title": "Famous Blue Raincoat",
+      "artist": "Leonard Cohen",
+      "album": "The Best of Leonard Cohen",
+      "canonical_id": "Leonard Cohen::Famous Blue Raincoat",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/185857068",
+        "song_id": "185857068",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后由 Leonard Cohen 的《Famous Blue Raincoat》把节奏彻底放慢。这首以书信形式写就的作品用六八拍木吉他分解与女声和声构筑出寒冷而克制的夜间氛围。\n\nCohen 的嗓音接近低沉的口白，字句之间留有充足的停顿；中段插入的萨克斯与弦乐不喧宾夺主，更像信纸边缘的注脚。整首歌靠叙事细节与和声暗涌完成收束，适合作为全天的沉淀。",
+      "listening_cue": "第一遍跟着木吉他的三拍子摆动；第二遍注意副歌和声女声出现时，如何替主唱冷峻的声线补上温度。"
+    }
+  ]
+}
