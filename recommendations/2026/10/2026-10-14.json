@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-10-14",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Riverside (Piano Sessions)",
+      "artist": "Agnes Obel",
+      "album": "Philharmonics (Deluxe Edition)",
+      "canonical_id": "Agnes Obel::Riverside (Piano Sessions)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/431226523",
+        "song_id": "431226523",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Agnes Obel 的《Riverside (Piano Sessions)》版本去掉了多轨人声叠加，只保留她坐在钢琴前的直白演奏。古典钢琴训练背景让她的触键极有颗粒感，左手低音像河水一样匀速流动。\n\n人声冷静而清澈，与琴键共鸣融为一体，适合作为今天进入室内乐尺度的钥匙。",
+      "listening_cue": "专心听钢琴左手不断重复的三连音/八分音符流动，留意人声何时与琴键重音错开。"
+    },
+    {
+      "position": 2,
+      "title": "On the Nature of Daylight (Piano Version)",
+      "artist": "马克思・李希特",
+      "album": "Richter: On the Nature of Daylight (Piano Version) - Single",
+      "canonical_id": "马克思・李希特::On the Nature of Daylight (Piano Version)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1775432333",
+        "song_id": "1775432333",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Max Richter 著名的《On the Nature of Daylight》原本以五重奏弦乐的缓慢绵延著称，而这版纯钢琴独奏版本剥去了弓弦的持续延音，迫使每一个和弦在敲击后自然衰减。\n\n这种衰减反而凸显了和声进行内部的逻辑与克制，让原本浓烈的情绪变得更为透明。",
+      "listening_cue": "感受钢琴踏板延音逐渐消散的瞬间，听下一个和弦如何在余韵里接上。"
+    },
+    {
+      "position": 3,
+      "title": "Hoppípolla (2025 Remaster)",
+      "artist": "Sigur Rós",
+      "album": "Takk... (20th Anniversary Deluxe Edition)",
+      "canonical_id": "Sigur Rós::Hoppípolla (2025 Remaster)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1831780043",
+        "song_id": "1831780043",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Sigur Rós 的《Hoppípolla (2025 Remaster)》。从清脆的钢琴动机与木管点缀开始，这首作品逐步加入大编制弦乐、铜管齐奏与轰鸣的鼓组，像一场从微光走向盛大日出的声音游行。\n\n2025 重制版让低频鼓点与高频钟琴、弦乐的分离度更加清晰。",
+      "listening_cue": "从开头清脆的钢琴单音起步，数一数铜管与厚重鼓点在第几轮循环时正式爆发。"
+    },
+    {
+      "position": 4,
+      "title": "Motion Sickness (Demo - Bonus Track)",
+      "artist": "Phoebe Bridgers",
+      "album": "Stranger in the Alps (Deluxe Edition)",
+      "canonical_id": "Phoebe Bridgers::Motion Sickness (Demo - Bonus Track)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1436646805",
+        "song_id": "1436646805",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Phoebe Bridgers 的《Motion Sickness (Demo - Bonus Track)》展示了这首独立摇滚代表作诞生初期的模样：没有乐队版的失真吉他与紧凑鼓组，只有木吉他与她极具穿透力的叙事嗓音。\n\n速度稍缓、编配极简，反而让旋律本身的转折与歌词里的尖锐情绪更加突出。",
+      "listening_cue": "对比正式版的轻快节奏，听试听版里木吉他扫弦留下的空白与她声音里的细微颤动。"
+    },
+    {
+      "position": 5,
+      "title": "火车驶向云外,梦安魂于九霄",
+      "artist": "刺猬",
+      "album": "火车驶向云外,梦安魂于九霄 - Single",
+      "canonical_id": "刺猬::火车驶向云外,梦安魂于九霄",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1332948714",
+        "song_id": "1332948714",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用刺猬的《火车驶向云外,梦安魂于九霄》把整天的情绪推向一次彻底的释放。石璐极具辨识度的鼓点与子健粗粝的吉他、嗓音交织，在“一代人终将老去”的旋律里爆发出强烈的现场共鸣。\n\n极简的三件套摇滚编制在副歌处叠入大合唱，既直接又充满生命力。",
+      "listening_cue": "留意前奏吉他与鼓点建立的奔跑感，以及副歌齐唱响起时鼓组过门带来的推力。"
+    }
+  ]
+}
