@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-10-10",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Come Away With Me (First Sessions Demo)",
+      "artist": "Norah Jones",
+      "album": "Come Away With Me (Super Deluxe Edition)",
+      "canonical_id": "Norah Jones::Come Away With Me (First Sessions Demo)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1625060892",
+        "song_id": "1625060892",
+        "storefront": "cn"
+      },
+      "analysis_summary": "这版收录于超级豪华版的《Come Away With Me (First Sessions Demo)》保留了 Norah Jones 最早期的录音室试听质感：钢琴音色更近、略带房间反射，人声也少了后期打磨的圆润，多了一分即兴呼吸。\n\n极简的钢琴与轻柔的吉他、贝斯配合，把整首歌的脆弱与温暖放大到耳边。",
+      "listening_cue": "听她在主歌句尾留下的微小气音，感受早期试听版比正式版更靠近话筒的临场感。"
+    },
+    {
+      "position": 2,
+      "title": "Them Changes",
+      "artist": "Thundercat",
+      "album": "Drunk",
+      "canonical_id": "Thundercat::Them Changes",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1197789431",
+        "song_id": "1197789431",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Thundercat 的《Them Changes》以一段极富弹性的六弦贝斯 Riff 与采样自 Isley Brothers 的鼓点瞬间抓住注意力。他在极高密度的贝斯指弹之上，用轻盈的假声唱出带着幽默与失落的歌词。\n\nKamasi Washington 客串的萨克斯在后半段悄悄抬升温度，让这首现代放克兼具律动与爵士厚度。",
+      "listening_cue": "第一遍只跟贝斯的滑音与低音切分；第二遍听中后段键盘与萨克斯如何接管和声色彩。"
+    },
+    {
+      "position": 3,
+      "title": "Instant Crush (Drumless Edition) (feat. Julian Casablancas)",
+      "artist": "Daft Punk & Julian Casablancas",
+      "album": "Random Access Memories (Drumless Edition)",
+      "canonical_id": "Daft Punk & Julian Casablancas::Instant Crush (Drumless Edition) (feat. Julian Casablancas)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1708115306",
+        "song_id": "1708115306",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Daft Punk 与 Julian Casablancas 合作的《Instant Crush (Drumless Edition)》。拿掉标志性的电子鼓组后，原本被节拍推着走的合成器铺底、Vocoder 声码器与电吉他纹理全部浮出水面。\n\n你可以更清楚地听见 Julian Casablancas 经过失真处理的人声如何与合成器琶音交织。",
+      "listening_cue": "对比记忆里的原版，专注去听没有底鼓和军鼓之后，和声转换是如何独自推动段落前进的。"
+    },
+    {
+      "position": 4,
+      "title": "Let it Happen (Soulwax Remix)",
+      "artist": "Tame Impala",
+      "album": "Currents B-Sides & Remixes - EP",
+      "canonical_id": "Tame Impala::Let it Happen (Soulwax Remix)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440876460",
+        "song_id": "1440876460",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Soulwax 为 Tame Impala《Let it Happen》操刀的混音版把原曲长达七分钟的迷幻摇滚拆解重组为更紧凑、更具俱乐部驱动力的电子舞曲结构。\n\n保留了原曲标志性的合成器钩子与弦乐采样，但通过更锐利的合成器贝斯与逐层递进的鼓点，让重复段落产生催眠般的推进感。",
+      "listening_cue": "留意中段标志性的“卡带循环”段落如何在混音版里被重新加速，并重新引回主旋律。"
+    },
+    {
+      "position": 5,
+      "title": "爱, 很简单",
+      "artist": "陶喆",
+      "album": "陶喆同名专辑",
+      "canonical_id": "陶喆::爱, 很简单",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1416149931",
+        "song_id": "1416149931",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用陶喆首专里的《爱, 很简单》收尾。1997 年的这首作品把美式 R&B 的三拍子/慢板律动与华语抒情旋律结合得浑然一体：电钢琴、干净的吉他点缀与他极具辨识度的假声转音。\n\n编曲不靠复杂音墙，而是靠人声和声叠录与鼓点的轻微摇摆撑起整首歌的浪漫尺度。",
+      "listening_cue": "专听副歌最后几句的叠录和声与真假声转换，注意电钢琴在空白处填入的爵士和弦。"
+    }
+  ]
+}
