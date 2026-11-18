@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-17",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "窗外",
+      "artist": "窦唯",
+      "album": "滚石字典 国语部",
+      "canonical_id": "窦唯::窗外",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1071761060",
+        "song_id": "1071761060",
+        "storefront": "cn"
+      },
+      "analysis_summary": "窦唯的《窗外》把华语摇滚里少见的极简氛围与冷调电子节拍结合在一起。开篇干净的电钢琴与稳定却疏离的鼓机律动，瞬间拉出一层隔着玻璃看街景的观察视角。\n\n全曲很少做大幅情绪起伏，人声处理得克制而平直，吉他与合成器只在背景里缓慢游走。它证明了不需要高亢呐喊，仅凭音色冷暖与节拍留白也能建立极强的画面感。",
+      "listening_cue": "第一遍留意电钢琴与鼓机之间的冷峻距离；第二遍注意背景吉他何时悄悄加入、又何时退回氛围里。"
+    },
+    {
+      "position": 2,
+      "title": "Weird Fishes / Arpeggi",
+      "artist": "Radiohead",
+      "album": "In Rainbows",
+      "canonical_id": "Radiohead::Weird Fishes / Arpeggi",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1109715168",
+        "song_id": "1109715168",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Radiohead 的《Weird Fishes / Arpeggi》用最透明的材料建构出惊人的推进力：Phil Selway 几乎不停歇的紧凑鼓点作为引擎，两三把吉他以不同拍位的分解和弦相互交织，形成连绵不断的纹理。\n\n随着曲目推进，和声层、和声人声与低频逐渐叠加，但直到中段全员突然抽空、只剩吉他与 Thom Yorke 人声那一刻，你才意识到刚才积累了多少势能，随后在管弦般的音墙里再次上浮。",
+      "listening_cue": "先只跟最靠右声道的一把吉他分解，看它如何与鼓点错位；再留意中段全员停顿前的最后一轮和声堆叠。"
+    },
+    {
+      "position": 3,
+      "title": "ゆめうつつ",
+      "artist": "Lamp",
+      "album": "ランプ幻想",
+      "canonical_id": "Lamp::ゆめうつつ",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/297101322",
+        "song_id": "297101322",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是 Lamp 的《ゆめうつつ》。这支日本乐队擅长把 Bossa Nova、70 年代软摇滚与极其细腻的爵士转调揉进看似轻盈的流行曲式里，让听众在不知不觉中穿过好几次调性转换。\n\n铜管、弦乐与电钢琴的编排克制而考究，男女声线交替柔和得像水彩晕染。看似轻松的午后听感背后，其实藏着非常缜密的和声设计与声部对位。",
+      "listening_cue": "不要被柔和的人声迷惑，试着跟着贝斯线走，听它如何在几秒内平稳地把和声带向完全不同的色彩。"
+    },
+    {
+      "position": 4,
+      "title": "Exit Music (For a Film)",
+      "artist": "Brad Mehldau",
+      "album": "Songs: The Art of the Trio, Vol. 3",
+      "canonical_id": "Brad Mehldau::Exit Music (For a Film)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/358181847",
+        "song_id": "358181847",
+        "storefront": "cn"
+      },
+      "analysis_summary": "紧接在 Radiohead 之后，Brad Mehldau 三重奏翻奏的《Exit Music (For a Film)》展示了爵士乐手如何拆解一首现代摇滚经典。他没有简单套用原曲旋律，而是把原曲的悲剧和声扩展成一场逐渐升温的即兴架构。\n\n低音提琴与鼓刷从极静处起步，Mehldau 左手不断强化低音进行与复调对位，右手则把旋律碎片拉长、加速、再打碎，直到三重奏在后半段爆发出惊人的节奏密度。",
+      "listening_cue": "对比前两分钟极简的钢琴陈述与后半段三重奏全速推进时的动态跨度，留意左手低音线条如何主导情绪攀升。"
+    },
+    {
+      "position": 5,
+      "title": "Chan Chan (Monitor Mix)",
+      "artist": "Buena Vista Social Club",
+      "album": "Buena Vista Social Club (25th Anniversary Edition)",
+      "canonical_id": "Buena Vista Social Club::Chan Chan (Monitor Mix)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1675123664",
+        "song_id": "1675123664",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用 Buena Vista Social Club 的《Chan Chan (Monitor Mix)》把空气暖回来。这版 Monitor Mix 保留了更直接、未经过度修饰的录音室现场质感：木质 Tres 吉他、康加鼓与低音提琴在短短四个和弦的循环里生出无穷生机。\n\n两位老牌歌手的声线彼此应和，小号在间隙里明亮地闪现，整首歌没有复杂转调，却靠人声默契与木质打击乐的律动让听觉彻底松弛下来。",
+      "listening_cue": "专注听主唱与和声一问一答的声部位置，以及吉他拨片扫弦与康加鼓手掌拍击的木质共鸣。"
+    }
+  ]
+}
