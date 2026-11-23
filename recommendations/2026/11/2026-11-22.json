@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-22",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Hit the Rhyme",
+      "artist": "蛋堡",
+      "album": "收敛水",
+      "canonical_id": "蛋堡::Hit the Rhyme",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1178538969",
+        "song_id": "1178538969",
+        "storefront": "cn"
+      },
+      "analysis_summary": "台湾饶舌音乐人蛋堡（Soft Lipa）首张经典专辑《收敛水》中的《Hit the Rhyme》，是华语爵士嘻哈最具代表性的标杆之一。它摒弃了咄咄逼人的硬核说唱姿态，以温润的爵士采样和轻松自如的语流，把周日的慢节奏稳稳托起。\n\n编曲以复古黑胶质感的 Boom-Bap 鼓组与柔和的 Rhodes 电钢琴循环为核心，低音线条圆润有弹性，间或点缀清脆的铜管切片与刮碟细节；蛋堡的咬字轻巧、断句紧贴军鼓微小的后延拍点，让中文声调自然化作节奏乐器的一部分。",
+      "listening_cue": "留意电钢琴和弦循环与军鼓轻拍之间的微弱摇摆，听蛋堡的吐字重音如何像爵士小号一样在拍点前后自由游走。"
+    },
+    {
+      "position": 2,
+      "title": "Let's Stay Together",
+      "artist": "Al Green",
+      "album": "Let's Stay Together",
+      "canonical_id": "Al Green::Let's Stay Together",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/976362823",
+        "song_id": "976362823",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Al Green 1972 年不朽名曲《Let's Stay Together》是孟菲斯 Hi Records 黄金声场的最高结晶。制作人 Willie Mitchell 用极具克制力的混音比例，把鼓组、管风琴、铜管与 Al Green 丝绸般的嗓音调校到几乎挑不出瑕疵的平衡。\n\n开篇 Al Jackson Jr. 标志性的干燥鼓点与轻快手鼓瞬间确立律动，Hammond 管风琴与清音电吉他填补中频暖度，铜管组只在乐句衔接处利落托举；Al Green 在温暖胸声与轻盈假声之间切换得毫无痕迹，既柔情又充满节奏弹性。",
+      "listening_cue": "专注听鼓手踩镲的细腻强弱与贝斯紧贴底鼓的弹跳感，再留意副歌处铜管齐奏如何在不遮盖人声的前提下把暖度推高一格。"
+    },
+    {
+      "position": 3,
+      "title": "Archangel",
+      "artist": "Burial",
+      "album": "Untrue",
+      "canonical_id": "Burial::Archangel",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1056902910",
+        "song_id": "1056902910",
+        "storefront": "cn"
+      },
+      "analysis_summary": "英国神秘电子制作人 Burial 出自里程碑专辑《Untrue》的《Archangel》，彻底改写了千禧年后伦敦地下电子乐的情感温度。它把 2-Step UK Garage 的错位碎拍包裹在黑胶底噪与雨夜混响里，孤寂却拥有惊人的旋律感染力。\n\n整首歌几乎没有严格对齐网格的机械量化感：偏置的军鼓、轻微提前或滞后的踩镲与低沉的 Sub-Bass 构成摇晃的夜行步态；经过变调与切片处理的灵魂乐人声样本在厚重混响中反复呼应，辅以冷冽的合成弦乐铺底，营造出既疏离又直击心底的都市情绪。",
+      "listening_cue": "注意听那些刻意不完全对齐正拍的碎拍军鼓与持续铺底的细微黑胶沙沙声，感受变调人声切片如何在空旷低频里织出主旋律。"
+    },
+    {
+      "position": 4,
+      "title": "Chamber Music",
+      "artist": "Ballaké Sissoko & Vincent Segal",
+      "album": "Chamber Music",
+      "canonical_id": "Ballaké Sissoko & Vincent Segal::Chamber Music",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/348272337",
+        "song_id": "348272337",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是马里科拉琴大师 Ballaké Sissoko 与法国大提琴家 Vincent Segal 联袂录制的同名曲《Chamber Music》。两种分属西非宫廷与欧洲古典传统的乐器在毫无电子修饰的室内声场里平等对话，澄澈得像山涧流水。\n\n21 弦科拉琴既能弹奏出竖琴般清亮细腻的高音琶音，也能以低音弦支撑出稳健的节奏循环；大提琴时而用温暖绵长的拉弦长音托住和声纵深，时而转为拨弦与科拉琴正面竞奏，两件原声乐器的木质共鸣与指尖触弦声纤毫毕现。",
+      "listening_cue": "听科拉琴连绵不断的颗粒音流与大提琴从拉弦切换为拨弦的瞬间，感受两种截然不同的发声方式如何共享同一条呼吸线。"
+    },
+    {
+      "position": 5,
+      "title": "There Is a Light That Never Goes Out",
+      "artist": "The Smiths",
+      "album": "The Queen Is Dead",
+      "canonical_id": "The Smiths::There Is a Light That Never Goes Out",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/800157892",
+        "song_id": "800157892",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后以 The Smiths 经典专辑《The Queen Is Dead》中的《There Is a Light That Never Goes Out》收官。它把英国独立摇滚最晶莹的吉他编织、流畅的流行副歌与略带戏剧性的忧郁气质合为一体，是跨越四十年的必听之作。\n\nJohnny Marr 用原声吉他与清亮电吉他叠录出层次丰富的 Jangle Pop 织体，Andy Rourke 极具旋律性的贝斯线在中低频游走；副歌后段加入略带冷调的合成长笛与弦乐铺底，在 Morrissey 充满叹息与戏剧张力的唱腔外侧拉出一道宽阔的尾声光晕。",
+      "listening_cue": "留意主歌里清脆的吉他扫弦与贝斯流畅的下行线条，再听后半段合成弦乐悄然进入后如何把原本轻快的节奏染上一层浪漫悲怆。"
+    }
+  ]
+}
