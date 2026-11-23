@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-23",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "明天你依旧在我身旁 (Live)",
+      "artist": "声音玩具",
+      "album": "大事发声.录音棚现场: 声音玩具 & 逃跑计划 专场",
+      "canonical_id": "声音玩具::明天你依旧在我身旁 (Live)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1599231154",
+        "song_id": "1599231154",
+        "storefront": "cn"
+      },
+      "analysis_summary": "成都乐队声音玩具在《大事发声》录音棚现场演绎的《明天你依旧在我身旁 (Live)》，比录音室版多了一份真实空间里的呼吸与松弛。欧珈源的旋律写作极具叙事耐心，不急着制造廉价爆点，而是让乐队默契把情绪一点点推向开阔。\n\n两把清亮带微弱延迟的电吉他像织布一样在左右声道交错推进，配合稳重而富有弹性的贝斯与现场感十足的鼓组，构筑出宽广而不拥挤的中频声场；主唱略带克制与沧桑的音色在段落转折处自然抬升，尾奏器乐齐鸣时保留了清晰的乐器分离度。",
+      "listening_cue": "重点听左右声道两把电吉他如何分工——一把负责稳健和弦铺底，另一把用高把位分解乐句牵引情绪缓慢爬升。"
+    },
+    {
+      "position": 2,
+      "title": "Cranes in the Sky",
+      "artist": "Solange",
+      "album": "A Seat at the Table",
+      "canonical_id": "Solange::Cranes in the Sky",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1159507287",
+        "song_id": "1159507287",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Solange 出自《A Seat at the Table》的格莱美获奖曲《Cranes in the Sky》，是一首把当代 R&B 做出轻盈空气感与艺术深度的代表作。它在不到四分半的篇幅里用极度克制的配器，营造出优雅而略带疲惫的悬浮感。\n\n全曲由 Raphael Saadiq 与 Solange 共同打磨，以清晰干脆的鼓组与温润贝斯打底，标志性的竖琴琶音与柔和弦乐在句尾轻轻散开；Solange 的人声清澈、放松，几乎不用嘶吼表达情绪，而是借由多轨轻声和声与留白让副歌显得格外通透。",
+      "listening_cue": "留意每次副歌落拍时竖琴滑音与低频鼓点之间的呼应，听弦乐如何在极低音量里悄悄托住人声的尾音。"
+    },
+    {
+      "position": 3,
+      "title": "From Gagarin's Point of View",
+      "artist": "Esbjörn Svensson Trio",
+      "album": "From Gagarin's Point of View",
+      "canonical_id": "Esbjörn Svensson Trio::From Gagarin's Point of View",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1405003686",
+        "song_id": "1405003686",
+        "storefront": "cn"
+      },
+      "analysis_summary": "瑞典传奇爵士三重奏 Esbjörn Svensson Trio（e.s.t.）的《From Gagarin's Point of View》，是欧洲当代爵士打破传统摇摆框架的典范。它把古典钢琴的清冽抒情、后摇滚的动态构筑与北欧极简留白融于一炉，宛如俯瞰地球夜色的缓慢航拍。\n\nEsbjörn Svensson 的钢琴触键干净而富有颗粒感，先以略带忧郁的小调主题勾勒轮廓；随后 Dan Berglund 的低音提琴与 Magnus Öström 细腻的鼓刷与镲片层层推进，中段即兴段落并不炫耀速度，而是通过和声密度与力度的渐变制造出强烈的空间纵深。",
+      "listening_cue": "留意钢琴主题第二次回归前鼓组由刷鼓过渡到木槌敲击的质感变化，感受三重奏如何仅靠三件乐器拉出宽银幕般的动态起伏。"
+    },
+    {
+      "position": 4,
+      "title": "Entr'acte",
+      "artist": "阿塔卡四重奏",
+      "album": "Caroline Shaw: Orange",
+      "canonical_id": "阿塔卡四重奏::Entr'acte",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1453935423",
+        "song_id": "1453935423",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是作曲家 Caroline Shaw 创作、阿塔卡四重奏（Attacca Quartet）演奏的当代弦乐四重奏杰作《Entr'acte》。作品灵感来自海顿弦乐四重奏里的突然转调，像一扇在古典音乐厅里突然被推开的侧门，带你看见意想不到的光影与声响质感。\n\n开篇以极具古典秩序感的小步舞曲和声起手，随即通过突如其来的滑音、近琴马擦弦（sul ponticello）、拨弦与带有沙沙摩擦感的极弱长音不断拆解和重组主题；阿塔卡四重奏对极强与极弱瞬间的控制精准凌厉，使传统四重奏焕发出近乎电子声景的现代质感。",
+      "listening_cue": "第一遍留意开篇规整的古典和弦在何时第一次出现微妙的滑音偏移，第二遍专注听中后段极轻的弓毛摩擦声如何把整个声场瞬间凝固。"
+    },
+    {
+      "position": 5,
+      "title": "Marquee Moon",
+      "artist": "Television",
+      "album": "Marquee Moon",
+      "canonical_id": "Television::Marquee Moon",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1049069476",
+        "song_id": "1049069476",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用纽约后朋克里程碑 Television 1977 年同名长篇《Marquee Moon》为这五天的聆听旅程画上铿锵句点。它证明了朋克时代的原始能量完全可以与精密如对位法的双吉他结构并存，十余分钟一气呵成、毫无赘肉。\n\nTom Verlaine 与 Richard Lloyd 两把清音偏干的电吉他分居左右声道，以近乎爵士即兴与极简重复的思维交织出锋利、清脆的复调线条；贝斯与鼓组像发条般精准咬合，中后段长达数分钟的双吉他爬升段从紧绷的单音脉冲一路推向辉煌的齐奏高潮，再利落落回静谧尾声。",
+      "listening_cue": "戴上耳机分辨左右声道两把电吉他的分工与互换，特别留意中段鼓点骤然收紧后，主音吉他如何用一连串上行音阶把张力拉到顶点。"
+    }
+  ]
+}
