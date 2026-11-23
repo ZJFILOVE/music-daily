@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-19",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "凄美地",
+      "artist": "郭顶",
+      "album": "飞行器的执行周期",
+      "canonical_id": "郭顶::凄美地",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1443637857",
+        "song_id": "1443637857",
+        "storefront": "cn"
+      },
+      "analysis_summary": "郭顶《飞行器的执行周期》里最具空间感的开篇之一，把 70 年代迷幻摇滚的干燥鼓组与华语独立流行的旋律线条揉合得极为利落。它不靠厚重弦乐堆砌情绪，而是用留白极多的节奏框架建立出一种悬置在半空的失重感。\n\n编曲上最迷人的是吉他与人声的远近层次：主歌阶段电吉他以带微弱弹簧混响的颗粒分解托住低频，军鼓敲击偏干且靠前；进入副歌后，吉他过载与和声叠加把声场横向撑开，郭顶略带沙哑的中高音在清晰与微醺之间自然切换。",
+      "listening_cue": "第一遍盯住鼓组军鼓与贝斯的咬合，第二遍留意副歌进入瞬间电吉他混响尾音如何把原本偏窄的声场一下子推宽。"
+    },
+    {
+      "position": 2,
+      "title": "When I'm in Your Arms",
+      "artist": "Cleo Sol",
+      "album": "Rose in the Dark",
+      "canonical_id": "Cleo Sol::When I'm in Your Arms",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1504276747",
+        "song_id": "1504276747",
+        "storefront": "cn"
+      },
+      "analysis_summary": "英国当代 Neo-Soul 代表 Cleo Sol 的《When I'm in Your Arms》是一首把“克制”做到极致的慢板灵魂乐。制作人 Inflo 刻意压低了现代流行常见的亮高频，让整首录音呈现出类似老式磁带直录的暖黄质感，特别适合承接开场后的松弛过渡。\n\n全曲由圆润、几乎没有多余拨片杂音的电贝斯与轻刷军鼓稳稳托底，电钢琴只在和声转折处轻轻点出爵士延伸音。Cleo Sol 的人声贴近话筒，气声比例高却毫不虚弱，副歌处多轨叠录的轻柔和声像一层薄雾包裹在主唱外围。",
+      "listening_cue": "留意电贝斯每小节前半拍略微靠后的拖拍感，听人声轻声转音如何顺着这道极稳的低频波浪滑过和声换挡。"
+    },
+    {
+      "position": 3,
+      "title": "Utrus Horas",
+      "artist": "Orchestra Baobab",
+      "album": "Pirates Choice",
+      "canonical_id": "Orchestra Baobab::Utrus Horas",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1716606622",
+        "song_id": "1716606622",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是塞内加尔乐团 Orchestra Baobab 经典专辑《Pirates Choice》中的《Utrus Horas》。它将达喀尔本土曼丁哥旋律与古巴 Son 舞曲骨架无缝嫁接，既有热带夜风般的慵懒摆动，又藏着极其精巧的复节奏对话。\n\n主音吉他手 Barthelemy Attisso 的单音拨弦清亮圆润、几乎不带失真，仿佛在模拟西非科拉琴的连珠音型；另一侧的次中音萨克斯以悠长滑音回应吉他乐句，康加鼓与沙锤构成绵密而不急促的律动底层，使整首近九分钟的演奏毫无拖沓。",
+      "listening_cue": "专听左右声道中清音吉他与萨克斯一问一答的轮奏段落，感受打击乐在保持恒定拍速时如何悄悄变换重音落点。"
+    },
+    {
+      "position": 4,
+      "title": "In a Sentimental Mood",
+      "artist": "Duke Ellington & John Coltrane",
+      "album": "Duke Ellington & John Coltrane",
+      "canonical_id": "Duke Ellington & John Coltrane::In a Sentimental Mood",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440810227",
+        "song_id": "1440810227",
+        "storefront": "cn"
+      },
+      "analysis_summary": "1962 年 Duke Ellington 与 John Coltrane 跨世代联手的《In a Sentimental Mood》，是爵士史上最耐听的抒情二重对话之一。两位大师没有炫技式的长篇独奏，而是把每一句乐思都压缩在呼吸与触键的分寸感里，成为整份清单最沉静的核心。\n\n开篇 Ellington 的钢琴独奏以略带棱角的和弦Voicing定下微苦的调性底色，随后 Coltrane 的次中音萨克斯以饱满却克制的木质音色切入；低音提琴与刷鼓几乎退到阴影中，仅以柔和的脉冲维持脉搏，让钢琴的颗粒触键与萨克斯的绵长气息形成鲜明材质对照。",
+      "listening_cue": "留意前奏钢琴和弦收尾后萨克斯第一个长音的起音质感，再听中段钢琴独奏时低音提琴如何用极简的根音牵引和声走向。"
+    },
+    {
+      "position": 5,
+      "title": "Alison",
+      "artist": "Slowdive",
+      "album": "Souvlaki",
+      "canonical_id": "Slowdive::Alison",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/399211751",
+        "song_id": "399211751",
+        "storefront": "cn"
+      },
+      "analysis_summary": "最后用英国瞪鞋摇滚代表作 Slowdive 的《Alison》完成今日收官。出自《Souvlaki》的这首作品把吉他效果器堆叠成流动的音色云层，却始终保留着清澈、易记的流行旋律线条，让情绪在朦胧的暖雾里缓缓沉淀。\n\n多轨合唱与长尾混响处理的电吉他交织成绵延的音墙，刻意弱化了拨弦瞬态；反倒是节奏组的贝斯与鼓点保持着清晰、利落的驱动力，不让声场散架。男女双声部人声被有意混在吉他纹理内部，像从远方水面传来的低语，与高频泛音融为一体。",
+      "listening_cue": "不要只盯着主唱旋律，试着把注意力移向持续铺底的贝斯线条，听它如何在层层混响吉他之下稳住整首歌的前进方向。"
+    }
+  ]
+}
