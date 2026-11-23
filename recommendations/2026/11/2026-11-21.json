@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-21",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "太平洋的风",
+      "artist": "胡德夫",
+      "album": "匆匆",
+      "canonical_id": "胡德夫::太平洋的风",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1762548487",
+        "song_id": "1762548487",
+        "storefront": "cn"
+      },
+      "analysis_summary": "台湾原住民民谣先驱胡德夫在首张个人专辑《匆匆》里的《太平洋的风》，几乎只靠一架原声钢琴与一副历经岁月的嗓音，就撑起了海面般辽阔的叙事气度。没有花哨制作，每一个强弱起伏都来自真实的呼吸与指力。\n\n钢琴伴奏融合了蓝调转折与教堂圣诗般的厚实和弦，左手低音区稳健推进，右手在乐句间隙填入自然流动的琶音；胡德夫的嗓音带有宽厚的胸腔共鸣与微微沙哑的颗粒，从低吟推向开阔高音时毫不紧绷，与钢琴的自然残响融为一体。",
+      "listening_cue": "留意每段乐句结束时钢琴右手滑过的高音装饰与踏板余韵，听人声如何借着琴声的自然衰减完成情绪蓄力。"
+    },
+    {
+      "position": 2,
+      "title": "Between the Bars",
+      "artist": "Elliott Smith",
+      "album": "An Introduction To Elliott Smith",
+      "canonical_id": "Elliott Smith::Between the Bars",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1442367967",
+        "song_id": "1442367967",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Elliott Smith 的《Between the Bars》是独立民谣史上把脆弱与精密结合得最令人屏息的短篇之一。全曲不足两分半钟，却凭借细腻的和弦进行与贴耳人声，在极小音量里释放出巨大的情绪密度。\n\n一把钢弦木吉他以近乎三拍子摇篮曲的柔和扫弦与低音行进构成骨架，换把位时的指板摩擦声被忠实保留；Elliott Smith 标志性的双轨叠加轻声演唱被置中且极其贴近，微小的音准与气口差异让声音显得既亲密又带着淡淡疏离。",
+      "listening_cue": "专注听木吉他低音弦的下行半音阶走向，再留意双轨人声在极轻吐字时叠加出的丝绒般微颤质感。"
+    },
+    {
+      "position": 3,
+      "title": "Passing Afternoon",
+      "artist": "Iron & Wine",
+      "album": "Our Endless Numbered Days",
+      "canonical_id": "Iron & Wine::Passing Afternoon",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/5644894",
+        "song_id": "5644894",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Iron & Wine（Sam Beam）出自《Our Endless Numbered Days》的《Passing Afternoon》，延续了木质原声的静谧氛围，但在空间层次上更偏田园与室内乐感，像一封在暮色中慢慢展开的泛黄信笺。\n\n温暖的尼龙与钢弦指弹吉他织出绵密而平稳的分解和弦，背景里若有似无的滑棒吉他与轻柔和声像微风一样掠过；Sam Beam 的低语式唱腔几乎不刻意拉大动态，全靠旋律线条的自然起伏与器乐细节的微调推动时间流动。",
+      "listening_cue": "留意两把吉他交织出的稳定指弹节奏，同时捕捉背景中偶尔浮现的滑棒吉他长音如何为和弦抹上一层暖灰色彩。"
+    },
+    {
+      "position": 4,
+      "title": "Construção",
+      "artist": "Chico Buarque",
+      "album": "Construção",
+      "canonical_id": "Chico Buarque::Construção",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1442923811",
+        "song_id": "1442923811",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是巴西 MPB 大师 Chico Buarque 1971 年同名杰作《Construção》。这首歌把原本轻快的波萨诺瓦吉他一步步推入紧张、盘旋的管弦乐漩涡，在结构设计与编曲戏剧性上堪称流行音乐史上的奇迹。\n\n开篇仅以简洁的尼龙弦吉他与克制人声切入，随后低音提琴、弦乐群与铜管逐段叠加，编曲家 Rogério Duprat 运用不协和弦乐滑音、突兀的打击乐重音与节奏加速，让重复循环的旋律句式每一次出现都比上一次更具压迫感，直至尾声突然转入另一段欢快却讽刺的桑巴铜管段落。",
+      "listening_cue": "跟着人声固定的重音节拍听下去，留意每一轮循环里弦乐与铜管如何逐步收紧声场并改变和声张力。"
+    },
+    {
+      "position": 5,
+      "title": "Idle Moments",
+      "artist": "Grant Green",
+      "album": "Idle Moments",
+      "canonical_id": "Grant Green::Idle Moments",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1443768988",
+        "song_id": "1443768988",
+        "storefront": "cn"
+      },
+      "analysis_summary": "周六深夜用 Blue Note 传奇吉他手 Grant Green 1963 年名曲《Idle Moments》收尾。这首长达十五分钟的慢板小调爵士以极度从容的步调展开，把爵士乐的蓝调底色与现代和声的深邃夜色平衡得恰到好处。\n\n全曲以 Bobby Hutcherson 晶莹微凉的颤音琴与 Grant Green 温润饱满的空心电吉他齐奏主题开场，Duke Pearson 的钢琴与 Joe Henderson 的次中音萨克斯轮番接棒；在极慢的拍速下，每位乐手都留出大片空间让泛音在录音室空气里自然回荡，既松弛又高度凝聚。",
+      "listening_cue": "先听开头电吉他与颤音琴齐奏时冷暖两种音色的奇妙融合，再留意 Joe Henderson 萨克斯独奏段落里气息由轻转实的张力变化。"
+    }
+  ]
+}
