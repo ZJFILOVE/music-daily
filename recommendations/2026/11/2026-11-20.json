@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-20",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Rollin' On",
+      "artist": "椅子乐团",
+      "album": "LOVELY SUNDAY",
+      "canonical_id": "椅子乐团::Rollin' On",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1470175677",
+        "song_id": "1470175677",
+        "storefront": "cn"
+      },
+      "analysis_summary": "台湾三人组合椅子乐团在《LOVELY SUNDAY》里的《Rollin' On》，把 60 年代加州迷幻流行与当代华语独立摇滚的轻盈质感揉进同一条律动里。它自带一种午后阳光斜照车窗的松弛速度，既适合作为开场热身，又在细节上足够耐琢磨。\n\n编曲以带轻度颤音效果的电吉他切分和弦打底，配合弹性十足的复古贝斯线与简练鼓点向前滚动；中段加入温暖的模拟合成器铺底与明亮的吉他间奏，双主唱轮换与叠声处理让副歌听起来像一圈圈向外扩散的涟漪。",
+      "listening_cue": "留意主歌里电吉他颤音与贝斯切分形成的摇摆感，再听间奏合成器进入时高频空气感如何瞬间提亮。"
+    },
+    {
+      "position": 2,
+      "title": "Aja",
+      "artist": "Steely Dan",
+      "album": "Aja",
+      "canonical_id": "Steely Dan::Aja",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1706428462",
+        "song_id": "1706428462",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Steely Dan 1977 年同名专辑核心曲《Aja》几乎是录音室制作工艺的教科书：它把流行歌的精致和声、融合爵士的复杂转调与极度干净的声场分离度统一起来，长达八分钟却每一段都有清晰的结构递进。\n\n前半段由电钢琴、木吉他与多层次人声和声构筑光滑而略带神秘色彩的和声阶梯；中后段 Wayne Shorter 的次中音萨克斯独奏与传奇鼓手 Steve Gadd 极具爆发力的过门鼓段正面交锋，打击乐、合成器与铜管精密咬合，毫不杂乱。",
+      "listening_cue": "重点听约五分钟后萨克斯独奏与 Steve Gadd 鼓组的对话段落，留意通鼓与踩镲如何在复杂切分中保持毫秒级的精准度。"
+    },
+    {
+      "position": 3,
+      "title": "Night Cruising",
+      "artist": "Fishmans",
+      "album": "Kuuchuu Camp",
+      "canonical_id": "Fishmans::Night Cruising",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1416941921",
+        "song_id": "1416941921",
+        "storefront": "cn"
+      },
+      "analysis_summary": "日本传奇乐队 Fishmans 的《Night Cruising》出自名盘《Kuuchuu Camp》，将牙买加 dub 的低频回声美学与 90 年代东京梦境流行融为一体。全曲仿佛一辆在午夜高架桥上匀速滑行的列车，情绪克制却后劲绵长。\n\n柏原让的电贝斯是整首作品的绝对骨架，深沉、圆润且带有明显的 dub 空间延迟；鼓点松弛却极稳，合成器音色与吉他切音在左右声道间缓慢飘移，主唱佐藤伸治轻飘而略带脆弱的假声悬浮在庞大的低频空间上方。",
+      "listening_cue": "戴上耳机专注追踪贝斯低频的弹性与混响回弹，同时留意中后段吉他与键盘的延迟尾音如何在声场深处交错。"
+    },
+    {
+      "position": 4,
+      "title": "Flight from the City",
+      "artist": "约翰・约翰逊, Yuki Numata Resnick, 本・拉塞尔, 克拉丽斯 ・ 詹森 & Tarn Travers",
+      "album": "Orphée",
+      "canonical_id": "约翰・约翰逊, Yuki Numata Resnick, 本・拉塞尔, 克拉丽斯 ・ 詹森 & Tarn Travers::Flight from the City",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440775291",
+        "song_id": "1440775291",
+        "storefront": "cn"
+      },
+      "analysis_summary": "冰岛作曲家 Jóhann Jóhannsson 专辑《Orphée》开篇曲《Flight from the City》，以极少的音符构筑出宏大而克制的电影感空间。在前面几首强调律动与人声的作品之后，它用纯器乐的缓慢呼吸把听觉重心重新拉回静谧。\n\n全曲围绕一段反复循环的近距离录制钢琴动机展开，甚至能隐约听到琴槌与踏板的微弱机械声；随后弦乐四重奏以极长、几乎察觉不到弓法换向的持续音缓缓叠入，配合深沉的电子低频铺底，让同一组和弦在微小的音色推移中层层升温。",
+      "listening_cue": "专听钢琴重复乐句在弦乐逐渐加厚时的音色变化，留意尾声弦乐泛音与低音持续音如何把空间拉向无边际的远方。"
+    },
+    {
+      "position": 5,
+      "title": "Afrique Victime",
+      "artist": "Mdou Moctar",
+      "album": "Afrique Victime",
+      "canonical_id": "Mdou Moctar::Afrique Victime",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1586464412",
+        "song_id": "1586464412",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是来自尼日尔的图阿雷格摇滚乐手 Mdou Moctar 的同名主打《Afrique Victime》。它把撒哈拉传统阿苏夫（Assouf）拨弦音阶直接接上高增益电吉他与急促摇滚鼓组，形成极具穿透力的沙漠迷幻声浪。\n\n开篇的拍手与呼喊式合声瞬间建立群体仪式感，紧接着 Mdou Moctar 标志性的指弹式高速电吉他乐句如烈风般切入；中段节奏骤然加速，失真吉他与硬朗鼓组不断把张力推向沸点，却始终保留着北非五声音阶特有的锋利线条与切分律动。",
+      "listening_cue": "注意歌曲中段鼓点提速后主音吉他不使用拨片而以手指高速扫拨出的颗粒质感，听它如何与人声呼应层层叠加。"
+    }
+  ]
+}
