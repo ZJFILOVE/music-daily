@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-24",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "恋曲1990",
+      "artist": "罗大佑",
+      "album": "爱人同志 (香港版)",
+      "canonical_id": "罗大佑::恋曲1990",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1720920437",
+        "song_id": "1720920437",
+        "storefront": "cn"
+      },
+      "analysis_summary": "罗大佑 1990 年代极具代表性的华语流行经典，旋律线条大气克制，在流行曲式里保留了极强的时代质感与叙事厚度。\n\n开篇明亮的合成器铺垫与稳健的鼓组建立出清晰的中速推进感，人声略带粗粝的颗粒度与副歌和声形成冷暖对照，间奏吉他与键盘衔接利落。",
+      "listening_cue": "留意副歌进入前鼓点过门与合成器长音的叠合，感受编曲如何在克制配器下推高旋律张力。"
+    },
+    {
+      "position": 2,
+      "title": "Afro Blue (feat. Erykah Badu)",
+      "artist": "Robert Glasper Experiment",
+      "album": "Black Radio",
+      "canonical_id": "Robert Glasper Experiment::Afro Blue (feat. Erykah Badu)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/716753607",
+        "song_id": "716753607",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Robert Glasper Experiment 在格莱美获奖专辑《Black Radio》中重构爵士名曲《Afro Blue》，携手 Erykah Badu 把三拍子非洲爵士律动无缝融入当代 Neo-Soul。\n\nChris Dave 标志性的略微拖拍鼓组与温厚电贝斯撑起极具弹性的三拍摇摆，Glasper 的电钢琴和声柔和铺陈，Erykah Badu 慵懒而精准的爵士乐句在声场中央从容游走。",
+      "listening_cue": "专注听鼓手军鼓与踩镲微微滞后于节拍器的微时差（micro-timing），这是整首曲子“松弛却不散”的关键。"
+    },
+    {
+      "position": 3,
+      "title": "Peace Piece",
+      "artist": "Bill Evans Trio",
+      "album": "The Best of Bill Evans (Remastered)",
+      "canonical_id": "Bill Evans Trio::Peace Piece",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440791702",
+        "song_id": "1440791702",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Bill Evans 极具辨识度的独奏即兴名作《Peace Piece》，全曲围绕两个交替摇摆的和弦展开，宛如在深夜安静思考时自然流淌出的声音日记。\n\n左手以极稳的节奏在两个和弦间持续往复，右手则从极简的零星单音出发，逐步引入带印象派色彩的不协和音与细碎琶音，再平静回落，触键温润克制。",
+      "listening_cue": "跟随左手恒定不变的两和弦低音律动，观察右手如何在中段逐渐拉高和声张力又毫无突兀地滑回平静。"
+    },
+    {
+      "position": 4,
+      "title": "My Friend the Forest",
+      "artist": "尼尔斯・弗拉姆",
+      "album": "All Melody",
+      "canonical_id": "尼尔斯・弗拉姆::My Friend the Forest",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1451143716",
+        "song_id": "1451143716",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是德国作曲家 Nils Frahm 的《My Friend the Forest》，一首把传统钢琴“敲击感”转化为近距离听觉微景的现代古典独奏。\n\n采用近场拾音录制装有毛毡阻尼的立式钢琴，琴键起落、踏板机械声与温暖闷柔的泛音被完整保留，动态极细微却层次丰富，像置身清晨薄雾中的林间木屋。",
+      "listening_cue": "戴上耳机留意高音区轻轻落下时的毛毡摩擦声与踏板抬起时的低频共振，把机械噪音当作音色本身来听。"
+    },
+    {
+      "position": 5,
+      "title": "Glory Box",
+      "artist": "Portishead",
+      "album": "Dummy",
+      "canonical_id": "Portishead::Glory Box",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440653206",
+        "song_id": "1440653206",
+        "storefront": "cn"
+      },
+      "analysis_summary": "布里斯托尔 Trip-Hop 奠基作《Dummy》中的《Glory Box》，以极简采样、缓慢鼓点与充满戏剧张力的女声，塑造出九十年代最具电影感的暗夜氛围。\n\n全曲以缓慢沉重的黑胶质感鼓循环与循环弦乐采样打底，Beth Gibbons 脆弱却富有力量的声线层层递增，副歌处带着轻微失真的蓝调电吉他瞬间撕开暗色声场。",
+      "listening_cue": "留意前奏黑胶底噪与弦乐采样切入的瞬间，再对比主歌极度克制的低语与副歌电吉他爆发时的动态落差。"
+    }
+  ]
+}
