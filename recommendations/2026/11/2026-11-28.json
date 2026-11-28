@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-28",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "Weird Fishes",
+      "artist": "Lianne La Havas",
+      "album": "Lianne La Havas",
+      "canonical_id": "Lianne La Havas::Weird Fishes",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1545263519",
+        "song_id": "1545263519",
+        "storefront": "cn"
+      },
+      "analysis_summary": "英国创作女歌手 Lianne La Havas 在同名专辑中大胆翻唱 Radiohead 的《Weird Fishes》，将原作神经质的数学感吉他织体，成功转化为充满暖意与生命力的当代灵魂乐。\n\n原曲紧凑的五拍交错琶音被重构为富有律动弹性的电吉他与扎实鼓组，Lianne La Havas 极具表现力的醇厚中音与多轨灵歌和声让中后段情绪转折既温柔又充满力量。",
+      "listening_cue": "留意后半段节奏陡然沉降、人声与和声层层交叠的转折点，感受改编如何彻底重塑原曲的情绪底色。"
+    },
+    {
+      "position": 2,
+      "title": "Tomorrow's Song",
+      "artist": "奥拉佛・阿纳尔德斯",
+      "album": "Living Room Songs",
+      "canonical_id": "奥拉佛・阿纳尔德斯::Tomorrow's Song",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1451059017",
+        "song_id": "1451059017",
+        "storefront": "cn"
+      },
+      "analysis_summary": "冰岛新古典作曲家 Ólafur Arnalds 收录于《Living Room Songs》的《Tomorrow's Song》，正如专辑名一样在自家客厅录制，保留了最真实的呼吸感与亲密温度。\n\n清透的钢琴分解音型与克制的小提琴、大提琴缓慢交汇，没有宏大交响的压迫感，而是像冬日窗边洒入的一缕微光，结构精炼却余韵绵长。",
+      "listening_cue": "聆听客厅空间里钢琴尾音与弦乐长音自然融为一体的室内混响，留意大提琴低音进入时为画面增添的暖意。"
+    },
+    {
+      "position": 3,
+      "title": "Summer (from \"Kikujiro\")",
+      "artist": "Joe Hisaishi",
+      "album": "Dream Songs: The Essential Joe Hisaishi",
+      "canonical_id": "Joe Hisaishi::Summer (from \"Kikujiro\")",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1485854957",
+        "song_id": "1485854957",
+        "storefront": "cn"
+      },
+      "analysis_summary": "久石让为电影《菊次郎的夏天》谱写的经典配乐《Summer》，仅凭简洁明快的主题动机便精准定格了夏日午后轻盈而略带怀旧的时光感。\n\n钢琴以清脆跳跃的附点节奏率先引出主题，随后弦乐拨弦（pizzicato）与拉弦齐奏层层加入，中段转入抒情舒展的弦乐长线条，再轻快回到原主题，配器明晰如水彩画。",
+      "listening_cue": "留意前奏钢琴与弦乐拨弦之间轻巧的切分呼应，以及中段节奏放缓时大提琴与小提琴的柔和对话。"
+    },
+    {
+      "position": 4,
+      "title": "when you sleep",
+      "artist": "my bloody valentine",
+      "album": "loveless",
+      "canonical_id": "my bloody valentine::when you sleep",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1556921235",
+        "song_id": "1556921235",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是自赏摇滚（Shoegaze）圣经《loveless》中的《when you sleep》，Kevin Shields 用标志性的“摇把吉他（glide guitar）”创造出如海浪般包裹全身的绚丽噪音墙。\n\n失真电吉他与合成器采样在音高微颤中融合成一片致密而柔软的粉红色音海，人声被刻意埋入混音中段成为朦胧质地的一部分，粗粝的鼓点则像灯塔般稳稳贯穿其中。",
+      "listening_cue": "适当调高音量感受吉他失真音墙中奇妙的温暖包裹感，仔细听主旋律是如何从看似混沌的噪音中清晰浮现的。"
+    },
+    {
+      "position": 5,
+      "title": "Time",
+      "artist": "Pink Floyd",
+      "album": "The Dark Side of the Moon",
+      "canonical_id": "Pink Floyd::Time",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1065973706",
+        "song_id": "1065973706",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Pink Floyd 1973 年传世巨作《The Dark Side of the Moon》的核心曲目《Time》，从令人屏息的钟表齐鸣到直击灵魂的吉他独奏，将时间流逝的紧迫感化作摇滚史上的永恒丰碑。\n\n开篇真实录制的多台古董钟表同时报时令人震颤，随后轮鼓（rototoms）与低音心跳渐进铺陈，主歌锋利警醒、副歌转为迷离漂浮；中段 David Gilmour 长达两分多钟的电吉他独奏音色饱满沧桑，句句直抵人心。",
+      "listening_cue": "重点听中段吉他独奏进入瞬间音色从紧绷转为辽阔的推弦张力，以及尾声无缝衔接回《Breathe (Reprise)》的精妙结构设计。"
+    }
+  ]
+}
