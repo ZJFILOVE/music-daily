@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-26",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "红豆",
+      "artist": "王菲",
+      "album": "唱游",
+      "canonical_id": "王菲::红豆",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/965771855",
+        "song_id": "965771855",
+        "storefront": "cn"
+      },
+      "analysis_summary": "出自《唱游》的《红豆》，在极度克制的编曲里把王菲空灵细腻的音色质感发挥到极致，是华语流行耐听度的标杆之一。\n\n清亮的木吉他与轻柔打击乐铺底，副歌弦乐点到为止、绝不喧宾夺主；王菲的咬字松弛自然，尾音处细微的颤音与气声收束赋予整首歌克制而绵长的余韵。",
+      "listening_cue": "留意主歌进入副歌时弦乐并非突然齐鸣，而是以细密滑音悄然托高人声的流动感。"
+    },
+    {
+      "position": 2,
+      "title": "Let It Happen",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "canonical_id": "Tame Impala::Let It Happen",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440838060",
+        "song_id": "1440838060",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Kevin Parker 一人包办词曲编录的迷幻流行杰作《Let It Happen》，打破传统主副歌结构，用近八分钟完成一场精密的听觉过山车。\n\n前半段是明亮疾驰的合成器与清脆鼓点，中段大胆插入长达数十秒的“唱片卡顿（CD skip）”式循环切片，紧接着在低沉弦乐与厚重法兹吉他中轰然转向开阔收尾。",
+      "listening_cue": "特别留意中段循环卡顿持续累积张力时，背景合成器音高如何悄然爬升，直到鼓点重新砸落释放全部能量。"
+    },
+    {
+      "position": 3,
+      "title": "Maiden Voyage (Remastered)",
+      "artist": "Herbie Hancock",
+      "album": "Maiden Voyage",
+      "canonical_id": "Herbie Hancock::Maiden Voyage (Remastered)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1476740045",
+        "song_id": "1476740045",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Herbie Hancock 1965 年同名专辑开篇曲《Maiden Voyage》，仅靠四个悬浮七和弦（sus7）便勾勒出大海般的辽阔与神秘，是模态爵士必听范本。\n\nFreddie Hubbard 的小号音色明亮挺拔，George Coleman 的次中音萨克斯温润厚实，Tony Williams 的鼓组以极其活跃的碎镲与切分打破常规四拍限制，与 Ron Carter 的贝斯共同营造波涛起伏感。",
+      "listening_cue": "聆听钢琴与贝斯奏出的悬浮和弦如何刻意避免传统大小调解决，让铜管即兴像帆船一样在开阔海面自由滑行。"
+    },
+    {
+      "position": 4,
+      "title": "Merry Christmas Mr. Lawrence (Version for Piano Trio)",
+      "artist": "坂本龙一, Jaques Morelenbaum & Everton Nelson",
+      "album": "1996",
+      "canonical_id": "坂本龙一, Jaques Morelenbaum & Everton Nelson::Merry Christmas Mr. Lawrence (Version for Piano Trio)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1544573393",
+        "song_id": "1544573393",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是坂本龙一收录于《1996》的钢琴、大提琴与小提琴三重奏版《Merry Christmas Mr. Lawrence》，剥离原版合成器后呈现出近乎室内乐的冷峻与深情。\n\n钢琴以干净克制的触键铺陈五声音阶主题，Jaques Morelenbaum 的大提琴以醇厚低沉的弓法在下方形成复调对答，Everton Nelson 的小提琴则在中高音区拉出微带酸楚的弧线。",
+      "listening_cue": "对比你记忆中的电子原版，专注听三件原声乐器在中段交织轮奏时弓弦摩擦与钢琴泛音融合出的呼吸感。"
+    },
+    {
+      "position": 5,
+      "title": "Cherry-Coloured Funk",
+      "artist": "Cocteau Twins",
+      "album": "Heaven Or Las Vegas (Remastered)",
+      "canonical_id": "Cocteau Twins::Cherry-Coloured Funk",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/258198956",
+        "song_id": "258198956",
+        "storefront": "cn"
+      },
+      "analysis_summary": "苏格兰梦幻流行先驱 Cocteau Twins 巅峰专辑《Heaven or Las Vegas》的开场曲，用层叠效果器吉他与超脱语义的天籁声线织就万花筒般的梦幻声景。\n\nRobin Guthrie 将多轨电吉他浸润在合唱、延迟与混响效果中，构筑出闪耀流动的色彩音墙；Elizabeth Fraser 的人声如同另一件高音乐器，在飘渺假声与饱满胸声间自如跃迁。",
+      "listening_cue": "不必执着辨认歌词字句，直接把人声当作高频弦乐去听它与左右声道层叠吉他效果器之间的色彩交融。"
+    }
+  ]
+}
