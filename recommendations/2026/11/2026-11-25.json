@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-25",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "至少还有你",
+      "artist": "林忆莲",
+      "album": "林忆莲's",
+      "canonical_id": "林忆莲::至少还有你",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/905222894",
+        "song_id": "905222894",
+        "storefront": "cn"
+      },
+      "analysis_summary": "林忆莲最具国民度却同样经得起发烧级聆听检验的代表作，编曲与人声气口配合得天衣无缝，情感递进极有分寸。\n\n开篇清澈的钢琴分解和弦托起近距离贴耳的人声，中段弦乐与木吉他逐步铺开，林忆莲在换声区与气声收尾处几乎听不见生硬断层，尾声收束干净利落。",
+      "listening_cue": "细听第一段主歌仅靠钢琴伴奏时人声的微弱气声控制，以及副歌弦乐推入时中频厚度的自然抬升。"
+    },
+    {
+      "position": 2,
+      "title": "White Gloves ii",
+      "artist": "Khruangbin",
+      "album": "The Universe Smiles Upon You ii",
+      "canonical_id": "Khruangbin::White Gloves ii",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1845322235",
+        "song_id": "1845322235",
+        "storefront": "cn"
+      },
+      "analysis_summary": "休斯敦器乐三人组 Khruangbin 重制版《White Gloves ii》，融合泰式放克、冲浪摇滚与迷幻灵魂乐，松弛惬意却暗藏极高的演奏默契。\n\nMark Speer 的电吉他带着标志性的弹簧混响与清晰拨片颗粒感，Laura Lee 浑厚圆润的贝斯线条紧扣鼓组，极简克制的人声和声如晚风般轻拂过器乐声场。",
+      "listening_cue": "留意吉他单音旋律与贝斯低音线条如何一唱一和，听弹簧混响在音符间隙留下的温热尾韵。"
+    },
+    {
+      "position": 3,
+      "title": "Köln, January 24, 1975, Pt. II A (Live)",
+      "artist": "Keith Jarrett",
+      "album": "The Köln Concert (Live)",
+      "canonical_id": "Keith Jarrett::Köln, January 24, 1975, Pt. II A (Live)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440840570",
+        "song_id": "1440840570",
+        "storefront": "cn"
+      },
+      "analysis_summary": "爵士钢琴史上最具传奇色彩的现场独奏《The Köln Concert》第二部分开篇，Keith Jarrett 在状态欠佳的排练琴上硬生生即兴出璀璨的旋律与律动。\n\n全曲从充满律动感的左手低音固定音型切入，右手在明快与抒情间自由切换，时而如福音音乐般热烈翻涌，时而化作灵动跳跃的复调跑句，现场空间感极强。",
+      "listening_cue": "专注听左手如何像贝斯手一样维持稳固切分律动，同时释放右手不断变奏叠加旋律动机。"
+    },
+    {
+      "position": 4,
+      "title": "Metamorphosis (Arr. for Harp by Lavinia Meijer): I. Metamorphosis One. Moderate",
+      "artist": "拉芬尼娅・迈雅",
+      "album": "Glass: Metamorphosis & The Hours",
+      "canonical_id": "拉芬尼娅・迈雅::Metamorphosis (Arr. for Harp by Lavinia Meijer): I. Metamorphosis One. Moderate",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1669541437",
+        "song_id": "1669541437",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是荷兰竖琴家 Lavinia Meijer 经 Philip Glass 本人认可改编的《Metamorphosis One》，让极简主义钢琴名作焕发出如水波般透明的新肌理。\n\n相比钢琴的锤击起音，竖琴拨弦自带柔和的圆润包络与绵长自然延音；三连音与二连音的复节奏在琴弦共振中交织出轻盈的悬浮感，音色清冽而不冰冷。",
+      "listening_cue": "留意低音拨弦奠定的缓慢下行和声骨架，与高音区不断重复却微调重音的旋律颗粒如何彼此交错。"
+    },
+    {
+      "position": 5,
+      "title": "Teardrop",
+      "artist": "Massive Attack",
+      "album": "Mezzanine",
+      "canonical_id": "Massive Attack::Teardrop",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/724466700",
+        "song_id": "724466700",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Massive Attack 1998 年经典专辑《Mezzanine》的核心曲目《Teardrop》，由 Cocteau Twins 主唱 Elizabeth Fraser 献声，是电子音乐里罕见兼具私密脆弱与史诗感的杰作。\n\n开篇宛如心跳般的低频底鼓与细腻羽管键琴（harpsichord）织体构成独特骨架，随后温暖弦乐与 Elizabeth Fraser 空灵清透的声线层层叠入，声场深邃立体。",
+      "listening_cue": "戴上耳机分辨低频心跳鼓点、高频清脆羽管键琴与中频飘浮人声在三个频段各自独立的清晰层次。"
+    }
+  ]
+}
