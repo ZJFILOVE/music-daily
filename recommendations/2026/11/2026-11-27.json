@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "provider": "apple_music",
+  "date": "2026-11-27",
+  "tracks": [
+    {
+      "position": 1,
+      "title": "挪威的森林",
+      "artist": "伍佰 & China Blue",
+      "album": "爱情的尽头",
+      "canonical_id": "伍佰 & China Blue::挪威的森林",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/156141694",
+        "song_id": "156141694",
+        "storefront": "cn"
+      },
+      "analysis_summary": "伍佰 & China Blue 1996 年专辑《爱情的尽头》里的标志性摇滚抒情曲，旋律朗朗上口却丝毫不流于甜腻，带着强烈的草根真挚与现场感。\n\n标志性的木吉他与清音电吉他前奏辨识度极高，副歌失真吉他与稳健鼓组扎实推入，伍佰略带沙哑的嗓音在粗粝与温柔间自然切换，间奏电吉他独奏干脆利落。",
+      "listening_cue": "留意前奏清音电吉他分解和弦与进入副歌后失真吉他墙之间的音色切换，以及贝斯在中低频稳稳托底的律动。"
+    },
+    {
+      "position": 2,
+      "title": "First Love (Remastered 2014)",
+      "artist": "Utada",
+      "album": "First Love (Remastered 2014)",
+      "canonical_id": "Utada::First Love (Remastered 2014)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1440763358",
+        "song_id": "1440763358",
+        "storefront": "cn"
+      },
+      "analysis_summary": "宇多田光年仅 16 岁便写就的跨时代名曲，2014 重制版进一步提升了钢琴与弦乐的通透度，将美式 R&B 律动与日式抒情旋律完美嫁接。\n\n清澈电钢琴与细腻原声鼓组构建出优雅舒缓的慢板 R&B 律动，副歌弦乐如潮水般平稳托升，宇多田光低音区醇厚松弛、高音区气声转换流畅，毫无刻意炫技之感。",
+      "listening_cue": "留意每句尾音处干净利落的转音与气声收尾，以及重制版中弦乐与低频贝斯更加清晰的分离度。"
+    },
+    {
+      "position": 3,
+      "title": "Almost Blue (Live)",
+      "artist": "Chet Baker",
+      "album": "Almost Blue - EP",
+      "canonical_id": "Chet Baker::Almost Blue (Live)",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1829735721",
+        "song_id": "1829735721",
+        "storefront": "cn"
+      },
+      "analysis_summary": "Elvis Costello 创作、Chet Baker 赋予灵魂的爵士抒情经典《Almost Blue》现场版，以近乎耳语的脆弱感诠释什么叫“少即是多”。\n\n没有华丽炫目的高速音阶，Chet Baker 的小号带着微弱气声与极长气息线条，仿佛在黑暗中缓缓吐露心声；钢琴与低音提琴极其克制地留出大段空白，让每个音符都有足够时间消散。",
+      "listening_cue": "专注听小号长音末端的微弱气息颤动，以及乐手们如何在极慢速度下靠留白维持紧张而温柔的凝聚力。"
+    },
+    {
+      "position": 4,
+      "title": "Spiegel im Spiegel",
+      "artist": "维多利亚 · 穆洛娃, 爱沙尼亚国家交响乐团, 帕佛・贾维 & Liam Dunachie",
+      "album": "ARVO PÄRT",
+      "canonical_id": "维多利亚 · 穆洛娃, 爱沙尼亚国家交响乐团, 帕佛・贾维 & Liam Dunachie::Spiegel im Spiegel",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/1435606393",
+        "song_id": "1435606393",
+        "storefront": "cn"
+      },
+      "analysis_summary": "今天的 wildcard 是爱沙尼亚作曲家 Arvo Pärt 最著名的“钟鸣作曲法（tintinnabuli）”杰作《Spiegel im Spiegel》（镜中之镜），由 Viktoria Mullova 倾情拉奏。\n\n钢琴以极其规律、缓慢的三连音分解和弦宛如钟声般持续回荡，小提琴则以极弱到中强的平直长音沿着音阶上下缓缓行进，几乎没有多余揉弦，呈现出雕塑般的透明与宁静。",
+      "listening_cue": "闭上眼追踪小提琴每次缓慢上行或下行回归中心音（A 音）的对称结构，感受极简音符如何放大听觉的时间感。"
+    },
+    {
+      "position": 5,
+      "title": "Kiara",
+      "artist": "Bonobo",
+      "album": "Black Sands",
+      "canonical_id": "Bonobo::Kiara",
+      "apple_music": {
+        "url": "https://music.apple.com/cn/song/416292278",
+        "song_id": "416292278",
+        "storefront": "cn"
+      },
+      "analysis_summary": "英国电子制作人 Bonobo 经典专辑《Black Sands》的代表作《Kiara》，将有机原声弦乐、竖琴采样与细腻碎拍电子融为一体，律动轻盈且充满画面感。\n\n清脆的拍手声、错落有致的打击乐与富有弹性的贝斯线驱动全曲前进，中段融入温暖的弦乐与东方韵味拨弦织体，在电子精准度与人类演奏温度之间取得绝佳平衡。",
+      "listening_cue": "留意中后段层层叠加的弦乐短句如何与底层碎拍形成一松一紧的律动对位，让整首器乐曲越听越开阔。"
+    }
+  ]
+}
